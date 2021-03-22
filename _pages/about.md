@@ -12,4 +12,4 @@ redirect_from:
 
  I received my BA and MEng in Information and Computer Engineering (first class honours with distinction) from the University of Cambridge in 2018. My PhD studies are funded by a Trinity Hall Research Studentship and a George and Lilian Schiff Studentship.
 
- You can find list of selected publications [here](./publications.md). For a full overview, see my [Google Scholar page](https://scholar.google.com/citations?user=2UOjgIUAAAAJ&hl=en).
+ You can find a list of selected publications [here](./publications.md). For a full overview, see my [Google Scholar page](https://scholar.google.com/citations?user=2UOjgIUAAAAJ&hl=en).
