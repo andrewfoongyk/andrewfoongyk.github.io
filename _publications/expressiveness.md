@@ -2,7 +2,7 @@
 title: "On the Expressiveness of Approximate Inference in Bayesian Neural Networks"
 collection: publications
 permalink: /publication/expressiveness-approx-inference
-excerpt: "Bayesian neural networks aim to solve the problem of overconfident predictions using probabilistic modelling. However, we show that some common approximations used in Bayesian neural networks lead to undesirable behaviour. Along with [Sebastian Farquhar](https://sebastianfarquhar.com/) and [Yingzhen Li](http://yingzhenli.net/home/en/), I gave a short talk explaining this paper which you can watch [here](https://www.youtube.com/watch?v=BJTkLxSQrHI). You can find the slides for a longer version of that talk, (given with [David Burt](https://davidrburt.github.io/) at the RIKEN Center) [here](../files/RIKEN_handout.pdf)."
+excerpt: "Bayesian neural networks aim to solve the problem of overconfident predictions using probabilistic modelling. However, we show that some common approximations used in Bayesian neural networks lead to undesirable behaviour. Along with [Sebastian Farquhar](https://sebastianfarquhar.com/) and [Yingzhen Li](http://yingzhenli.net/home/en/), I gave a [short talk explaining this paper](https://www.youtube.com/watch?v=BJTkLxSQrHI). You can also find the [slides](../files/RIKEN_handout.pdf) for a longer version of that talk (given with [David Burt](https://davidrburt.github.io/) at the RIKEN Center)."
 date: 2020-10-23
 venue: 'Neural Information Processing Systems (NeurIPS)'
 paperurl: 'https://arxiv.org/abs/1909.00719'

@@ -1,0 +1,30 @@
+---
+permalink: /talks/
+title: "Talks"
+author_profile: true
+redirect_from:
+  - /talks
+  - /talks.html
+---
+
+## An Introduction to PAC-Bayes (Cambridge Machine Learning Reading Group)
+Along with [David Burt](https://davidrburt.github.io/) and [Javier Antoran](https://javierantoran.github.io/about/), I gave an introductory talk on the statistical learning framework and PAC-Bayes.
+[Video](https://www.youtube.com/watch?v=t5GBuBD0ibc), [slides](../files/pac_bayes_reading_group.pdf).
+
+## Understanding Approximate Inference in Bayesian Neural Networks: A Joint Talk
+Together with [Sebastian Farquhar](https://sebastianfarquhar.com/), I gave a talk on [my NeurIPS 2020 paper](https://arxiv.org/abs/1909.00719) on approximate inference in BNNs.
+Our talks present different perspectives on the effectiveness of the mean-field approximation in these models.
+[Video](https://www.youtube.com/watch?v=BJTkLxSQrHI), [slides](../files/BNNs_talk.pdf).
+
+## Neural Processes (Cambridge Machine Learning Reading Group)
+A reading group talk given with [Sebastian Ober](https://twitter.com/sebastian_ober?lang=en) and Stratis Markou, introducing various neural processes and covering much of the material in [this blog post](https://yanndubs.github.io/Neural-Process-Family/text/Intro.html). [Slides](../files/nps_reading_group.pdf).
+
+## Recent Advances in Bayesian Deep Learning (Cambridge Machine Learning Reading Group)
+A reading group talk given with [Siddharth Swaroop](https://siddharthswaroop.github.io/), covering modern stochastic gradient Markov chain Monte Carlo (SGMCMC) and natural gradient variational inference methods for Bayesian deep learning. [Slides](../files/Recent_Advances_in_Bayesian_Deep_Learning.pdf).
+
+## 'In-between' Uncertainty in Bayesian Neural Networks (Contributed talk at ICML 2019 Workshop on Uncertainty in Deep Learning)
+This is a short talk explaining my workshop paper on the lack of 'in-between' uncertainty when using the mean-field approximation in BNNs.
+[Video](https://www.facebook.com/icml.imls/videos/320132412242165/?t=1720) (begins at 28:30), [slides](../files/ICML_2019_Workshop_Presentation.pdf).
+
+## Implicit Variational Inference (Cambridge Machine Learning Reading Group)
+With [David Burt](https://davidrburt.github.io/), I gave a reading group presentation introducing implicit variational inference, a way to obtain very flexible approximate posterior distributions. [Slides](../files/Implicit_Inference_RG_notes.pdf).

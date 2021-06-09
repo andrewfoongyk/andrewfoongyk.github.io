@@ -2,7 +2,7 @@
 title: "Convolutional Conditional Neural Processes"
 collection: publications
 permalink: /publication/convcnp
-excerpt: "Neural Processes are a powerful framework for learning from small datasets in the presence of uncertainty. This work adds convolutional structure to the Neural Process family. Together with my co-authors [Yann Dubois](https://yanndubs.github.io/about/) and [Jonathan Gordon](https://gordonjo.github.io/), we wrote a [blog](https://yanndubs.github.io/Neural-Process-Family/text/Intro.html) explaining what Neural Processes are. It also includes code to run many different Neural Process models."
+excerpt: "Neural Processes are a powerful framework for learning from small datasets in the presence of uncertainty. This work adds convolutional structure to the Neural Process family. Together with my co-authors [Yann Dubois](https://yanndubs.github.io/about/) and [Jonathan Gordon](https://gordonjo.github.io/), we wrote a [blog explaining what Neural Processes are](https://yanndubs.github.io/Neural-Process-Family/text/Intro.html). It also includes code to run many different Neural Process models."
 date: 2020-06-25
 venue: 'International Conference on Learning Representations (ICLR)'
 paperurl: 'https://arxiv.org/abs/1910.13556'
