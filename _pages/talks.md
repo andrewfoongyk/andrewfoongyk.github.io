@@ -16,10 +16,10 @@ Together with [Sebastian Farquhar](https://sebastianfarquhar.com/), I gave a tal
 Our talks present different perspectives on the effectiveness of the mean-field approximation in these models.
 [Video](https://www.youtube.com/watch?v=BJTkLxSQrHI), [slides](../files/BNNs_talk.pdf).
 
-## On the Expressiveness of Approximate Inference in Bayesian Neural Networks (talk at NeurIPS 2020)
+## On the Expressiveness of Approximate Inference in Bayesian Neural Networks (NeurIPS 2020)
 A short video explaining my NeurIPS 2020 paper on BNN inference. [Video](https://slideslive.com/38937338/on-the-expressiveness-of-approximate-inference-in-bayesian-neural-networks?ref=speaker-44972-latest).
 
-## Meta-learning Stationary Stochastic Process Prediction with Convolutional Neural Processes
+## Meta-learning Stationary Stochastic Process Prediction with Convolutional Neural Processes (NeurIPS 2020)
 A short video explaining my NeurIPS 2020 paper on neural processes. [Video](https://slideslive.com/38937329/metalearning-stationary-stochastic-process-prediction-with-convolutional-neural-processes?ref=speaker-44972-latest).
 
 ## Neural Processes (Cambridge Machine Learning Reading Group)
