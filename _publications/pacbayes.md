@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/pacbayes
 excerpt: "We investigate, both theoretically and empirically, how tight PAC-Bayes generalisation bounds can be made with small datasets."
 date: 2021-01-10
-venue: 'arXiv preprint'
+venue: 'Neural Information Processing Systems (NeurIPS)'
 paperurl: 'https://arxiv.org/abs/2106.03542'
 citation:
 ---
