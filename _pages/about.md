@@ -14,7 +14,7 @@ I received my BA and MEng in Information and Computer Engineering (first class h
 
 You can find a list of selected publications [here](./publications.md). For a full overview, see my [Google Scholar page](https://scholar.google.com/citations?user=2UOjgIUAAAAJ&hl=en).
 
-Starting in July 2021 I will be a research intern at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/).
+From July-October 2021 I was a research intern at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/), working on deep learning for molecular simulation under [Dr. Sebastian Nowozin](http://www.nowozin.net/sebastian/).
 
 ## Contact
 Email: ykf21 [at] cam [dot] ac [dot] uk
