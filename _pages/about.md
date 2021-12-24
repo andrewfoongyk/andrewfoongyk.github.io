@@ -16,5 +16,8 @@ You can find a list of selected publications [here](./publications.md). For a fu
 
 From July-October 2021 I was a research intern at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/), working on deep learning for molecular simulation under [Dr. Sebastian Nowozin](http://www.nowozin.net/sebastian/).
 
+Starting in February 2022 I will be a Research Scientist Intern at [DeepMind London](https://deepmind.com/).
+
 ## Contact
 Email: ykf21 [at] cam [dot] ac [dot] uk
+
