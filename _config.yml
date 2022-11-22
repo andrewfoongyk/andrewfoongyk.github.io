@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Andrew Y. K. Foong"
 title_separator          : "-"
 name                     : &name "Andrew Y. K. Foong"
-description              : &description "PhD student at Cambridge University"
+description              : &description "Senior Researcher at Microsoft Research Cambridge"
 url                      : https://andrewfoongyk.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "andrewfoongyk/andrewfoongyk.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Andrew Y. K. Foong"
   avatar           : "profile.png"
-  bio              : "PhD student in Machine Learning"
+  bio              : "Senior Researcher at Microsoft Research Cambridge"
   location         : "Cambridge, UK"
   employer         :
   pubmed           :
