@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<center> <h1>About Me</h1> </center>
+<left> <h1>About Me</h1> </left>
 
 I am a full-time Senior Researcher at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/), working on deep learning for molecular modelling as part of the [AI4Science initiative](https://www.microsoft.com/en-us/research/lab/microsoft-research-ai4science/). Our goal is to drive major advances in science through the use of machine learning. My current research focuses on using deep learning to model the dynamics of proteins.
 
@@ -17,7 +17,7 @@ Previously, I was a PhD student in the [Machine Learning Group](http://mlg.eng.c
 You can find a list of selected publications [here](./publications.md). For a full overview, see my [Google Scholar page](https://scholar.google.com/citations?user=2UOjgIUAAAAJ&hl=en).
 
 
-<center> <h1>Experience</h1> </center>
+<left> <h1>Experience</h1> </left>
 
 <p>
 <ul style="list-style-type:none;">
