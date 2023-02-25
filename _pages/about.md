@@ -42,7 +42,6 @@ You can find a list of selected publications [here](./publications.md). For a fu
 			PhD in Advanced Machine Learning, Machine Learning Group, University of Cambridge <br/>
 			Supervisor: Professor Richard E. Turner. <br/>
 			Topics: Probabilistic modelling, deep learning, Bayesian deep learning, meta-learning, equivariance, PAC-Bayes.
-      Thesis: Approximate Inference in Bayesian Neural Networks and Translation Equivariant Neural Processes.
 			</p>
 		</div>
 	</div>
