@@ -17,7 +17,7 @@ Previously, I was a PhD student in the [Machine Learning Group](http://mlg.eng.c
 You can find a list of selected publications [here](./publications.md). For a full overview, see my [Google Scholar page](https://scholar.google.com/citations?user=2UOjgIUAAAAJ&hl=en).
 
 
-<left> <h1>Experience</h1> </left>
+<center> <h1>Experience</h1> </center>
 
 <p>
 <ul style="list-style-type:none;">
