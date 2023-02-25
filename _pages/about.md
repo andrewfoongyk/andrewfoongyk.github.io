@@ -28,7 +28,7 @@ You can find a list of selected publications [here](./publications.md). For a fu
 			<p>
 			<i>November 2022 - Present, Cambridge, UK</i> <br/>
 			Senior Researcher, Microsoft Research AI4Science <br/>
-			Topics: Deep learning for molecular modelling.
+			Topics: Deep learning for molecular modelling
 			</p>
 		</div>
 	</div>
@@ -40,8 +40,8 @@ You can find a list of selected publications [here](./publications.md). For a fu
 			<p>
 			<i>October 2018 - November 2022, Cambridge, UK</i> <br/>
 			PhD in Advanced Machine Learning, Machine Learning Group, University of Cambridge <br/>
-			Supervisor: Professor Richard E. Turner. <br/>
-			Topics: Probabilistic modelling, deep learning, Bayesian deep learning, meta-learning, equivariance, PAC-Bayes.
+			Supervisor: Professor Richard E. Turner <br/>
+			Topics: Probabilistic modelling, deep learning, Bayesian deep learning, meta-learning, equivariance, PAC-Bayes
 			</p>
 		</div>
 	</div>
@@ -54,7 +54,7 @@ You can find a list of selected publications [here](./publications.md). For a fu
 			<i>February 2022 - May 2022, London, UK</i> <br/>
 			Research Scientist Intern, DeepMind <br/>
 			Supervisor: Dr. Michalis Titsias <br/>
-			Topics: Deep generative modelling, Gaussian processes.
+			Topics: Deep generative modelling, Gaussian processes
 			</p>
 		</div>
 	</div>
@@ -67,7 +67,7 @@ You can find a list of selected publications [here](./publications.md). For a fu
 			<i>July 2021 - October 2021, Cambridge, UK</i> <br/>
 			Research Intern, Microsoft Research Cambridge <br/>
 			Supervisor: Dr. Sebastian Nowozin <br/>
-			Topics: Deep learning for simulating protein dynamics.
+			Topics: Deep learning for simulating protein dynamics
 			</p>
 		</div>
 	</div>
@@ -79,8 +79,7 @@ You can find a list of selected publications [here](./publications.md). For a fu
 			<p>
 			<i>October 2014 - July 2018, Cambridge, UK</i> <br/>
 			BA and MEng in Information and Computer Engineering, University of Cambridge <br/>
-      First class honours with distinction, scored top 1-2% in first three years.
-      Awarded Institute of Engineering and Technology Prize in fourth year.
+      First class honours with distinction, scored top 1-2% in first three years
 			</p>
 		</div>
 	</div>
