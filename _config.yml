@@ -81,13 +81,13 @@ analytics:
 # Site Author
 author:
   name             : "Andrew Y. K. Foong"
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   bio              : "Senior Researcher at Microsoft Research Cambridge"
   location         : "Cambridge, UK"
   employer         :
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=2UOjgIUAAAAJ&hl=en"
-  email            :
+  email            : "andrewfoong@microsoft.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
