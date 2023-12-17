@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/timewarp
 excerpt: "Solving the sampling problem is a longstanding challenge in the field of molecular dynamics, with crucial applications for understanding protein function and drug design. We train a generalisable normalising flow that accelerates sampling for small peptide systems."
 date: 2023-02-02
-venue: 'arXiv preprint'
+venue: 'Neural Information Processing Systems (NeurIPS) 2023 (spotlight presentation)'
 paperurl: 'https://arxiv.org/abs/2302.01170'
 citation:
 ---

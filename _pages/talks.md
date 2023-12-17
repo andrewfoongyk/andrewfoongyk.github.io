@@ -7,12 +7,17 @@ redirect_from:
   - /talks.html
 ---
 
+## Timewarp: Transferable Acceleration of Molecular Dynamics by Learning Time-Coarsened Dynamics
+
+Along with [Leon Klein](https://www.mi.fu-berlin.de/en/math/groups/ai4s/staff/klein/index.html), I presented our NeurIPS 2023 spotlight paper on using deep learning to accelerate molecular dynamics simulation. [Talk at the Learning on Graphs and Geometry (LoGG) reading group](https://www.youtube.com/watch?v=4rtT-hE9Xqo), [talk at the Molecular Modeling and Drug Discovery (M2D2) reading group](https://www.youtube.com/watch?v=fD_1V5HgGTQ&list=PLoVkjhDgBOt11Q3wu8lr6fwWHn5Vh3cHJ&index=3).
+
 ## An Introduction to PAC-Bayes (Cambridge Machine Learning Reading Group)
 Along with [David Burt](https://davidrburt.github.io/) and [Javier Antoran](https://javierantoran.github.io/about/), I gave an introductory talk on the statistical learning framework and PAC-Bayes.
 [Video](https://www.youtube.com/watch?v=t5GBuBD0ibc), [slides](../files/pac_bayes_reading_group.pdf).
 
 ## Understanding Approximate Inference in Bayesian Neural Networks: A Joint Talk
-Together with [Sebastian Farquhar](https://sebastianfarquhar.com/), I gave a talk on [my NeurIPS 2020 paper](https://arxiv.org/abs/1909.00719) on approximate inference in BNNs.
+Together with [Sebastian Farquhar](https://seb
+astianfarquhar.com/), I gave a talk on [my NeurIPS 2020 paper](https://arxiv.org/abs/1909.00719) on approximate inference in BNNs.
 Our talks present different perspectives on the effectiveness of the mean-field approximation in these models.
 [Video](https://www.youtube.com/watch?v=BJTkLxSQrHI), [slides](../files/BNNs_talk.pdf).
 
