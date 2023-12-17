@@ -3,7 +3,7 @@ title: "Fast Protein Backbone Generation with SE(3) Flow Matching"
 collection: publications
 permalink: /publication/flow_matching
 excerpt: "Recently, equivariant diffusion models such as RFdiffusion and Chroma have revolutionised the field of de novo protein design. We investigate the use of flow matching as an alternative to diffusion to accelerate the sampling of novel proteins."
-date: 2023-02-02
+date: 2023-10-10
 venue: 'NeurIPS Machine Learning for Structural Biology workshop (MLSB) 2023'
 paperurl: 'https://www.mlsb.io/papers_2023/Fast_protein_backbone_generation_with_SE3_flow_matching.pdf'
 citation:
