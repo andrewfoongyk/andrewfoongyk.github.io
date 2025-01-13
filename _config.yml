@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Andrew Y. K. Foong"
 title_separator          : "-"
 name                     : &name "Andrew Y. K. Foong"
-description              : &description "Senior Researcher at Microsoft Research Cambridge"
+description              : &description "AI Scientist at the Mayo Clinic"
 url                      : https://andrewfoongyk.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "andrewfoongyk/andrewfoongyk.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Andrew Y. K. Foong"
   avatar           : "profile.jpg"
-  bio              : "Senior Researcher at Microsoft Research Cambridge"
-  location         : "Cambridge, UK"
+  bio              : "AI Scientest at the Mayo Clinic"
+  location         : "Rochester, Minnesota"
   employer         :
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=2UOjgIUAAAAJ&hl=en"
-  email            : "andrewfoong@microsoft.com"
+  email            : "Foong.YueKwang@mayo.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
