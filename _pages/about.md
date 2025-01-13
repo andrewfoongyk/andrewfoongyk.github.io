@@ -25,7 +25,7 @@ Contact: andrewfoong [at] microsoft [dot] com
 <ul style="list-style-type:none;">
 <li>
 	<div class='timeline-item'>
-		<img class='timeline-image'  src="../assets/mayo_clinc_logo.jpeg" width="50" height="50" float="left">
+		<img class='timeline-image'  src="../assets/mayo_clinic_logo.jpeg" width="50" height="50" float="left">
 		<div class='timeline-text'>
 			<p>
 			<i>January 2025 - Present, Rochester, Minnesota</i> <br/>
