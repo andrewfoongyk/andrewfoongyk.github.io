@@ -9,9 +9,10 @@ redirect_from:
 ---
 
 <left> <h1>About Me</h1> </left>
-I am an AI Scientist (Senior Associate Consultant) at the [Mayo Clinic](https://www.mayoclinic.org/) in Rochester Minnesota, leading AI for cancer treatment efforts at the [department of radiation oncology](https://www.mayoclinic.org/departments-centers/radiation-oncology/home/orc-20188588).
+I am an AI Scientist (Senior Associate Consultant) at the [Mayo Clinic](https://www.mayoclinic.org/) in Rochester Minnesota, where I co-direct the AI and Data Analytics (AIDA) team at the [department of radiation oncology](https://www.mayoclinic.org/departments-centers/radiation-oncology/home/orc-20188588).
+Our goal is to advance the next generation of AI in cancer care.
 
-Previously, I was a full-time Senior Researcher at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/), working on deep learning for molecular modelling as part of the [AI4Science initiative](https://www.microsoft.com/en-us/research/lab/microsoft-research-ai4science/). Our goal is to drive major advances in science through the use of machine learning. My research focused on using deep learning to model the dynamics of proteins.
+Previously, I was a full-time Senior Researcher at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/), working on deep learning for protein generative modelling as part of Microsoft's [AI for Science initiative](https://www.microsoft.com/en-us/research/lab/microsoft-research-ai4science/). My research focused on using deep learning to model the dynamics of proteins.
 
 I completed my PhD in the [Machine Learning Group](http://mlg.eng.cam.ac.uk/?portfolio=andrew-foong-yue-kwang) at the University of Cambridge, supervised by [Professor Richard E. Turner](http://cbl.eng.cam.ac.uk/Public/Turner/). My research focused on probabilistic modelling and deep learning, with work on Bayesian neural networks, meta-learning, equivariant models, and PAC-Bayes.
 
@@ -31,7 +32,7 @@ Contact: andrewfoong [at] microsoft [dot] com
 			<i>January 2025 - Present, Rochester, Minnesota</i> <br/>
 			AI Scientist, Mayo Clinic<br/>
 		    Department of Radiation Oncology <br/>
-			Topics: Deep learning for cancer treatment 
+			Topics: Deep learning for cancer care
 			</p>
 		</div>
 	</div>
