@@ -9,16 +9,16 @@ redirect_from:
 ---
 
 <left> <h1>About Me</h1> </left>
-I am an AI Scientist (Senior Associate Consultant) at the [Mayo Clinic](https://www.mayoclinic.org/) in Rochester Minnesota, where I co-direct the AI and Data Analytics (AIDA) team at the [department of radiation oncology](https://www.mayoclinic.org/departments-centers/radiation-oncology/home/orc-20188588).
+I am an AI Scientist (Senior Associate Consultant) at the [Mayo Clinic](https://www.mayoclinic.org/) in Rochester Minnesota, where I co-direct the AI and Data Analytics (AIDA) team at the [Department of Radiation Oncology](https://www.mayoclinic.org/departments-centers/radiation-oncology/home/orc-20188588).
 Our goal is to advance the next generation of AI in cancer care.
 
-Previously, I was a full-time Senior Researcher at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/), working on deep learning for protein generative modelling as part of Microsoft's [AI for Science initiative](https://www.microsoft.com/en-us/research/lab/microsoft-research-ai4science/). My research focused on using deep learning to model the dynamics of proteins.
+Previously, I was a full-time Senior Researcher at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/), working on deep learning for protein generative modelling as part of Microsoft's [AI for Science initiative](https://www.microsoft.com/en-us/research/lab/microsoft-research-ai4science/).
 
 I completed my PhD in the [Machine Learning Group](http://mlg.eng.cam.ac.uk/?portfolio=andrew-foong-yue-kwang) at the University of Cambridge, supervised by [Professor Richard E. Turner](http://cbl.eng.cam.ac.uk/Public/Turner/). My research focused on probabilistic modelling and deep learning, with work on Bayesian neural networks, meta-learning, equivariant models, and PAC-Bayes.
 
 You can find a list of selected publications [here](./publications.md). For a full overview, see my [Google Scholar page](https://scholar.google.com/citations?user=2UOjgIUAAAAJ&hl=en).
 
-Contact: andrewfoong [at] microsoft [dot] com
+Contact: Foong [dot] YueKwang [at] mayo [dot] edu
 
 <left> <h1>Experience</h1> </left>
 
@@ -44,7 +44,7 @@ Contact: andrewfoong [at] microsoft [dot] com
 			<p>
 			<i>November 2022 - November 2024, Cambridge, UK</i> <br/>
 			Senior Researcher, Microsoft Research AI4Science <br/>
-			Topics: Deep learning for molecular modelling
+			Topics: Deep learning for protein generative modelling
 			</p>
 		</div>
 	</div>
@@ -68,7 +68,7 @@ Contact: andrewfoong [at] microsoft [dot] com
 		<div class='timeline-text'>
 			<p>
 			<i>February 2022 - May 2022, London, UK</i> <br/>
-			Research Scientist Intern, DeepMind <br/>
+			Research Scientist Intern, Google DeepMind <br/>
 			Supervisor: Dr. Michalis Titsias <br/>
 			Topics: Deep generative modelling, Gaussian processes
 			</p>
