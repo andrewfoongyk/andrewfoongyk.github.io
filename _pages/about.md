@@ -20,7 +20,7 @@ I completed my PhD in the [Machine Learning Group](http://mlg.eng.cam.ac.uk/?por
 
 You can find a list of selected publications [here](./publications.md). For a full overview, see my [Google Scholar page](https://scholar.google.com/citations?user=2UOjgIUAAAAJ&hl=en).
 
-Contact: Foong [dot] YueKwang [at] mayo [dot] edu
+Contact: Foong [dot] Andrew [at] mayo [dot] edu
 
 <left> <h1>Experience</h1> </left>
 
