@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Andrew Y. K. Foong"
 title_separator          : "-"
 name                     : &name "Andrew Y. K. Foong"
-description              : &description "AI Scientist at the Mayo Clinic"
+description              : &description "AI Scientist at Mayo Clinic"
 url                      : https://andrewfoongyk.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "andrewfoongyk/andrewfoongyk.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Andrew Y. K. Foong"
   avatar           : "profile.jpg"
-  bio              : "AI Scientist at the Mayo Clinic"
+  bio              : "AI Scientist at Mayo Clinic"
   location         : "Rochester, Minnesota"
   employer         :
   pubmed           :

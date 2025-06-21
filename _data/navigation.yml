@@ -6,5 +6,8 @@ main:
   - title: "Talks"
     url: /talks/
 
+  - title: "AI from Scratch"
+    url: /ai-from-scratch/
+
   - title: "CV"
     url: /files/CV.pdf
