@@ -1,11 +1,9 @@
 ---
 layout: single
-title: "AI from Scratch"
+title: "Understanding AI from Scratch Webinar"
 permalink: /ai-from-scratch/
 author_profile: true
 ---
-
-<h1>Understanding AI from Scratch</h1>
 
 <p>
 This six-part lecture series was delivered to the Mayo Clinic Department of Radiation Oncology to help clinicians understand the core concepts of AI, from linear regression models to modern systems like ChatGPT.

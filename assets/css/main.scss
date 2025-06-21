@@ -42,7 +42,13 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap');
 
 html {
-    font-size: 170%;
+    font-size: 100%;  // Base for mobile (e.g., 16px)
+  }
+  
+@media (min-width: 768px) {
+html {
+    font-size: 170%;  // or 130% (≈ 19–20px) for tablets/desktops
+}
 }
 
 h1, h2, h3, h4, h5, h6 {

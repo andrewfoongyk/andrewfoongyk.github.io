@@ -27,7 +27,7 @@ Contact: Foong [dot] Andrew [at] mayo [dot] edu
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
   <img src="../assets/mayo_clinic_logo.jpeg" alt="Mayo Clinic logo"
-       style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 7px;" />
+       style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 10px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <em>January 2025 – Present, Rochester, Minnesota</em><br/>
@@ -40,7 +40,7 @@ Contact: Foong [dot] Andrew [at] mayo [dot] edu
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
   <img src="../assets/msr.jpeg" alt="Microsoft logo"
-       style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 7px;" />
+       style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 10px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <em>November 2022 – November 2024, Cambridge, UK</em><br/>
@@ -52,7 +52,7 @@ Contact: Foong [dot] Andrew [at] mayo [dot] edu
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
   <img src="../assets/camlogo.png" alt="University of Cambridge logo"
-       style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 7px;" />
+       style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 10px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <em>October 2018 – November 2022, Cambridge, UK</em><br/>
@@ -65,7 +65,7 @@ Contact: Foong [dot] Andrew [at] mayo [dot] edu
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
   <img src="../assets/deepmind.png" alt="DeepMind logo"
-       style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 7px;" />
+       style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 10px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <em>February 2022 – May 2022, London, UK</em><br/>
@@ -78,7 +78,7 @@ Contact: Foong [dot] Andrew [at] mayo [dot] edu
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
   <img src="../assets/msr.jpeg" alt="Microsoft logo"
-       style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 7px;" />
+       style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 10px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <em>July 2021 – October 2021, Cambridge, UK</em><br/>
@@ -91,7 +91,7 @@ Contact: Foong [dot] Andrew [at] mayo [dot] edu
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
   <img src="../assets/camlogo.png" alt="University of Cambridge logo"
-       style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 7px;" />
+       style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 10px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <em>October 2014 – July 2018, Cambridge, UK</em><br/>
