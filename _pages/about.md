@@ -9,13 +9,13 @@ redirect_from:
 ---
 
 <h1 style="margin-top: 0;">About Me</h1>
-I am an AI Scientist (Senior Associate Consultant) at the [Mayo Clinic](https://www.mayoclinic.org/) in Rochester Minnesota, where I co-direct the AI and Data Analytics (AIDA) team at the [Department of Radiation Oncology](https://www.mayoclinic.org/departments-centers/radiation-oncology/home/orc-20188588).
+I am an **AI Scientist (Senior Associate Consultant) at the [Mayo Clinic](https://www.mayoclinic.org/)** in Rochester Minnesota, where I co-direct the AI and Data Analytics (AIDA) team at the [Department of Radiation Oncology](https://www.mayoclinic.org/departments-centers/radiation-oncology/home/orc-20188588).
 Our goal is to advance the next generation of AI in cancer care.
 You can find my Mayo Clinic research page [here](https://www.mayo.edu/research/faculty/foong-andrew-ph-d/bio-20583559).
 
-Previously, I was a full-time Senior Researcher at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/), working on deep learning for protein generative modelling as part of Microsoft's [AI for Science initiative](https://www.microsoft.com/en-us/research/lab/microsoft-research-ai4science/).
+Previously, I was a full-time **Senior Researcher at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/)**, working on deep learning for protein generative modelling as part of Microsoft's [AI for Science initiative](https://www.microsoft.com/en-us/research/lab/microsoft-research-ai4science/).
 
-I completed my PhD in the [Machine Learning Group](http://mlg.eng.cam.ac.uk/?portfolio=andrew-foong-yue-kwang) at the University of Cambridge, supervised by [Professor Richard E. Turner](https://rich-turner-group.github.io). My research focused on probabilistic modelling and deep learning, with work on Bayesian neural networks, meta-learning, equivariant models, and PAC-Bayes.
+I completed my **PhD in the [Machine Learning Group](http://mlg.eng.cam.ac.uk/?portfolio=andrew-foong-yue-kwang) at the University of Cambridge**, supervised by [Professor Richard E. Turner](https://rich-turner-group.github.io). My research focused on probabilistic modelling and deep learning, with work on Bayesian neural networks, meta-learning, equivariant models, and PAC-Bayes.
 
 You can find a list of selected publications [here](./publications.md). For a full overview, see my [Google Scholar page](https://scholar.google.com/citations?user=2UOjgIUAAAAJ&hl=en).
 
@@ -31,8 +31,8 @@ I am now hiring for Research Fellow positions in AI for cancer treatment at Mayo
        style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 10px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
+      <strong>AI Scientist, Mayo Clinic</strong><br/>
       <em>January 2025 – Present, Rochester, Minnesota, USA</em><br/>
-      AI Scientist, Mayo Clinic<br/>
       Department of Radiation Oncology<br/>
       Topics: Deep learning for cancer treatment
     </p>
@@ -44,8 +44,9 @@ I am now hiring for Research Fellow positions in AI for cancer treatment at Mayo
        style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 10px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
+      <strong>Senior Researcher, Microsoft Research</strong><br/>
       <em>November 2022 – November 2024, Cambridge, UK</em><br/>
-      Senior Researcher, Microsoft Research<br/>
+      AI for Science<br/>
       Topics: Deep learning for protein generative modelling
     </p>
   </div>
@@ -56,10 +57,11 @@ I am now hiring for Research Fellow positions in AI for cancer treatment at Mayo
        style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 10px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
+      <strong>PhD in Machine Learning, University of Cambridge</strong><br/>
       <em>October 2018 – November 2022, Cambridge, UK</em><br/>
-      PhD in Advanced Machine Learning, Machine Learning Group, University of Cambridge<br/>
+      Computational and Biological Learning Lab (CBL)<br/>
       Supervisor: Professor Richard E. Turner<br/>
-      Topics: Probabilistic modelling, deep learning, Bayesian deep learning, meta-learning, equivariance, PAC-Bayes
+      Topics: Probabilistic modelling, deep learning, Bayesian deep learning, meta-learning, equivariance, generalization 
     </p>
   </div>
 </div>
@@ -69,8 +71,8 @@ I am now hiring for Research Fellow positions in AI for cancer treatment at Mayo
        style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 10px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
+      <strong>Research Scientist Intern, Google DeepMind</strong><br/>
       <em>February 2022 – May 2022, London, UK</em><br/>
-      Research Scientist Intern, Google DeepMind<br/>
       Supervisor: Dr. Michalis Titsias<br/>
       Topics: Deep generative modelling, Gaussian processes
     </p>
@@ -82,8 +84,8 @@ I am now hiring for Research Fellow positions in AI for cancer treatment at Mayo
        style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 10px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
+      <strong>Research Intern, Microsoft Research Cambridge</strong><br/>
       <em>July 2021 – October 2021, Cambridge, UK</em><br/>
-      Research Intern, Microsoft Research Cambridge<br/>
       Supervisor: Dr. Sebastian Nowozin<br/>
       Topics: Deep learning for simulating protein dynamics
     </p>
@@ -95,9 +97,10 @@ I am now hiring for Research Fellow positions in AI for cancer treatment at Mayo
        style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 10px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
+      <strong>BA & MEng in Information and Computer Engineering, University of Cambridge</strong><br/>
       <em>October 2014 – July 2018, Cambridge, UK</em><br/>
-      BA and MEng in Information and Computer Engineering, University of Cambridge<br/>
-      First class honours with distinction, scored top 1–2% in first three years
+      Department of Engineering<br/>
+      First class honours with distinction, scored top 1–2% in year group
     </p>
   </div>
 </div>
