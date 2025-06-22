@@ -45,7 +45,7 @@ Contact: Foong [dot] Andrew [at] mayo [dot] edu
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <em>November 2022 – November 2024, Cambridge, UK</em><br/>
-      Senior Researcher, Microsoft Research AI4Science<br/>
+      Senior Researcher, Microsoft Research<br/>
       Topics: Deep learning for protein generative modelling
     </p>
   </div>
