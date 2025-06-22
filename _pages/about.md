@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <h1 style="margin-top: 0;">Hiring News</h1>
-I am now hiring for Research Fellow positions in AI for cancer care at Mayo Clinic. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-and-data-analytics-aida-radiation-oncology/33647/80077797392) or reach out via email.
+I am now hiring for Research Fellow positions in AI for cancer treatment at Mayo Clinic. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-and-data-analytics-aida-radiation-oncology/33647/80077797392) or reach out via email.
 
 <h1>About Me</h1>
 I am an AI Scientist (Senior Associate Consultant) at the [Mayo Clinic](https://www.mayoclinic.org/) in Rochester Minnesota, where I co-direct the AI and Data Analytics (AIDA) team at the [Department of Radiation Oncology](https://www.mayoclinic.org/departments-centers/radiation-oncology/home/orc-20188588).
