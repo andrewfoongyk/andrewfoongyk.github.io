@@ -8,10 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<h1 style="margin-top: 0;">Hiring News</h1>
-I am now hiring for Research Fellow positions in AI for cancer treatment at Mayo Clinic. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-and-data-analytics-aida-radiation-oncology/33647/80077797392) or reach out via email.
-
-<h1>About Me</h1>
+<h1 style="margin-top: 0;">About Me</h1>
 I am an AI Scientist (Senior Associate Consultant) at the [Mayo Clinic](https://www.mayoclinic.org/) in Rochester Minnesota, where I co-direct the AI and Data Analytics (AIDA) team at the [Department of Radiation Oncology](https://www.mayoclinic.org/departments-centers/radiation-oncology/home/orc-20188588).
 Our goal is to advance the next generation of AI in cancer care.
 You can find my Mayo Clinic research page [here](https://www.mayo.edu/research/faculty/foong-andrew-ph-d/bio-20583559).
@@ -24,6 +21,9 @@ You can find a list of selected publications [here](./publications.md). For a fu
 
 Contact: Foong [dot] Andrew [at] mayo [dot] edu
 
+<h1>Hiring News</h1>
+I am now hiring for Research Fellow positions in AI for cancer treatment at Mayo Clinic. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-and-data-analytics-aida-radiation-oncology/33647/80077797392) or reach out via email.
+
 <h1>Experience</h1>
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
@@ -31,10 +31,10 @@ Contact: Foong [dot] Andrew [at] mayo [dot] edu
        style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 10px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
-      <em>January 2025 – Present, Rochester, Minnesota</em><br/>
+      <em>January 2025 – Present, Rochester, Minnesota, USA</em><br/>
       AI Scientist, Mayo Clinic<br/>
       Department of Radiation Oncology<br/>
-      Topics: Deep learning for cancer care
+      Topics: Deep learning for cancer treatment
     </p>
   </div>
 </div>
