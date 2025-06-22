@@ -12,7 +12,7 @@ author_profile: true
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/bioemu-banner.png"
        alt="BioEmu figure"
-       style="width:150px; height:150px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+       style="width:100px; height:100px; object-fit:cover; border-radius:6px; flex-shrink:0;">
 
   <!-- Text content -->
   <div>
@@ -48,7 +48,7 @@ author_profile: true
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/frameflow-banner.png"
        alt="FrameFlow figure"
-       style="width:150px; height:150px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+       style="width:100px; height:100px; object-fit:cover; border-radius:6px; flex-shrink:0;">
 
   <!-- Text content -->
   <div>
@@ -85,7 +85,7 @@ author_profile: true
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/acnp-banner.png"
        alt="Autoregressive Conditional Neural Processes figure"
-       style="width:150px; height:150px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+       style="width:100px; height:100px; object-fit:cover; border-radius:6px; flex-shrink:0;">
 
   <!-- Text content -->
   <div>
@@ -121,7 +121,7 @@ author_profile: true
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/timewarp-banner.png"
        alt="Timewarp figure"
-       style="width:150px; height:150px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+       style="width:100px; height:100px; object-fit:cover; border-radius:6px; flex-shrink:0;">
 
   <!-- Text content -->
   <div>
@@ -159,7 +159,7 @@ author_profile: true
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/bnn-collapsed-banner.png"
        alt="Collapsed Variational Bounds for BNNs figure"
-       style="width:150px; height:150px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+       style="width:100px; height:100px; object-fit:cover; border-radius:6px; flex-shrink:0;">
 
   <!-- Text content -->
   <div>
@@ -193,7 +193,7 @@ author_profile: true
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/pacbayes-smalldata-banner.png"
        alt="PAC-Bayes Small Data figure"
-       style="width:150px; height:150px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+       style="width:100px; height:100px; object-fit:cover; border-radius:6px; flex-shrink:0;">
 
   <!-- Text content -->
   <div>
@@ -228,7 +228,7 @@ author_profile: true
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/gnp-banner.png"
        alt="Gaussian Neural Process figure"
-       style="width:150px; height:150px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+       style="width:100px; height:100px; object-fit:cover; border-radius:6px; flex-shrink:0;">
 
   <!-- Text content -->
   <div>
@@ -265,7 +265,7 @@ author_profile: true
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/convnp-banner.png"
        alt="ConvNP figure"
-       style="width:150px; height:150px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+       style="width:100px; height:100px; object-fit:cover; border-radius:6px; flex-shrink:0;">
 
   <!-- Text content -->
   <div>
@@ -301,7 +301,7 @@ author_profile: true
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/convcnp-banner.png"
        alt="Convolutional Conditional Neural Processes figure"
-       style="width:150px; height:150px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+       style="width:100px; height:100px; object-fit:cover; border-radius:6px; flex-shrink:0;">
 
   <!-- Text content -->
   <div>
@@ -339,7 +339,7 @@ author_profile: true
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/inbetween-uncertainty-banner.png"
        alt="In-Between Uncertainty in Bayesian Neural Networks figure"
-       style="width:150px; height:150px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+       style="width:100px; height:100px; object-fit:cover; border-radius:6px; flex-shrink:0;">
 
   <!-- Text content -->
   <div>
