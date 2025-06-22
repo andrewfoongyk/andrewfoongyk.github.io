@@ -9,5 +9,8 @@ main:
   - title: "AI Webinar"
     url: /ai-from-scratch/
 
+  - title: "Neural Processes Blog"
+    url: https://yanndubs.github.io/Neural-Process-Family/text/Intro.html
+
   - title: "CV"
     url: /files/CV.pdf
