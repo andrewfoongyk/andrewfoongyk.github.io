@@ -6,19 +6,66 @@ author_profile: true
 ---
 
 <p>
-This six-part lecture series was delivered to the Mayo Clinic Department of Radiation Oncology to help clinicians understand the core concepts of AI, from linear regression models to modern systems like ChatGPT.
+This six-part lecture series was delivered to the Mayo Clinic Department of Radiation Oncology to help clinicians understand the core concepts of AI — from linear regression and neural networks to ChatGPT and prompt engineering.
 </p>
 
 <p>
-The series assumes no prior background in AI and uses clinical examples throughout.
+Designed for healthcare professionals with no prior background in AI, the lectures use clinical examples and build from first principles.
 </p>
 
+<h2>Watch the Lectures</h2>
+
+<div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: flex-start;">
+
+  <div style="text-align: center; width: 220px;">
+    <a href="https://mssvideoupload.mayo.edu/playlist/dedicated/1_uq8gpkab/1_rhvbtb46" target="_blank">
+      <img src="/assets/lectures/lecture1-thumb.jpg" alt="Lecture 1 thumbnail" style="width: 100%; border-radius: 8px;">
+    </a>
+    <div style="margin-top: 0.5em; font-size: 0.95em;">Lecture 1: What is Deep Learning?</div>
+  </div>
+
+  <div style="text-align: center; width: 220px;">
+    <a href="https://mssvideoupload.mayo.edu/playlist/dedicated/1_uq8gpkab/1_xbkcrbjs" target="_blank">
+      <img src="/assets/lectures/lecture2-thumb.jpg" alt="Lecture 2 thumbnail" style="width: 100%; border-radius: 8px;">
+    </a>
+    <div style="margin-top: 0.5em; font-size: 0.95em;">Lecture 2: From Single Neurons to Neural Networks</div>
+  </div>
+
+  <div style="text-align: center; width: 220px;">
+    <a href="https://mssvideoupload.mayo.edu/playlist/dedicated/1_uq8gpkab/1_2q24t2cy" target="_blank">
+      <img src="/assets/lectures/lecture3-thumb.jpg" alt="Lecture 3 thumbnail" style="width: 100%; border-radius: 8px;">
+    </a>
+    <div style="margin-top: 0.5em; font-size: 0.95em;">Lecture 3: AI for Imaging</div>
+  </div>
+
+  <div style="text-align: center; width: 220px;">
+    <a href="https://mssvideoupload.mayo.edu/playlist/dedicated/1_uq8gpkab/1_4m5awnik" target="_blank">
+      <img src="/assets/lectures/lecture4-thumb.jpg" alt="Lecture 4 thumbnail" style="width: 100%; border-radius: 8px;">
+    </a>
+    <div style="margin-top: 0.5em; font-size: 0.95em;">Lecture 4: Practical AI for Imaging</div>
+  </div>
+
+  <div style="text-align: center; width: 220px;">
+    <a href="https://mssvideoupload.mayo.edu/playlist/dedicated/1_uq8gpkab/1_h9wwrlo9" target="_blank">
+      <img src="/assets/lectures/lecture5-thumb.jpg" alt="Lecture 5 thumbnail" style="width: 100%; border-radius: 8px;">
+    </a>
+    <div style="margin-top: 0.5em; font-size: 0.95em;">Lecture 5: How Does ChatGPT Work?</div>
+  </div>
+
+  <div style="text-align: center; width: 220px;">
+    <a href="https://mssvideoupload.mayo.edu/playlist/dedicated/1_uq8gpkab/1_euus6hqk" target="_blank">
+      <img src="/assets/lectures/lecture6-thumb.jpg" alt="Lecture 6 thumbnail" style="width: 100%; border-radius: 8px;">
+    </a>
+    <div style="margin-top: 0.5em; font-size: 0.95em;">Lecture 6: Prompting ChatGPT</div>
+  </div>
+
+</div>
+
+
+<h2>Guide</h2>
 <ul>
   <li><strong>Lectures 1 & 2:</strong> Deep Learning from the Ground Up — from linear regression and gradient descent to neural networks, overfitting, and generalization.</li>
   <li><strong>Lectures 3 & 4:</strong> Medical Imaging & Convolutional Networks — how deep learning processes images and powers medical AI.</li>
   <li><strong>Lectures 5 & 6:</strong> Large Language Models & Prompting — how ChatGPT works and how to use techniques like retrieval-augmented generation (RAG).</li>
 </ul>
 
-<p>Watch the full series below:</p>
-
-<iframe id="kaltura_player" src='https://cdnapisec.kaltura.com/p/1825021/embedPlaykitJs/uiconf_id/54965852?iframeembed=true&amp;entry_id=1_rhvbtb46&amp;config%5Bprovider%5D=%7B%22widgetId%22%3A%221_mp42gq60%22%7D&amp;config%5Bplayback%5D=%7B%22startTime%22%3A0%7D'  style="width: 400px;height: 285px;border: 0;" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" title="Understanding AI from Scratch Lecture 1: What is Deep Learning?"></iframe>
