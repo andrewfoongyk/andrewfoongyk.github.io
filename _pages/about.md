@@ -14,7 +14,7 @@ You can find my Mayo Clinic research page [here](https://www.mayo.edu/research/f
 
 Previously, I was a full-time **Senior Researcher at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/)**, working on deep learning for protein generative modelling as part of Microsoft's [AI for Science initiative](https://www.microsoft.com/en-us/research/lab/microsoft-research-ai4science/).
 
-I completed my **PhD in the [Machine Learning Group](https://cbl.eng.cam.ac.uk) at the University of Cambridge**, supervised by [Professor Richard E. Turner](https://rich-turner-group.github.io). My research focused on probabilistic modelling and deep learning, with work on Bayesian neural networks, meta-learning, equivariant models, and PAC-Bayes.
+I completed my **Ph.D. in the [Machine Learning Group](https://cbl.eng.cam.ac.uk) at the University of Cambridge**, supervised by [Professor Richard E. Turner](https://rich-turner-group.github.io). My research focused on probabilistic modelling and deep learning, with work on Bayesian neural networks, meta-learning, equivariant models, and PAC-Bayes.
 
 You can find a list of selected publications [here](./publications.md). For a full overview, see my [Google Scholar page](https://scholar.google.com/citations?user=2UOjgIUAAAAJ&hl=en).
 
