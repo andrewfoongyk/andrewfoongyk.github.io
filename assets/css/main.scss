@@ -39,7 +39,16 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap');
+
+
+.email {
+  font-family: 'Fira Mono', monospace;
+  font-size: 80%;
+}
 
 html {
     font-size: 125%;  // Base for mobile (e.g., 16px)
@@ -62,5 +71,31 @@ h1, h2, h3, h4, h5, h6 {
 body {
   font-family: 'EB Garamond', serif;
   font-weight: 400; /* Slightly heavier than normal */
-  line-height: 1.6;  /* Improves readability */
+  line-height: 1.45; 
+}
+
+a {
+  color: #5B7E91;
+  text-decoration: underline;
+  text-decoration-color: #5B7E91; // Adjust transparency here
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-color: rgba(0, 0, 0, 0.5); // Slightly darker on hover
+}
+
+p {
+  margin-bottom: 1.0em !important;
+}
+
+em, i {
+  font-style: italic;
+  font-family: 'EB Garamond', serif;
+}
+
+strong em, strong i {
+  font-style: italic;
+  font-weight: 700;
 }

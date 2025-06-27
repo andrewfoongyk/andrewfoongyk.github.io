@@ -18,7 +18,8 @@ I completed my **PhD in the [Machine Learning Group](https://cbl.eng.cam.ac.uk) 
 
 You can find a list of selected publications [here](./publications.md). For a full overview, see my [Google Scholar page](https://scholar.google.com/citations?user=2UOjgIUAAAAJ&hl=en).
 
-Contact: Foong [dot] Andrew [at] mayo [dot] edu
+**Contact:**&nbsp;<span class="email"> foong [dot] andrew [at] mayo [dot] edu</span>
+
 
 <h1>Hiring News</h1>
 I am now hiring for Research Fellow positions in AI for cancer treatment at Mayo Clinic. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-and-data-analytics-aida-radiation-oncology/33647/80077797392) or reach out via email.

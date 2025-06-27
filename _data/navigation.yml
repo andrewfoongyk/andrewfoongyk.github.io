@@ -11,6 +11,9 @@ main:
 
   - title: "Neural Processes Blog"
     url: https://yanndubs.github.io/Neural-Process-Family/text/Intro.html
+    external: true
+    newtab: true
 
   - title: "CV"
     url: /files/CV.pdf
+    newtab: true
