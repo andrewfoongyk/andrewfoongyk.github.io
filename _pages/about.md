@@ -32,7 +32,7 @@ I am now hiring for Research Fellow positions in AI for cancer treatment at Mayo
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <strong>AI Scientist, Mayo Clinic</strong><br/>
-      <em>January 2025 – Present, Rochester, Minnesota, USA</em><br/>
+      <em>January 2025–Present, Rochester, Minnesota, USA</em><br/>
       Department of Radiation Oncology<br/>
       Topics: Deep learning for cancer treatment
     </p>
@@ -45,7 +45,7 @@ I am now hiring for Research Fellow positions in AI for cancer treatment at Mayo
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <strong>Senior Researcher, Microsoft Research</strong><br/>
-      <em>November 2022 – November 2024, Cambridge, UK</em><br/>
+      <em>November 2022–November 2024, Cambridge, UK</em><br/>
       AI for Science<br/>
       Topics: Deep learning for protein generative modelling
     </p>
@@ -58,7 +58,7 @@ I am now hiring for Research Fellow positions in AI for cancer treatment at Mayo
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <strong>PhD in Machine Learning, University of Cambridge</strong><br/>
-      <em>October 2018 – November 2022, Cambridge, UK</em><br/>
+      <em>October 2018–November 2022, Cambridge, UK</em><br/>
       Computational and Biological Learning Lab (CBL)<br/>
       Supervisor: Professor Richard E. Turner<br/>
       Topics: Probabilistic modelling, deep learning, Bayesian deep learning, meta-learning, equivariance, generalization 
@@ -72,7 +72,7 @@ I am now hiring for Research Fellow positions in AI for cancer treatment at Mayo
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <strong>Research Scientist Intern, Google DeepMind</strong><br/>
-      <em>February 2022 – May 2022, London, UK</em><br/>
+      <em>February 2022–May 2022, London, UK</em><br/>
       Supervisor: Dr. Michalis Titsias<br/>
       Topics: Deep generative modelling, Gaussian processes
     </p>
@@ -85,7 +85,7 @@ I am now hiring for Research Fellow positions in AI for cancer treatment at Mayo
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <strong>Research Intern, Microsoft Research Cambridge</strong><br/>
-      <em>July 2021 – October 2021, Cambridge, UK</em><br/>
+      <em>July 2021–October 2021, Cambridge, UK</em><br/>
       Supervisor: Dr. Sebastian Nowozin<br/>
       Topics: Deep learning for simulating protein dynamics
     </p>
@@ -98,7 +98,7 @@ I am now hiring for Research Fellow positions in AI for cancer treatment at Mayo
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <strong>BA & MEng in Information and Computer Engineering, University of Cambridge</strong><br/>
-      <em>October 2014 – July 2018, Cambridge, UK</em><br/>
+      <em>October 2014–July 2018, Cambridge, UK</em><br/>
       Department of Engineering<br/>
       First class honours with distinction, scored top 1–2% in year group
     </p>
