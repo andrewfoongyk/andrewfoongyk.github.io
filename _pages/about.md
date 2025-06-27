@@ -57,7 +57,7 @@ I am now hiring for Research Fellow positions in AI for cancer treatment at Mayo
        style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 10px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
-      <strong>PhD in Machine Learning, University of Cambridge</strong><br/>
+      <strong>Ph.D. in Machine Learning, University of Cambridge</strong><br/>
       <em>October 2018–November 2022, Cambridge, UK</em><br/>
       Computational and Biological Learning Lab (CBL)<br/>
       Supervisor: Professor Richard E. Turner<br/>
@@ -97,7 +97,7 @@ I am now hiring for Research Fellow positions in AI for cancer treatment at Mayo
        style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 10px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
-      <strong>BA & MEng in Information and Computer Engineering, University of Cambridge</strong><br/>
+      <strong>B.A. & M.Eng. in Information and Computer Engineering, University of Cambridge</strong><br/>
       <em>October 2014–July 2018, Cambridge, UK</em><br/>
       Department of Engineering<br/>
       First class honours with distinction, scored top 1–2% in year group
