@@ -19,14 +19,12 @@ author_profile: true
  -->
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
-  <div style="margin-left: calc(80px + 1.2em);">
     <p style="margin:0; font-family: 'EB Garamond'; font-style: italic;">
       For a full list of research papers, please see my
       <a href="https://scholar.google.com/citations?user=2UOjgIUAAAAJ&hl=en" target="_blank">
         Google Scholar page
       </a>.
     </p>
-  </div>
 </div>
 
 
