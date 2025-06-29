@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me"
+title: null #"About Me"
 excerpt: "About me"
 author_profile: true
 redirect_from:
@@ -8,7 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-I am an **AI Scientist (Senior Associate Consultant) at the [Mayo Clinic](https://www.mayoclinic.org/)** in Rochester, Minnesota, where I co-direct the AI and Data Analytics (AIDA) team at the [Department of Radiation Oncology](https://www.mayoclinic.org/departments-centers/radiation-oncology/home/orc-20188588).
+<style>
+  .page__title {
+    display: none;
+  }
+</style>
+
+<h2 style = "margin-top: 0em;">About Me</h2>
+
+<span style="font-variant: small-caps;">I am an</span> **AI Scientist (Senior Associate Consultant) at the [Mayo Clinic](https://www.mayoclinic.org/)** in Rochester, Minnesota, where I co-direct the AI and Data Analytics (AIDA) team at the [Department of Radiation Oncology](https://www.mayoclinic.org/departments-centers/radiation-oncology/home/orc-20188588).
 Our goal is to advance the next generation of AI in cancer care.
 You can find my Mayo Clinic research page [here](https://www.mayo.edu/research/faculty/foong-andrew-ph-d/bio-20583559).
 
@@ -21,10 +29,10 @@ You can find a list of selected publications [here](./publications.md). For a fu
 **Contact:**&nbsp;<span class="email"> foong [dot] andrew [at] mayo [dot] edu</span>
 
 
-<h1>Hiring News</h1>
+<h2>Hiring News</h2>
 I am now hiring for Research Fellow positions in AI for cancer treatment at Mayo Clinic. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-and-data-analytics-aida-radiation-oncology/33647/80077797392) or reach out via email.
 
-<h1>Experience</h1>
+<h2>Experience</h2>
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
   <img src="../assets/mayo_clinic_logo.jpeg" alt="Mayo Clinic logo"

@@ -1,26 +1,55 @@
 ---
 layout: archive
-title: "Selected Papers"
+title: null
 permalink: /publications/
 author_profile: true
 ---
 
-## 2024
+<style>
+  .page__title {
+    display: none;
+  }
+</style>
+
+<!-- <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
+  <div style="margin-left: calc(80px + 1.2em);">
+    <p style="margin:0; font-family: 'EB Garamond'; font-style: italic;">For a full list of publications, please see my Google Scholar page.</p>
+  </div>
+</div>
+ -->
+
+<div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
+  <div style="margin-left: calc(80px + 1.2em);">
+    <p style="margin:0; font-family: 'EB Garamond'; font-style: italic;">
+      For a full list of research papers, please see my
+      <a href="https://scholar.google.com/citations?user=2UOjgIUAAAAJ&hl=en" target="_blank">
+        Google Scholar page
+      </a>.
+    </p>
+  </div>
+</div>
+
+
+<div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
+  <div style="margin-left: calc(80px + 1.2em);">
+    <h2 style="margin:0; font-family: 'EB Garamond';">2024</h2>
+  </div>
+</div>
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:2em;">
 
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/bioemu-banner.png"
        alt="BioEmu figure"
-       style="width:100px; height:100px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+       style="width:80px; height:80px; object-fit:cover; border-radius:6px; flex-shrink:0;">
 
   <!-- Text content -->
   <div>
     <!-- Remove default top margin so it lines up with the image -->
     <h3 style="margin:0 0 0.3em 0;">
-      🔗 <a href="https://www.biorxiv.org/content/10.1101/2024.12.05.626885"
+      <a href="https://www.biorxiv.org/content/10.1101/2024.12.05.626885"
             target="_blank" style="text-decoration:none; color:inherit;">
-        Scalable emulation of protein equilibrium ensembles with generative deep learning
+        🔗 Scalable Emulation of Protein Equilibrium Ensembles With Generative Deep Learning
       </a>
     </h3>
 
@@ -41,14 +70,18 @@ author_profile: true
   </div>
 </div>
 
-## 2023
+<div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
+  <div style="margin-left: calc(80px + 1.2em);">
+    <h2 style="margin:0;">2023</h2>
+  </div>
+</div>
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:2em;">
 
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/frameflow-banner.png"
        alt="FrameFlow figure"
-       style="width:100px; height:100px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+       style="width:80px; height:80px; object-fit:cover; border-radius:6px; flex-shrink:0;">
 
   <!-- Text content -->
   <div>
@@ -85,7 +118,7 @@ author_profile: true
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/acnp-banner.png"
        alt="Autoregressive Conditional Neural Processes figure"
-       style="width:100px; height:100px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+       style="width:80px; height:80px; object-fit:cover; border-radius:6px; flex-shrink:0;">
 
   <!-- Text content -->
   <div>
@@ -121,7 +154,7 @@ author_profile: true
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/timewarp-banner.png"
        alt="Timewarp figure"
-       style="width:100px; height:100px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+       style="width:80px; height:80px; object-fit:cover; border-radius:6px; flex-shrink:0;">
 
   <!-- Text content -->
   <div>
@@ -151,7 +184,13 @@ author_profile: true
 </div>
 
 
-## 2021
+
+<div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
+  <div style="margin-left: calc(80px + 1.2em);">
+    <h2 style="margin:0;">2021</h2>
+  </div>
+</div>
+
 
 <!-- Paper -->
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:2em;">
@@ -159,7 +198,7 @@ author_profile: true
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/bnn-collapsed-banner.png"
        alt="Collapsed Variational Bounds for BNNs figure"
-       style="width:100px; height:100px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+       style="width:80px; height:80px; object-fit:cover; border-radius:6px; flex-shrink:0;">
 
   <!-- Text content -->
   <div>
@@ -193,7 +232,7 @@ author_profile: true
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/pacbayes-smalldata-banner.png"
        alt="PAC-Bayes Small Data figure"
-       style="width:100px; height:100px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+       style="width:80px; height:80px; object-fit:cover; border-radius:6px; flex-shrink:0;">
 
   <!-- Text content -->
   <div>
@@ -228,7 +267,7 @@ author_profile: true
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/gnp-banner.png"
        alt="Gaussian Neural Process figure"
-       style="width:100px; height:100px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+       style="width:80px; height:80px; object-fit:cover; border-radius:6px; flex-shrink:0;">
 
   <!-- Text content -->
   <div>
@@ -258,14 +297,20 @@ author_profile: true
 </div>
 
 
-## 2020
+
+<div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
+  <div style="margin-left: calc(80px + 1.2em);">
+    <h2 style="margin:0;">2020</h2>
+  </div>
+</div>
+
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:2em;">
 
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/convnp-banner.png"
        alt="ConvNP figure"
-       style="width:100px; height:100px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+       style="width:80px; height:80px; object-fit:cover; border-radius:6px; flex-shrink:0;">
 
   <!-- Text content -->
   <div>
@@ -301,7 +346,7 @@ author_profile: true
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/convcnp-banner.png"
        alt="Convolutional Conditional Neural Processes figure"
-       style="width:100px; height:100px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+       style="width:80px; height:80px; object-fit:cover; border-radius:6px; flex-shrink:0;">
 
   <!-- Text content -->
   <div>
@@ -331,7 +376,13 @@ author_profile: true
 </div>
 
 
-## 2019
+
+<div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
+  <div style="margin-left: calc(80px + 1.2em);">
+    <h2 style="margin:0;">2019</h2>
+  </div>
+</div>
+
 
 <!-- Paper -->
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:2em;">
@@ -339,7 +390,7 @@ author_profile: true
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/inbetween-uncertainty-banner.png"
        alt="In-Between Uncertainty in Bayesian Neural Networks figure"
-       style="width:100px; height:100px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+       style="width:80px; height:80px; object-fit:cover; border-radius:6px; flex-shrink:0;">
 
   <!-- Text content -->
   <div>

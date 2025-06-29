@@ -62,9 +62,9 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'EB Garamond';
-  font-weight: 700;
+  font-weight: 600;
   margin-top: 1.5em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.1em;
   line-height: 1.2;
 }
 
@@ -99,3 +99,12 @@ strong em, strong i {
   font-style: italic;
   font-weight: 700;
 }
+
+strong, b {
+  font-weight: 600; /* or 500, 700, 800 */
+}
+
+body, p, li, blockquote, h1, h2, h3, h4, h5, h6 {
+  font-variant-numeric: oldstyle-nums;
+}
+
