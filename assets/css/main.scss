@@ -51,12 +51,12 @@
 }
 
 html {
-    font-size: 125%;  // Base for mobile (e.g., 16px)
+    font-size: 135%;  // Base for mobile (e.g., 16px)
   }
   
 @media (min-width: 768px) {
 html {
-    font-size: 160%;  // or 130% (≈ 19–20px) for tablets/desktops
+    font-size: 170%;  // or 130% (≈ 19–20px) for tablets/desktops
 }
 }
 
@@ -78,9 +78,9 @@ a {
   // color: #5B7E91;
   color: inherit;
   text-decoration: underline;
-  text-decoration-color: #4A6FA5; // #5B7E91; // Adjust transparency here
-  text-decoration-thickness: 2.0px;
-  text-underline-offset: 2px;
+  text-decoration-color: #5B7E91; // Adjust transparency here
+  text-decoration-thickness: 1.7px;
+  text-underline-offset: 3.5px;
 }
 
 a:hover {
