@@ -75,10 +75,11 @@ body {
 }
 
 a {
-  color: #5B7E91;
+  // color: #5B7E91;
+  color: inherit;
   text-decoration: underline;
-  text-decoration-color: #5B7E91; // Adjust transparency here
-  text-decoration-thickness: 1.5px;
+  text-decoration-color: #4A6FA5; // #5B7E91; // Adjust transparency here
+  text-decoration-thickness: 2.0px;
   text-underline-offset: 2px;
 }
 

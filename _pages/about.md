@@ -16,7 +16,7 @@ redirect_from:
 
 <h2 style = "margin-top: 0em;">About Me</h2>
 
-<span style="font-variant: small-caps;">I am an</span> **AI Scientist (Senior Associate Consultant) at the [Mayo Clinic](https://www.mayoclinic.org/)** in Rochester, Minnesota, where I co-direct the AI and Data Analytics (AIDA) team at the [Department of Radiation Oncology](https://www.mayoclinic.org/departments-centers/radiation-oncology/home/orc-20188588).
+I am an **AI Scientist (Senior Associate Consultant) at the [Mayo Clinic](https://www.mayoclinic.org/)** in Rochester, Minnesota, where I co-direct the AI and Data Analytics (AIDA) team at the [Department of Radiation Oncology](https://www.mayoclinic.org/departments-centers/radiation-oncology/home/orc-20188588).
 Our goal is to advance the next generation of AI in cancer care.
 You can find my Mayo Clinic research page [here](https://www.mayo.edu/research/faculty/foong-andrew-ph-d/bio-20583559).
 
