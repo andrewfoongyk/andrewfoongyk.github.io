@@ -30,7 +30,7 @@ author_profile: true
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
   <div style="margin-left: calc(80px + 1.2em);">
-    <h2 style="margin:0; font-family: 'EB Garamond';">2024</h2>
+    <h2 style="margin:0;">2024</h2>
   </div>
 </div>
 

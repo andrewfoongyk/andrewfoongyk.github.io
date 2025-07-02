@@ -1,13 +1,25 @@
 ---
 permalink: /talks/
-title: "Talks"
+title: null
 author_profile: true
 redirect_from:
   - /talks
   - /talks.html
 ---
 
-## Understanding AI from Scratch: A Webinar Series for Clinicians
+<style>
+  .page__title {
+    display: none;
+  }
+</style>
+
+<div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
+    <h2 style="margin:0;">
+      Understanding AI from Scratch Webinar Series
+    </h2>
+</div>
+
+<!-- ## Understanding AI from Scratch: A Webinar Series for Clinicians -->
 
 A six-part lecture series delivered to the Mayo Clinic Department of Radiation Oncology, designed to introduce clinicians to the foundations of AI, from linear regression and neural networks to medical imaging AI and ChatGPT. No prior AI background is assumed. [Watch the full series here](/ai-from-scratch/).
 
