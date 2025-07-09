@@ -137,14 +137,6 @@ body, p, li, blockquote, h1, h2, h3, h4, h5, h6 {
   font-family: 'EB Garamond SC', serif;
 }
 
-/* Change font for all sidebar text (name, location, email, links) */
-// .sidebar,
-// .sidebar * {
-//   font-family: 'DM Sans', serif;
-//   // font-feature-settings: 'smcp' 1;
-//   // font-variant: small-caps;
-// }
-
 .sidebar h1, 
 .sidebar h2,
 .sidebar .author__bio,
@@ -157,26 +149,48 @@ body, p, li, blockquote, h1, h2, h3, h4, h5, h6 {
 .author__urls button,
 .sidebar .author__urls-wrapper {
   font-family: 'Jost', serif;
-  font-size: 18px;
-  // font-variant: small-caps;
+  font-size: 17px;
 }
 
 .sidebar .author__name {
   font-family: 'Jost';
-  font-size: 27px;
+  font-size: 19px;
+}
+
+.author__urls-wrapper button {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
 }
 
 .masthead,
 .masthead * {
   font-family: 'Jost';
+  font-weight: 400;
+}
+
+.masthead, .masthead *, .masthead a, .masthead-nav a {
+  color: #F8F6F1 !important;  // replace with your desired color
+  background-color: #5B7E91;
+}
+
+.page__footer,
+.page__footer * {
+  background-color: #5B7E91 !important;
+  color: #F8F6F1; 
 }
 
 html {
   font-feature-settings: 'onum' 1;
 }
 
+.navicon,
+.navicon::after,
+.navicon::before {
+  background-color: #F8F6F1 !important;
+}
 
-// .author__urls li {
-//   font-family: 'DM Sans', serif;
-//   font
-// }
+.close .navicon {
+  background-color: transparent !important;
+}
