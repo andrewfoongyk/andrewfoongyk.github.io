@@ -11,16 +11,9 @@ author_profile: true
   }
 </style>
 
-<!-- <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
-  <div style="margin-left: calc(80px + 1.2em);">
-    <p style="margin:0; font-family: 'EB Garamond'; font-style: italic;">For a full list of publications, please see my Google Scholar page.</p>
-  </div>
-</div>
- -->
-
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
     <p style="margin:0; font-family: 'EB Garamond'; font-style: italic;">
-      For a full list of research papers, please see my
+      For a full list of research papers, see my
       <a href="https://scholar.google.com/citations?user=2UOjgIUAAAAJ&hl=en" target="_blank">
         Google Scholar page
       </a>.
@@ -56,7 +49,7 @@ author_profile: true
     </p>
 
     <p style="margin:0 0 0.3em; font-style:italic;">
-      bioRxiv
+      Science
     </p>
 
     <details style="margin-top:0.2em;">

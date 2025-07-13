@@ -18,11 +18,7 @@ author_profile: true
 </div>
 
 <p>
-This six-part lecture series was delivered to the Mayo Clinic Department of Radiation Oncology to help clinicians understand the core concepts of AI, from linear regression and neural networks to ChatGPT and prompt engineering.
-</p>
-
-<p>
-Designed for healthcare professionals with no prior background in AI, the lectures use clinical examples and build from first principles.
+I delivered this six-part lecture series to the Mayo Clinic Radiation Oncology Department to help clinicians understand core AI concepts from first principles. The lectures start from linear regression and artificial neurons, and gradually progress to large language models and prompt engineering. 
 </p>
 
 <h2>Watch the Lectures</h2>
