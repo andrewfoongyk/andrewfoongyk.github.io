@@ -31,3 +31,13 @@ layout: compress
         async src="//gc.zgo.at/count.js"></script>
   </body>
 </html>
+
+<script>
+  document.querySelectorAll('a[href]').forEach(function(link) {
+    const isInternal = link.hostname === window.location.hostname;
+    if (!isInternal) {
+      link.setAttribute('target', '_blank');
+      link.setAttribute('rel', 'noopener noreferrer');
+    }
+  });
+</script>
