@@ -16,9 +16,14 @@ redirect_from:
 
 <h2 style = "margin-top: 0em;">About Me</h2>
 
-I am an AI scientist at the <a href="https://www.mayoclinic.org">Mayo Clinic</a>, where I lead the AI and Data Analytics 
+I am an AI scientist at the 
+Mayo Clinic,
+<!-- <a href="https://www.mayoclinic.org">Mayo Clinic</a>,  -->
+where I lead the AI and Data Analytics 
 (<span class="small-caps">aida</span>)
-team in the [Department of Radiation Oncology](https://www.mayoclinic.org/departments-centers/radiation-oncology/home/orc-20188588).
+team in the 
+Department of Radiation Oncology.
+<!-- [Department of Radiation Oncology](https://www.mayoclinic.org/departments-centers/radiation-oncology/home/orc-20188588). -->
 We develop next-generation 
 AI
 systems to advance cancer treatment.
@@ -26,24 +31,29 @@ See my [faculty page](https://www.mayo.edu/research/faculty/foong-andrew-ph-d/bi
 
 Before joining Mayo, I was a senior researcher
 at
-<a href= "https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Microsoft Research</a> in Cambridge,
+Microsoft Research in Cambridge,
+<!-- <a href= "https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Microsoft Research</a> in Cambridge, -->
 UK,
-where I developed generative deep learning models for proteins in the [AI for Science team](https://www.microsoft.com/en-us/research/lab/microsoft-research-ai4science/).
+where I developed generative deep learning models for proteins in the 
+AI for Science team.
+<!-- [AI for Science team](https://www.microsoft.com/en-us/research/lab/microsoft-research-ai4science/). -->
 Our research on
 <a href="https://www.microsoft.com/en-us/research/video/scalable-emulation-of-protein-equilibrium-ensembles-with-bioemu/" >BioEmu</a>
-was [published in the journal *Science*](https://www.science.org/doi/10.1126/science.adv9817).
+was published in the journal [*Science*](https://www.science.org/doi/10.1126/science.adv9817).
 
 I earned my 
 Ph.D.
 in machine learning
 at the
-University of Cambridge, advised by [Professor Richard E. Turner](https://rich-turner-group.github.io).
+University of Cambridge, advised by 
+Professort Richard E. Turner.
+<!-- [Professor Richard E. Turner](https://rich-turner-group.github.io). -->
 My research, combining probabilistic modeling and deep learning, was published at leading machine learning conferences including
 <span class="small-caps">neurips, iclr</span>
 and
 <span class="small-caps">icml</span>.
 
-See my [selected papers](./publications.md), or visit my [Google Scholar profile](https://scholar.google.com/citations?user=2UOjgIUAAAAJ&hl=en) for a full list.
+See my selected [papers](./publications.md), or visit my Google Scholar [profile](https://scholar.google.com/citations?user=2UOjgIUAAAAJ&hl=en) for a full list.
 
 <span class="small-caps"> contact</span>:<span class="email"> foong [dot] andrew [at] mayo [dot] edu</span>
 
