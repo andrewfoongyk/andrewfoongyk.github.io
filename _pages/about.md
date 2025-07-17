@@ -16,21 +16,21 @@ redirect_from:
 
 <h2 style = "margin-top: 0em;">About Me</h2>
 
-I am an <span class="small-caps">ai</span> scientist at the <a href="https://www.mayoclinic.org">Mayo Clinic</a>, where I lead the <span class="small-caps">ai</span> and Data Analytics 
+I am an AI scientist at the <a href="https://www.mayoclinic.org">Mayo Clinic</a>, where I lead the AI and Data Analytics 
 (<span class="small-caps">aida</span>)
 team in the [Department of Radiation Oncology](https://www.mayoclinic.org/departments-centers/radiation-oncology/home/orc-20188588).
 We develop next-generation 
-<span class="small-caps">ai</span>
+AI
 systems to advance cancer treatment.
 See my [faculty page](https://www.mayo.edu/research/faculty/foong-andrew-ph-d/bio-20583559) for research areas.
 
 Before joining Mayo, I was a senior researcher
 at
 <a href= "https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Microsoft Research</a> in Cambridge,
-<span class="small-caps">uk</span>,
-where I developed generative deep learning models for proteins in the [<span class="small-caps">ai</span> for Science team](https://www.microsoft.com/en-us/research/lab/microsoft-research-ai4science/).
+UK,
+where I developed generative deep learning models for proteins in the [AI for Science team](https://www.microsoft.com/en-us/research/lab/microsoft-research-ai4science/).
 Our research on
-<a href="https://www.microsoft.com/en-us/research/video/scalable-emulation-of-protein-equilibrium-ensembles-with-bioemu/" class="small-caps">bioemu</a>
+<a href="https://www.microsoft.com/en-us/research/video/scalable-emulation-of-protein-equilibrium-ensembles-with-bioemu/" >BioEmu</a>
 was [published in the journal *Science*](https://www.science.org/doi/10.1126/science.adv9817).
 
 I earned my 
@@ -49,7 +49,7 @@ See my [selected papers](./publications.md), or visit my [Google Scholar profile
 
 
 <h2>Hiring News</h2>
-I am hiring for research fellow positions in <span class="small-caps">ai</span> for cancer treatment in the Mayo Clinic
+I am hiring for research fellow positions in AI for cancer treatment in the Mayo Clinic
 <span class="small-caps">aida</span>
 team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-and-data-analytics-aida-radiation-oncology/33647/80077797392) or reach out via [email](mailto:foong.andrew@mayo.edu).
 
