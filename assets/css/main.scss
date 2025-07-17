@@ -48,7 +48,7 @@
 
 .email {
   font-family: 'Roboto Mono', monospace;
-  font-size: 80%;
+  font-size: 85%;
 }
 
 html {
@@ -105,7 +105,8 @@ strong em, strong i {
 }
 
 strong, b {
-  font-weight: 500; /* or 500, 700, 800 */
+  // font-weight: 900; /* or 500, 700, 800 */
+  font-style: italic;
 }
 
 body, p, li, blockquote, h1, h2, h3, h4, h5, h6 {
@@ -152,6 +153,20 @@ body, p, li, blockquote, h1, h2, h3, h4, h5, h6 {
   src: url('/assets/fonts/alegreya/AlegreyaSC-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+  font-family: 'Alegreya';
+  src: url('/assets/fonts/alegreya/Alegreya-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Alegreya';
+  src: url('/assets/fonts/alegreya/Alegreya-BoldItalic.otf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
 }
 
 @font-face {

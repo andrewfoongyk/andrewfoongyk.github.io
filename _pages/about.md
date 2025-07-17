@@ -16,35 +16,28 @@ redirect_from:
 
 <h2 style = "margin-top: 0em;">About Me</h2>
 
-I am an
-<span class="small-caps">ai scientist</span> at <a href="https://www.mayoclinic.org" class="small-caps">the mayo clinic</a>, where I lead the AI and Data Analytics 
-<span style="font-size: 85%; font-weight: 500">(</span><span class="small-caps">aida</span><span style="font-size: 85%; font-weight: 500">)</span>
+I am an <span class="small-caps">ai</span> scientist at the <a href="https://www.mayoclinic.org">Mayo Clinic</a>, where I lead the <span class="small-caps">ai</span> and Data Analytics 
+(<span class="small-caps">aida</span>)
 team in the [Department of Radiation Oncology](https://www.mayoclinic.org/departments-centers/radiation-oncology/home/orc-20188588).
-We develop next-generation AI
-<!-- <span class="small-caps">ai</span> -->
+We develop next-generation 
+<span class="small-caps">ai</span>
 systems to advance cancer treatment.
-See my [faculty page](https://www.mayo.edu/research/faculty/foong-andrew-ph-d/bio-20583559) for my research areas.
+See my [faculty page](https://www.mayo.edu/research/faculty/foong-andrew-ph-d/bio-20583559) for research areas.
 
-<!-- Previously, I was a 
-<span class="small-caps">senior researcher</span>
+Before joining Mayo, I was a senior researcher
 at
-<a href= "https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/" class="small-caps">microsoft research</a> in Cambridge, UK, working on deep learning for protein generative modelling as part of Microsoft's [AI for Science initiative](https://www.microsoft.com/en-us/research/lab/microsoft-research-ai4science/).
- -->
-Before joining Mayo, I was a
-<span class="small-caps">senior researcher</span>
-at
-<a href= "https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/" class="small-caps">microsoft research</a> in Cambridge,
-UK,
-<!-- <span class="small-caps">uk</span>, -->
-where I developed generative deep learning models for proteins in the [AI for Science team](https://www.microsoft.com/en-us/research/lab/microsoft-research-ai4science/).
+<a href= "https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Microsoft Research</a> in Cambridge,
+<span class="small-caps">uk</span>,
+where I developed generative deep learning models for proteins in the [<span class="small-caps">ai</span> for Science team](https://www.microsoft.com/en-us/research/lab/microsoft-research-ai4science/).
 Our research on
 <a href="https://www.microsoft.com/en-us/research/video/scalable-emulation-of-protein-equilibrium-ensembles-with-bioemu/" class="small-caps">bioemu</a>
 was [published in the journal *Science*](https://www.science.org/doi/10.1126/science.adv9817).
 
 I earned my 
-<span class="small-caps">ph.d. in machine learning</span>
+Ph.D.
+in machine learning
 at the
-<span class="small-caps"> university of cambridge</span>, advised by [Professor Richard E. Turner](https://rich-turner-group.github.io).
+University of Cambridge, advised by [Professor Richard E. Turner](https://rich-turner-group.github.io).
 My research, combining probabilistic modeling and deep learning, was published at leading machine learning conferences including
 <span class="small-caps">neurips, iclr</span>
 and
@@ -56,7 +49,7 @@ See my [selected papers](./publications.md), or visit my [Google Scholar profile
 
 
 <h2>Hiring News</h2>
-I am hiring for Research Fellow positions in AI for cancer treatment in the Mayo Clinic
+I am hiring for research fellow positions in <span class="small-caps">ai</span> for cancer treatment in the Mayo Clinic
 <span class="small-caps">aida</span>
 team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-and-data-analytics-aida-radiation-oncology/33647/80077797392) or reach out via [email](mailto:foong.andrew@mayo.edu).
 

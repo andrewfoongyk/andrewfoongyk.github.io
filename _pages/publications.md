@@ -15,8 +15,8 @@ author_profile: true
     <p style="margin:0; font-family: 'Alegreya', 'EB Garamond'; font-style: italic;">
       For a full list of research papers, see my
       <a href="https://scholar.google.com/citations?user=2UOjgIUAAAAJ&hl=en" target="_blank">
-        Google Scholar page
-      </a>.
+        Google Scholar page. 
+      </a> Asterisks denote co-first authorship.
     </p>
 </div>
 
