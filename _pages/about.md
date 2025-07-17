@@ -46,7 +46,7 @@ Ph.D.
 in machine learning
 at the
 University of Cambridge, advised by 
-Professort Richard E. Turner.
+Professor Richard E. Turner.
 <!-- [Professor Richard E. Turner](https://rich-turner-group.github.io). -->
 My research, combining probabilistic modeling and deep learning, was published at leading machine learning conferences including
 <span class="small-caps">neurips, iclr</span>
