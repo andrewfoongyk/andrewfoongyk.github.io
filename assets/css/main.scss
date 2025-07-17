@@ -52,12 +52,12 @@
 }
 
 html {
-    font-size: 125%;  // Base for mobile (e.g., 16px)
+    font-size: 110%;  // Base for mobile (e.g., 16px)
   }
   
 @media (min-width: 768px) {
 html {
-    font-size: 160%;  // or 130% (≈ 19–20px) for tablets/desktops
+    font-size: 130%;  // or 130% (≈ 19–20px) for tablets/desktops
 }
 }
 
@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  font-family: 'EB Garamond', serif;
+  font-family: 'Alegreya', 'EB Garamond', serif;
   font-weight: 400; /* Slightly heavier than normal */
   line-height: 1.45; 
 }
@@ -96,7 +96,7 @@ p {
 
 em, i {
   font-style: italic;
-  font-family: 'EB Garamond', serif;
+  font-family: 'Alegreya', 'EB Garamond', serif;
 }
 
 strong em, strong i {
@@ -133,8 +133,84 @@ body, p, li, blockquote, h1, h2, h3, h4, h5, h6 {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Alegreya';
+  src: url('/assets/fonts/alegreya/Alegreya-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Alegreya';
+  src: url('/assets/fonts/alegreya/Alegreya-Italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Alegreya SC';
+  src: url('/assets/fonts/alegreya/AlegreyaSC-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Alegreya Sans';
+  src: url('/assets/fonts/alegreya-sans/AlegreyaSans-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Alegreya Sans';
+  src: url('/assets/fonts/alegreya-sans/AlegreyaSans-Italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Alegreya Sans SC';
+  src: url('/assets/fonts/alegreya-sans/AlegreyaSansSC-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Vollkorn';
+  src: url('/assets/fonts/vollkorn/Vollkorn-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Vollkorn';
+  src: url('/assets/fonts/vollkorn/Vollkorn-Italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Vollkorn';
+  src: url('/assets/fonts/vollkorn/Vollkorn-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Vollkorn';
+  src: url('/assets/fonts/vollkorn/Vollkorn-BoldItalic.otf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+// .small-caps {
+//   font-family: 'Vollkorn', serif;
+//   font-variant-caps: small-caps;
+//   font-feature-settings: "smcp" on;
+// }
+
 .small-caps {
-  font-family: 'EB Garamond SC', serif;
+  font-family: 'Alegreya SC', 'EB Garamond SC', serif;
 }
 
 .sidebar h1, 
