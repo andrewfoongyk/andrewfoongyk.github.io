@@ -37,7 +37,7 @@ UK,
 where I developed generative deep learning models for proteins in the 
 AI for Science team.
 <!-- [AI for Science team](https://www.microsoft.com/en-us/research/lab/microsoft-research-ai4science/). -->
-Our research on
+Our work on
 <a href="https://www.microsoft.com/en-us/research/video/scalable-emulation-of-protein-equilibrium-ensembles-with-bioemu/" >BioEmu</a>
 was published in the journal [*Science*](https://www.science.org/doi/10.1126/science.adv9817).
 
