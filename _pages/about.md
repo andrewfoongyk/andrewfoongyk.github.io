@@ -49,7 +49,8 @@ University of Cambridge, advised by
 Professor Richard E. Turner.
 <!-- [Professor Richard E. Turner](https://rich-turner-group.github.io). -->
 My research, combining probabilistic modeling and deep learning, was published at leading machine learning conferences including
-<span class="small-caps">neurips, iclr</span>
+<span class="small-caps">n</span>eur<span class="small-caps">ips, iclr</span>
+<!-- <span class="small-caps">neurips, iclr</span> -->
 and
 <span class="small-caps">icml</span>.
 
@@ -98,7 +99,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
     <p style="margin-top: 0;">
       <span class="small-caps">ph.d. in machine learning, university of cambridge</span><br/>
       <em>October 2018–November 2022, Cambridge, UK</em><br/>
-      Computational and Biological Learning Lab (CBL)<br/>
+      Computational and Biological Learning Lab (<span class="small-caps">cbl</span>)<br/>
       <em>Supervisor</em>: Professor Richard E. Turner<br/>
      <em>Thesis</em>: <a href="https://www.repository.cam.ac.uk/items/bb696578-0b93-44da-82e9-4896a1ab9266">Approximate inference in Bayesian neural networks and translation equivariant neural processes</a>
     </p>
