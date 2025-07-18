@@ -16,16 +16,20 @@ redirect_from:
 
 <h2 style = "margin-top: 0em;">About Me</h2>
 
-I am an AI scientist at the 
+I am an
+<span class="small-caps">ai</span>
+scientist at the 
 Mayo Clinic,
 <!-- <a href="https://www.mayoclinic.org">Mayo Clinic</a>,  -->
-where I lead the AI and Data Analytics 
+where I lead the
+<span class="small-caps">ai</span>
+and Data Analytics 
 (<span class="small-caps">aida</span>)
 team in the 
 Department of Radiation Oncology.
 <!-- [Department of Radiation Oncology](https://www.mayoclinic.org/departments-centers/radiation-oncology/home/orc-20188588). -->
 We develop next-generation 
-AI
+<span class="small-caps">ai</span>
 systems to advance cancer treatment.
 See my [faculty page](https://www.mayo.edu/research/faculty/foong-andrew-ph-d/bio-20583559) for research areas.
 
@@ -33,16 +37,16 @@ Before joining Mayo, I was a senior researcher
 at
 Microsoft Research in Cambridge,
 <!-- <a href= "https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Microsoft Research</a> in Cambridge, -->
-UK,
+<span class="small-caps">uk</span>,
 where I developed generative deep learning models for proteins in the 
-AI for Science team.
-<!-- [AI for Science team](https://www.microsoft.com/en-us/research/lab/microsoft-research-ai4science/). -->
+<span class="small-caps">ai</span> for Science team.
+<!-- [<span class="small-caps">ai</span> for Science team](https://www.microsoft.com/en-us/research/lab/microsoft-research-ai4science/). -->
 Our work on
 <a href="https://www.microsoft.com/en-us/research/video/scalable-emulation-of-protein-equilibrium-ensembles-with-bioemu/" >BioEmu</a>
 was published in the journal [*Science*](https://www.science.org/doi/10.1126/science.adv9817).
 
 I earned my 
-Ph.D.
+<span class="small-caps">p</span>h.<span class="small-caps">d</span>.
 in machine learning
 at the
 University of Cambridge, advised by 
@@ -60,7 +64,7 @@ See my selected [papers](./publications.md), or visit my Google Scholar [profile
 
 
 <h2>Hiring News</h2>
-I am hiring for research fellow positions in AI for cancer treatment in the Mayo Clinic
+I am hiring for research fellow positions in <span class="small-caps">ai</span> for cancer treatment in the Mayo Clinic
 <span class="small-caps">aida</span>
 team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-and-data-analytics-aida-radiation-oncology/33647/80077797392) or reach out via [email](mailto:foong.andrew@mayo.edu).
 
@@ -72,7 +76,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <span class="small-caps">ai scientist, senior associate consultant, mayo clinic</span><br/>
-      <em>January 2025–present, Rochester, Minnesota, USA</em><br/>
+      <em>January 2025–present, Rochester, Minnesota, <span class="small-caps">usa</span></em><br/>
       Department of Radiation Oncology<br/>
       <em>Topics</em>: Deep learning for cancer treatment
     </p>
@@ -85,8 +89,8 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <span class="small-caps">senior researcher, microsoft research</span><br/>
-      <em>November 2022–November 2024, Cambridge, UK</em><br/>
-      AI for Science<br/>
+      <em>November 2022–November 2024, Cambridge, <span class="small-caps">uk</span></em><br/>
+      <span class="small-caps">ai</span> for Science<br/>
       <em>Topics</em>: Deep learning for protein generative modelling
     </p>
   </div>
@@ -98,7 +102,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <span class="small-caps">ph.d. in machine learning, university of cambridge</span><br/>
-      <em>October 2018–November 2022, Cambridge, UK</em><br/>
+      <em>October 2018–November 2022, Cambridge, <span class="small-caps">uk</span></em><br/>
       Computational and Biological Learning Lab (<span class="small-caps">cbl</span>)<br/>
       <em>Supervisor</em>: Professor Richard E. Turner<br/>
      <em>Topics</em>: Deep learning, probabilistic inference
@@ -112,7 +116,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <span class="small-caps">research scientist intern, google deepmind</span><br/>
-      <em>February 2022–May 2022, London, UK</em><br/>
+      <em>February 2022–May 2022, London, <span class="small-caps">uk</span></em><br/>
       <em>Supervisor</em>: Dr. Michalis Titsias<br/>
       <em>Topics</em>: Deep generative modelling, Gaussian processes
     </p>
@@ -125,7 +129,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <span class="small-caps">research intern, microsoft research cambridge</span><br/>
-      <em>July 2021–October 2021, Cambridge, UK</em><br/>
+      <em>July 2021–October 2021, Cambridge, <span class="small-caps">uk</span></em><br/>
       <em>Supervisor</em>: Dr. Sebastian Nowozin<br/>
       <em>Topics</em>: Deep learning for simulating protein dynamics
     </p>
@@ -138,7 +142,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <span class="small-caps">b.a. & m.eng. in information and computer engineering, university of cambridge</span><br/>
-      <em>October 2014–July 2018, Cambridge, UK</em><br/>
+      <em>October 2014–July 2018, Cambridge, <span class="small-caps">uk</span></em><br/>
       Department of Engineering<br/>
       First class honours with distinction, scored top 1–2% in year group
     </p>
