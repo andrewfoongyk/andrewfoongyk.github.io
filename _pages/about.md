@@ -101,7 +101,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
       <em>October 2018–November 2022, Cambridge, UK</em><br/>
       Computational and Biological Learning Lab (<span class="small-caps">cbl</span>)<br/>
       <em>Supervisor</em>: Professor Richard E. Turner<br/>
-     <em>Thesis</em>: <a href="https://www.repository.cam.ac.uk/items/bb696578-0b93-44da-82e9-4896a1ab9266">Approximate inference in Bayesian neural networks and translation equivariant neural processes</a>
+     <em>Topics</em>: Deep learning, probabilistic inference
     </p>
   </div>
 </div>
