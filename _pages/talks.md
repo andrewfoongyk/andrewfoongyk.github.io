@@ -244,7 +244,7 @@ A reading group talk given with [Siddharth Swaroop](https://siddharthswaroop.git
 
 <div style="display: flex; align-items: flex-start; gap: 1.2em; margin-bottom: 0.2em;">
   <h3 style="margin: 0;">
-    <span style="display: inline-block; margin-left: -0.45em;">“</span>In-Between” Uncertainty in Bayesian Neural Networks
+    <span style="display: inline-block; margin-left: -0.5em;">“</span>In-Between” Uncertainty in Bayesian Neural Networks
   </h3>
 </div>
 
