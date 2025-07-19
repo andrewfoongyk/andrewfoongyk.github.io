@@ -20,7 +20,7 @@ redirect_from:
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.2em;">
     <h3 style="margin:0;">
-      Understanding <span class="small-caps">ai</span> from Scratch
+      Understanding AI from Scratch
     </h3>
 </div>
 
