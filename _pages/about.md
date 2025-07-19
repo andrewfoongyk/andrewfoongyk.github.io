@@ -94,7 +94,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
       <span class="small-caps">senior researcher, microsoft research</span><br/>
       <em>November 2022–November 2024, Cambridge, <span class="small-caps">uk</span></em><br/>
       <span class="small-caps">ai</span> for Science<br/>
-      <em>Topics</em>: Deep learning for protein generative modelling
+      <em>Topics</em>: Deep learning for protein generative modeling
     </p>
   </div>
 </div>
@@ -121,7 +121,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
       <span class="small-caps">research scientist intern, google deepmind</span><br/>
       <em>February 2022–May 2022, London, <span class="small-caps">uk</span></em><br/>
       <em>Supervisor</em>: Dr. Michalis Titsias<br/>
-      <em>Topics</em>: Deep generative modelling, Gaussian processes
+      <em>Topics</em>: Deep generative modeling, Gaussian processes
     </p>
   </div>
 </div>
