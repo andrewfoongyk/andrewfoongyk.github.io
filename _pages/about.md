@@ -60,7 +60,10 @@ and
 
 See my selected [papers](./publications.md), or visit my Google Scholar [profile](https://scholar.google.com/citations?user=2UOjgIUAAAAJ&hl=en) for a full list.
 
-<span class="small-caps"> contact</span>:<span class="email"> foong [dot] andrew [at] mayo [dot] edu</span>
+<span class="small-caps"> contact</span>:<span class="email">
+foong.andrew@mayo.edu
+<!-- foong [dot] andrew [at] mayo [dot] edu -->
+</span>
 
 
 <h2>Hiring News</h2>

@@ -199,7 +199,7 @@ author_profile: true
     </h3>
 
     <p style="margin:0 0 0.3em; font-style:italic;">
-      Ph.D. thesis, University of Cambridge 
+      <span class="small-caps">p</span>h.<span class="small-caps">d</span> thesis, University of Cambridge 
     </p>
 
     <p style="margin:0 0 0.3em;">

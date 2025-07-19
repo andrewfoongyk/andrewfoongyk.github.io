@@ -51,6 +51,14 @@
   font-size: 85%;
 }
 
+.tight-small-caps {
+  font-family: 'Alegreya SC';
+  font-variant: small-caps;
+  font-size: 25.008px;
+  line-height: 0.5;
+  font-weight: 500;
+}
+
 html {
     font-size: 110%;  // Base for mobile (e.g., 16px)
   }
@@ -105,8 +113,8 @@ strong em, strong i {
 }
 
 strong, b {
-  // font-weight: 900; /* or 500, 700, 800 */
-  font-style: bold;
+  font-weight: 500; /* or 500, 700, 800 */
+  // font-style: bold;
 }
 
 body, p, li, blockquote, h1, h2, h3, h4, h5, h6 {
@@ -137,92 +145,124 @@ body, p, li, blockquote, h1, h2, h3, h4, h5, h6 {
 @font-face {
   font-family: 'Alegreya';
   src: url('/assets/fonts/alegreya/Alegreya-Regular.otf') format('opentype');
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: 'Alegreya';
   src: url('/assets/fonts/alegreya/Alegreya-Italic.otf') format('opentype');
-  font-weight: normal;
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Alegreya';
+  src: url('/assets/fonts/alegreya/Alegreya-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Alegreya';
+  src: url('/assets/fonts/alegreya/Alegreya-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Alegreya';
+  src: url('/assets/fonts/alegreya/Alegreya-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Alegreya';
+  src: url('/assets/fonts/alegreya/Alegreya-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Alegreya';
+  src: url('/assets/fonts/alegreya/Alegreya-ExtraBold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Alegreya';
+  src: url('/assets/fonts/alegreya/Alegreya-ExtraBoldItalic.otf') format('opentype');
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Alegreya';
+  src: url('/assets/fonts/alegreya/Alegreya-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Alegreya';
+  src: url('/assets/fonts/alegreya/Alegreya-BlackItalic.otf') format('opentype');
+  font-weight: 900;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Alegreya SC';
   src: url('/assets/fonts/alegreya/AlegreyaSC-Regular.otf') format('opentype');
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
-  font-family: 'Alegreya';
-  src: url('/assets/fonts/alegreya/Alegreya-Bold.otf') format('opentype');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Alegreya';
-  src: url('/assets/fonts/alegreya/Alegreya-BoldItalic.otf') format('opentype');
-  font-weight: bold;
+  font-family: 'Alegreya SC';
+  src: url('/assets/fonts/alegreya/AlegreyaSC-Italic.otf') format('opentype');
+  font-weight: 400;
   font-style: italic;
 }
-
 @font-face {
-  font-family: 'Alegreya Sans';
-  src: url('/assets/fonts/alegreya-sans/AlegreyaSans-Regular.otf') format('opentype');
-  font-weight: normal;
+  font-family: 'Alegreya SC';
+  src: url('/assets/fonts/alegreya/AlegreyaSC-Medium.otf') format('opentype');
+  font-weight: 500;
   font-style: normal;
 }
-
 @font-face {
-  font-family: 'Alegreya Sans';
-  src: url('/assets/fonts/alegreya-sans/AlegreyaSans-Italic.otf') format('opentype');
-  font-weight: normal;
+  font-family: 'Alegreya SC';
+  src: url('/assets/fonts/alegreya/AlegreyaSC-MediumItalic.otf') format('opentype');
+  font-weight: 500;
   font-style: italic;
 }
-
 @font-face {
-  font-family: 'Alegreya Sans SC';
-  src: url('/assets/fonts/alegreya-sans/AlegreyaSansSC-Regular.otf') format('opentype');
-  font-weight: normal;
+  font-family: 'Alegreya SC';
+  src: url('/assets/fonts/alegreya/AlegreyaSC-Bold.otf') format('opentype');
+  font-weight: 700;
   font-style: normal;
 }
-
 @font-face {
-  font-family: 'Vollkorn';
-  src: url('/assets/fonts/vollkorn/Vollkorn-Regular.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Vollkorn';
-  src: url('/assets/fonts/vollkorn/Vollkorn-Italic.otf') format('opentype');
-  font-weight: normal;
+  font-family: 'Alegreya SC';
+  src: url('/assets/fonts/alegreya/AlegreyaSC-BoldItalic.otf') format('opentype');
+  font-weight: 700;
   font-style: italic;
 }
-
 @font-face {
-  font-family: 'Vollkorn';
-  src: url('/assets/fonts/vollkorn/Vollkorn-Bold.otf') format('opentype');
-  font-weight: bold;
+  font-family: 'Alegreya SC';
+  src: url('/assets/fonts/alegreya/AlegreyaSC-ExtraBold.otf') format('opentype');
+  font-weight: 800;
   font-style: normal;
 }
-
 @font-face {
-  font-family: 'Vollkorn';
-  src: url('/assets/fonts/vollkorn/Vollkorn-BoldItalic.otf') format('opentype');
-  font-weight: bold;
+  font-family: 'Alegreya SC';
+  src: url('/assets/fonts/alegreya/AlegreyaSC-ExtraBoldItalic.otf') format('opentype');
+  font-weight: 800;
   font-style: italic;
 }
-
-// .small-caps {
-//   font-family: 'Vollkorn', serif;
-//   font-variant-caps: small-caps;
-//   font-feature-settings: "smcp" on;
-// }
+@font-face {
+  font-family: 'Alegreya SC';
+  src: url('/assets/fonts/alegreya/AlegreyaSC-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Alegreya SC';
+  src: url('/assets/fonts/alegreya/AlegreyaSC-BlackItalic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+}
 
 .small-caps {
   font-family: 'Alegreya SC', 'EB Garamond SC', serif;
