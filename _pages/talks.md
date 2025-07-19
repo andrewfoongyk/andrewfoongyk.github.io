@@ -20,7 +20,7 @@ redirect_from:
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.2em;">
     <h3 style="margin:0;">
-      Understanding AI from Scratch
+      Understanding <span class="small-caps">ai</span> from Scratch
     </h3>
 </div>
 
@@ -54,7 +54,7 @@ A six-part series to help clinicians at the Mayo Clinic with no prior <span clas
   reading group 
 </div>
 
-Co-first author [Leon Klein](https://www.mi.fu-berlin.de/en/math/groups/ai4s/staff/klein/index.html) and I presented our NeurIPS 2023 spotlight paper on using deep learning to accelerate molecular dynamics simulation.
+Co-first author [Leon Klein](https://www.mi.fu-berlin.de/en/math/groups/ai4s/staff/klein/index.html) and I presented our <span class="small-caps">n</span>eur<span class="small-caps">ips</span> 2023 spotlight paper on using deep learning to accelerate molecular dynamics simulation.
 
 
 <div style="width: 95%; margin: 0 auto; text-align: center;">
@@ -69,7 +69,7 @@ Co-first author [Leon Klein](https://www.mi.fu-berlin.de/en/math/groups/ai4s/sta
     </iframe>
   </div>
   <div style="font-style: italic; margin-top: 0.4em;">
-    Learning on Graphs and Geometry (LoGG)
+    Learning on Graphs and Geometry (<span class="small-caps">l</span>o<span class="small-caps">gg</span>)
   </div>
 </div>
 
@@ -87,7 +87,7 @@ Co-first author [Leon Klein](https://www.mi.fu-berlin.de/en/math/groups/ai4s/sta
     </iframe>
   </div>
   <div style="font-style: italic; margin-top: 0.4em;">
-    Molecular Modeling and Drug Discovery (M2D2) reading group
+    Molecular Modeling and Drug Discovery (<span class="small-caps">m</span>2<span class="small-caps">d</span>2) reading group
   </div>
 </div>
 
@@ -108,7 +108,7 @@ Co-first author [Leon Klein](https://www.mi.fu-berlin.de/en/math/groups/ai4s/sta
   cambridge machine learning reading group
 </div>
 
-I gave an introductory talk on the statistical learning framework and PAC-Bayes with [David Burt](https://davidrburt.github.io/) and [Javier Antoran](https://javierantoran.github.io/about/). View the [slides](../files/pac_bayes_reading_group.pdf).
+I gave an introductory talk on the statistical learning framework and <span class="small-caps">pac</span>-Bayes with [David Burt](https://davidrburt.github.io/) and [Javier Antoran](https://javierantoran.github.io/about/). View the [slides](../files/pac_bayes_reading_group.pdf).
 
 <div style="width: 95%; margin: 0 auto; text-align: center; margin-bottom: 1em;">
   <div style="aspect-ratio: 16 / 9;">
@@ -136,7 +136,7 @@ I gave an introductory talk on the statistical learning framework and PAC-Bayes 
   joint talk with oxford university 
 </div>
 
-I gave a talk on my NeurIPS 2020 [paper](https://arxiv.org/abs/1909.00719) on approximate inference in Bayesian neural networks, with an accompanying talk by [Sebastian Farquhar](https://sebastianfarquhar.com/) of the University of Oxford. Our talks present different perspectives on the effectiveness of the mean-field approximation in these models. View the [slides](../files/BNNs_talk.pdf). 
+I gave a talk on my <span class="small-caps">n</span>eur<span class="small-caps">ips</span> 2020 [paper](https://arxiv.org/abs/1909.00719) on approximate inference in Bayesian neural networks, with an accompanying talk by [Sebastian Farquhar](https://sebastianfarquhar.com/) of the University of Oxford. Our talks present different perspectives on the effectiveness of the mean-field approximation in these models. View the [slides](../files/BNNs_talk.pdf). 
 
 <div style="width: 95%; margin: 0 auto; text-align: center; margin-bottom: 1em;">
   <div style="aspect-ratio: 16 / 9;">
@@ -233,7 +233,7 @@ A reading group talk given with [Sebastian Ober](https://twitter.com/sebastian_o
   cambridge machine learning reading group
 </div>
 
-A reading group talk given with [Siddharth Swaroop](https://siddharthswaroop.github.io/), covering modern stochastic gradient Markov chain Monte Carlo (SGMCMC) and natural gradient variational inference methods for Bayesian deep learning. View the [slides](../files/Recent_Advances_in_Bayesian_Deep_Learning.pdf).
+A reading group talk given with [Siddharth Swaroop](https://siddharthswaroop.github.io/), covering modern stochastic gradient Markov chain Monte Carlo (<span class="small-caps">sgmcmc</span>) and natural gradient variational inference methods for Bayesian deep learning. View the [slides](../files/Recent_Advances_in_Bayesian_Deep_Learning.pdf).
 
 
 
@@ -242,15 +242,9 @@ A reading group talk given with [Siddharth Swaroop](https://siddharthswaroop.git
     <h2>2019</h2>
 </div>
 
-<!-- <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.2em;">
-    <h3 style="margin:0;">
-      “In-Between” Uncertainty in Bayesian Neural Networks
-    </h3>
-</div> -->
-
 <div style="display: flex; align-items: flex-start; gap: 1.2em; margin-bottom: 0.2em;">
   <h3 style="margin: 0;">
-    <span style="display: inline-block; margin-left: -0.45em;">“</span>In-Between” Uncertainty in Bayesian Neural Networks
+    <span style="display: inline-block; margin-left: -0.4t5em;">“</span>In-Between” Uncertainty in Bayesian Neural Networks
   </h3>
 </div>
 
