@@ -54,7 +54,7 @@ A six-part series to help clinicians at the Mayo Clinic with no prior <span clas
   reading group 
 </div>
 
-Co-first author [Leon Klein](https://www.mi.fu-berlin.de/en/math/groups/ai4s/staff/klein/index.html) and I presented our <span class="small-caps">n</span>eur<span class="small-caps">ips</span> 2023 spotlight paper on using deep learning to accelerate molecular dynamics simulation.
+Co-first author [Leon Klein](https://www.mi.fu-berlin.de/en/math/groups/ai4s/staff/klein/index.html) and I presented our <span class="small-caps">n</span>eur<span class="small-caps">ips</span> 2023 spotlight paper on using deep learning to accelerate molecular dynamics simulation at two online reading groups.
 
 
 <div style="width: 95%; margin: 0 auto; text-align: center;">
@@ -87,7 +87,7 @@ Co-first author [Leon Klein](https://www.mi.fu-berlin.de/en/math/groups/ai4s/sta
     </iframe>
   </div>
   <div style="font-style: italic; margin-top: 0.4em;">
-    Molecular Modeling and Drug Discovery (<span class="small-caps">m</span>2<span class="small-caps">d</span>2) reading group
+    Molecular Modeling and Drug Discovery (<span class="small-caps">m</span>2<span class="small-caps">d</span>2)
   </div>
 </div>
 
