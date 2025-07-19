@@ -13,58 +13,192 @@ redirect_from:
   }
 </style>
 
+
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
-    <h2 style="margin:0;">
-      Understanding AI from Scratch Webinar Series
-    </h2>
+    <h2 style="margin:0;">2025</h2>
 </div>
 
-<!-- ## Understanding AI from Scratch: A Webinar Series for Clinicians -->
+<div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.2em;">
+    <h3 style="margin:0;">
+      Understanding AI from Scratch
+    </h3>
+</div>
 
-A six-part lecture series delivered to the Mayo Clinic Department of Radiation Oncology, designed to introduce clinicians to the foundations of AI, from linear regression and neural networks to medical imaging AI and ChatGPT. No prior AI background is assumed. [Watch the full series here](/ai-from-scratch/).
+<div style="font-variant: small-caps; margin-bottom: 0.2em;">
+  webinar series
+</div>
+
+<p style="margin: 0;">
+A six-part series to help clinicians at the Mayo Clinic with no prior <span class="small-caps">ai</span> experience understand deep learning from first principles. Watch the full series <a href="/ai-from-scratch/">here</a>. 
+</p>
 
 
-## Timewarp: Transferable Acceleration of Molecular Dynamics by Learning Time-Coarsened Dynamics
 
-Along with [Leon Klein](https://www.mi.fu-berlin.de/en/math/groups/ai4s/staff/klein/index.html), I presented our NeurIPS 2023 spotlight paper on using deep learning to accelerate molecular dynamics simulation.
 
-Learning on Graphs and Geometry (LoGG) reading group: 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4rtT-hE9Xqo?si=tfpzjzFw9n-gbMp_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<!-- Add spacing below the first iframe -->
+<div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
+    <h2>2023</h2>
+</div>
+
+<div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.2em;">
+    <h3 style="margin:0;">
+      Timewarp 
+    </h3>
+</div>
+
+<div style="font-family: Jost; font-size: 0.9rem; font-style: italic; font-weight: 500; margin-bottom: 0.2em;">
+  Transferable Acceleration of Molecular Dynamics by Learning Time-Coarsened Dynamics
+</div>
+
+<div style="font-variant: small-caps; margin-bottom: 0.2em;">
+  reading group 
+</div>
+
+Co-first author [Leon Klein](https://www.mi.fu-berlin.de/en/math/groups/ai4s/staff/klein/index.html) and I presented our NeurIPS 2023 spotlight paper on using deep learning to accelerate molecular dynamics simulation.
+
+
+<div style="width: 95%; margin: 0 auto; text-align: center;">
+  <div style="aspect-ratio: 16 / 9;">
+    <iframe 
+      src="https://www.youtube.com/embed/4rtT-hE9Xqo?si=tfpzjzFw9n-gbMp_"
+      title="YouTube video player"
+      style="width: 100%; height: 100%; border: none;"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen>
+    </iframe>
+  </div>
+  <div style="font-style: italic; margin-top: 0.4em;">
+    Learning on Graphs and Geometry (LoGG)
+  </div>
+</div>
+
 <div style="margin-bottom: 1em;"></div>
 
-Molecular Modeling and Drug Discovery (M2D2) reading group:  
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fD_1V5HgGTQ" frameborder="0" allowfullscreen></iframe>
+<div style="width: 95%; margin: 0 auto; text-align: center; margin-bottom: 1em;">
+  <div style="aspect-ratio: 16 / 9;">
+    <iframe 
+      src="https://www.youtube.com/embed/fD_1V5HgGTQ"
+      title="YouTube video player"
+      style="width: 100%; height: 100%; border: none;"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen>
+    </iframe>
+  </div>
+  <div style="font-style: italic; margin-top: 0.4em;">
+    Molecular Modeling and Drug Discovery (M2D2) reading group
+  </div>
+</div>
 
-## An Introduction to PAC-Bayes (Cambridge Machine Learning Reading Group)
 
-Along with [David Burt](https://davidrburt.github.io/) and [Javier Antoran](https://javierantoran.github.io/about/), I gave an introductory talk on the statistical learning framework and PAC-Bayes.
-[Link to slides](../files/pac_bayes_reading_group.pdf).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/t5GBuBD0ibc" frameborder="0" allowfullscreen></iframe>
 
-## Understanding Approximate Inference in Bayesian Neural Networks: A Joint Talk
+<div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
+    <h2>2021</h2>
+</div>
 
-Together with [Sebastian Farquhar](https://sebastianfarquhar.com/), I gave a talk on [my NeurIPS 2020 paper](https://arxiv.org/abs/1909.00719) on approximate inference in BNNs. Our talks present different perspectives on the effectiveness of the mean-field approximation in these models.
-[Link to slides](../files/BNNs_talk.pdf).
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BJTkLxSQrHI" frameborder="0" allowfullscreen></iframe>
+<div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.2em;">
+    <h3 style="margin:0;">
+      An Introduction to PAC-Bayes
+    </h3>
+</div>
 
-## On the Expressiveness of Approximate Inference in Bayesian Neural Networks (NeurIPS 2020)
-A short video explaining my NeurIPS 2020 paper on BNN inference. [SlidesLive link](https://slideslive.com/38937338/on-the-expressiveness-of-approximate-inference-in-bayesian-neural-networks?ref=speaker-44972-latest).
+<div style="font-variant: small-caps; margin-bottom: 0.2em;">
+  cambridge machine learning reading group
+</div>
 
-<div id="presentation-embed-38937338"></div>
-<script src="https://slideslive.com/embed_presentation.js"></script>
-<script>
-  embed = new SlidesLiveEmbed("presentation-embed-38937338", {
-    presentationId: "38937338",
-    autoPlay: false,
-    verticalEnabled: true,
-  });
-</script>
+I gave an introductory talk on the statistical learning framework and PAC-Bayes with [David Burt](https://davidrburt.github.io/) and [Javier Antoran](https://javierantoran.github.io/about/). View the [slides](../files/pac_bayes_reading_group.pdf).
 
-## Meta-learning Stationary Stochastic Process Prediction with Convolutional Neural Processes (NeurIPS 2020)
-A short video explaining my NeurIPS 2020 paper on neural processes. [SlidesLive link](https://slideslive.com/38937329/metalearning-stationary-stochastic-process-prediction-with-convolutional-neural-processes?ref=speaker-44972-latest).
+<div style="width: 95%; margin: 0 auto; text-align: center; margin-bottom: 1em;">
+  <div style="aspect-ratio: 16 / 9;">
+    <iframe 
+      src="https://www.youtube.com/embed/t5GBuBD0ibc"
+      title="YouTube video player"
+      style="width: 100%; height: 100%; border: none;"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
+
+<div style="margin-bottom: 2em;"></div>
+
+
+<div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.2em;">
+    <h3 style="margin:0;">
+      Understanding Approximate Inference in Bayesian Neural Networks
+    </h3>
+</div>
+
+<div style="font-variant: small-caps; margin-bottom: 0.2em;">
+  joint talk with oxford university 
+</div>
+
+I gave a talk on my NeurIPS 2020 [paper](https://arxiv.org/abs/1909.00719) on approximate inference in Bayesian neural networks, with an accompanying talk by [Sebastian Farquhar](https://sebastianfarquhar.com/) of the University of Oxford. Our talks present different perspectives on the effectiveness of the mean-field approximation in these models. View the [slides](../files/BNNs_talk.pdf). 
+
+<div style="width: 95%; margin: 0 auto; text-align: center; margin-bottom: 1em;">
+  <div style="aspect-ratio: 16 / 9;">
+    <iframe 
+      src="https://www.youtube.com/embed/BJTkLxSQrHI"
+      title="YouTube video player"
+      style="width: 100%; height: 100%; border: none;"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
+
+
+
+
+<div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
+    <h2>2020</h2>
+</div>
+
+<div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.2em;">
+    <h3 style="margin:0;">
+      On the Expressiveness of Approximate Inference in Bayesian Neural Networks
+    </h3>
+</div>
+
+<div style="font-variant: small-caps; margin-bottom: 0.2em;">
+  neural information processing systems
+</div>
+
+A short video describing my paper on flaws in uncertainty estimation when using common approximate Bayesian neural network inference methods.
+<!-- [SlidesLive link](https://slideslive.com/38937338/on-the-expressiveness-of-approximate-inference-in-bayesian-neural-networks?ref=speaker-44972-latest). -->
+
+<div style="width: 95%; margin: 0 auto; text-align: center; margin-bottom: 1em;">
+  <div id="presentation-embed-38937338" style="width: 100%; aspect-ratio: 16 / 9;"></div>
+
+  <script src="https://slideslive.com/embed_presentation.js"></script>
+  <script>
+    embed = new SlidesLiveEmbed("presentation-embed-38937338", {
+      presentationId: "38937338",
+      autoPlay: false,
+      verticalEnabled: true,
+    });
+  </script>
+</div>
+
+<div style="margin-bottom: 2em;"></div>
+
+
+<div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.2em;">
+    <h3 style="margin:0;">
+      Meta-learning Stationary Stochastic Process Prediction with Convolutional Neural Processes
+    </h3>
+</div>
+
+<div style="font-variant: small-caps; margin-bottom: 0.2em;">
+  neural information processing systems
+</div>
+
+A short video explaining my paper on neural processes, a deep learning alternative to Gaussian processes for regression problems with uncertainty.
+<!-- [SlidesLive link](https://slideslive.com/38937329/metalearning-stationary-stochastic-process-prediction-with-convolutional-neural-processes?ref=speaker-44972-latest). -->
 <div id="presentation-embed-38937329"></div>
 <script src="https://slideslive.com/embed_presentation.js"></script>
 <script>
@@ -75,15 +209,66 @@ A short video explaining my NeurIPS 2020 paper on neural processes. [SlidesLive 
   });
 </script>
 
-## Neural Processes (Cambridge Machine Learning Reading Group)
-A reading group talk given with [Sebastian Ober](https://twitter.com/sebastian_ober?lang=en) and Stratis Markou, introducing various neural processes and covering much of the material in [this blog post](https://yanndubs.github.io/Neural-Process-Family/text/Intro.html). [Slides](../files/nps_reading_group.pdf).
+<div style="margin-bottom: 2em;"></div>
 
-## Recent Advances in Bayesian Deep Learning (Cambridge Machine Learning Reading Group)
-A reading group talk given with [Siddharth Swaroop](https://siddharthswaroop.github.io/), covering modern stochastic gradient Markov chain Monte Carlo (SGMCMC) and natural gradient variational inference methods for Bayesian deep learning. [Slides](../files/Recent_Advances_in_Bayesian_Deep_Learning.pdf).
+<div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.2em;">
+    <h3 style="margin:0;">
+      Neural Processes
+    </h3>
+</div>
 
-## 'In-between' Uncertainty in Bayesian Neural Networks (Contributed talk at ICML 2019 Workshop on Uncertainty in Deep Learning)
-This is a short talk explaining my workshop paper on the lack of 'in-between' uncertainty when using the mean-field approximation in BNNs.
-[Video](https://www.facebook.com/icml.imls/videos/320132412242165/?t=1720) (begins at 28:30), [slides](../files/ICML_2019_Workshop_Presentation.pdf).
+<div style="font-variant: small-caps; margin-bottom: 0.2em;">
+  cambridge machine learning reading group
+</div>
 
-## Implicit Variational Inference (Cambridge Machine Learning Reading Group)
-With [David Burt](https://davidrburt.github.io/), I gave a reading group presentation introducing implicit variational inference, a way to obtain very flexible approximate posterior distributions. [Slides](../files/Implicit_Inference_RG_notes.pdf).
+A reading group talk given with [Sebastian Ober](https://twitter.com/sebastian_ober?lang=en) and Stratis Markou, introducing various neural processes and covering much of the material in [this blog post](https://yanndubs.github.io/Neural-Process-Family/text/Intro.html). View the [slides](../files/nps_reading_group.pdf).
+
+<div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.2em;">
+    <h3 style="margin:0;">
+      Recent Advances in Bayesian Deep Learning
+    </h3>
+</div>
+
+<div style="font-variant: small-caps; margin-bottom: 0.2em;">
+  cambridge machine learning reading group
+</div>
+
+A reading group talk given with [Siddharth Swaroop](https://siddharthswaroop.github.io/), covering modern stochastic gradient Markov chain Monte Carlo (SGMCMC) and natural gradient variational inference methods for Bayesian deep learning. View the [slides](../files/Recent_Advances_in_Bayesian_Deep_Learning.pdf).
+
+
+
+
+<div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
+    <h2>2019</h2>
+</div>
+
+<!-- <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.2em;">
+    <h3 style="margin:0;">
+      “In-Between” Uncertainty in Bayesian Neural Networks
+    </h3>
+</div> -->
+
+<div style="display: flex; align-items: flex-start; gap: 1.2em; margin-bottom: 0.2em;">
+  <h3 style="margin: 0;">
+    <span style="display: inline-block; margin-left: -0.45em;">“</span>In-Between” Uncertainty in Bayesian Neural Networks
+  </h3>
+</div>
+
+<div style="font-variant: small-caps; margin-bottom: 0.2em;">
+  icml 2019 workshop on uncertainty in deep learning
+</div>
+
+A contributed talk explaining my [paper](https://arxiv.org/abs/1906.11537) on the lack of “in-between” uncertainty when using the mean-field approximation in Bayesian neural networks.
+Watch the [video](https://www.facebook.com/icml.imls/videos/320132412242165/?t=1720) (beginning at 28:30), view the [slides](../files/ICML_2019_Workshop_Presentation.pdf).
+
+<div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.2em;">
+    <h3 style="margin:0;">
+      Implicit Variational Inference
+    </h3>
+</div>
+
+<div style="font-variant: small-caps; margin-bottom: 0.2em;">
+  cambridge machine learning reading group
+</div>
+
+I gave a talk with [David Burt](https://davidrburt.github.io/) introducing implicit variational inference, a way to obtain very flexible approximate posterior distributions for Bayesian inference. View the [slides](../files/Implicit_Inference_RG_notes.pdf).
