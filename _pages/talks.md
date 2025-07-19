@@ -46,7 +46,7 @@ A six-part series to help clinicians at the Mayo Clinic with no prior <span clas
     </h3>
 </div>
 
-<div style="font-family: Jost; font-size: 0.9rem; font-style: italic; font-weight: 500; margin-bottom: 0.2em;">
+<div style="font-size: 0.9rem; font-style: italic; font-weight: 500; margin-bottom: 0.2em;">
   Transferable Acceleration of Molecular Dynamics by Learning Time-Coarsened Dynamics
 </div>
 
