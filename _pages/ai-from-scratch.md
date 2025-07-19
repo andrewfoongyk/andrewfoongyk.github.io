@@ -21,12 +21,28 @@ author_profile: true
 I designed this six-part series to help clinicians at the Mayo Clinic with no prior <span class="small-caps">ai</span> experience understand deep learning from first principles. 
 </p>
 
-<p>
+
+<p>The lectures are organized in pairs:</p>
+<ul style="margin-top: 0.2em;">
+  <li>
+    <span style="font-weight: 500;">Lectures 1 &amp; 2</span> cover deep learning from the ground up, from linear regression and gradient descent to neural networks, overfitting, and generalization.
+  </li>
+  <li>
+    <span style="font-weight: 500;">Lectures 3 &amp; 4</span> explain what convolutional neural networks are and how they can be used to understand images.
+  </li>
+  <li>
+    <span style="font-weight: 500;">Lectures 5 &amp; 6</span> explain how Chat<span class="small-caps">gpt</span> works, how it was made, and how prompting and retrieval-augmented generation (<span class="small-caps">rag</span>) can increase accuracy.
+  </li>
+</ul>
+
+
+
+<!-- <p>
 The lectures are organized in pairs:
 Lectures 1 & 2 cover deep learning from the ground up, from linear regression and gradient descent to neural networks, overfitting, and generalization.
 Lectures 3 & 4 explain what convolutional neural networks are and how they can be used to understand images.
 Lectures 5 & 6 explain how Chat<span class="small-caps">gpt</span> works, how it was made, and how prompting and retrieval-augmented generation (<span class="small-caps">rag</span>) can increase accuracy.
-</p>
+</p> -->
 
 <h2>Watch the Lectures</h2>
 
