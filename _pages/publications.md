@@ -127,7 +127,7 @@ author_profile: true
 
     <p style="margin:0 0 0.3em;">
       Wessel Bruinsma*, Stratis Markou*, James Requeima*, <strong>Andrew Y. K. Foong</strong>*,
-      Anna Vaughan, Tom Andersson, Anthony Buonomo, Scott Hosking, Richard E Turner
+      Anna Vaughan, Tom Andersson, Anthony Buonomo, Scott Hosking, Richard E. Turner
     </p>
 
     <details style="margin-top:0.2em;">
@@ -249,7 +249,7 @@ author_profile: true
     </p>
 
     <p style="margin:0 0 0.3em;">
-      Marcin B. Tomczak, Siddharth Swaroop, <strong>Andrew Y. K. Foong</strong>, Richard E Turner
+      Marcin B. Tomczak, Siddharth Swaroop, <strong>Andrew Y. K. Foong</strong>, Richard E. Turner
     </p>
 
     <details style="margin-top:0.2em;">
