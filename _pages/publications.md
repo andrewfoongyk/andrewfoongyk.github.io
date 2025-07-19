@@ -40,7 +40,8 @@ author_profile: true
     <h3 style="margin:0 0 0.3em 0;">
       <a href="https://www.biorxiv.org/content/10.1101/2024.12.05.626885"
             target="_blank" style="text-decoration:none; color:inherit;">
-        🔗 Scalable Emulation of Protein Equilibrium Ensembles With Generative Deep Learning
+        <span style="font-size: 0.8em; vertical-align: 0.1em;">🔗</span> 
+        Scalable Emulation of Protein Equilibrium Ensembles With Generative Deep Learning
       </a>
     </h3>
 
@@ -77,7 +78,7 @@ author_profile: true
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.3em 0;">
-      🔗 <a href="https://www.mlsb.io/papers_2023/Fast_protein_backbone_generation_with_SE3_flow_matching.pdf"
+      <span style="font-size: 0.8em; vertical-align: 0.1em;">🔗</span> <a href="https://www.mlsb.io/papers_2023/Fast_protein_backbone_generation_with_SE3_flow_matching.pdf"
             target="_blank" style="text-decoration:none; color:inherit;">
         Fast Protein Backbone Generation with SE(3) Flow Matching
       </a>
@@ -114,7 +115,7 @@ author_profile: true
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.3em 0;">
-      🔗 <a href="https://openreview.net/forum?id=OAsXFPBfTBh"
+      <span style="font-size: 0.8em; vertical-align: 0.1em;">🔗</span> <a href="https://openreview.net/forum?id=OAsXFPBfTBh"
             target="_blank" style="text-decoration:none; color:inherit;">
         Autoregressive Conditional Neural Processes
       </a>
@@ -150,7 +151,7 @@ author_profile: true
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.3em 0;">
-      🔗 <a href="https://arxiv.org/abs/2302.01170"
+      <span style="font-size: 0.8em; vertical-align: 0.1em;">🔗</span> <a href="https://arxiv.org/abs/2302.01170"
             target="_blank" style="text-decoration:none; color:inherit;">
         Timewarp: Transferable Acceleration of Molecular Dynamics by Learning Time-Coarsened Dynamics
       </a>
@@ -192,7 +193,7 @@ author_profile: true
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.3em 0;">
-      🔗 <a href="https://www.repository.cam.ac.uk/items/bb696578-0b93-44da-82e9-4896a1ab9266"
+      <span style="font-size: 0.8em; vertical-align: 0.1em;">🔗</span> <a href="https://www.repository.cam.ac.uk/items/bb696578-0b93-44da-82e9-4896a1ab9266"
             target="_blank" style="text-decoration:none; color:inherit;">
         Approximate Inference in Bayesian Neural Networks and Translation Equivariant Neural Processes
       </a>
@@ -237,7 +238,7 @@ author_profile: true
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.3em 0;">
-      🔗 <a href="https://openreview.net/forum?id=ykN3tbJ0qmX"
+      <span style="font-size: 0.8em; vertical-align: 0.1em;">🔗</span> <a href="https://openreview.net/forum?id=ykN3tbJ0qmX"
             target="_blank" style="text-decoration:none; color:inherit;">
         Collapsed Variational Bounds for Bayesian Neural Networks
       </a>
@@ -271,7 +272,7 @@ author_profile: true
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.3em 0;">
-      🔗 <a href="https://arxiv.org/abs/2106.03542"
+      <span style="font-size: 0.8em; vertical-align: 0.1em;">🔗</span> <a href="https://arxiv.org/abs/2106.03542"
             target="_blank" style="text-decoration:none; color:inherit;">
         How Tight Can PAC-Bayes be in the Small Data Regime?
       </a>
@@ -306,7 +307,7 @@ author_profile: true
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.3em 0;">
-      🔗 <a href="https://arxiv.org/abs/2101.03606"
+      <span style="font-size: 0.8em; vertical-align: 0.1em;">🔗</span> <a href="https://arxiv.org/abs/2101.03606"
             target="_blank" style="text-decoration:none; color:inherit;">
         The Gaussian Neural Process
       </a>
@@ -349,7 +350,7 @@ author_profile: true
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.3em 0;">
-      🔗 <a href="https://arxiv.org/abs/2007.01332"
+      <span style="font-size: 0.8em; vertical-align: 0.1em;">🔗</span> <a href="https://arxiv.org/abs/2007.01332"
             target="_blank" style="text-decoration:none; color:inherit;">
         Meta-Learning Stationary Stochastic Process Prediction with Convolutional Neural Processes
       </a>
@@ -385,7 +386,7 @@ author_profile: true
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.3em 0;">
-      🔗 <a href="https://arxiv.org/abs/1910.13556"
+      <span style="font-size: 0.8em; vertical-align: 0.1em;">🔗</span> <a href="https://arxiv.org/abs/1910.13556"
             target="_blank" style="text-decoration:none; color:inherit;">
         Convolutional Conditional Neural Processes
       </a>
@@ -421,7 +422,7 @@ author_profile: true
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.3em 0;">
-      🔗 <a href="https://arxiv.org/abs/1909.00719"
+      <span style="font-size: 0.8em; vertical-align: 0.1em;">🔗</span> <a href="https://arxiv.org/abs/1909.00719"
             target="_blank" style="text-decoration:none; color:inherit;">
         On the Expressiveness of Approximate Inference in Bayesian Neural Networks
       </a>
@@ -463,7 +464,7 @@ author_profile: true
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.3em 0;">
-      🔗 <a href="https://arxiv.org/abs/1906.11537"
+      <span style="font-size: 0.8em; vertical-align: 0.1em;">🔗</span> <a href="https://arxiv.org/abs/1906.11537"
             target="_blank" style="text-decoration:none; color:inherit;">
         “In-Between” Uncertainty in Bayesian Neural Networks
       </a>
