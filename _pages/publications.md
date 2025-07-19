@@ -38,9 +38,7 @@ author_profile: true
   <div>
     <!-- Remove default top margin so it lines up with the image -->
     <h3 style="margin:0 0 0.3em 0;">
-      <a href="https://www.biorxiv.org/content/10.1101/2024.12.05.626885"
-            target="_blank" style="text-decoration:none; color:inherit;">
-        <span style="font-size: 0.8em; vertical-align: 0.1em;">🔗</span> 
+      <a href="https://www.biorxiv.org/content/10.1101/2024.12.05.626885">
         Scalable Emulation of Protein Equilibrium Ensembles With Generative Deep Learning
       </a>
     </h3>
@@ -49,7 +47,7 @@ author_profile: true
       Science
     </p>
 
-    <p style="margin:0;">
+    <p style="margin:0; font-size:0.9rem">
       Sarah Lewis*, Tim Hempel*, José Jiménez-Luna*, Michael Gastegger*, Yu Xie*, <strong>Andrew Y. K. Foong</strong>*, Victor García Satorras*, Osama Abdin*, Bastiaan S. Veeling*, Iryna Zaporozhets, Yaoyi Chen, Soojung Yang, Arne Schneuing, Jigyasa Nigam, Federico Barbero, Vincent Stimper, Andrew Campbell, Jason Yim, Marten Lienen, Yu Shi, Shuxin Zheng, Hannes Schulz, Usman Munir, Cecilia Clementi, Frank Noé
     </p>
 
@@ -78,8 +76,7 @@ author_profile: true
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.3em 0;">
-      <span style="font-size: 0.8em; vertical-align: 0.1em;">🔗</span> <a href="https://www.mlsb.io/papers_2023/Fast_protein_backbone_generation_with_SE3_flow_matching.pdf"
-            target="_blank" style="text-decoration:none; color:inherit;">
+      <a href="https://www.mlsb.io/papers_2023/Fast_protein_backbone_generation_with_SE3_flow_matching.pdf">
         Fast Protein Backbone Generation with SE(3) Flow Matching
       </a>
     </h3>
@@ -88,7 +85,7 @@ author_profile: true
       <span class="small-caps">n</span>eur<span class="small-caps">ips</span> Machine Learning for Structural Biology workshop (<span class="small-caps">mlsb</span>) 2023
     </p>
 
-    <p style="margin:0 0 0.3em;">
+    <p style="margin:0 0 0.3em; font-size: 0.9rem">
       Jason Yim, Andrew Campbell, <strong>Andrew Y. K. Foong</strong>, Michael Gastegger,
       José Jiménez-Luna, Sarah Lewis, Victor Garcia Satorras, Bastiaan S. Veeling,
       Regina Barzilay, Tommi Jaakkola, Frank Noé
@@ -115,8 +112,7 @@ author_profile: true
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.3em 0;">
-      <span style="font-size: 0.8em; vertical-align: 0.1em;">🔗</span> <a href="https://openreview.net/forum?id=OAsXFPBfTBh"
-            target="_blank" style="text-decoration:none; color:inherit;">
+      <a href="https://openreview.net/forum?id=OAsXFPBfTBh">
         Autoregressive Conditional Neural Processes
       </a>
     </h3>
@@ -125,7 +121,7 @@ author_profile: true
       International Conference on Learning Representations (<span class="small-caps">iclr</span>)
     </p>
 
-    <p style="margin:0 0 0.3em;">
+    <p style="margin:0 0 0.3em; font-size: 0.9rem">
       Wessel Bruinsma*, Stratis Markou*, James Requeima*, <strong>Andrew Y. K. Foong</strong>*,
       Anna Vaughan, Tom Andersson, Anthony Buonomo, Scott Hosking, Richard E. Turner
     </p>
@@ -151,8 +147,7 @@ author_profile: true
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.3em 0;">
-      <span style="font-size: 0.8em; vertical-align: 0.1em;">🔗</span> <a href="https://arxiv.org/abs/2302.01170"
-            target="_blank" style="text-decoration:none; color:inherit;">
+      <a href="https://arxiv.org/abs/2302.01170">
         Timewarp: Transferable Acceleration of Molecular Dynamics by Learning Time-Coarsened Dynamics
       </a>
     </h3>
@@ -161,7 +156,7 @@ author_profile: true
       Neural Information Processing Systems (<span class="small-caps">n</span>eur<span class="small-caps">ips</span>) 2023 (spotlight presentation)
     </p>
 
-    <p style="margin:0 0 0.3em;">
+    <p style="margin:0 0 0.3em; font-size: 0.9rem">
       Leon Klein*, <strong>Andrew Y. K. Foong</strong>*, Tor Erlend Fjelde*, Bruno Mlodozeniec*,
       Marc Brockschmidt, Sebastian Nowozin, Frank Noé, Ryota Tomioka
     </p>
@@ -193,8 +188,7 @@ author_profile: true
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.3em 0;">
-      <span style="font-size: 0.8em; vertical-align: 0.1em;">🔗</span> <a href="https://www.repository.cam.ac.uk/items/bb696578-0b93-44da-82e9-4896a1ab9266"
-            target="_blank" style="text-decoration:none; color:inherit;">
+      <a href="https://www.repository.cam.ac.uk/items/bb696578-0b93-44da-82e9-4896a1ab9266">
         Approximate Inference in Bayesian Neural Networks and Translation Equivariant Neural Processes
       </a>
     </h3>
@@ -203,7 +197,7 @@ author_profile: true
       <span class="small-caps">p</span>h.<span class="small-caps">d</span> thesis, University of Cambridge 
     </p>
 
-    <p style="margin:0 0 0.3em;">
+    <p style="margin:0 0 0.3em; font-size: 0.9rem">
       <strong>Andrew Y. K. Foong</strong>
     </p>
 
@@ -238,8 +232,7 @@ author_profile: true
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.3em 0;">
-      <span style="font-size: 0.8em; vertical-align: 0.1em;">🔗</span> <a href="https://openreview.net/forum?id=ykN3tbJ0qmX"
-            target="_blank" style="text-decoration:none; color:inherit;">
+      <a href="https://openreview.net/forum?id=ykN3tbJ0qmX">
         Collapsed Variational Bounds for Bayesian Neural Networks
       </a>
     </h3>
@@ -248,7 +241,7 @@ author_profile: true
       Neural Information Processing Systems (<span class="small-caps">n</span>eur<span class="small-caps">ips</span>)
     </p>
 
-    <p style="margin:0 0 0.3em;">
+    <p style="margin:0 0 0.3em; font-size: 0.9rem">
       Marcin B. Tomczak, Siddharth Swaroop, <strong>Andrew Y. K. Foong</strong>, Richard E. Turner
     </p>
 
@@ -272,8 +265,7 @@ author_profile: true
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.3em 0;">
-      <span style="font-size: 0.8em; vertical-align: 0.1em;">🔗</span> <a href="https://arxiv.org/abs/2106.03542"
-            target="_blank" style="text-decoration:none; color:inherit;">
+      <a href="https://arxiv.org/abs/2106.03542">
         How Tight Can PAC-Bayes be in the Small Data Regime?
       </a>
     </h3>
@@ -282,7 +274,7 @@ author_profile: true
       Neural Information Processing Systems (<span class="small-caps">n</span>eur<span class="small-caps">ips</span>)
     </p>    
 
-    <p style="margin:0 0 0.3em;">
+    <p style="margin:0 0 0.3em; font-size: 0.9rem">
       <strong>Andrew Y. K. Foong</strong>*, Wessel P. Bruinsma*, David R. Burt, and Richard E. Turner
     </p>
 
@@ -307,8 +299,7 @@ author_profile: true
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.3em 0;">
-      <span style="font-size: 0.8em; vertical-align: 0.1em;">🔗</span> <a href="https://arxiv.org/abs/2101.03606"
-            target="_blank" style="text-decoration:none; color:inherit;">
+      <a href="https://arxiv.org/abs/2101.03606">
         The Gaussian Neural Process
       </a>
     </h3>
@@ -317,7 +308,7 @@ author_profile: true
       Advances in Approximate Bayesian Inference (<span class="small-caps">aabi</span>)
     </p>    
 
-    <p style="margin:0 0 0.3em;">
+    <p style="margin:0 0 0.3em; font-size: 0.9rem">
       Wessel P. Bruinsma, James Requeima, <strong>Andrew Y. K. Foong</strong>,
       Jonathan Gordon, and Richard E. Turner
     </p>
@@ -350,8 +341,7 @@ author_profile: true
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.3em 0;">
-      <span style="font-size: 0.8em; vertical-align: 0.1em;">🔗</span> <a href="https://arxiv.org/abs/2007.01332"
-            target="_blank" style="text-decoration:none; color:inherit;">
+      <a href="https://arxiv.org/abs/2007.01332">
         Meta-Learning Stationary Stochastic Process Prediction with Convolutional Neural Processes
       </a>
     </h3>
@@ -360,7 +350,7 @@ author_profile: true
       Neural Information Processing Systems (<span class="small-caps">n</span>eur<span class="small-caps">ips</span>)
     </p>
 
-    <p style="margin:0 0 0.3em;">
+    <p style="margin:0 0 0.3em; font-size: 0.9rem">
       <strong>Andrew Y. K. Foong</strong>*, Wessel P. Bruinsma*, Jonathan Gordon*, Yann Dubois,
       James Requeima, and Richard E. Turner
     </p>
@@ -386,8 +376,7 @@ author_profile: true
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.3em 0;">
-      <span style="font-size: 0.8em; vertical-align: 0.1em;">🔗</span> <a href="https://arxiv.org/abs/1910.13556"
-            target="_blank" style="text-decoration:none; color:inherit;">
+      <a href="https://arxiv.org/abs/1910.13556">
         Convolutional Conditional Neural Processes
       </a>
     </h3>
@@ -396,7 +385,7 @@ author_profile: true
       International Conference on Learning Representations (<span class="small-caps">iclr</span>)
     </p>
 
-    <p style="margin:0 0 0.3em;">
+    <p style="margin:0 0 0.3em; font-size: 0.9rem">
       Jonathan Gordon*, Wessel P. Bruinsma*, <strong>Andrew Y. K. Foong</strong>,
       James Requeima, Yann Dubois, and Richard E. Turner
     </p>
@@ -422,8 +411,7 @@ author_profile: true
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.3em 0;">
-      <span style="font-size: 0.8em; vertical-align: 0.1em;">🔗</span> <a href="https://arxiv.org/abs/1909.00719"
-            target="_blank" style="text-decoration:none; color:inherit;">
+      <a href="https://arxiv.org/abs/1909.00719">
         On the Expressiveness of Approximate Inference in Bayesian Neural Networks
       </a>
     </h3>
@@ -432,7 +420,7 @@ author_profile: true
       Neural Information Processing Systems (<span class="small-caps">n</span>eur<span class="small-caps">ips</span>)
     </p>
 
-    <p style="margin:0 0 0.3em;">
+    <p style="margin:0 0 0.3em; font-size:0.9rem">
       <strong>Andrew Y. K. Foong</strong>*, David R. Burt*, Yingzhen Li, Richard E. Turner
     </p>
 
@@ -464,8 +452,7 @@ author_profile: true
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.3em 0;">
-      <span style="font-size: 0.8em; vertical-align: 0.1em;">🔗</span> <a href="https://arxiv.org/abs/1906.11537"
-            target="_blank" style="text-decoration:none; color:inherit;">
+      <a href="https://arxiv.org/abs/1906.11537">
         “In-Between” Uncertainty in Bayesian Neural Networks
       </a>
     </h3>
@@ -474,7 +461,7 @@ author_profile: true
       <span class="small-caps">icml</span> Workshop on Uncertainty and Robustness in Deep Learning
     </p>
 
-    <p style="margin:0 0 0.3em;">
+    <p style="margin:0 0 0.3em; font-size: 0.9rem">
       <strong>Andrew Y. K. Foong</strong>, Yingzhen Li, José Miguel Hernández-Lobato, and Richard E. Turner
     </p>
 
