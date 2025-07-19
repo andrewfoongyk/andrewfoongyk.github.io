@@ -21,8 +21,6 @@ author_profile: true
 I designed this six-part series to help clinicians at the Mayo Clinic with no prior <span class="small-caps">ai</span> experience understand deep learning from first principles. 
 </p>
 
-
-<p>The lectures are organized in pairs:</p>
 <ul style="margin-top: 0.2em;">
   <li>
     <span style="font-weight: 500;">Lectures 1 &amp; 2</span> cover deep learning from the ground up, from linear regression and gradient descent to neural networks, overfitting, and generalization.
