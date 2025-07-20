@@ -4,10 +4,10 @@ main:
     url: "#publications"
 
   - title: "Talks"
-    url: /talks/
+    url: "#talks"
 
   - title: "Understanding AI Webinar"
-    url: /ai-from-scratch/
+    url: "#ai-from-scratch"
 
   - title: "Neural Processes Blog"
     url: https://yanndubs.github.io/Neural-Process-Family/text/Intro.html
