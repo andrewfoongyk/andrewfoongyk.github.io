@@ -65,13 +65,22 @@ html {
   
 @media (min-width: 768px) {
 html {
-    font-size: 130%;  // or 130% (≈ 19–20px) for tablets/desktops
+    font-size: 120%;  // or 130% (≈ 19–20px) for tablets/desktops
 }
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Alegreya', 'Jost', 'EB Garamond';
-  font-weight: 500; //600;
+h1, h2 {
+  font-family: 'Gentium','Alegreya', 'Jost', 'EB Garamond';
+  font-weight: 600; //600;
+  margin-top: 1.5em;
+  margin-bottom: 0.2em;
+  line-height: 1.2;
+  border-bottom: none !important;
+}
+
+h3, h4, h5, h6 {
+  font-family: 'Gentium','Alegreya', 'Jost', 'EB Garamond';
+  font-weight: 700; //600;
   margin-top: 1.5em;
   margin-bottom: 0.2em;
   line-height: 1.2;
@@ -79,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  font-family: 'Alegreya', 'EB Garamond', serif;
+  font-family: 'Gentium', 'Alegreya', 'EB Garamond', serif;
   font-weight: 400; /* Slightly heavier than normal */
   line-height: 1.45; 
 }
@@ -104,7 +113,7 @@ p {
 
 em, i {
   font-style: italic;
-  font-family: 'Alegreya', 'EB Garamond', serif;
+  font-family: 'Gentium', 'Alegreya', 'EB Garamond', serif;
 }
 
 strong em, strong i {
@@ -264,8 +273,105 @@ body, p, li, blockquote, h1, h2, h3, h4, h5, h6 {
   font-style: italic;
 }
 
+/* REGULAR */
+@font-face {
+  font-family: 'Gentium';
+  src: url('/assets/fonts/gentium/Gentium-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ITALIC */
+@font-face {
+  font-family: 'Gentium';
+  src: url('/assets/fonts/gentium/Gentium-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* MEDIUM */
+@font-face {
+  font-family: 'Gentium';
+  src: url('/assets/fonts/gentium/Gentium-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* MEDIUM ITALIC */
+@font-face {
+  font-family: 'Gentium';
+  src: url('/assets/fonts/gentium/Gentium-MediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* SEMIBOLD */
+@font-face {
+  font-family: 'Gentium';
+  src: url('/assets/fonts/gentium/Gentium-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* SEMIBOLD ITALIC */
+@font-face {
+  font-family: 'Gentium';
+  src: url('/assets/fonts/gentium/Gentium-SemiBoldItalic.woff2') format('woff2');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* BOLD */
+@font-face {
+  font-family: 'Gentium';
+  src: url('/assets/fonts/gentium/Gentium-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* BOLD ITALIC */
+@font-face {
+  font-family: 'Gentium';
+  src: url('/assets/fonts/gentium/Gentium-BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* EXTRABOLD */
+@font-face {
+  font-family: 'Gentium';
+  src: url('/assets/fonts/gentium/Gentium-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* EXTRABOLD ITALIC */
+@font-face {
+  font-family: 'Gentium';
+  src: url('/assets/fonts/gentium/Gentium-ExtraBoldItalic.woff2') format('woff2');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+// .small-caps {
+//   font-family: 'Alegreya SC', 'EB Garamond SC', serif;
+// }
+
 .small-caps {
-  font-family: 'Alegreya SC', 'EB Garamond SC', serif;
+  font-family: 'Gentium', serif;
+  font-variant: small-caps;
+  font-feature-settings: "smcp" 1, "c2sc" 1;
 }
 
 .sidebar h1, 
@@ -286,6 +392,7 @@ body, p, li, blockquote, h1, h2, h3, h4, h5, h6 {
 .sidebar .author__name {
   font-family: 'Jost';
   font-size: 19px;
+  font-weight: 500;
 }
 
 .author__urls-wrapper button {

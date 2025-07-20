@@ -637,7 +637,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <h3 id="ai-from-scratch" style="margin: 0;">Understanding AI from Scratch</h3>
 </div>
 
-<div style="font-variant: small-caps; margin-top: -0.3em; margin-bottom: 0.5em;">
+<div style="font-variant: small-caps; margin-top: -0.2em; margin-bottom: 0.5em;">
   mayo clinic lecture series
 </div>
 
@@ -711,7 +711,7 @@ I designed this six-part series to help clinicians at the Mayo Clinic with no pr
 <div style="display: flex; align-items: flex-start; gap: 1.2em; margin-bottom: 0;">
   <h3 style="margin-bottom: 0.0em; margin-top: 0em;">Timewarp: Transferable Acceleration of Molecular Dynamics by Learning Time-Coarsened Dynamics</h3>
 </div>
-<div style="font-variant: small-caps; margin-top: -0.3em; margin-bottom: 0.5em;">
+<div style="font-variant: small-caps; margin-top: -0.2em; margin-bottom: 0.5em;">
   online reading group presentation
 </div>
 
@@ -764,7 +764,7 @@ Co-first author [Leon Klein](https://www.mi.fu-berlin.de/en/math/groups/ai4s/sta
   <h3 style="margin-bottom: 0.0em; margin-top: 0em;">An Introduction to PAC-Bayes</h3>
 </div>
 
-<div style="font-variant: small-caps; margin-top: -0.3em; margin-bottom: 0.5em;">
+<div style="font-variant: small-caps; margin-top: -0.2em; margin-bottom: 0.5em;">
   cambridge machine learning reading group
 </div>
 
@@ -793,7 +793,7 @@ I gave an introductory talk on the statistical learning framework and <span clas
     </h3>
 </div>
 
-<div style="font-variant: small-caps; margin-top: -0.3em; margin-bottom: 0.5em;">
+<div style="font-variant: small-caps; margin-top: -0.2em; margin-bottom: 0.5em;">
   joint talk with oxford university 
 </div>
 
@@ -822,7 +822,7 @@ I gave a talk on my <span class="small-caps">n</span>eur<span class="small-caps"
   <h3 style="margin-bottom: 0.0em; margin-top: 0em;">On the Expressiveness of Approximate Inference in Bayesian Neural Networks</h3>
 </div>
 
-<div style="font-variant: small-caps; margin-top: -0.3em; margin-bottom: 0.5em;">
+<div style="font-variant: small-caps; margin-top: -0.2em; margin-bottom: 0.5em;">
   presentation at neurips conference
 </div>
 
@@ -849,7 +849,7 @@ A short video describing my paper on flaws in uncertainty estimation when using 
     </h3>
 </div>
 
-<div style="font-variant: small-caps; margin-top: -0.3em; margin-bottom: 0.5em;">
+<div style="font-variant: small-caps; margin-top: -0.2em; margin-bottom: 0.5em;">
   presentation at neurips conference
 </div>
 
@@ -872,7 +872,7 @@ A short video explaining my paper on neural processes, a deep learning alternati
     </h3>
 </div>
 
-<div style="font-variant: small-caps; margin-top: -0.3em; margin-bottom: 0.5em;">
+<div style="font-variant: small-caps; margin-top: -0.2em; margin-bottom: 0.5em;">
   cambridge machine learning reading group
 </div>
 
@@ -886,7 +886,7 @@ A reading group talk given with [Sebastian Ober](https://twitter.com/sebastian_o
     </h3>
 </div>
 
-<div style="font-variant: small-caps; margin-top: -0.3em; margin-bottom: 0.5em;">
+<div style="font-variant: small-caps; margin-top: -0.2em; margin-bottom: 0.5em;">
   cambridge machine learning reading group
 </div>
 
@@ -903,7 +903,7 @@ A reading group talk given with [Siddharth Swaroop](https://siddharthswaroop.git
   <h3 style="margin-bottom: 0.0em; margin-top: 0em;"><span style="display: inline-block; margin-left: -0.37em;">“</span>In-Between” Uncertainty in Bayesian Neural Networks</h3>
 </div>
 
-<div style="font-variant: small-caps; margin-top: -0.3em; margin-bottom: 0.5em;">
+<div style="font-variant: small-caps; margin-top: -0.2em; margin-bottom: 0.5em;">
   contributed talk, icml 2019 workshop on uncertainty in deep learning
 </div>
 
@@ -919,7 +919,7 @@ Watch the [video](https://www.facebook.com/icml.imls/videos/320132412242165/?t=1
     </h3>
 </div>
 
-<div style="font-variant: small-caps; margin-top: -0.3em; margin-bottom: 0.5em;">
+<div style="font-variant: small-caps; margin-top: -0.2em; margin-bottom: 0.5em;">
   cambridge machine learning reading group
 </div>
 

@@ -13,7 +13,7 @@ author_profile: true
 </style>
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
-    <p style="margin:0; font-family: 'Alegreya', 'EB Garamond'; font-style: italic;">
+    <p style="margin:0; font-style: italic;">
       For a full list of research papers, see my
       <a href="https://scholar.google.com/citations?user=2UOjgIUAAAAJ&hl=en" target="_blank">
         Google Scholar page</a>. 
