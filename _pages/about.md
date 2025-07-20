@@ -596,7 +596,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <div>
     <h3 style="margin:0 0 0.3em 0;">
       <a href="https://arxiv.org/abs/1906.11537">
-        “In-Between” Uncertainty in Bayesian Neural Networks
+        <span style="display: inline-block; margin-left: -0.37em;">“</span>In-Between” Uncertainty in Bayesian Neural Networks
       </a>
     </h3>
 
