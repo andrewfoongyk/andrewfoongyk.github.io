@@ -1,5 +1,6 @@
 ---
 layout: single
+redirect_to: "/#ai-from-scratch"
 title: null
 permalink: /ai-from-scratch/
 author_profile: true

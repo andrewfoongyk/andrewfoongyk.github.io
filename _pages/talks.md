@@ -1,5 +1,6 @@
 ---
 permalink: /talks/
+redirect_to: "/#talks"
 title: null
 author_profile: true
 redirect_from:

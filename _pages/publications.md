@@ -1,5 +1,6 @@
 ---
 layout: archive
+redirect_to: "/#publications"
 title: null
 permalink: /publications/
 author_profile: true
