@@ -630,14 +630,14 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
 
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:1em;">
-    <h1 style="margin:0;">2025</h1>
+    <h2 style="margin:0;">2025</h2>
 </div>
 
 <div style="display: flex; align-items: flex-start; gap: 1.2em; margin-bottom: 0;">
-  <h2 id="ai-from-scratch" style="margin: 0;">Understanding AI from Scratch</h2>
+  <h3 id="ai-from-scratch" style="margin: 0;">Understanding AI from Scratch</h3>
 </div>
 
-<div style="font-variant: small-caps; margin-top: -0.7em; margin-bottom: 0.5em;">
+<div style="font-variant: small-caps; margin-top: -0.3em; margin-bottom: 0.5em;">
   mayo clinic lecture series
 </div>
 
@@ -705,17 +705,14 @@ I designed this six-part series to help clinicians at the Mayo Clinic with no pr
 
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:1em;">
-    <h1>2023</h1>
+    <h2>2023</h2>
 </div>
 
 <div style="display: flex; align-items: flex-start; gap: 1.2em; margin-bottom: 0;">
-  <h2 style="margin-bottom: 0.0em; margin-top: 0em;">Timewarp:</h2>
-</div>
-<div style="font-size: 1.0rem; font-style: italic; font-weight: 500; margin-bottom: 0.2em; margin-top: -0.65em;">
-  Transferable Acceleration of Molecular Dynamics by Learning Time-Coarsened Dynamics
+  <h3 style="margin-bottom: 0.0em; margin-top: 0em;">Timewarp: Transferable Acceleration of Molecular Dynamics by Learning Time-Coarsened Dynamics</h3>
 </div>
 <div style="font-variant: small-caps; margin-top: -0.3em; margin-bottom: 0.5em;">
-  online reading group presentations
+  online reading group presentation
 </div>
 
 Co-first author [Leon Klein](https://www.mi.fu-berlin.de/en/math/groups/ai4s/staff/klein/index.html) and I presented our <span class="small-caps">n</span>eur<span class="small-caps">ips</span> 2023 spotlight paper on using deep learning to accelerate molecular dynamics simulation at two online reading groups.
@@ -760,14 +757,14 @@ Co-first author [Leon Klein](https://www.mi.fu-berlin.de/en/math/groups/ai4s/sta
 
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:1em;">
-    <h1 style="margin:0;">2021</h1>
+    <h2 style="margin:0;">2021</h2>
 </div>
 
 <div style="display: flex; align-items: flex-start; gap: 1.2em; margin-bottom: 0;">
-  <h2 style="margin-bottom: 0.0em; margin-top: 0em;">An Introduction to PAC-Bayes</h2>
+  <h3 style="margin-bottom: 0.0em; margin-top: 0em;">An Introduction to PAC-Bayes</h3>
 </div>
 
-<div style="font-variant: small-caps; margin-top: -0.7em; margin-bottom: 0.5em;">
+<div style="font-variant: small-caps; margin-top: -0.3em; margin-bottom: 0.5em;">
   cambridge machine learning reading group
 </div>
 
@@ -791,12 +788,12 @@ I gave an introductory talk on the statistical learning framework and <span clas
 
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.2em;">
-    <h2 style="margin-bottom:0; margin-top:1em;">
+    <h3 style="margin-bottom:0; margin-top:1em;">
       Understanding Approximate Inference in Bayesian Neural Networks
-    </h2>
+    </h3>
 </div>
 
-<div style="font-variant: small-caps; margin-top: -0.7em; margin-bottom: 0.5em;">
+<div style="font-variant: small-caps; margin-top: -0.3em; margin-bottom: 0.5em;">
   joint talk with oxford university 
 </div>
 
@@ -818,14 +815,14 @@ I gave a talk on my <span class="small-caps">n</span>eur<span class="small-caps"
 
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:1em;">
-    <h1 style="margin-bottom:0">2020</h1>
+    <h2 style="margin-bottom:0">2020</h2>
 </div>
 
 <div style="display: flex; align-items: flex-start; gap: 1.2em; margin-bottom: 0;">
-  <h2 style="margin-bottom: 0.0em; margin-top: 0em;">On the Expressiveness of Approximate Inference in Bayesian Neural Networks</h2>
+  <h3 style="margin-bottom: 0.0em; margin-top: 0em;">On the Expressiveness of Approximate Inference in Bayesian Neural Networks</h3>
 </div>
 
-<div style="font-variant: small-caps; margin-top: -0.7em; margin-bottom: 0.5em;">
+<div style="font-variant: small-caps; margin-top: -0.3em; margin-bottom: 0.5em;">
   presentation at neurips conference
 </div>
 
@@ -847,12 +844,12 @@ A short video describing my paper on flaws in uncertainty estimation when using 
 
 
 <div style="display:flex; align-items:flex-start; gap:0em; margin-bottom:0.2em;">
-    <h2 style="margin-bottom:0; margin-top:1.7em;">
+    <h3 style="margin-bottom:0; margin-top:1.7em;">
       Meta-learning Stationary Stochastic Process Prediction with Convolutional Neural Processes
-    </h2>
+    </h3>
 </div>
 
-<div style="font-variant: small-caps; margin-top: -0.7em; margin-bottom: 0.5em;">
+<div style="font-variant: small-caps; margin-top: -0.3em; margin-bottom: 0.5em;">
   presentation at neurips conference
 </div>
 
@@ -870,12 +867,12 @@ A short video explaining my paper on neural processes, a deep learning alternati
 </script>
 
 <div style="display:flex; align-items:flex-start; gap:0em; margin-bottom:0.2em;">
-    <h2 style="margin-bottom:0; margin-top:2.5em;">
+    <h3 style="margin-bottom:0; margin-top:2.5em;">
       Neural Processes
-    </h2>
+    </h3>
 </div>
 
-<div style="font-variant: small-caps; margin-top: -0.7em; margin-bottom: 0.5em;">
+<div style="font-variant: small-caps; margin-top: -0.3em; margin-bottom: 0.5em;">
   cambridge machine learning reading group
 </div>
 
@@ -884,12 +881,12 @@ A reading group talk given with [Sebastian Ober](https://twitter.com/sebastian_o
 
 
 <div style="display:flex; align-items:flex-start; gap:0em; margin-bottom:0.2em;">
-    <h2 style="margin-bottom:0; margin-top:1.7em;">
+    <h3 style="margin-bottom:0; margin-top:1.7em;">
       Recent Advances in Bayesian Deep Learning
-    </h2>
+    </h3>
 </div>
 
-<div style="font-variant: small-caps; margin-top: -0.7em; margin-bottom: 0.5em;">
+<div style="font-variant: small-caps; margin-top: -0.3em; margin-bottom: 0.5em;">
   cambridge machine learning reading group
 </div>
 
@@ -899,14 +896,14 @@ A reading group talk given with [Siddharth Swaroop](https://siddharthswaroop.git
 
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:1em;">
-    <h1 style="margin-bottom:0">2019</h1>
+    <h2 style="margin-bottom:0">2019</h2>
 </div>
 
 <div style="display: flex; align-items: flex-start; gap: 1.2em; margin-bottom: 0;">
-  <h2 style="margin-bottom: 0.0em; margin-top: 0em;"><span style="display: inline-block; margin-left: -0.37em;">“</span>In-Between” Uncertainty in Bayesian Neural Networks</h2>
+  <h3 style="margin-bottom: 0.0em; margin-top: 0em;"><span style="display: inline-block; margin-left: -0.37em;">“</span>In-Between” Uncertainty in Bayesian Neural Networks</h3>
 </div>
 
-<div style="font-variant: small-caps; margin-top: -0.7em; margin-bottom: 0.5em;">
+<div style="font-variant: small-caps; margin-top: -0.3em; margin-bottom: 0.5em;">
   contributed talk, icml 2019 workshop on uncertainty in deep learning
 </div>
 
@@ -917,12 +914,12 @@ Watch the [video](https://www.facebook.com/icml.imls/videos/320132412242165/?t=1
 
 
 <div style="display:flex; align-items:flex-start; gap:0em; margin-bottom:0.2em;">
-    <h2 style="margin-bottom:0; margin-top:1.7em;">
+    <h3 style="margin-bottom:0; margin-top:1.7em;">
       Implicit Variational Inference
-    </h2>
+    </h3>
 </div>
 
-<div style="font-variant: small-caps; margin-top: -0.7em; margin-bottom: 0.5em;">
+<div style="font-variant: small-caps; margin-top: -0.3em; margin-bottom: 0.5em;">
   cambridge machine learning reading group
 </div>
 
