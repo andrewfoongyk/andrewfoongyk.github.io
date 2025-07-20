@@ -152,7 +152,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   </div>
 </div>
 
-<h1>Research Papers</h1>
+<h1 id="publications">Research Papers</h1>
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
     <p style="margin:0; font-family: 'Alegreya', 'EB Garamond'; font-style: italic;">
