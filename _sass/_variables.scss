@@ -16,7 +16,7 @@ $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
 
 /* system typefaces */
-$serif                      : "Gentium Book", "Gentium", "EB Garamond", "Alegreya", serif;
+$serif                      : "Gentium", "Gentium Book", "EB Garamond", "Alegreya", serif;
 $sans-serif                 : "Alegreya", "EB Garamond", sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
@@ -61,7 +61,7 @@ $body-color                 : #F8F6F1;
 $background-color           : #F8F6F1;
 $code-background-color      : #F8F6F1;
 $code-background-color-dark : $light-gray;
-$text-color                 : $dark-gray;
+$text-color                 : black;
 $border-color               : $lighter-gray;
 
 $primary-color              : #7a8288;
