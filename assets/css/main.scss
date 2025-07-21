@@ -364,6 +364,79 @@ body, p, li, blockquote, h1, h2, h3, h4, h5, h6 {
 }
 
 
+// Gentium Book
+/* REGULAR */
+@font-face {
+  font-family: 'Gentium Book';
+  src: url('/assets/fonts/gentium-book/GentiumBook-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ITALIC */
+@font-face {
+  font-family: 'Gentium Book';
+  src: url('/assets/fonts/gentium-book/GentiumBook-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* MEDIUM */
+@font-face {
+  font-family: 'Gentium Book';
+  src: url('/assets/fonts/gentium-book/GentiumBook-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* MEDIUM ITALIC */
+@font-face {
+  font-family: 'Gentium Book';
+  src: url('/assets/fonts/gentium-book/GentiumBook-MediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* SEMIBOLD */
+@font-face {
+  font-family: 'Gentium Book';
+  src: url('/assets/fonts/gentium-book/GentiumBook-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* SEMIBOLD ITALIC */
+@font-face {
+  font-family: 'Gentium Book';
+  src: url('/assets/fonts/gentium-book/GentiumBook-SemiBoldItalic.woff2') format('woff2');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* BOLD */
+@font-face {
+  font-family: 'Gentium Book';
+  src: url('/assets/fonts/gentium-book/GentiumBook-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* BOLD ITALIC */
+@font-face {
+  font-family: 'Gentium Book';
+  src: url('/assets/fonts/gentium-book/GentiumBook-BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
 // .small-caps {
 //   font-family: 'Alegreya SC', 'EB Garamond SC', serif;
 // }

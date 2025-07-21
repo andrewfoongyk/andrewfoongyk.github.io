@@ -16,7 +16,7 @@ $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
 
 /* system typefaces */
-$serif                      : "Gentium", "EB Garamond", "Alegreya", serif;
+$serif                      : "Gentium Book", "Gentium", "EB Garamond", "Alegreya", serif;
 $sans-serif                 : "Alegreya", "EB Garamond", sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
@@ -31,8 +31,8 @@ $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
-$global-font-family         : "Alegreya", "EB Garamond", $serif;
-$header-font-family         : "Alegreya", "EB Garamond";
+$global-font-family         : $serif;
+$header-font-family         : $serif;
 $caption-font-family        : $serif;
 
 /* type scale */
