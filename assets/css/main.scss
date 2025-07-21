@@ -70,7 +70,7 @@ html {
 }
 
 h1, h2 {
-  font-family: 'Gentium','Alegreya', 'Jost', 'EB Garamond';
+  font-family: $serif, 'Gentium','Alegreya', 'Jost', 'EB Garamond';
   font-weight: 600; //600;
   margin-top: 1.5em;
   margin-bottom: 0.2em;
@@ -79,7 +79,7 @@ h1, h2 {
 }
 
 h3, h4, h5, h6 {
-  font-family: 'Gentium','Alegreya', 'Jost', 'EB Garamond';
+  font-family: $serif, 'Gentium','Alegreya', 'Jost', 'EB Garamond';
   font-weight: 700; //600;
   margin-top: 1.5em;
   margin-bottom: 0.2em;
@@ -88,7 +88,7 @@ h3, h4, h5, h6 {
 }
 
 body {
-  font-family: 'Gentium', 'Alegreya', 'EB Garamond', serif;
+  font-family: $serif,'Gentium', 'Alegreya', 'EB Garamond', serif;
   font-weight: 400; /* Slightly heavier than normal */
   line-height: 1.45; 
 }
@@ -113,7 +113,7 @@ p {
 
 em, i {
   font-style: italic;
-  font-family: 'Gentium', 'Alegreya', 'EB Garamond', serif;
+  font-family: $serif, 'Gentium', 'Alegreya', 'EB Garamond', serif;
 }
 
 strong em, strong i {
@@ -369,7 +369,7 @@ body, p, li, blockquote, h1, h2, h3, h4, h5, h6 {
 // }
 
 .small-caps {
-  font-family: 'Gentium', serif;
+  font-family: $serif, 'Gentium', serif;
   font-variant: small-caps;
   font-feature-settings: "smcp" 1, "c2sc" 1;
 }
