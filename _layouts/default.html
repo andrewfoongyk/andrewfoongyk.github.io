@@ -33,41 +33,41 @@ layout: compress
 
     <script>
     // Scroll-up header behavior
-    let lastScroll = window.pageYOffset;
-    const header = document.getElementById('site-header');
-    const body = document.body;
+    // let lastScroll = window.pageYOffset;
+    // const header = document.getElementById('site-header');
+    // const body = document.body;
 
-    function updateHeaderState() {
-      const currentScroll = window.pageYOffset;
-      const isScrollingDown = currentScroll > lastScroll;
-      const isScrollingUp = currentScroll < lastScroll;
+    // function updateHeaderState() {
+    //   const currentScroll = window.pageYOffset;
+    //   const isScrollingDown = currentScroll > lastScroll;
+    //   const isScrollingUp = currentScroll < lastScroll;
 
-      if (currentScroll <= 0) {
-        header.classList.remove('hide');
-        body.classList.add('at-top');
-        body.classList.remove('header-hidden');
-      } else {
-        body.classList.remove('at-top');
+    //   if (currentScroll <= 0) {
+    //     header.classList.remove('hide');
+    //     body.classList.add('at-top');
+    //     body.classList.remove('header-hidden');
+    //   } else {
+    //     body.classList.remove('at-top');
 
-        if (isScrollingDown && currentScroll > 100) {
-          header.classList.add('hide');
-          body.classList.add('header-hidden');
-        } else if (isScrollingUp) {
-          header.classList.remove('hide');
-          body.classList.remove('header-hidden');
-        }
-      }
+    //     if (isScrollingDown && currentScroll > 100) {
+    //       header.classList.add('hide');
+    //       body.classList.add('header-hidden');
+    //     } else if (isScrollingUp) {
+    //       header.classList.remove('hide');
+    //       body.classList.remove('header-hidden');
+    //     }
+    //   }
 
-      lastScroll = currentScroll;
-    }
+    //   lastScroll = currentScroll;
+    // }
 
-    // Safe init for real mobile browsers
-    window.addEventListener('load', () => {
-      setTimeout(updateHeaderState, 50);
-    });
+    // // Safe init for real mobile browsers
+    // window.addEventListener('load', () => {
+    //   setTimeout(updateHeaderState, 50);
+    // });
 
-    window.addEventListener('scroll', updateHeaderState);
-    </script>
+    // window.addEventListener('scroll', updateHeaderState);
+    // </script>
 
     <!-- <script>
       let lastScroll = window.pageYOffset;
