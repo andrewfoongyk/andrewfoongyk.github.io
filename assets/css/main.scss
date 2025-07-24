@@ -510,3 +510,45 @@ html {
   scroll-behavior: smooth;
 }
 
+/* sticky nav bar */
+#site-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out;
+  background: white; /* or your preferred color */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+#site-header.hide {
+  transform: translateY(-100%);
+}
+
+body {
+  padding-top: 64px;
+}
+
+// /* Default offset when masthead is visible */
+// .sidebar.sticky {
+//   padding-top: var(--masthead-height, 64px);
+//   transition: padding-top 0.3s ease;
+// }
+
+// /* When masthead is hidden */
+// body.header-hidden .sidebar.sticky {
+//   padding-top: 0;
+// }
+
+.sidebar.sticky {
+  padding-top: var(--masthead-height, 64px);
+  transition: padding-top 0.3s ease;
+}
+
+body.header-hidden .sidebar.sticky {
+  padding-top: 0;
+}
+
+body.at-top .sidebar.sticky {
+  padding-top: 0; /* override at the top of the page */
+}
