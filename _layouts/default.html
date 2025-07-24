@@ -31,82 +31,41 @@ layout: compress
         async src="//gc.zgo.at/count.js"></script>
 
     <script>
-    let lastScroll = 0;
-    const header = document.getElementById('site-header');
-    const body = document.body;
+      let lastScroll = window.pageYOffset;
+      const header = document.getElementById('site-header');
+      const body = document.body;
 
-    window.addEventListener('scroll', () => {
-      const currentScroll = window.pageYOffset;
+      function updateHeaderState() {
+        const currentScroll = window.pageYOffset;
+        const isScrollingDown = currentScroll > lastScroll;
+        const isScrollingUp = currentScroll < lastScroll;
 
-      const isScrollingDown = currentScroll > lastScroll;
-      const isScrollingUp = currentScroll < lastScroll;
-
-      if (currentScroll <= 0) {
-        header.classList.remove('hide');
-        body.classList.add('at-top');
-        body.classList.remove('header-hidden');
-      } else {
-        body.classList.remove('at-top');
-
-        if (isScrollingDown && currentScroll > 100) {
-          header.classList.add('hide');
-          body.classList.add('header-hidden');
-        } else if (isScrollingUp) {
+        if (currentScroll <= 0) {
           header.classList.remove('hide');
+          body.classList.add('at-top');
           body.classList.remove('header-hidden');
+        } else {
+          body.classList.remove('at-top');
+
+          if (isScrollingDown && currentScroll > 100) {
+            header.classList.add('hide');
+            body.classList.add('header-hidden');
+          } else if (isScrollingUp) {
+            header.classList.remove('hide');
+            body.classList.remove('header-hidden');
+          }
         }
+
+        lastScroll = currentScroll;
       }
 
-      lastScroll = currentScroll;
-    });
+      // Run once on page load
+      window.addEventListener('DOMContentLoaded', updateHeaderState);
+
+      // Then continue to update on scroll
+      window.addEventListener('scroll', updateHeaderState);
     </script>
-        
-    <!-- <script>
-      let lastScroll = 0;
-      const header = document.getElementById('site-header');
 
-      window.addEventListener('scroll', () => {
-        const currentScroll = window.pageYOffset;
-
-        if (currentScroll <= 0) {
-          header.classList.remove('hide');
-          document.body.classList.remove('header-hidden');
-          return;
-        }
-
-        if (currentScroll > lastScroll && currentScroll > 100) {
-          header.classList.add('hide');
-          document.body.classList.add('header-hidden');
-        } else if (currentScroll < lastScroll) {
-          header.classList.remove('hide');
-          document.body.classList.remove('header-hidden');
-        }
-
-        lastScroll = currentScroll;
-      });
-    </script> -->
-    <!-- Scroll-triggered header visibility -->
-    <!-- <script>
-      let lastScroll = 0;
-      const header = document.getElementById('site-header');
-
-      window.addEventListener('scroll', () => {
-        const currentScroll = window.pageYOffset;
-
-        if (currentScroll <= 0) {
-          header.classList.remove('hide');
-          return;
-        }
-
-        if (currentScroll > lastScroll && currentScroll > 100) {
-          header.classList.add('hide');
-        } else if (currentScroll < lastScroll) {
-          header.classList.remove('hide');
-        }
-
-        lastScroll = currentScroll;
-      });
-    </script> -->
   </body>
 </html>
 
