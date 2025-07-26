@@ -44,11 +44,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 
 .email {
   font-family: 'Roboto Mono', monospace;
-  font-size: 85%;
+  font-size: 95%;
 }
 
 .tight-small-caps {
@@ -60,12 +61,12 @@
 }
 
 html {
-    font-size: 110%;  // Base for mobile (e.g., 16px)
+    font-size: 100%;  // Base for mobile (e.g., 16px)
   }
   
 @media (min-width: 768px) {
 html {
-    font-size: 120%;  // or 130% (≈ 19–20px) for tablets/desktops
+    font-size: 110%;  // or 130% (≈ 19–20px) for tablets/desktops
 }
 }
 
@@ -73,7 +74,7 @@ h1, h2 {
   font-family: $serif, 'Gentium','Alegreya', 'Jost', 'EB Garamond';
   font-weight: 600; //600;
   margin-top: 1.5em;
-  margin-bottom: 0.2em;
+  margin-bottom: 0.5em;
   line-height: 1.2;
   border-bottom: none !important;
 }
@@ -437,15 +438,606 @@ body, p, li, blockquote, h1, h2, h3, h4, h5, h6 {
   font-display: swap;
 }
 
-// .small-caps {
-//   font-family: 'Alegreya SC', 'EB Garamond SC', serif;
-// }
+// Andada Pro
+
+@font-face {
+  font-family: 'Andada Pro';
+  src: url('../fonts/andada-pro/AndadaPro-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Andada Pro';
+  src: url('../fonts/andada-pro/AndadaPro-Italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Andada Pro';
+  src: url('../fonts/andada-pro/AndadaPro-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Andada Pro';
+  src: url('../fonts/andada-pro/AndadaPro-BoldItalic.otf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Andada Pro';
+  src: url('../fonts/andada-pro/AndadaPro-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Andada Pro';
+  src: url('../fonts/andada-pro/AndadaPro-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Andada Pro';
+  src: url('../fonts/andada-pro/AndadaPro-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Andada Pro';
+  src: url('../fonts/andada-pro/AndadaPro-SemiBoldItalic.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Andada Pro';
+  src: url('../fonts/andada-pro/AndadaPro-ExtraBold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Andada Pro';
+  src: url('../fonts/andada-pro/AndadaPro-ExtraBoldItalic.otf') format('opentype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+// Bitter Pro
+@font-face {
+  font-family: 'Bitter Pro';
+  src: url('../fonts/bitter-pro/BitterPro-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bitter Pro';
+  src: url('../fonts/bitter-pro/BitterPro-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Bitter Pro';
+  src: url('../fonts/bitter-pro/BitterPro-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bitter Pro';
+  src: url('../fonts/bitter-pro/BitterPro-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Bitter Pro';
+  src: url('../fonts/bitter-pro/BitterPro-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bitter Pro';
+  src: url('../fonts/bitter-pro/BitterPro-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Bitter Pro';
+  src: url('../fonts/bitter-pro/BitterPro-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bitter Pro';
+  src: url('../fonts/bitter-pro/BitterPro-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Bitter Pro';
+  src: url('../fonts/bitter-pro/BitterPro-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bitter Pro';
+  src: url('../fonts/bitter-pro/BitterPro-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Bitter Pro';
+  src: url('../fonts/bitter-pro/BitterPro-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bitter Pro';
+  src: url('../fonts/bitter-pro/BitterPro-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Bitter Pro';
+  src: url('../fonts/bitter-pro/BitterPro-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bitter Pro';
+  src: url('../fonts/bitter-pro/BitterPro-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Bitter Pro';
+  src: url('../fonts/bitter-pro/BitterPro-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bitter Pro';
+  src: url('../fonts/bitter-pro/BitterPro-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Bitter Pro';
+  src: url('../fonts/bitter-pro/BitterPro-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bitter Pro';
+  src: url('../fonts/bitter-pro/BitterPro-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+// Piazzolla
+
+@font-face {
+  font-family: 'Piazzolla';
+  src: url('../fonts/piazzolla/Piazzolla-Thin.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Piazzolla';
+  src: url('../fonts/piazzolla/Piazzolla-ThinItalic.woff2') format('woff2');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Piazzolla';
+  src: url('../fonts/piazzolla/Piazzolla-ExtraLight.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Piazzolla';
+  src: url('../fonts/piazzolla/Piazzolla-ExtraLightItalic.woff2') format('woff2');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Piazzolla';
+  src: url('../fonts/piazzolla/Piazzolla-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Piazzolla';
+  src: url('../fonts/piazzolla/Piazzolla-LightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Piazzolla';
+  src: url('../fonts/piazzolla/Piazzolla-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Piazzolla';
+  src: url('../fonts/piazzolla/Piazzolla-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Piazzolla';
+  src: url('../fonts/piazzolla/Piazzolla-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Piazzolla';
+  src: url('../fonts/piazzolla/Piazzolla-MediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Piazzolla';
+  src: url('../fonts/piazzolla/Piazzolla-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Piazzolla';
+  src: url('../fonts/piazzolla/Piazzolla-SemiBoldItalic.woff2') format('woff2');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Piazzolla';
+  src: url('../fonts/piazzolla/Piazzolla-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Piazzolla';
+  src: url('../fonts/piazzolla/Piazzolla-BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Piazzolla';
+  src: url('../fonts/piazzolla/Piazzolla-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Piazzolla';
+  src: url('../fonts/piazzolla/Piazzolla-ExtraBoldItalic.woff2') format('woff2');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Piazzolla';
+  src: url('../fonts/piazzolla/Piazzolla-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Piazzolla';
+  src: url('../fonts/piazzolla/Piazzolla-BlackItalic.woff2') format('woff2');
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+// Spectral
+
+.spectral-extralight {
+  font-family: "Spectral", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.spectral-light {
+  font-family: "Spectral", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.spectral-regular {
+  font-family: "Spectral", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.spectral-medium {
+  font-family: "Spectral", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.spectral-semibold {
+  font-family: "Spectral", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.spectral-bold {
+  font-family: "Spectral", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.spectral-extrabold {
+  font-family: "Spectral", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.spectral-extralight-italic {
+  font-family: "Spectral", serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.spectral-light-italic {
+  font-family: "Spectral", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.spectral-regular-italic {
+  font-family: "Spectral", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.spectral-medium-italic {
+  font-family: "Spectral", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.spectral-semibold-italic {
+  font-family: "Spectral", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.spectral-bold-italic {
+  font-family: "Spectral", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.spectral-extrabold-italic {
+  font-family: "Spectral", serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+// Spectral SC
+
+.spectral-sc-extralight {
+  font-family: "Spectral SC", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.spectral-sc-light {
+  font-family: "Spectral SC", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.spectral-sc-regular {
+  font-family: "Spectral SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.spectral-sc-medium {
+  font-family: "Spectral SC", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.spectral-sc-semibold {
+  font-family: "Spectral SC", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.spectral-sc-bold {
+  font-family: "Spectral SC", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.spectral-sc-extrabold {
+  font-family: "Spectral SC", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.spectral-sc-extralight-italic {
+  font-family: "Spectral SC", serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.spectral-sc-light-italic {
+  font-family: "Spectral SC", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.spectral-sc-regular-italic {
+  font-family: "Spectral SC", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.spectral-sc-medium-italic {
+  font-family: "Spectral SC", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.spectral-sc-semibold-italic {
+  font-family: "Spectral SC", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.spectral-sc-bold-italic {
+  font-family: "Spectral SC", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.spectral-sc-extrabold-italic {
+  font-family: "Spectral SC", serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+
+
+// Sentient
+@font-face {
+  font-family: 'Sentient';
+  src: url('../fonts/sentient/Sentient-Extralight.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sentient';
+  src: url('../fonts/sentient/Sentient-ExtralightItalic.woff2') format('woff2');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Sentient';
+  src: url('../fonts/sentient/Sentient-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sentient';
+  src: url('../fonts/sentient/Sentient-LightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Sentient';
+  src: url('../fonts/sentient/Sentient-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sentient';
+  src: url('../fonts/sentient/Sentient-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Sentient';
+  src: url('../fonts/sentient/Sentient-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sentient';
+  src: url('../fonts/sentient/Sentient-MediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Sentient';
+  src: url('../fonts/sentient/Sentient-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sentient';
+  src: url('../fonts/sentient/Sentient-BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Sentient';
+  src: url('../fonts/sentient/Sentient-Variable.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sentient';
+  src: url('../fonts/sentient/Sentient-VariableItalic.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
 
 .small-caps {
-  font-family: $serif, 'Gentium', serif;
+  font-family: $serif, serif;
   font-variant: small-caps;
   font-feature-settings: "smcp" 1, "c2sc" 1;
 }
+
+// .small-caps {
+//   font-family: 'Spectral SC', 'Alegreya SC', 'EB Garamond SC', serif;
+// }
 
 .sidebar h1, 
 .sidebar h2,
