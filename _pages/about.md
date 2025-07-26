@@ -337,7 +337,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
     </h3>
 
     <p style="margin:0 0 0.3em; font-style:italic;">
-      <span class="small-caps">p</span>h.<span class="small-caps">d</span> thesis, University of Cambridge 
+      <span class="small-caps">p</span>h.<span class="small-caps">d</span>. thesis, University of Cambridge 
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 0.9rem">
