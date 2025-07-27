@@ -662,7 +662,7 @@ I designed this six-part series to help clinicians at the Mayo Clinic with no pr
   </li>
 </ul>
 
-<div style="margin-top: 1.5em; display: flex; flex-wrap: wrap; gap: 30px; justify-content: flex-start;">
+<div style="margin-top: 1.5em; display: flex; flex-wrap: wrap; gap: 30px; justify-content: center;">
 
   <div style="text-align: center; width: 220px;">
     <a href="https://mssvideoupload.mayo.edu/playlist/dedicated/1_uq8gpkab/1_rhvbtb46" target="_blank">
