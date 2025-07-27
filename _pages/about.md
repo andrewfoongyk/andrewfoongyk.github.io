@@ -932,6 +932,72 @@ Watch the [video](https://www.facebook.com/icml.imls/videos/320132412242165/?t=1
 I gave a talk with [David Burt](https://davidrburt.github.io/) introducing implicit variational inference, a way to obtain very flexible approximate posterior distributions for Bayesian inference. View the [slides](../files/Implicit_Inference_RG_notes.pdf).
 
 
+<a id="blog" style="display: block; position: relative; top: -58px; visibility: hidden;"></a>
+<h1>Blog Posts</h1>
+
+*Occasional writings and tutorials on machine learning.*
+
+<!-- Blog 1: Neural Process Family -->
+<div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em;">
+
+  <img src="/assets/images/blogs/npf-icon.png"
+       alt="Neural Process Family icon"
+       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+
+  <div>
+    <h3 style="margin-top: 0em; margin-bottom: 1em;">
+      <a href="https://yanndubs.github.io/Neural-Process-Family/text/Intro.html" target="_blank" rel="noopener noreferrer">
+        The Neural Process Family
+      </a>
+    </h3>
+
+    <p style="margin-bottom:0; margin-top:-0.8em; font-size: 0.9rem">
+      Yann Dubois, Jonathan Gordon, <strong>Andrew Y. K. Foong</strong>
+    </p>
+
+    <p style="margin-top:0.4em;">
+      Deep learning shines when there's lots of data, but fails in low-data settings where uncertainty matters. The <span class="small-caps">npf</span> is a family of models that tackles this by meta-learning a distribution over predictors, blending stochastic processes with neural networks. This site walks through the ideas, maths, and code from scratch.
+    </p>
+  </div>
+</div>
+
+<!-- Blog 2: Bayesian Posts -->
+<div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em;">
+
+  <img src="/assets/images/blogs/bayesian-icon.png"
+       alt="Bayesian blog icon"
+       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+
+  <div>
+    <h3 style="margin-top: 0em; margin-bottom: 1em;">
+      <a href="https://mlg.eng.cam.ac.uk/blog/2021/03/31/what-keeps-a-bayesian-awake-at-night-part-1.html" target="_blank" rel="noopener noreferrer">
+        What Keeps a Bayesian Awake at Night?
+      </a>
+    </h3>
+
+    <p style="margin-bottom:0; margin-top:-0.8em; font-size: 0.9rem">
+      Wessel P. Bruinsma, <strong>Andrew Y. K. Foong</strong>, Richard E. Turner
+    </p>
+
+    <p style="margin-top:0.4em;">
+      A two-part blog exploring the sunny arguments for Bayesian inference, and then, in part two, taking a critical perspective. Written by members of an avowedly Bayesian Cambridge research group, we look at where the theory breaks, the modelling compromises we make, and the computational hurdles that keep us up at night.
+      <br>
+
+      <a href="https://mlg.eng.cam.ac.uk/blog/2021/03/31/what-keeps-a-bayesian-awake-at-night-part-1.html" target="_blank" rel="noopener noreferrer">
+      <span class="small-caps">part 1: day</span>
+      </a>
+      &nbsp;&nbsp;<strong>|</strong>&nbsp;&nbsp;
+      <a href="https://mlg.eng.cam.ac.uk/blog/2021/03/31/what-keeps-a-bayesian-awake-at-night-part-2.html" target="_blank" rel="noopener noreferrer">
+      <span class="small-caps">part 2: night</span>
+      </a>
+
+
+    </p>
+  </div>
+</div>
+
+
+
 <a id="cv" style="display: block; position: relative; top: -58px; visibility: hidden;"></a>
 <h1>Curriculum Vitae</h1>
 

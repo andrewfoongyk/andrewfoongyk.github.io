@@ -12,12 +12,9 @@ main:
   - title: "CV"
     url: "#cv"
 
+  - title: "Blog"
+    url: "#blog" 
+
   - title: "Understanding AI Webinar"
     url: "#ai-from-scratch"
-
-  - title: "Neural Processes Blog"
-    url: https://yanndubs.github.io/Neural-Process-Family/text/Intro.html
-    external: true
-    newtab: true
-
 
