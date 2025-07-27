@@ -72,7 +72,7 @@ html {
     font-size: 100%;  // Base for mobile (e.g., 16px)
   }
   
-@media (min-width: 768px) {
+@media (min-width: 992px) {
 html {
     font-size: 110%;  // or 130% (≈ 19–20px) for tablets/desktops
 }
@@ -1333,8 +1333,43 @@ body {
 }
 
 /* Larger screens (e.g., desktop and tablets) */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .about-heading {
     margin-top: -1rem;
   }
+}
+
+/* Label swap: About → Andrew Y. K. Foong */
+.label-mobile {
+  display: inline;
+}
+.label-desktop {
+  display: none;
+}
+
+/* Desktop breakpoint behavior */
+@media screen and (min-width: 1280px) {
+  .label-mobile {
+    display: none;
+  }
+
+  .label-desktop {
+    display: inline;
+  }
+
+  /* Add tracking to all masthead buttons */
+  .masthead__menu-item a {
+    letter-spacing: 0.02em;
+  }
+
+  /* Spacer for desktop layout only */
+  .nav-spacer {
+    display: inline-block;
+    width: 46px;  /* Adjust to align second link with content */
+  }
+}
+
+/* Hide spacer on mobile */
+.nav-spacer {
+  display: none;
 }
