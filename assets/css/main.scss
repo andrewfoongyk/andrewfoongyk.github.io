@@ -1324,3 +1324,15 @@ body {
     z-index: 900;
   }
 }
+
+/* Default style (mobile-first) */
+.about-heading {
+  margin-top: -2rem;
+}
+
+/* Larger screens (e.g., desktop and tablets) */
+@media screen and (min-width: 768px) {
+  .about-heading {
+    margin-top: -1rem;
+  }
+}

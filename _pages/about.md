@@ -15,7 +15,8 @@ redirect_from:
 </style>
 
 <a id="about" style="display: block; position: relative; top: -200px; visibility: hidden;"></a>
-<h1 style = "margin-top: 0em;">About Me</h1>
+<!-- <h1 style = "margin-top: -1.5rem;">About Me</h1> -->
+<h1 class="about-heading">About Me</h1>
 
 I am an
 <span class="small-caps">ai</span>
