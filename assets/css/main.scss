@@ -1342,6 +1342,8 @@ body {
 /* Label swap: About → Andrew Y. K. Foong */
 .label-mobile {
   display: inline;
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }
 .label-desktop {
   display: none;
@@ -1355,6 +1357,7 @@ body {
 
   .label-desktop {
     display: inline;
+    font-weight: 600;
   }
 
   /* Add tracking to all masthead buttons */
