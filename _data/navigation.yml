@@ -10,8 +10,7 @@ main:
     url: "#talks"
 
   - title: "CV"
-    url: /files/CV.pdf
-    newtab: true
+    url: "#cv"
 
   - title: "Understanding AI Webinar"
     url: "#ai-from-scratch"

@@ -930,3 +930,14 @@ Watch the [video](https://www.facebook.com/icml.imls/videos/320132412242165/?t=1
 </div>
 
 I gave a talk with [David Burt](https://davidrburt.github.io/) introducing implicit variational inference, a way to obtain very flexible approximate posterior distributions for Bayesian inference. View the [slides](../files/Implicit_Inference_RG_notes.pdf).
+
+
+<a id="cv" style="display: block; position: relative; top: -58px; visibility: hidden;"></a>
+<h1>Curriculum Vitae</h1>
+
+<p>
+  My academic <span class="small-caps">cv</span> is available as a <span class="small-caps">pdf</span> 
+  <a href="/files/CV.pdf" target="_blank" rel="noopener noreferrer">here</a>.
+  <br>
+  <span style="font-style: italic; color: #666;">Last updated January 2025.</span>
+</p>
