@@ -956,7 +956,7 @@ I gave a talk with [David Burt](https://davidrburt.github.io/) introducing impli
     </p>
 
     <p style="margin-top:0.4em;">
-      Deep learning shines when there's lots of data, but fails in low-data settings where uncertainty matters. The <span class="small-caps">npf</span> is a family of models that tackles this by meta-learning a distribution over predictors, blending stochastic processes with neural networks. This site walks through the ideas, maths, and code from scratch.
+      Deep learning shines when there's lots of data, but fails in low-data settings where uncertainty matters, commonly encountered in medical time-series. The <span class="small-caps">npf</span> is a family of models that tackles this by meta-learning a distribution over predictors, blending stochastic processes with neural networks. This site walks through the ideas, maths, and code from scratch.
     </p>
   </div>
 </div>
@@ -980,7 +980,7 @@ I gave a talk with [David Burt](https://davidrburt.github.io/) introducing impli
     </p>
 
     <p style="margin-top:0.4em;">
-      A two-part blog exploring the sunny arguments for Bayesian inference, and then, in part two, taking a critical perspective. Written by members of an avowedly Bayesian Cambridge research group, we look at where the theory breaks, the modelling compromises we make, and the computational hurdles that keep us up at night.
+      A two-part blog exploring the sunny arguments <span style="font-style: italic">for</span> Bayesian inference, and then, in part two, taking a critical perspective. Written by members of an avowedly Bayesian Cambridge research group, we look at where the theory breaks, the modelling compromises we make, and the computational hurdles that keep us up at night.
       <br>
 
       <a href="https://mlg.eng.cam.ac.uk/blog/2021/03/31/what-keeps-a-bayesian-awake-at-night-part-1.html" target="_blank" rel="noopener noreferrer">
