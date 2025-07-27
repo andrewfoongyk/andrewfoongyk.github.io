@@ -1303,34 +1303,32 @@ html {
   scroll-behavior: smooth;
 }
 
-/* sticky nav bar */
-// #site-header {
+/* Make masthead sticky */
+.masthead {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* keep it above other content */
+}
+
+/* Add padding to body to prevent content being hidden under masthead */
+body {
+  padding-top: 60px; /* adjust based on masthead height */
+}
+
+// /* Fix the sidebar in place */
+// .sidebar {
 //   position: fixed;
-//   top: 0;
-//   width: 100%;
-//   z-index: 1000;
-//   transition: transform 0.3s ease-in-out;
-//   background: white; /* or your preferred color */
-//   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+//   top: 100px;  /* Replace with exact top value from inspection */
+//   width: 260px;  /* Set your sidebar width to avoid layout collapse */
+//   z-index: 900;  /* Below navbar (1000), above content */
 // }
 
-// #site-header.hide {
-//   transform: translateY(-100%);
-// }
-
-// body {
-//   padding-top: 64px;
-// }
-
-// .sidebar.sticky {
-//   padding-top: var(--masthead-height, 64px);
-//   transition: padding-top 0.3s ease;
-// }
-
-// body.header-hidden .sidebar.sticky {
-//   padding-top: 0;
-// }
-
-// body.at-top .sidebar.sticky {
-//   padding-top: 0; /* override at the top of the page */
-// }
+@media screen and (min-width: 992px) {
+  .sidebar {
+    position: fixed;
+    top: 100px;      /* Same value you found earlier */
+    width: 260px;    /* Prevent layout shift */
+    z-index: 900;
+  }
+}
