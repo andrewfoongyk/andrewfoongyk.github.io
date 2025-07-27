@@ -1,10 +1,17 @@
 # main links links
 main:
+  - title: "About"
+    url: "#about"
+
   - title: "Papers"
     url: "#publications"
 
   - title: "Talks"
     url: "#talks"
+
+  - title: "CV"
+    url: /files/CV.pdf
+    newtab: true
 
   - title: "Understanding AI Webinar"
     url: "#ai-from-scratch"
@@ -14,6 +21,4 @@ main:
     external: true
     newtab: true
 
-  - title: "CV"
-    url: /files/CV.pdf
-    newtab: true
+
