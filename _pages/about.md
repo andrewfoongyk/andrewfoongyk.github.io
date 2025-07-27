@@ -633,9 +633,20 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
     <h2 style="margin:0;">2025</h2>
 </div>
 
-<div style="display: flex; align-items: flex-start; gap: 1.2em; margin-bottom: 0;">
+<!-- <div style="display: flex; align-items: flex-start; gap: 1.2em; margin-bottom: 0;">
   <h3 id="ai-from-scratch" style="margin: 0;">Understanding AI from Scratch</h3>
+</div> -->
+
+<!-- <div id="ai-from-scratch" style="display: flex; align-items: flex-start; gap: 1.2em; margin-bottom: 0;">
+  <h3 style="margin: 0;">Understanding AI from Scratch</h3>
+</div> -->
+
+<a id="ai-from-scratch" style="display: block; position: relative; top: -58px; visibility: hidden;"></a>
+<div style="display: flex; align-items: flex-start; gap: 1.2em; margin-bottom: 0;">
+  <h3 style="margin: 0;">Understanding AI from Scratch</h3>
 </div>
+
+
 
 <div style="font-variant: small-caps; margin-top: -0.1em; margin-bottom: 0.7em;">
   mayo clinic lecture series
