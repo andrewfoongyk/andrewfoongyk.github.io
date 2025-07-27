@@ -1316,14 +1316,6 @@ body {
   padding-top: 60px; /* adjust based on masthead height */
 }
 
-// /* Fix the sidebar in place */
-// .sidebar {
-//   position: fixed;
-//   top: 100px;  /* Replace with exact top value from inspection */
-//   width: 260px;  /* Set your sidebar width to avoid layout collapse */
-//   z-index: 900;  /* Below navbar (1000), above content */
-// }
-
 @media screen and (min-width: 992px) {
   .sidebar {
     position: fixed;
@@ -1331,17 +1323,4 @@ body {
     width: 260px;    /* Prevent layout shift */
     z-index: 900;
   }
-}
-
-h1::before,
-h2::before,
-h3::before,
-h4::before,
-h5::before,
-h6::before {
-  content: "";
-  display: block;
-  height: 60px;       /* Same as masthead height */
-  margin-top: -60px;  /* Negative to offset scroll */
-  visibility: hidden;
 }
