@@ -31,79 +31,21 @@ layout: compress
         async src="//gc.zgo.at/count.js"></script>
 
 
+
     <script>
-    // Scroll-up header behavior
-    // let lastScroll = window.pageYOffset;
-    // const header = document.getElementById('site-header');
-    // const body = document.body;
+      window.addEventListener('load', function () {
+        // Give layout + fonts time to settle
+        setTimeout(function () {
+          // Trigger a resize event, which GreedyNav listens for
+          window.dispatchEvent(new Event('resize'));
 
-    // function updateHeaderState() {
-    //   const currentScroll = window.pageYOffset;
-    //   const isScrollingDown = currentScroll > lastScroll;
-    //   const isScrollingUp = currentScroll < lastScroll;
-
-    //   if (currentScroll <= 0) {
-    //     header.classList.remove('hide');
-    //     body.classList.add('at-top');
-    //     body.classList.remove('header-hidden');
-    //   } else {
-    //     body.classList.remove('at-top');
-
-    //     if (isScrollingDown && currentScroll > 100) {
-    //       header.classList.add('hide');
-    //       body.classList.add('header-hidden');
-    //     } else if (isScrollingUp) {
-    //       header.classList.remove('hide');
-    //       body.classList.remove('header-hidden');
-    //     }
-    //   }
-
-    //   lastScroll = currentScroll;
-    // }
-
-    // // Safe init for real mobile browsers
-    // window.addEventListener('load', () => {
-    //   setTimeout(updateHeaderState, 50);
-    // });
-
-    // window.addEventListener('scroll', updateHeaderState);
-    // </script>
-
-    <!-- <script>
-      let lastScroll = window.pageYOffset;
-      const header = document.getElementById('site-header');
-      const body = document.body;
-
-      function updateHeaderState() {
-        const currentScroll = window.pageYOffset;
-        const isScrollingDown = currentScroll > lastScroll;
-        const isScrollingUp = currentScroll < lastScroll;
-
-        if (currentScroll <= 0) {
-          header.classList.remove('hide');
-          body.classList.add('at-top');
-          body.classList.remove('header-hidden');
-        } else {
-          body.classList.remove('at-top');
-
-          if (isScrollingDown && currentScroll > 100) {
-            header.classList.add('hide');
-            body.classList.add('header-hidden');
-          } else if (isScrollingUp) {
-            header.classList.remove('hide');
-            body.classList.remove('header-hidden');
+          // Also force re-init just in case
+          if (window.greedyNav && typeof window.greedyNav.init === 'function') {
+            greedyNav.init();
           }
-        }
-
-        lastScroll = currentScroll;
-      }
-
-      // Run once on page load
-      window.addEventListener('DOMContentLoaded', updateHeaderState);
-
-      // Then continue to update on scroll
-      window.addEventListener('scroll', updateHeaderState);
-    </script> -->
+        }, 3000); // You can try increasing to 500ms if needed
+      });
+    </script>
 
   </body>
 </html>
