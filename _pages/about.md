@@ -636,98 +636,149 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
     <h2 style="margin:0;">2025</h2>
 </div>
 
+
+
 <a id="ai-from-scratch" style="display: block; position: relative; top: -58px; visibility: hidden;"></a>
-<div style="display: flex; align-items: flex-start; gap: 1.2em; margin-bottom: 0;">
-  <h3 style="margin: 0;">Understanding AI from Scratch</h3>
+
+<!-- Header row: icon + title + description -->
+<div style="margin-bottom: 2em;">
+  <div style="display:flex; align-items:flex-start; gap:0.8em;">
+    <!-- Small icon placeholder -->
+    <img src="/assets/images/talks/ai-from-scratch.png"
+     alt="Icon"
+     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0;">
+
+    <div style="flex: 1;">
+      <h3 style="margin-top: 0; margin-bottom: 0.1em;">
+        Understanding AI from Scratch
+      </h3>
+
+      <p style="margin: 0; font-size: 0.9rem; font-variant: small-caps;">
+        mayo clinic lecture series
+      </p>
+
+      <p style="margin-top: 0.6em;">
+        I designed this six-part series to help clinicians at the Mayo Clinic with no prior <span class="small-caps">ai</span> experience understand deep learning from first principles. 
+      </p>
+
+      <ul style="margin-top: 0.6em; padding-left: 1.2em;">
+        <li>
+          <span style="font-weight: 500;">Lectures 1 &amp; 2</span> cover deep learning from the ground up, from linear regression and gradient descent to neural networks, overfitting, and generalization.
+        </li>
+        <li>
+          <span style="font-weight: 500;">Lectures 3 &amp; 4</span> explain what convolutional neural networks are and how they can be used to understand images.
+        </li>
+        <li>
+          <span style="font-weight: 500;">Lectures 5 &amp; 6</span> explain how Chat<span class="small-caps">gpt</span> works, how it was made, and how prompting and retrieval-augmented generation <span class="small-caps">(rag)</span> can increase accuracy.
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Thumbnail Grid: aligned with text block, centered within it -->
+  <div style="
+    margin-top: 1.5em;
+    margin-left: calc(50px + 0.8em);
+    max-width: calc(100% - 50px - 0.8em);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  ">
+
+    <!-- Lecture blocks -->
+    <div style="text-align: center; width: 200px;">
+      <a href="https://mssvideoupload.mayo.edu/playlist/dedicated/1_uq8gpkab/1_rhvbtb46" target="_blank">
+        <img src="/assets/lectures/lecture1-thumb.jpg" alt="Lecture 1 thumbnail" style="width: 100%; border-radius: 8px;">
+      </a>
+      <div style="margin-top: 0.5em; font-size: 0.95em;">
+        <span class="small-caps">lecture 1</span>: What is Deep Learning?
+      </div>
+    </div>
+
+    <div style="text-align: center; width: 200px;">
+      <a href="https://mssvideoupload.mayo.edu/playlist/dedicated/1_uq8gpkab/1_xbkcrbjs" target="_blank">
+        <img src="/assets/lectures/lecture2-thumb.jpg" alt="Lecture 2 thumbnail" style="width: 100%; border-radius: 8px;">
+      </a>
+      <div style="margin-top: 0.5em; font-size: 0.95em;">
+        <span class="small-caps">lecture 2</span>: From Single Neurons to Neural Networks
+      </div>
+    </div>
+
+    <div style="text-align: center; width: 200px;">
+      <a href="https://mssvideoupload.mayo.edu/playlist/dedicated/1_uq8gpkab/1_2q24t2cy" target="_blank">
+        <img src="/assets/lectures/lecture3-thumb.jpg" alt="Lecture 3 thumbnail" style="width: 100%; border-radius: 8px;">
+      </a>
+      <div style="margin-top: 0.5em; font-size: 0.95em;">
+        <span class="small-caps">lecture 3</span>: <span class="small-caps">ai</span> for Imaging
+      </div>
+    </div>
+
+    <div style="text-align: center; width: 200px;">
+      <a href="https://mssvideoupload.mayo.edu/playlist/dedicated/1_uq8gpkab/1_4m5awnik" target="_blank">
+        <img src="/assets/lectures/lecture4-thumb.jpg" alt="Lecture 4 thumbnail" style="width: 100%; border-radius: 8px;">
+      </a>
+      <div style="margin-top: 0.5em; font-size: 0.95em;">
+        <span class="small-caps">lecture 4</span>: Practical <span class="small-caps">ai</span> for Imaging
+      </div>
+    </div>
+
+    <div style="text-align: center; width: 200px;">
+      <a href="https://mssvideoupload.mayo.edu/playlist/dedicated/1_uq8gpkab/1_h9wwrlo9" target="_blank">
+        <img src="/assets/lectures/lecture5-thumb.jpg" alt="Lecture 5 thumbnail" style="width: 100%; border-radius: 8px;">
+      </a>
+      <div style="margin-top: 0.5em; font-size: 0.95em;">
+        <span class="small-caps">lecture 5</span>: How Does Chat<span class="small-caps">gpt</span> Work?
+      </div>
+    </div>
+
+    <div style="text-align: center; width: 200px;">
+      <a href="https://mssvideoupload.mayo.edu/playlist/dedicated/1_uq8gpkab/1_euus6hqk" target="_blank">
+        <img src="/assets/lectures/lecture6-thumb.jpg" alt="Lecture 6 thumbnail" style="width: 100%; border-radius: 8px;">
+      </a>
+      <div style="margin-top: 0.5em; font-size: 0.95em;">
+        <span class="small-caps">lecture 6</span>: Prompting Chat<span class="small-caps">gpt</span>
+      </div>
+    </div>
+
+  </div>
 </div>
 
 
 
-<div style="font-variant: small-caps; margin-top: -0.1em; margin-bottom: 0.7em;">
-  mayo clinic lecture series
-</div>
-
-<p>
-I designed this six-part series to help clinicians at the Mayo Clinic with no prior <span class="small-caps">ai</span> experience understand deep learning from first principles. 
-</p>
-
-<ul style="margin-top: 0.2em;">
-  <li>
-    <span style="font-weight: 500;">Lectures 1 &amp; 2</span> cover deep learning from the ground up, from linear regression and gradient descent to neural networks, overfitting, and generalization.
-  </li>
-  <li>
-    <span style="font-weight: 500;">Lectures 3 &amp; 4</span> explain what convolutional neural networks are and how they can be used to understand images.
-  </li>
-  <li>
-    <span style="font-weight: 500;">Lectures 5 &amp; 6</span> explain how Chat<span class="small-caps">gpt</span> works, how it was made, and how prompting and retrieval-augmented generation <span class="small-caps">(rag)</span> can increase accuracy.
-  </li>
-</ul>
-
-<div style="margin-top: 1.5em; display: flex; flex-wrap: wrap; gap: 30px; justify-content: center;">
-
-  <div style="text-align: center; width: 220px;">
-    <a href="https://mssvideoupload.mayo.edu/playlist/dedicated/1_uq8gpkab/1_rhvbtb46" target="_blank">
-      <img src="/assets/lectures/lecture1-thumb.jpg" alt="Lecture 1 thumbnail" style="width: 100%; border-radius: 8px;">
-    </a>
-    <div style="margin-top: 0.5em; font-size: 0.95em;"><span class="small-caps">lecture 1</span>: What is Deep Learning?</div>
-  </div>
-
-  <div style="text-align: center; width: 220px;">
-    <a href="https://mssvideoupload.mayo.edu/playlist/dedicated/1_uq8gpkab/1_xbkcrbjs" target="_blank">
-      <img src="/assets/lectures/lecture2-thumb.jpg" alt="Lecture 2 thumbnail" style="width: 100%; border-radius: 8px;">
-    </a>
-    <div style="margin-top: 0.5em; font-size: 0.95em;"><span class="small-caps">lecture 2</span>: From Single Neurons to Neural Networks</div>
-  </div>
-
-  <div style="text-align: center; width: 220px;">
-    <a href="https://mssvideoupload.mayo.edu/playlist/dedicated/1_uq8gpkab/1_2q24t2cy" target="_blank">
-      <img src="/assets/lectures/lecture3-thumb.jpg" alt="Lecture 3 thumbnail" style="width: 100%; border-radius: 8px;">
-    </a>
-    <div style="margin-top: 0.5em; font-size: 0.95em;"><span class="small-caps">lecture 3</span>: <span class="small-caps">ai</span> for Imaging</div>
-  </div>
-
-  <div style="text-align: center; width: 220px;">
-    <a href="https://mssvideoupload.mayo.edu/playlist/dedicated/1_uq8gpkab/1_4m5awnik" target="_blank">
-      <img src="/assets/lectures/lecture4-thumb.jpg" alt="Lecture 4 thumbnail" style="width: 100%; border-radius: 8px;">
-    </a>
-    <div style="margin-top: 0.5em; font-size: 0.95em;"><span class="small-caps">lecture 4</span>: Practical <span class="small-caps">ai</span> for Imaging</div>
-  </div>
-
-  <div style="text-align: center; width: 220px;">
-    <a href="https://mssvideoupload.mayo.edu/playlist/dedicated/1_uq8gpkab/1_h9wwrlo9" target="_blank">
-      <img src="/assets/lectures/lecture5-thumb.jpg" alt="Lecture 5 thumbnail" style="width: 100%; border-radius: 8px;">
-    </a>
-    <div style="margin-top: 0.5em; font-size: 0.95em;"><span class="small-caps">lecture 5</span>: How Does Chat<span class="small-caps">gpt</span> Work?</div>
-  </div>
-
-  <div style="text-align: center; width: 220px;">
-    <a href="https://mssvideoupload.mayo.edu/playlist/dedicated/1_uq8gpkab/1_euus6hqk" target="_blank">
-      <img src="/assets/lectures/lecture6-thumb.jpg" alt="Lecture 6 thumbnail" style="width: 100%; border-radius: 8px;">
-    </a>
-    <div style="margin-top: 0.5em; font-size: 0.95em;"><span class="small-caps">lecture 6</span>: Prompting Chat<span class="small-caps">gpt</span></div>
-  </div>
-
-</div>
 
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:1em;">
     <h2>2023</h2>
 </div>
 
-<div style="display: flex; align-items: flex-start; gap: 1.2em; margin-bottom: 0;">
-  <h3 style="margin-bottom: 0.0em; margin-top: 0em;">Timewarp: Transferable Acceleration of Molecular Dynamics by Learning Time-Coarsened Dynamics</h3>
-</div>
-<div style="font-variant: small-caps; margin-top: -0.1em; margin-bottom: 0.7em;">
-  online reading group presentation
-</div>
 
-Co-first author [Leon Klein](https://www.mi.fu-berlin.de/en/math/groups/ai4s/staff/klein/index.html) and I presented our <span class="small-caps">n</span>eur<span class="small-caps">ips</span> 2023 spotlight paper on using deep learning to accelerate molecular dynamics simulation at two online reading groups.
 
-<div style="display: flex; justify-content: center; gap: 2em; flex-wrap: wrap; margin-bottom: 2em;">
+<div style="margin-bottom: 2em;">
+  <!-- Header row: icon + title + description -->
+  <div style="display:flex; align-items:flex-start; gap:0.8em;">
+    <img src="/assets/images/publications/timewarp-banner.png"
+     alt="Icon"
+     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0;">
 
-  <!-- First Video -->
-  <div style="flex: 1 1 45%; text-align: center;">
-    <div style="aspect-ratio: 16 / 9;">
+    <div style="flex: 1;">
+      <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
+        Timewarp: Transferable Acceleration of Molecular Dynamics by Learning Time-Coarsened Dynamics
+      </h3>
+
+      <p style="margin: 0; font-size: 0.9rem; font-variant: small-caps;">
+        online reading group presentation
+      </p>
+
+      <p style="margin-top: 0.6em;">
+        Co-first author <a href="https://www.mi.fu-berlin.de/en/math/groups/ai4s/staff/klein/index.html" target="_blank" rel="noopener noreferrer">Leon Klein</a> and I presented our <span class="small-caps">n</span>eur<span class="small-caps">ips</span> 2023 spotlight paper on using deep learning to accelerate molecular dynamics simulation at two online reading groups.
+      </p>
+    </div>
+  </div>
+
+  <!-- Video 1 -->
+  <div style="margin-top: 1em; margin-left: calc(50px + 0.8em); max-width: calc(100% - 50px - 0.8em);">
+    <div style="aspect-ratio: 16 / 9; width: 100%;">
       <iframe 
         src="https://www.youtube.com/embed/4rtT-hE9Xqo?si=tfpzjzFw9n-gbMp_"
         title="YouTube video player"
@@ -737,14 +788,14 @@ Co-first author [Leon Klein](https://www.mi.fu-berlin.de/en/math/groups/ai4s/sta
         allowfullscreen>
       </iframe>
     </div>
-    <div style="font-style: italic; margin-top: 0.4em;">
+    <div style="font-style: italic; margin-top: 0.4em; text-align: center;">
       Learning on Graphs and Geometry <span class="small-caps">(l</span>o<span class="small-caps">gg)</span>
     </div>
   </div>
 
-  <!-- Second Video -->
-  <div style="flex: 1 1 45%; text-align: center;">
-    <div style="aspect-ratio: 16 / 9;">
+  <!-- Video 2 -->
+  <div style="margin-top: 2em; margin-left: calc(50px + 0.8em); max-width: calc(100% - 50px - 0.8em);">
+    <div style="aspect-ratio: 16 / 9; width: 100%;">
       <iframe 
         src="https://www.youtube.com/embed/fD_1V5HgGTQ"
         title="YouTube video player"
@@ -754,67 +805,97 @@ Co-first author [Leon Klein](https://www.mi.fu-berlin.de/en/math/groups/ai4s/sta
         allowfullscreen>
       </iframe>
     </div>
-    <div style="font-style: italic; margin-top: 0.4em;">
+    <div style="font-style: italic; margin-top: 0.4em; text-align: center;">
       Molecular Modeling and Drug Discovery <span class="small-caps">(m</span>2<span class="small-caps">d</span>2<span class="small-caps">)</span>
     </div>
   </div>
-
 </div>
+
 
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:1em;">
     <h2 style="margin:0;">2021</h2>
 </div>
 
-<div style="display: flex; align-items: flex-start; gap: 1.2em; margin-bottom: 0;">
-  <h3 style="margin-bottom: 0.0em; margin-top: 0em;">An Introduction to PAC-Bayes</h3>
-</div>
-
-<div style="font-variant: small-caps; margin-top: -0.1em; margin-bottom: 0.7em;">
-  cambridge machine learning reading group
-</div>
 
 
-I gave an introductory talk on the statistical learning framework and <span class="small-caps">pac</span>-Bayes with [David Burt](https://davidrburt.github.io/) and [Javier Antoran](https://javierantoran.github.io/about/). View the [slides](../files/pac_bayes_reading_group.pdf).
+<div style="margin-bottom: 2em;">
+  <!-- Header row: icon + title + description -->
+  <div style="display:flex; align-items:flex-start; gap:0.8em;">
+    <img src="/assets/images/talks/pac-bayes.png"
+     alt="Icon"
+     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0;">
 
-<div style="width: 95%; margin: 0 auto; text-align: center; margin-bottom: 1em;">
-  <div style="aspect-ratio: 16 / 9;">
-    <iframe 
-      src="https://www.youtube.com/embed/t5GBuBD0ibc"
-      title="YouTube video player"
-      style="width: 100%; height: 100%; border: none;"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerpolicy="strict-origin-when-cross-origin"
-      allowfullscreen>
-    </iframe>
+    <div style="flex: 1;">
+      <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
+        An Introduction to PAC-Bayes
+      </h3>
+
+      <p style="margin: 0; font-size: 0.9rem; font-variant: small-caps;">
+        cambridge machine learning reading group
+      </p>
+
+      <p style="margin-top: 0.6em;">
+        I gave an introductory talk on the statistical learning framework and <span class="small-caps">pac</span>-Bayes with <a href="https://davidrburt.github.io/" target="_blank" rel="noopener noreferrer">David Burt</a> and <a href="https://javierantoran.github.io/about/" target="_blank" rel="noopener noreferrer">Javier Antoran</a>. View the <a href="../files/pac_bayes_reading_group.pdf" target="_blank">slides</a>.
+      </p>
+    </div>
+  </div>
+
+  <!-- Aligned YouTube embed -->
+  <div style="margin-top: 1em; margin-left: calc(50px + 0.8em); max-width: calc(100% - 50px - 0.8em);">
+    <div style="aspect-ratio: 16 / 9; width: 100%;">
+      <iframe 
+        src="https://www.youtube.com/embed/t5GBuBD0ibc"
+        title="YouTube video player"
+        style="width: 100%; height: 100%; border: none;"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+      </iframe>
+    </div>
   </div>
 </div>
+
+
 
 <div style="margin-bottom: 2em;"></div>
 
 
-<div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.2em;">
-    <h3 style="margin-bottom:0; margin-top:1em;">
-      Understanding Approximate Inference in Bayesian Neural Networks
-    </h3>
-</div>
 
-<div style="font-variant: small-caps; margin-top: -0.1em; margin-bottom: 0.7em;">
-  joint talk with oxford university 
-</div>
+<div style="margin-bottom: 2em;">
+  <!-- Header row: icon + title + description -->
+  <div style="display:flex; align-items:flex-start; gap:0.8em;">
+    <img src="/assets/images/talks/oxford.png"
+     alt="Icon"
+     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0;">
 
-I gave a talk on my <span class="small-caps">n</span>eur<span class="small-caps">ips</span> 2020 [paper](https://arxiv.org/abs/1909.00719) on approximate inference in Bayesian neural networks, with an accompanying talk by [Sebastian Farquhar](https://sebastianfarquhar.com/) of the University of Oxford. Our talks present different perspectives on the effectiveness of the mean-field approximation in these models. View the [slides](../files/BNNs_talk.pdf). 
+    <div style="flex: 1;">
+      <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
+        Understanding Approximate Inference in Bayesian Neural Networks
+      </h3>
 
-<div style="width: 95%; margin: 0 auto; text-align: center; margin-bottom: 1em;">
-  <div style="aspect-ratio: 16 / 9;">
-    <iframe 
-      src="https://www.youtube.com/embed/BJTkLxSQrHI"
-      title="YouTube video player"
-      style="width: 100%; height: 100%; border: none;"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerpolicy="strict-origin-when-cross-origin"
-      allowfullscreen>
-    </iframe>
+      <p style="margin: 0; font-size: 0.9rem; font-variant: small-caps;">
+        joint talk with oxford university
+      </p>
+
+      <p style="margin-top: 0.6em;">
+        I gave a talk on my <a href="https://arxiv.org/abs/1909.00719" target="_blank" rel="noopener noreferrer"><span class="small-caps">n</span>eur<span class="small-caps">ips</span> 2020 paper</a> on approximate inference in Bayesian neural networks, with an accompanying talk by <a href="https://sebastianfarquhar.com/" target="_blank" rel="noopener noreferrer">Sebastian Farquhar</a> of the University of Oxford. Our talks present different perspectives on the effectiveness of the mean-field approximation in these models. View the <a href="../files/BNNs_talk.pdf" target="_blank">slides</a>.
+      </p>
+    </div>
+  </div>
+
+  <!-- Aligned YouTube embed -->
+  <div style="margin-top: 1em; margin-left: calc(50px + 0.8em); max-width: calc(100% - 50px - 0.8em);">
+    <div style="aspect-ratio: 16 / 9; width: 100%;">
+      <iframe 
+        src="https://www.youtube.com/embed/BJTkLxSQrHI"
+        title="YouTube video player"
+        style="width: 100%; height: 100%; border: none;"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+      </iframe>
+    </div>
   </div>
 </div>
 
@@ -824,19 +905,35 @@ I gave a talk on my <span class="small-caps">n</span>eur<span class="small-caps"
     <h2 style="margin-bottom:0">2020</h2>
 </div>
 
-<div style="display: flex; align-items: flex-start; gap: 1.2em; margin-bottom: 0;">
-  <h3 style="margin-bottom: 0.0em; margin-top: 0em;">On the Expressiveness of Approximate Inference in Bayesian Neural Networks</h3>
-</div>
 
-<div style="font-variant: small-caps; margin-top: -0.1em; margin-bottom: 0.7em;">
-  presentation at neurips conference
-</div>
+<div style="margin-bottom: 2em;">
+  <!-- Header row: icon + title + description -->
+  <div style="display:flex; align-items:flex-start; gap:0.8em;">
+    <img src="/assets/images/publications/expressiveness-banner.png"
+     alt="Icon"
+     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0;">
 
-A short video describing my paper on flaws in uncertainty estimation when using common approximate Bayesian neural network inference methods.
-<!-- [SlidesLive link](https://slideslive.com/38937338/on-the-expressiveness-of-approximate-inference-in-bayesian-neural-networks?ref=speaker-44972-latest). -->
+    <div style="flex: 1;">
+      <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
+        On the Expressiveness of Approximate Inference in Bayesian Neural Networks
+      </h3>
 
-<div style="width: 95%; margin-top: 0; text-align: center; margin-bottom: 1em;">
-  <div id="presentation-embed-38937338" style="width: 100%;"></div>
+      <p style="margin: 0; font-size: 0.9rem; font-variant: small-caps;">
+        presentation at neurips conference
+      </p>
+
+      <p style="margin-top: 0.6em;">
+        A short video describing my paper on flaws in uncertainty estimation when using common approximate Bayesian neural network inference methods.
+      </p>
+    </div>
+  </div>
+
+  <!-- Responsive video embed -->
+  <div class="embed-wrapper" style="line-height: 0; margin-top: 1em; margin-left: calc(50px + 0.8em); position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: calc(100% - 50px - 0.8em);">
+    <div id="presentation-embed-38937338"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    </div>
+  </div>
 
   <script src="https://slideslive.com/embed_presentation.js"></script>
   <script>
@@ -849,55 +946,95 @@ A short video describing my paper on flaws in uncertainty estimation when using 
 </div>
 
 
-<div style="display:flex; align-items:flex-start; gap:0em; margin-bottom:0.2em;">
-    <h3 style="margin-bottom:0; margin-top:1.7em;">
-      Meta-learning Stationary Stochastic Process Prediction with Convolutional Neural Processes
-    </h3>
+
+
+<!-- Talk container -->
+<div style="margin-bottom: 2em;">
+  <!-- Header row: icon + title + description -->
+  <div style="display:flex; align-items:flex-start; gap:0.8em;">
+    <img src="/assets/images/publications/convnp-banner.png"
+     alt="Icon"
+     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0;">
+
+    <div style="flex: 1;">
+      <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
+        Meta-learning Stationary Stochastic Process Prediction with Convolutional Neural Processes
+      </h3>
+
+      <p style="margin: 0; font-size: 0.9rem; font-variant: small-caps;">
+        presentation at neurips conference
+      </p>
+
+      <p style="margin-top: 0.6em;">
+        A short video explaining my paper on neural processes, a deep learning alternative to Gaussian processes for regression problems with uncertainty.
+      </p>
+    </div>
+  </div>
+
+  <!-- Responsive video embed -->
+  <div class="embed-wrapper" style="line-height: 0; margin-top: 1em; margin-left: calc(50px + 0.8em); position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: calc(100% - 50px - 0.8em);">
+    <div id="presentation-embed-38937329"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    </div>
+  </div>
+
+  <script src="https://slideslive.com/embed_presentation.js"></script>
+  <script>
+    embed = new SlidesLiveEmbed("presentation-embed-38937329", {
+      presentationId: "38937329",
+      autoPlay: false,
+      verticalEnabled: false,
+    });
+  </script>
 </div>
 
-<div style="font-variant: small-caps; margin-top: -0.1em; margin-bottom: 0.7em;">
-  presentation at neurips conference
-</div>
 
 
-A short video explaining my paper on neural processes, a deep learning alternative to Gaussian processes for regression problems with uncertainty.
-<!-- [SlidesLive link](https://slideslive.com/38937329/metalearning-stationary-stochastic-process-prediction-with-convolutional-neural-processes?ref=speaker-44972-latest). -->
-<div id="presentation-embed-38937329"></div>
-<script src="https://slideslive.com/embed_presentation.js"></script>
-<script>
-  embed = new SlidesLiveEmbed("presentation-embed-38937329", {
-    presentationId: "38937329",
-    autoPlay: false,
-    verticalEnabled: false,
-  });
-</script>
 
-<div style="display:flex; align-items:flex-start; gap:0em; margin-bottom:0.2em;">
-    <h3 style="margin-bottom:0; margin-top:2.5em;">
+<!-- Talk: Neural Processes -->
+<div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em;">
+  <!-- Icon placeholder -->
+    <img src="/assets/images/blogs/npf-icon.png"
+     alt="Icon"
+     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0;">
+
+  <div>
+    <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
       Neural Processes
     </h3>
+
+    <p style="margin: 0; font-size: 0.9rem; font-variant: small-caps;">
+      cambridge machine learning reading group
+    </p>
+
+    <p style="margin-top: 0.6em;">
+      A reading group talk given with <a href="https://twitter.com/sebastian_ober?lang=en" target="_blank" rel="noopener noreferrer">Sebastian Ober</a> and Stratis Markou, introducing various neural processes and covering much of the material in <a href="https://yanndubs.github.io/Neural-Process-Family/text/Intro.html" target="_blank" rel="noopener noreferrer">this blog post</a>. View the <a href="../files/nps_reading_group.pdf" target="_blank">slides</a>.
+    </p>
+  </div>
 </div>
 
-<div style="font-variant: small-caps; margin-top: -0.1em; margin-bottom: 0.7em;">
-  cambridge machine learning reading group
-</div>
+<!-- Talk: Recent Advances in Bayesian Deep Learning -->
+<div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em;">
+  <!-- Icon placeholder -->
+    <img src="/assets/images/talks/bdl.png"
+     alt="Icon"
+     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0;">
 
-A reading group talk given with [Sebastian Ober](https://twitter.com/sebastian_ober?lang=en) and Stratis Markou, introducing various neural processes and covering much of the material in [this blog post](https://yanndubs.github.io/Neural-Process-Family/text/Intro.html). View the [slides](../files/nps_reading_group.pdf).
-
-
-
-<div style="display:flex; align-items:flex-start; gap:0em; margin-bottom:0.2em;">
-    <h3 style="margin-bottom:0; margin-top:1.7em;">
+  <div>
+    <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
       Recent Advances in Bayesian Deep Learning
     </h3>
+
+    <p style="margin: 0; font-size: 0.9rem; font-variant: small-caps;">
+      cambridge machine learning reading group
+    </p>
+
+    <p style="margin-top: 0.6em;">
+      A reading group talk given with <a href="https://siddharthswaroop.github.io/" target="_blank" rel="noopener noreferrer">Siddharth Swaroop</a>, covering modern stochastic gradient Markov chain Monte Carlo <span class="small-caps">(sgmcmc)</span> and natural gradient variational inference methods for Bayesian deep learning. View the <a href="../files/Recent_Advances_in_Bayesian_Deep_Learning.pdf" target="_blank">slides</a>.
+    </p>
+  </div>
 </div>
 
-<div style="font-variant: small-caps; margin-top: -0.1em; margin-bottom: 0.7em;">
-  cambridge machine learning reading group
-</div>
-
-
-A reading group talk given with [Siddharth Swaroop](https://siddharthswaroop.github.io/), covering modern stochastic gradient Markov chain Monte Carlo <span class="small-caps">(sgmcmc)</span> and natural gradient variational inference methods for Bayesian deep learning. View the [slides](../files/Recent_Advances_in_Bayesian_Deep_Learning.pdf).
 
 
 
@@ -905,31 +1042,49 @@ A reading group talk given with [Siddharth Swaroop](https://siddharthswaroop.git
     <h2 style="margin-bottom:0">2019</h2>
 </div>
 
-<div style="display: flex; align-items: flex-start; gap: 1.2em; margin-bottom: 0;">
-  <h3 style="margin-bottom: 0.0em; margin-top: 0em;"><span style="display: inline-block; margin-left: -0.5em;">“</span>In-Between” Uncertainty in Bayesian Neural Networks</h3>
+<!-- Talk 1 -->
+<div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em;">
+  <!-- Optional: placeholder square or icon -->
+    <img src="/assets/images/publications/inbetween-uncertainty-banner.png"
+     alt="Icon"
+     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0;">
+
+  <div>
+    <h3 style="margin-top: 0em; margin-bottom: 0.1em; text-indent: -0.5em;">
+      “In-Between” Uncertainty in Bayesian Neural Networks
+    </h3>
+
+    <p style="margin: 0; font-size: 0.9rem; font-variant: small-caps;">
+      contributed talk, icml 2019 workshop on uncertainty in deep learning
+    </p>
+
+    <p style="margin-top: 0.6em;">
+      A contributed talk explaining my <a href="https://arxiv.org/abs/1906.11537" target="_blank" rel="noopener noreferrer">paper</a> on the lack of “in-between” uncertainty when using the mean-field approximation in Bayesian neural networks. Watch the <a href="https://www.facebook.com/icml.imls/videos/320132412242165/?t=1720" target="_blank" rel="noopener noreferrer">video</a> (beginning at 28:30), or view the <a href="../files/ICML_2019_Workshop_Presentation.pdf" target="_blank">slides</a>.
+    </p>
+  </div>
 </div>
 
-<div style="font-variant: small-caps; margin-top: -0.1em; margin-bottom: 0.7em;">
-  contributed talk, icml 2019 workshop on uncertainty in deep learning
-</div>
+<!-- Talk 2 -->
+<div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em;">
+    <img src="/assets/images/talks/implicit.png"
+     alt="Icon"
+     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0;">
 
-
-A contributed talk explaining my [paper](https://arxiv.org/abs/1906.11537) on the lack of “in-between” uncertainty when using the mean-field approximation in Bayesian neural networks.
-Watch the [video](https://www.facebook.com/icml.imls/videos/320132412242165/?t=1720) (beginning at 28:30), view the [slides](../files/ICML_2019_Workshop_Presentation.pdf).
-
-
-
-<div style="display:flex; align-items:flex-start; gap:0em; margin-bottom:0.2em;">
-    <h3 style="margin-bottom:0; margin-top:1.7em;">
+  <div>
+    <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
       Implicit Variational Inference
     </h3>
+
+    <p style="margin: 0; font-size: 0.9rem; font-variant: small-caps;">
+      cambridge machine learning reading group
+    </p>
+
+    <p style="margin-top: 0.6em;">
+      I gave a talk with <a href="https://davidrburt.github.io/" target="_blank" rel="noopener noreferrer">David Burt</a> introducing implicit variational inference, a way to obtain very flexible approximate posterior distributions for Bayesian inference. View the <a href="../files/Implicit_Inference_RG_notes.pdf" target="_blank">slides</a>.
+    </p>
+  </div>
 </div>
 
-<div style="font-variant: small-caps; margin-top: -0.1em; margin-bottom: 0.7em;">
-  cambridge machine learning reading group
-</div>
-
-I gave a talk with [David Burt](https://davidrburt.github.io/) introducing implicit variational inference, a way to obtain very flexible approximate posterior distributions for Bayesian inference. View the [slides](../files/Implicit_Inference_RG_notes.pdf).
 
 
 <a id="blog" style="display: block; position: relative; top: -58px; visibility: hidden;"></a>

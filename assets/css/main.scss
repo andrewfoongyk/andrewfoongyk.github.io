@@ -1376,3 +1376,13 @@ body {
 .nav-spacer {
   display: none;
 }
+
+.embed-wrapper {
+  margin-bottom: -3em; /* default: eat a bit on mobile */
+}
+
+@media screen and (min-width: 1280px) {
+  .embed-wrapper {
+    margin-bottom: -9em; /* eat more on desktop */
+}
+}
