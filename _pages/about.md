@@ -50,7 +50,7 @@ was published in the journal [*Science*](https://www.science.org/doi/10.1126/sci
 I earned my 
 <span class="small-caps">p</span>h.<span class="small-caps">d</span>.
 in machine learning
-at the
+from the
 University of Cambridge, advised by 
 Professor Richard E. Turner.
 <!-- [Professor Richard E. Turner](https://rich-turner-group.github.io). -->
@@ -81,9 +81,11 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <span class="small-caps">ai scientist, senior associate consultant, mayo clinic</span><br/>
-      <em>January 2025–present, Rochester, Minnesota, <span class="small-caps">usa</span></em><br/>
+      <span style="font-size: 0.9rem">
+      January 2025–present <br> Rochester, Minnesota, <span class="small-caps">usa</span><br/>
       Department of Radiation Oncology<br/>
-      <em>Topics</em>: Deep learning for cancer treatment
+      <em><span class="small-caps">ai</span> for cancer treatment</em>
+      </span>
     </p>
   </div>
 </div>
@@ -94,9 +96,11 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <span class="small-caps">senior researcher, microsoft research</span><br/>
-      <em>November 2022–November 2024, Cambridge, <span class="small-caps">uk</span></em><br/>
-      <span class="small-caps">ai</span> for Science<br/>
-      <em>Topics</em>: Deep learning for protein generative modeling
+      <span style="font-size: 0.9rem">
+      November 2022–November 2024 <br> Cambridge, <span class="small-caps">uk</span><br/>
+      <span class="small-caps">ai</span> for Science team<br/> 
+      <em>Generative deep learning for protein structure</em>
+      </span>
     </p>
   </div>
 </div>
@@ -107,10 +111,12 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <span class="small-caps">ph.d. in machine learning, university of cambridge</span><br/>
-      <em>October 2018–November 2022, Cambridge, <span class="small-caps">uk</span></em><br/>
-      Computational and Biological Learning Lab <span class="small-caps">(cbl)</span><br/>
+      <span style="font-size: 0.9rem">
+      October 2018–November 2022 <br> Cambridge, <span class="small-caps">uk</span><br/>
       <em>Supervisor</em>: Professor Richard E. Turner<br/>
-     <em>Topics</em>: Deep learning, probabilistic inference
+      Computational and Biological Learning Laboratory <br/>
+      <em>Deep learning</em> | <em>Probabilistic modeling</em>
+     </span>
     </p>
   </div>
 </div>
@@ -121,9 +127,11 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <span class="small-caps">research scientist intern, google deepmind</span><br/>
-      <em>February 2022–May 2022, London, <span class="small-caps">uk</span></em><br/>
+      <span style="font-size: 0.9rem">
+      February 2022–May 2022 <br> London, <span class="small-caps">uk</span><br/>
       <em>Supervisor</em>: Dr. Michalis Titsias<br/>
-      <em>Topics</em>: Deep generative modeling, Gaussian processes
+      <em>Deep generative modeling</em> | <em>Gaussian processes</em>
+      </span>
     </p>
   </div>
 </div>
@@ -133,10 +141,12 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
        style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 10px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
-      <span class="small-caps">research intern, microsoft research cambridge</span><br/>
-      <em>July 2021–October 2021, Cambridge, <span class="small-caps">uk</span></em><br/>
+      <span class="small-caps">research intern, microsoft research</span><br/>
+      <span style="font-size: 0.9rem">
+      July 2021–October 2021 <br> Cambridge, <span class="small-caps">uk</span><br/>
       <em>Supervisor</em>: Dr. Sebastian Nowozin<br/>
-      <em>Topics</em>: Deep learning for simulating protein dynamics
+      <em>Deep learning for molecular dynamics simulation</em>
+      </span>
     </p>
   </div>
 </div>
@@ -147,9 +157,11 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <span class="small-caps">b.a. & m.eng. in information and computer engineering, university of cambridge</span><br/>
-      <em>October 2014–July 2018, Cambridge, <span class="small-caps">uk</span></em><br/>
+      <span style="font-size: 0.9rem">
+      October 2014–July 2018 <br> Cambridge, <span class="small-caps">uk</span><br/>
       Department of Engineering<br/>
-      First class honours with distinction, scored top 1–2% in year group
+      <em>First class honours with distinction, top 1–2% in year group</em>
+      </span>
     </p>
   </div>
 </div>
