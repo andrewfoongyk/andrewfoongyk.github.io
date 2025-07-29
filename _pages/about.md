@@ -178,7 +178,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/bioemu-banner.png"
        alt="BioEmu figure"
-       style="width:50px; height:50px; object-fit:cover; border-radius:1px; flex-shrink:0;">
+       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0;">
 
   <!-- Text content -->
   <div>
@@ -198,7 +198,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
     </p>
 
     <details style="margin-top:0.0em;">
-      <summary style="cursor:pointer; margin-top:-0.8em; margin-top:-0.8em; font-variant: small-caps;">abstract</summary>
+      <summary style="cursor:pointer; margin-top:-0.8em; margin-top:-0.8em; font-variant: small-caps; font-size: 0.9rem;">abstract</summary>
       <p style="margin-top:0.4em;">
        Following the sequence and structure revolutions, predicting the dynamical mechanisms of proteins that implement biological function remains an outstanding scientific challenge. Several experimental techniques and molecular dynamics <span class="small-caps">(md)</span> simulations can, in principle, determine conformational states, binding configurations and their probabilities, but suffer from low throughput. Here we develop a Biomolecular Emulator (BioEmu), a generative deep learning system that can generate thousands of statistically independent samples from the protein structure ensemble per hour on a single graphical processing unit. By leveraging novel training methods and vast data of protein structures, over 200 milliseconds of <span class="small-caps">md</span> simulation, and experimental protein stabilities, BioEmu’s protein ensembles represent equilibrium in a range of challenging and practically relevant metrics. Qualitatively, BioEmu samples many functionally relevant conformational changes, ranging from formation of cryptic pockets, over unfolding of specific protein regions, to large-scale domain rearrangements. Quantitatively, BioEmu samples protein conformations with relative free energy errors around 1 kcal/mol, as validated against millisecond-timescale <span class="small-caps">md</span> simulation and experimentally-measured protein stabilities. By simultaneously emulating structural ensembles and thermodynamic properties, BioEmu reveals mechanistic insights, such as the causes for fold destabilization of mutants, and can efficiently provide experimentally-testable hypotheses.
       </p>
@@ -238,7 +238,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
     </p>
 
     <details style="margin-top:0.2em;">
-      <summary style="cursor:pointer; margin-top:-0.8em; margin-top:-0.8em; font-variant: small-caps;">abstract</summary>
+      <summary style="cursor:pointer; margin-top:-0.8em; margin-top:-0.8em; font-variant: small-caps; font-size: 0.9rem;">abstract</summary>
       <p style="margin-top:0.4em;">
         We present FrameFlow, a method for fast protein backbone generation using <span class="small-caps">se(</span>3<span class="small-caps">)</span> flow matching. Specifically, we adapt FrameDiff, a state-of-the-art diffusion model, to the flow-matching generative modeling paradigm. We show how flow matching can be applied on <span class="small-caps">se(</span>3<span class="small-caps">)</span> and propose modifications during training to effectively learn the vector field. Compared to FrameDiff, FrameFlow requires five times fewer sampling timesteps while achieving two fold better designability. The ability to generate high quality protein samples at a fraction of the cost of previous methods paves the way towards more efficient generative models in de novo protein design.
       </p>
@@ -273,7 +273,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
     </p>
 
     <details style="margin-top:0.2em;">
-      <summary style="cursor:pointer; margin-top:-0.8em; font-variant: small-caps;">abstract</summary>
+      <summary style="cursor:pointer; margin-top:-0.8em; margin-top:-0.8em; font-variant: small-caps; font-size: 0.9rem;">abstract</summary>
       <p style="margin-top:0.4em;">
         Conditional neural processes (<span class="small-caps">cnp</span>s; Garnelo et al., 2018a) are attractive meta-learning models which produce well-calibrated predictions and are trainable via a simple maximum likelihood procedure. Although <span class="small-caps">cnp</span>s have many advantages, they are unable to model dependencies in their predictions. Various works propose solutions to this, but these come at the cost of either requiring approximate inference or being limited to Gaussian predictions. In this work, we instead propose to change how <span class="small-caps">cnp</span>s are deployed at test time, without any modifications to the model or training procedure. Instead of making predictions independently for every target point, we autoregressively define a joint predictive distribution using the chain rule of probability, taking inspiration from the neural autoregressive density estimator <span class="small-caps">(nade)</span> literature. We show that this simple procedure allows factorised Gaussian <span class="small-caps">cnp</span>s to model highly dependent, non-Gaussian predictive distributions. Perhaps surprisingly, in an extensive range of tasks with synthetic and real data, we show that <span class="small-caps">cnp</span>s in autoregressive <span class="small-caps">(ar)</span> mode not only significantly outperform non-<span class="small-caps">ar</span> <span class="small-caps">cnp</span>s, but are also competitive with more sophisticated models that are significantly more computationally expensive and challenging to train.
       </p>
@@ -308,7 +308,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
     </p>
 
     <details style="margin-top:0.2em;">
-      <summary style="cursor:pointer; margin-top:-0.8em; font-variant: small-caps;">abstract</summary>
+      <summary style="cursor:pointer; margin-top:-0.8em; margin-top:-0.8em; font-variant: small-caps; font-size: 0.9rem;">abstract</summary>
       <p style="margin-top:0.4em;">
         Molecular dynamics <span class="small-caps">(md)</span> simulation is a widely used technique to simulate molecular systems, most commonly at the all-atom resolution where the equations of motion are integrated with timesteps on the order of femtoseconds (1&nbsp;fs = 10<sup>−15</sup>&nbsp;s). <span class="small-caps">md</span> is often used to compute equilibrium properties, which requires sampling from an equilibrium distribution such as the Boltzmann distribution. However, many important processes, such as binding and folding, occur over timescales of milliseconds or beyond, and cannot be efficiently sampled with conventional <span class="small-caps">md</span>. Furthermore, new <span class="small-caps">md</span> simulations need to be performed from scratch for each molecular system studied. We present Timewarp, an enhanced sampling method which uses a normalising flow as a proposal distribution in a Markov chain Monte Carlo method targeting the Boltzmann distribution. The flow is trained offline on <span class="small-caps">md</span> trajectories and learns to make large steps in time, simulating the molecular dynamics of 10<sup>5</sup>−10<sup>6</sup>&nbsp;fs. Crucially, Timewarp is transferable between molecular systems: once trained, we show that it generalises to unseen small peptides (2–4 amino acids), exploring their metastable states and providing wall-clock acceleration when sampling compared to standard <span class="small-caps">md</span>. Our method constitutes an important step towards developing general, transferable algorithms for accelerating <span class="small-caps">md</span>.
       </p>
@@ -348,7 +348,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
     </p>
 
     <details style="margin-top:0.2em;">
-      <summary style="cursor:pointer; margin-top:-0.8em; font-variant: small-caps;">abstract</summary>
+      <summary style="cursor:pointer; margin-top:-0.8em; margin-top:-0.8em; font-variant: small-caps; font-size: 0.9rem;">abstract</summary>
       <p style="margin-top:0.4em;">
        It has been a longstanding goal in machine learning to develop flexible prediction methods that ‘know what they don’t know’—when faced with an out-of-distribution input, these models should signal their uncertainty rather than be confidently wrong. This thesis is concerned with two such probabilistic machine learning models: Bayesian neural networks and neural processes. Bayesian neural networks are a classical model that has been the subject of research since the 1990s. They rely on Bayesian inference to represent uncertainty in the weights of a neural network. On the other hand, neural processes are a recently introduced model that relies on meta-learning rather than Bayesian inference to obtain uncertainty estimates.
 
@@ -392,7 +392,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
     </p>
 
     <details style="margin-top:0.2em;">
-      <summary style="cursor:pointer; margin-top:-0.8em; font-variant: small-caps;">abstract</summary>
+      <summary style="cursor:pointer; margin-top:-0.8em; margin-top:-0.8em; font-variant: small-caps; font-size: 0.9rem;">abstract</summary>
       <p style="margin-top:0.4em;">
         Recent interest in learning large variational Bayesian Neural Networks <span class="small-caps">(bnn</span>s<span class="small-caps">)</span>  has been partly hampered by poor predictive performance caused by underfitting, and their performance is known to be very sensitive to the prior over weights. Current practice often fixes the prior parameters to standard values or tunes them using heuristics or cross-validation. In this paper, we treat prior parameters in a distributional way by extending the model and collapsing the variational bound with respect to their posteriors. This leads to novel and tighter Evidence Lower Bounds <span class="small-caps">(elbo</span>s<span class="small-caps">)</span> for performing variational inference <span class="small-caps">(vi)</span> in <span class="small-caps">bnn</span>s. Our experiments show that the new bounds significantly improve the performance of Gaussian mean-field <span class="small-caps">vi</span> applied to <span class="small-caps">bnn</span>s on a variety of data sets, demonstrating that mean-field <span class="small-caps">vi</span> works well even in deep models. We also find that the tighter <span class="small-caps">elbo</span>s can be good optimization targets for learning the hyperparameters of hierarchical priors.
       </p>
@@ -425,7 +425,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
     </p>
 
     <details style="margin-top:0.2em;">
-      <summary style="cursor:pointer; margin-top:-0.8em; font-variant: small-caps;">abstract</summary>
+      <summary style="cursor:pointer; margin-top:-0.8em; margin-top:-0.8em; font-variant: small-caps; font-size: 0.9rem;">abstract</summary>
       <p style="margin-top:0.4em;">
         In this paper, we investigate the question: Given a small number of datapoints, for example <span class="small-caps">n</span> = 30, how tight can <span class="small-caps">pac</span>-Bayes and test set bounds be made? For such small datasets, test set bounds adversely affect generalisation performance by discarding data. In this setting, <span class="small-caps">pac</span>-Bayes bounds are especially attractive, due to their ability to use all the data to simultaneously learn a posterior and bound its generalisation risk. We focus on the case of i.i.d. data with a bounded loss and consider the generic <span class="small-caps">pac</span>-Bayes theorem of Germain et al. (2009) and Begin et al. (2016). While their theorem is known to recover many existing <span class="small-caps">pac</span>-Bayes bounds, it is unclear what the tightest bound derivable from their framework is. Surprisingly, we show that for a fixed learning algorithm and dataset, the tightest bound of this form coincides with the tightest bound of the more restrictive family of bounds considered in Catoni (2007). In contrast, in the more natural case of distributions over datasets, we give examples (both analytic and numerical) showing that the family of bounds in Catoni (2007) can be suboptimal. Within the proof framework of Germain et al. (2009) and Begin et al. (2016), we establish a lower bound on the best bound achievable in expectation, which recovers the Chernoff test set bound in the case when the posterior is equal to the prior. Finally, to illustrate how tight these bounds can potentially be, we study a synthetic one-dimensional classification task in which it is feasible to meta-learn both the prior and the form of the bound to obtain the tightest <span class="small-caps">pac</span>-Bayes and test set bounds possible. We find that in this simple, controlled scenario, <span class="small-caps">pac</span>-Bayes bounds are surprisingly competitive with comparable, commonly used Chernoff test set bounds. However, the sharpest test set bounds still lead to better guarantees on the generalisation error than the <span class="small-caps">pac</span>-Bayes bounds we consider.
       </p>
@@ -460,7 +460,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
     </p>
 
     <details style="margin-top:0.2em;">
-      <summary style="cursor:pointer; margin-top:-0.8em; font-variant: small-caps;">abstract</summary>
+      <summary style="cursor:pointer; margin-top:-0.8em; margin-top:-0.8em; font-variant: small-caps; font-size: 0.9rem;">abstract</summary>
       <p style="margin-top:0.4em;">
         Neural Processes (<span class="small-caps">np</span>s; Garnelo et al., 2018a,b) are a rich class of models for meta-learning that map data sets directly to predictive stochastic processes. We provide a rigorous analysis of the standard maximum-likelihood objective used to train conditional <span class="small-caps">np</span>s. Moreover, we propose a new member to the Neural Process family called the Gaussian Neural Process <span class="small-caps">(gnp)</span>, which models predictive correlations, incorporates translation equivariance, provides universal approximation guarantees, and demonstrates encouraging performance.
       </p>
@@ -502,7 +502,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
     </p>
 
     <details style="margin-top:0.2em;">
-      <summary style="cursor:pointer; margin-top:-0.8em; font-variant: small-caps;">abstract</summary>
+      <summary style="cursor:pointer; margin-top:-0.8em; margin-top:-0.8em; font-variant: small-caps; font-size: 0.9rem;">abstract</summary>
       <p style="margin-top:0.4em;">
         Stationary stochastic processes <span class="small-caps">(sp</span>s<span class="small-caps">)</span> are a key component of many probabilistic models, such as those for off-the-grid spatio-temporal data. They enable the statistical symmetry of underlying physical phenomena to be leveraged, thereby aiding generalization. Prediction in such models can be viewed as a translation equivariant map from observed data sets to predictive <span class="small-caps">sp</span>s, emphasizing the intimate relationship between stationarity and equivariance. Building on this, we propose the Convolutional Neural Process (Conv<span class="small-caps">np</span>), which endows Neural Processes <span class="small-caps">(np</span>s<span class="small-caps">)</span> with translation equivariance and extends convolutional conditional <span class="small-caps">np</span>s to allow for dependencies in the predictive distribution. The latter enables Conv<span class="small-caps">np</span>s to be deployed in settings which require coherent samples, such as Thompson sampling or conditional image completion. Moreover, we propose a new maximum-likelihood objective to replace the standard <span class="small-caps">elbo</span> objective in <span class="small-caps">np</span>s, which conceptually simplifies the framework and empirically improves performance. We demonstrate the strong performance and generalization capabilities of Conv<span class="small-caps">np</span>s on 1<span class="small-caps">d</span> regression, image completion, and various tasks with real-world spatio-temporal data.
       </p>
@@ -537,7 +537,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
     </p>
 
     <details style="margin-top:0.2em;">
-      <summary style="cursor:pointer; margin-top:-0.8em; font-variant: small-caps;">abstract</summary>
+      <summary style="cursor:pointer; margin-top:-0.8em; margin-top:-0.8em; font-variant: small-caps; font-size: 0.9rem;">abstract</summary>
       <p style="margin-top:0.4em;">
         We introduce the Convolutional Conditional Neural Process (Conv<span class="small-caps">cnp</span>), a new member of the Neural Process family that models translation equivariance in the data. Translation equivariance is an important inductive bias for many learning problems including time series modeling, spatial data, and images. The model embeds data sets into an infinite-dimensional function space as opposed to a finite-dimensional vector space. To formalize this notion, we extend the theory of neural representations of sets to include functional representations, and demonstrate that any translation-equivariant embedding can be represented using a convolutional deep set. We evaluate Conv<span class="small-caps">cnp</span>s in several settings, demonstrating that they achieve state-of-the-art performance compared to existing <span class="small-caps">np</span>s. We demonstrate that building in translation equivariance enables zero-shot generalization to challenging, out-of-domain tasks.
       </p>
@@ -571,7 +571,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
     </p>
 
     <details style="margin-top:0.2em;">
-      <summary style="cursor:pointer; margin-top:-0.8em; font-variant: small-caps;">abstract</summary>
+      <summary style="cursor:pointer; margin-top:-0.8em; margin-top:-0.8em; font-variant: small-caps; font-size: 0.9rem;">abstract</summary>
       <p style="margin-top:0.4em;">
         While Bayesian neural networks <span class="small-caps">(bnn</span>s<span class="small-caps">)</span> hold the promise of being flexible, well-calibrated statistical models, inference often requires approximations whose consequences are poorly understood. We study the quality of common variational methods in approximating the Bayesian predictive distribution. For single-hidden layer <span class="small-caps">r</span>e<span class="small-caps">lu</span> <span class="small-caps">bnn</span>s, we prove a fundamental limitation in function-space of two of the most commonly used distributions defined in weight-space: mean-field Gaussian and Monte Carlo dropout. We find there are simple cases where neither method can have substantially increased uncertainty in between well-separated regions of low uncertainty. We provide strong empirical evidence that exact inference does not have this pathology, hence it is due to the approximation and not the model. In contrast, for deep networks, we prove a universality result showing that there exist approximate posteriors in the above classes which provide flexible uncertainty estimates. However, we find empirically that pathologies of a similar form as in the single-hidden layer case can persist when performing variational inference in deeper networks. Our results motivate careful consideration of the implications of approximate inference methods in <span class="small-caps">bnn</span>s.
       </p>
@@ -612,7 +612,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
     </p>
 
     <details style="margin-top:0.2em;">
-      <summary style="cursor:pointer; margin-top:-0.8em; font-variant: small-caps;">abstract</summary>
+      <summary style="cursor:pointer; margin-top:-0.8em; margin-top:-0.8em; font-variant: small-caps; font-size: 0.9rem;">abstract</summary>
       <p style="margin-top:0.4em;">
         We describe a limitation in the expressiveness of the predictive uncertainty estimate given by mean-field variational inference <span class="small-caps">(mfvi)</span>, a popular approximate inference method for Bayesian neural networks. In particular, <span class="small-caps">mfvi</span> fails to give calibrated uncertainty estimates in between separated regions of observations. This can lead to catastrophically overconfident predictions when testing on out-of-distribution data. Avoiding such overconfidence is critical for active learning, Bayesian optimisation and out-of-distribution robustness. We instead find that a classical technique, the linearised Laplace approximation, can handle “in-between” uncertainty much better for small network architectures.
       </p>
