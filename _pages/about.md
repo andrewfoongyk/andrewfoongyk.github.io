@@ -174,7 +174,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
       For a full list of research papers, see my
       <a href="https://scholar.google.com/citations?user=2UOjgIUAAAAJ&hl=en" target="_blank">
         Google Scholar page</a>. 
-      Asterisks denote co-first authorship.
+      Daggers<sup>&dagger;</sup> denote co-first authorship.
     </p>
 </div>
 
@@ -206,7 +206,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size:0.9rem">
-      Sarah Lewis*, Tim Hempel*, José Jiménez-Luna*, Michael Gastegger*, Yu Xie*, <strong>Andrew Y. K. Foong</strong>*, Victor García Satorras*, Osama Abdin*, Bastiaan S. Veeling*, Iryna Zaporozhets, Yaoyi Chen, Soojung Yang, Arne Schneuing, Jigyasa Nigam, Federico Barbero, Vincent Stimper, Andrew Campbell, Jason Yim, Marten Lienen, Yu Shi, Shuxin Zheng, Hannes Schulz, Usman Munir, Cecilia Clementi, Frank Noé
+      Sarah Lewis<sup>&dagger;</sup>, Tim Hempel<sup>&dagger;</sup>, José Jiménez-Luna<sup>&dagger;</sup>, Michael Gastegger<sup>&dagger;</sup>, Yu Xie<sup>&dagger;</sup>, <strong>Andrew Y. K. Foong</strong><sup>&dagger;</sup>, Victor García Satorras<sup>&dagger;</sup>, Osama Abdin<sup>&dagger;</sup>, Bastiaan S. Veeling<sup>&dagger;</sup>, Iryna Zaporozhets, Yaoyi Chen, Soojung Yang, Arne Schneuing, Jigyasa Nigam, Federico Barbero, Vincent Stimper, Andrew Campbell, Jason Yim, Marten Lienen, Yu Shi, Shuxin Zheng, Hannes Schulz, Usman Munir, Cecilia Clementi, Frank Noé
     </p>
 
     <details style="margin-top:0.0em;">
@@ -280,7 +280,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 0.9rem">
-      Wessel Bruinsma*, Stratis Markou*, James Requeima*, <strong>Andrew Y. K. Foong</strong>*,
+      Wessel Bruinsma<sup>&dagger;</sup>, Stratis Markou<sup>&dagger;</sup>, James Requeima<sup>&dagger;</sup>, <strong>Andrew Y. K. Foong</strong><sup>&dagger;</sup>,
       Anna Vaughan, Tom Andersson, Anthony Buonomo, Scott Hosking, Richard E. Turner
     </p>
 
@@ -315,7 +315,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 0.9rem">
-      Leon Klein*, <strong>Andrew Y. K. Foong</strong>*, Tor Erlend Fjelde*, Bruno Mlodozeniec*,
+      Leon Klein<sup>&dagger;</sup>, <strong>Andrew Y. K. Foong</strong><sup>&dagger;</sup>, Tor Erlend Fjelde<sup>&dagger;</sup>, Bruno Mlodozeniec<sup>&dagger;</sup>,
       Marc Brockschmidt, Sebastian Nowozin, Frank Noé, Ryota Tomioka
     </p>
 
@@ -433,7 +433,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
     </p>    
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 0.9rem">
-      <strong>Andrew Y. K. Foong</strong>*, Wessel P. Bruinsma*, David R. Burt, and Richard E. Turner
+      <strong>Andrew Y. K. Foong</strong><sup>&dagger;</sup>, Wessel P. Bruinsma<sup>&dagger;</sup>, David R. Burt, and Richard E. Turner
     </p>
 
     <details style="margin-top:0.2em;">
@@ -509,7 +509,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 0.9rem">
-      <strong>Andrew Y. K. Foong</strong>*, Wessel P. Bruinsma*, Jonathan Gordon*, Yann Dubois,
+      <strong>Andrew Y. K. Foong</strong><sup>&dagger;</sup>, Wessel P. Bruinsma<sup>&dagger;</sup>, Jonathan Gordon<sup>&dagger;</sup>, Yann Dubois,
       James Requeima, and Richard E. Turner
     </p>
 
@@ -544,7 +544,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 0.9rem">
-      Jonathan Gordon*, Wessel P. Bruinsma*, <strong>Andrew Y. K. Foong</strong>,
+      Jonathan Gordon<sup>&dagger;</sup>, Wessel P. Bruinsma<sup>&dagger;</sup>, <strong>Andrew Y. K. Foong</strong>,
       James Requeima, Yann Dubois, and Richard E. Turner
     </p>
 
@@ -579,7 +579,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size:0.9rem">
-      <strong>Andrew Y. K. Foong</strong>*, David R. Burt*, Yingzhen Li, Richard E. Turner
+      <strong>Andrew Y. K. Foong</strong><sup>&dagger;</sup>, David R. Burt<sup>&dagger;</sup>, Yingzhen Li, Richard E. Turner
     </p>
 
     <details style="margin-top:0.2em;">
