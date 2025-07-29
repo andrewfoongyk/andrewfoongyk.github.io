@@ -661,7 +661,19 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
         I designed this six-part series to help clinicians at the Mayo Clinic with no prior <span class="small-caps">ai</span> experience understand deep learning from first principles. 
       </p>
 
-      <ul style="margin-top: 0.6em; padding-left: 1.2em;">
+      <p style="margin-top: 0.6em; padding-left: 1.2em">
+       <span style="font-variant: small-caps;">lectures 1 &amp; 2</span> cover deep learning from the ground up, from linear regression and gradient descent to neural networks, overfitting, and generalization.
+      </p>
+
+      <p style="margin-top: 0.6em;padding-left: 1.2em">
+      <span style="font-variant: small-caps;">lectures 3 &amp; 4</span> explain what convolutional neural networks are and how they can be used to understand images.
+      </p>
+
+      <p style="margin-top: 0.6em;padding-left: 1.2em">
+      <span style="font-variant: small-caps;">lectures 5 &amp; 6</span> explain how Chat<span class="small-caps">gpt</span> works, how it was made, and how prompting and retrieval-augmented generation <span class="small-caps">(rag)</span> can increase accuracy.
+      </p>
+
+      <!-- <ul style="margin-top: 0.6em; padding-left: 1.2em;">
         <li>
           <span style="font-weight: 500;">Lectures 1 &amp; 2</span> cover deep learning from the ground up, from linear regression and gradient descent to neural networks, overfitting, and generalization.
         </li>
@@ -671,7 +683,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
         <li>
           <span style="font-weight: 500;">Lectures 5 &amp; 6</span> explain how Chat<span class="small-caps">gpt</span> works, how it was made, and how prompting and retrieval-augmented generation <span class="small-caps">(rag)</span> can increase accuracy.
         </li>
-      </ul>
+      </ul> -->
     </div>
   </div>
 
@@ -692,7 +704,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
         <img src="/assets/lectures/lecture1-thumb.jpg" alt="Lecture 1 thumbnail" style="width: 100%; border-radius: 8px;">
       </a>
       <div style="margin-top: 0.5em; font-size: 0.95em;">
-        <span class="small-caps">lecture 1</span>: What is Deep Learning?
+        <span class="small-caps">lecture 1</span> <br> <span style="font-style: italic">What is Deep Learning?</span>
       </div>
     </div>
 
@@ -701,7 +713,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
         <img src="/assets/lectures/lecture2-thumb.jpg" alt="Lecture 2 thumbnail" style="width: 100%; border-radius: 8px;">
       </a>
       <div style="margin-top: 0.5em; font-size: 0.95em;">
-        <span class="small-caps">lecture 2</span>: From Single Neurons to Neural Networks
+        <span class="small-caps">lecture 2</span> <br> <span style="font-style: italic">From Single Neurons to Neural Networks</span>
       </div>
     </div>
 
@@ -710,7 +722,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
         <img src="/assets/lectures/lecture3-thumb.jpg" alt="Lecture 3 thumbnail" style="width: 100%; border-radius: 8px;">
       </a>
       <div style="margin-top: 0.5em; font-size: 0.95em;">
-        <span class="small-caps">lecture 3</span>: <span class="small-caps">ai</span> for Imaging
+        <span class="small-caps">lecture 3</span> <br><span style="font-style: italic"><span class="small-caps">ai</span> for Imaging</span>
       </div>
     </div>
 
@@ -719,7 +731,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
         <img src="/assets/lectures/lecture4-thumb.jpg" alt="Lecture 4 thumbnail" style="width: 100%; border-radius: 8px;">
       </a>
       <div style="margin-top: 0.5em; font-size: 0.95em;">
-        <span class="small-caps">lecture 4</span>: Practical <span class="small-caps">ai</span> for Imaging
+        <span class="small-caps">lecture 4</span> <br><span style="font-style: italic">Practical <span class="small-caps">ai</span> for Imaging</span>
       </div>
     </div>
 
@@ -728,7 +740,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
         <img src="/assets/lectures/lecture5-thumb.jpg" alt="Lecture 5 thumbnail" style="width: 100%; border-radius: 8px;">
       </a>
       <div style="margin-top: 0.5em; font-size: 0.95em;">
-        <span class="small-caps">lecture 5</span>: How Does Chat<span class="small-caps">gpt</span> Work?
+        <span class="small-caps">lecture 5</span> <br><span style="font-style: italic">How Does Chat<span class="small-caps">gpt</span> Work?</span>
       </div>
     </div>
 
@@ -737,7 +749,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
         <img src="/assets/lectures/lecture6-thumb.jpg" alt="Lecture 6 thumbnail" style="width: 100%; border-radius: 8px;">
       </a>
       <div style="margin-top: 0.5em; font-size: 0.95em;">
-        <span class="small-caps">lecture 6</span>: Prompting Chat<span class="small-caps">gpt</span>
+        <span class="small-caps">lecture 6</span> <br><span style="font-style: italic">Prompting Chat<span class="small-caps">gpt</span></span>
       </div>
     </div>
 
