@@ -30,23 +30,6 @@ layout: compress
     <script data-goatcounter="https://andrewfoongyk.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 
-
-
-    <script>
-      window.addEventListener('load', function () {
-        // Give layout + fonts time to settle
-        setTimeout(function () {
-          // Trigger a resize event, which GreedyNav listens for
-          window.dispatchEvent(new Event('resize'));
-
-          // Also force re-init just in case
-          if (window.greedyNav && typeof window.greedyNav.init === 'function') {
-            greedyNav.init();
-          }
-        }, 3000); // You can try increasing to 500ms if needed
-      });
-    </script>
-
   </body>
 </html>
 
