@@ -80,7 +80,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
        style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 10px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
-      <span class="small-caps">ai scientist, senior associate consultant, mayo clinic</span><br/>
+      <span class="small-caps">ai scientist & senior associate consultant<br> mayo clinic</span><br/>
       <span style="font-size: 0.9rem">
       January 2025–present <br> Rochester, Minnesota, <span class="small-caps">usa</span><br/>
       Department of Radiation Oncology<br/>
@@ -95,7 +95,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
        style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 10px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
-      <span class="small-caps">senior researcher, microsoft research</span><br/>
+      <span class="small-caps">senior researcher<br> microsoft research</span><br/>
       <span style="font-size: 0.9rem">
       November 2022–November 2024 <br> Cambridge, <span class="small-caps">uk</span><br/>
       <span class="small-caps">ai</span> for Science team<br/> 
@@ -110,11 +110,11 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
        style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 10px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
-      <span class="small-caps">ph.d. in machine learning, university of cambridge</span><br/>
+      <span class="small-caps">ph.d. in machine learning<br> university of cambridge</span><br/>
       <span style="font-size: 0.9rem">
       October 2018–November 2022 <br> Cambridge, <span class="small-caps">uk</span><br/>
-      <em>Supervisor</em>: Professor Richard E. Turner<br/>
       Computational and Biological Learning Laboratory <br/>
+      <em>Supervisor</em>: Professor Richard E. Turner<br/>
       <em>Deep learning</em> | <em>Probabilistic modeling</em>
      </span>
     </p>
@@ -126,7 +126,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
        style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 10px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
-      <span class="small-caps">research scientist intern, google deepmind</span><br/>
+      <span class="small-caps">research scientist intern<br> google deepmind</span><br/>
       <span style="font-size: 0.9rem">
       February 2022–May 2022 <br> London, <span class="small-caps">uk</span><br/>
       <em>Supervisor</em>: Dr. Michalis Titsias<br/>
@@ -141,7 +141,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
        style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 10px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
-      <span class="small-caps">research intern, microsoft research</span><br/>
+      <span class="small-caps">research intern<br> microsoft research</span><br/>
       <span style="font-size: 0.9rem">
       July 2021–October 2021 <br> Cambridge, <span class="small-caps">uk</span><br/>
       <em>Supervisor</em>: Dr. Sebastian Nowozin<br/>
@@ -156,7 +156,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
        style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 10px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
-      <span class="small-caps">b.a. & m.eng. in information and computer engineering, university of cambridge</span><br/>
+      <span class="small-caps">b.a. & m.eng. in information and computer engineering<br> university of cambridge</span><br/>
       <span style="font-size: 0.9rem">
       October 2014–July 2018 <br> Cambridge, <span class="small-caps">uk</span><br/>
       Department of Engineering<br/>
@@ -673,29 +673,18 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
         I designed this six-part series to help clinicians at the Mayo Clinic with no prior <span class="small-caps">ai</span> experience understand deep learning from first principles. 
       </p>
 
-      <p style="margin-top: 0.6em; padding-left: 1.2em">
+      <p class="hanging-indent" style="margin-top: 0.6em;">
        <span style="font-variant: small-caps;">lectures 1 &amp; 2</span> cover deep learning from the ground up, from linear regression and gradient descent to neural networks, overfitting, and generalization.
       </p>
 
-      <p style="margin-top: 0.6em;padding-left: 1.2em">
+      <p style="margin-top: 0.6em;" class="hanging-indent">
       <span style="font-variant: small-caps;">lectures 3 &amp; 4</span> explain what convolutional neural networks are and how they can be used to understand images.
       </p>
 
-      <p style="margin-top: 0.6em;padding-left: 1.2em">
+      <p style="margin-top: 0.6em;" class="hanging-indent">
       <span style="font-variant: small-caps;">lectures 5 &amp; 6</span> explain how Chat<span class="small-caps">gpt</span> works, how it was made, and how prompting and retrieval-augmented generation <span class="small-caps">(rag)</span> can increase accuracy.
       </p>
 
-      <!-- <ul style="margin-top: 0.6em; padding-left: 1.2em;">
-        <li>
-          <span style="font-weight: 500;">Lectures 1 &amp; 2</span> cover deep learning from the ground up, from linear regression and gradient descent to neural networks, overfitting, and generalization.
-        </li>
-        <li>
-          <span style="font-weight: 500;">Lectures 3 &amp; 4</span> explain what convolutional neural networks are and how they can be used to understand images.
-        </li>
-        <li>
-          <span style="font-weight: 500;">Lectures 5 &amp; 6</span> explain how Chat<span class="small-caps">gpt</span> works, how it was made, and how prompting and retrieval-augmented generation <span class="small-caps">(rag)</span> can increase accuracy.
-        </li>
-      </ul> -->
     </div>
   </div>
 
