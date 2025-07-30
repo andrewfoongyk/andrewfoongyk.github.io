@@ -1232,16 +1232,15 @@ body, p, li, blockquote, h1, h2, h3, h4, h5, h6 {
 //   font-style: italic;
 // }
 
-
-// .small-caps {
-//   font-family: $serif, serif;
-//   font-variant: small-caps;
-//   font-feature-settings: "smcp" 1, "c2sc" 1;
-// }
-
 // .small-caps {
 //   font-family: 'Spectral SC', 'Alegreya SC', 'EB Garamond SC', serif;
 // }
+
+.small-caps {
+  font-family: $serif, serif;
+  font-variant: small-caps;
+  font-feature-settings: "smcp" 1, "c2sc" 1;
+}
 
 .sidebar h1, 
 .sidebar h2,
