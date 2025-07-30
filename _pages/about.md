@@ -209,6 +209,10 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
       Sarah Lewis<sup>&dagger;</sup>, Tim Hempel<sup>&dagger;</sup>, José Jiménez-Luna<sup>&dagger;</sup>, Michael Gastegger<sup>&dagger;</sup>, Yu Xie<sup>&dagger;</sup>, <strong>Andrew Y. K. Foong</strong><sup>&dagger;</sup>, Victor García Satorras<sup>&dagger;</sup>, Osama Abdin<sup>&dagger;</sup>, Bastiaan S. Veeling<sup>&dagger;</sup>, Iryna Zaporozhets, Yaoyi Chen, Soojung Yang, Arne Schneuing, Jigyasa Nigam, Federico Barbero, Vincent Stimper, Andrew Campbell, Jason Yim, Marten Lienen, Yu Shi, Shuxin Zheng, Hannes Schulz, Usman Munir, Cecilia Clementi, Frank Noé
     </p>
 
+    <p>
+    BioEmu is a generative deep-learning model that rapidly predicts the diverse shapes proteins adopt in nature, dramatically speeding up analyses that typically require lengthy molecular simulations. By efficiently uncovering functionally important protein movements, BioEmu accelerates drug discovery and provides a powerful computational tool to explore biological mechanisms previously inaccessible due to technical limitations.
+    </p>
+
     <details style="margin-top:0.0em;">
       <summary style="cursor:pointer; margin-top:-0.8em; margin-top:-0.8em; font-variant: small-caps; font-size: 0.9rem;">abstract</summary>
       <p style="margin-top:0.4em;">
@@ -249,6 +253,10 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
       Regina Barzilay, Tommi Jaakkola, Frank Noé
     </p>
 
+    <p>
+    FrameFlow is a generative model that rapidly produces realistic protein backbones by using flow matching on the <span class="small-caps">se(</span>3<span class="small-caps">)</span> geometry group, significantly improving computational efficiency over previous diffusion-based approaches. By generating higher-quality proteins at a fraction of the computational cost, FrameFlow streamlines the design of novel proteins, making drug development and biological research more efficient.
+    </p>
+
     <details style="margin-top:0.2em;">
       <summary style="cursor:pointer; margin-top:-0.8em; margin-top:-0.8em; font-variant: small-caps; font-size: 0.9rem;">abstract</summary>
       <p style="margin-top:0.4em;">
@@ -284,6 +292,10 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
       Anna Vaughan, Tom Andersson, Anthony Buonomo, Scott Hosking, Richard E. Turner
     </p>
 
+    <p>
+    Autoregressive Conditional Neural Processes enhance the flexibility of Conditional Neural Processes (popular meta-learning models) by making predictions sequentially rather than independently, without complicating training or requiring approximate inference. This simple yet powerful approach enables accurate modeling of complex dependencies in data, achieving results competitive with sophisticated models at substantially reduced computational cost, which is particularly valuable in tasks like clinical time-series prediction.
+    </p>
+
     <details style="margin-top:0.2em;">
       <summary style="cursor:pointer; margin-top:-0.8em; margin-top:-0.8em; font-variant: small-caps; font-size: 0.9rem;">abstract</summary>
       <p style="margin-top:0.4em;">
@@ -317,6 +329,10 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 0.9rem">
       Leon Klein<sup>&dagger;</sup>, <strong>Andrew Y. K. Foong</strong><sup>&dagger;</sup>, Tor Erlend Fjelde<sup>&dagger;</sup>, Bruno Mlodozeniec<sup>&dagger;</sup>,
       Marc Brockschmidt, Sebastian Nowozin, Frank Noé, Ryota Tomioka
+    </p>
+
+    <p>
+    Timewarp accelerates molecular dynamics simulations by using machine learning to predict longer-time dynamics directly, enabling researchers to efficiently explore protein behavior occurring over biologically relevant timescales. Uniquely, its learned dynamics are transferable across different molecular systems, significantly reducing computational time and enabling rapid investigation of protein folding and binding processes relevant to drug discovery.
     </p>
 
     <details style="margin-top:0.2em;">
@@ -357,6 +373,10 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 0.9rem">
       <strong>Andrew Y. K. Foong</strong>
+    </p>
+
+    <p>
+    This thesis investigates two probabilistic frameworks for modelling uncertainty in machine learning, Bayesian neural networks and neural processes, and highlights both theoretical limits and architectural advances. It shows where popular inference methods fall short in capturing uncertainty, and introduces Convolutional Neural Processes, which leverage spatial symmetries to improve predictions when structure in the data allows.
     </p>
 
     <details style="margin-top:0.2em;">
@@ -403,6 +423,10 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
       Marcin B. Tomczak, Siddharth Swaroop, <strong>Andrew Y. K. Foong</strong>, Richard E. Turner
     </p>
 
+    <p>
+    This paper introduces tighter variational bounds for Bayesian neural networks by treating prior parameters as latent variables and collapsing the bound analytically. The result is improved performance of mean-field variational inference in deep models along with a more principled way to learn hierarchical priors.
+    </p>
+
     <details style="margin-top:0.2em;">
       <summary style="cursor:pointer; margin-top:-0.8em; margin-top:-0.8em; font-variant: small-caps; font-size: 0.9rem;">abstract</summary>
       <p style="margin-top:0.4em;">
@@ -434,6 +458,10 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 0.9rem">
       <strong>Andrew Y. K. Foong</strong><sup>&dagger;</sup>, Wessel P. Bruinsma<sup>&dagger;</sup>, David R. Burt, and Richard E. Turner
+    </p>
+
+    <p>
+    This paper investigates how tight <span class="small-caps">pac</span>-Bayes bounds (tools used to estimate generalization error) can be when applied to small datasets, where each data point matters greatly. It reveals unexpected theoretical limits on <span class="small-caps">pac</span>-Bayes performance, demonstrating that while <span class="small-caps">pac</span>-Bayes bounds outperform standard test-set methods by using all available data, they still fall short of optimal test-set bounds in highly controlled scenarios.
     </p>
 
     <details style="margin-top:0.2em;">
@@ -469,6 +497,10 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 0.9rem">
       Wessel P. Bruinsma, James Requeima, <strong>Andrew Y. K. Foong</strong>,
       Jonathan Gordon, and Richard E. Turner
+    </p>
+
+    <p>
+    This paper introduces the Gaussian Neural Process, a new model that captures correlations in predictions and incorporates translation symmetry. By addressing key limitations of existing Neural Processes, the Gaussian Neural Process improves predictive accuracy, broadening their applicability in meta-learning and tasks requiring robust uncertainty estimation.
     </p>
 
     <details style="margin-top:0.2em;">
@@ -513,6 +545,10 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
       James Requeima, and Richard E. Turner
     </p>
 
+    <p>
+    This follow-up paper builds on Conv<span class="small-caps">cnp</span>s by enabling predictions that capture dependencies in structured data, improving coherence in tasks like image completion and spatio-temporal forecasting. Conv<span class="small-caps">np</span>s also introduce a simpler and more effective training approach for latent variable models compared with previous latent neural process models.
+    </p>
+
     <details style="margin-top:0.2em;">
       <summary style="cursor:pointer; margin-top:-0.8em; margin-top:-0.8em; font-variant: small-caps; font-size: 0.9rem;">abstract</summary>
       <p style="margin-top:0.4em;">
@@ -548,6 +584,10 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
       James Requeima, Yann Dubois, and Richard E. Turner
     </p>
 
+    <p>
+    This paper introduces the Convolutional Conditional Neural Process (Conv<span class="small-caps">cnp</span>), a neural-network alternative to Gaussian processes, designed for reliable predictions when data is scarce or uncertainty matters. By incorporating translation symmetry, Conv<span class="small-caps">cnp</span>s accurately capture patterns in structured data, such as images or time series, and provides meaningful uncertainty estimates even on tasks it hasn't encountered before.
+    </p>
+
     <details style="margin-top:0.2em;">
       <summary style="cursor:pointer; margin-top:-0.8em; margin-top:-0.8em; font-variant: small-caps; font-size: 0.9rem;">abstract</summary>
       <p style="margin-top:0.4em;">
@@ -580,6 +620,10 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size:0.9rem">
       <strong>Andrew Y. K. Foong</strong><sup>&dagger;</sup>, David R. Burt<sup>&dagger;</sup>, Yingzhen Li, Richard E. Turner
+    </p>
+
+    <p>
+    This paper explores critical limitations of commonly-used approximation methods in Bayesian neural networks <span class="small-caps">(bnn</span>s<span class="small-caps">)</span>, highlighting cases where these methods fail to represent uncertainty accurately. It reveals that although deeper networks theoretically overcome some limitations, problems persist in practice, emphasizing the need for caution when using approximate inference to obtain reliable uncertainty estimates from <span class="small-caps">bnn</span>s.
     </p>
 
     <details style="margin-top:0.2em;">
@@ -621,6 +665,10 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 0.9rem">
       <strong>Andrew Y. K. Foong</strong>, Yingzhen Li, José Miguel Hernández-Lobato, and Richard E. Turner
+    </p>
+
+    <p>
+    This paper identifies a critical flaw in how popular Bayesian neural network methods (like mean-field variational inference) estimate uncertainty, particularly when predicting outside known data regions. It shows that classical approaches, like the linearised Laplace approximation, handle such “in-between” uncertainty more reliably, improving trustworthiness in safety-critical applications.
     </p>
 
     <details style="margin-top:0.2em;">
