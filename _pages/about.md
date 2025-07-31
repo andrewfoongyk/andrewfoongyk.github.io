@@ -16,7 +16,7 @@ redirect_from:
 
 <a id="about" style="display: block; position: relative; top: -200px; visibility: hidden;"></a>
 <!-- <h1 style = "margin-top: -1.5rem;">About Me</h1> -->
-<h1 class="about-heading">About Me</h1>
+<h1 class="about-heading">about me</h1>
 
 I am an
 <span class="small-caps">ai</span>
@@ -68,12 +68,12 @@ foong.andrew@mayo.edu
 </span>
 
 
-<h1>Hiring News</h1>
+<h1>hiring news</h1>
 I am hiring for research fellow positions in <span class="small-caps">ai</span> for cancer treatment in the Mayo Clinic
 <span class="small-caps">aida</span>
 team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-and-data-analytics-aida-radiation-oncology/33647/80077797392) or reach out via [email](mailto:foong.andrew@mayo.edu).
 
-<h1>Experience</h1>
+<h1>experience</h1>
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
   <img src="../assets/mayo_clinic_logo.jpeg" alt="Mayo Clinic logo"
@@ -167,7 +167,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
 </div>
 
 <a id="publications" style="display: block; position: relative; top: -58px; visibility: hidden;"></a>
-<h1>Research Papers</h1>
+<h1>research papers</h1>
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
     <p style="margin:0; font-style: italic;">
@@ -683,7 +683,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
 
 
 <a id="talks" style="display: block; position: relative; top: -58px; visibility: hidden;"></a>
-<h1 id="talks">Talks</h1>
+<h1 id="talks">talks</h1>
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
     <p style="margin:0; font-style: italic;">
@@ -1149,7 +1149,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
 
 
 <a id="blog" style="display: block; position: relative; top: -58px; visibility: hidden;"></a>
-<h1>Blog Posts</h1>
+<h1>blog posts</h1>
 
 *Occasional writings and tutorials on machine learning.*
 
@@ -1215,11 +1215,11 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
 
 
 <a id="cv" style="display: block; position: relative; top: -58px; visibility: hidden;"></a>
-<h1>Curriculum Vitae</h1>
+<h1>curriculum vitae</h1>
 
 <p>
   My academic <span class="small-caps">cv</span> is available as a <span class="small-caps">pdf</span> 
   <a href="/files/CV.pdf" target="_blank" rel="noopener noreferrer">here</a>.
   <br>
-  <span style="font-style: italic; color: #666;">Last updated January 2025.</span>
+  <span style="font-style: italic; color: #666; font-size: 0.9rem;">Last updated January 2025.</span>
 </p>
