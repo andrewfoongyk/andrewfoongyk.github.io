@@ -83,13 +83,14 @@ html {
 
 h1, h2 {
   font-family: 'Alegreya Sans SC', $serif, 'Gentium','Alegreya', 'Jost', 'EB Garamond';
-  font-weight: 400; //600;
-  margin-top: 1.0em;
+  font-weight: 500; //600;
+  margin-top: 1.2em;
   margin-bottom: 0.5em;
   line-height: 1.2;
   border-bottom: none !important;
   font-variant: small-caps;
   font-feature-settings: "smcp" 1, "c2sc" 1;
+  letter-spacing: 0.04em;
 }
 
 h3, h4, h5, h6 {
