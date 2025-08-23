@@ -1323,7 +1323,7 @@ $cp-sc-weights: (
 .small-caps {
   font-family: $serif, serif;
   font-variant: small-caps;
-  font-variant-numeric: oldstyle-nums;   /* = onum */
+  font-variant-numeric: lining-nums;   /* = onum */
   font-feature-settings: "smcp" 1, "c2sc" 1;
 }
 
