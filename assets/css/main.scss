@@ -1332,9 +1332,9 @@ $cp-sc-weights: (
 .author__urls li,
 .author__urls button,
 .sidebar .author__urls-wrapper {
-  font-family: $sans-serif, serif;
-  font-size: 14px;
-  font-weight: 400
+  font-family: $serif, $sans-serif, serif;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .sidebar .author__name {
