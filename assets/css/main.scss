@@ -180,6 +180,30 @@ $cp-sc-weights: (
   @include font("Crimson Pro SC", "CrimsonProSC-#{$name}Italic",  $w, italic);
 }
 
+
+// Junction
+@font-face {
+  font-family: 'Junction';
+  src: url('/assets/fonts/junction/Junction-regular.otf') format('truetype-variations');
+  font-weight: 400;   /* full variable weight range */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Junction';
+  src: url('/assets/fonts/junction/Junction-light.otf') format('truetype-variations');
+  font-weight: 300;   /* full variable weight range */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Junction';
+  src: url('/assets/fonts/junction/Junction-bold.otf') format('truetype-variations');
+  font-weight: 600;   /* full variable weight range */
+  font-style: normal;
+}
+
+
 /* Source Serif 4 – Variable Font */
 @font-face {
   font-family: 'Source Serif 4';
@@ -195,36 +219,6 @@ $cp-sc-weights: (
   font-style: normal;
 }
 
-
-// XCharter
-
-@font-face {
-  font-family: 'XCharter';
-  src: url('../fonts/charterx/XCharter-Roman.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'XCharter';
-  src: url('../fonts/charterx/XCharter-Italic.otf') format('opentype');
-  font-weight: 400;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'XCharter';
-  src: url('../fonts/charterx/XCharter-Bold.otf') format('opentype');
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'XCharter';
-  src: url('../fonts/charterx/XCharter-BoldItalic.otf') format('opentype');
-  font-weight: 700;
-  font-style: italic;
-}
 
 
 // @font-face {
@@ -1339,14 +1333,15 @@ $cp-sc-weights: (
 .author__urls button,
 .sidebar .author__urls-wrapper {
   font-family: $sans-serif, serif;
-  font-size: 14px;
-  font-weight: 500
+  font-size: 13px;
+  font-weight: 400
 }
 
 .sidebar .author__name {
-  font-family: $sans-serif;
+  font-family: $serif;
   font-size: 19px;
   font-weight: 500;
+  font-variant: small-caps;
 }
 
 .author__urls-wrapper button {
@@ -1359,7 +1354,8 @@ $cp-sc-weights: (
 .masthead,
 .masthead * {
   font-family: $sans-serif;
-  font-weight: 400;
+  font-weight: 300;
+  font-size: 14px;
 }
 
 .masthead, .masthead *, .masthead a, .masthead-nav a {
@@ -1428,7 +1424,7 @@ body {
 /* Label swap: About → Andrew Y. K. Foong */
 .label-mobile {
   display: inline;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 0.02em;
 }
 .label-desktop {
@@ -1443,18 +1439,20 @@ body {
 
   .label-desktop {
     display: inline;
-    font-weight: 500;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    // text-transform: uppercase;
   }
 
-  /* Add tracking to all masthead buttons */
-  .masthead__menu-item a {
-    letter-spacing: 0.02em;
-  }
+  // /* Add tracking to all masthead buttons */
+  // .masthead__menu-item a {
+  //   letter-spacing: 0.02em;
+  // }
 
   /* Spacer for desktop layout only */
   .nav-spacer {
     display: inline-block;
-    width: 46px;  /* Adjust to align second link with content */
+    width: 65px;  /* Adjust to align second link with content */
   }
 }
 
