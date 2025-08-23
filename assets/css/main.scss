@@ -1333,29 +1333,29 @@ $cp-sc-weights: (
 .author__urls button,
 .sidebar .author__urls-wrapper {
   font-family: $sans-serif, serif;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 400
 }
 
 .sidebar .author__name {
   font-family: $serif;
-  font-size: 19px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 600;
   font-variant: small-caps;
 }
 
 .author__urls-wrapper button {
   font-family: $sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 12px;
 }
 
 .masthead,
 .masthead * {
   font-family: $sans-serif;
-  font-weight: 300;
-  font-size: 14px;
+  font-weight: 400;
+  font-size: 15px;
 }
 
 .masthead, .masthead *, .masthead a, .masthead-nav a {
@@ -1452,7 +1452,7 @@ body {
   /* Spacer for desktop layout only */
   .nav-spacer {
     display: inline-block;
-    width: 65px;  /* Adjust to align second link with content */
+    width: 57px;  /* Adjust to align second link with content */
   }
 }
 

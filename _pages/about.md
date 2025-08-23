@@ -205,7 +205,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
       Science
     </p>
 
-    <p style="margin-bottom:0; margin-top:-0.8em; font-size:0.9rem">
+    <p style="margin-bottom:0; margin-top:-0.8em; font-size:1.0rem">
       Sarah Lewis<sup>&dagger;</sup>, Tim Hempel<sup>&dagger;</sup>, José Jiménez-Luna<sup>&dagger;</sup>, Michael Gastegger<sup>&dagger;</sup>, Yu Xie<sup>&dagger;</sup>, <strong>Andrew Y. K. Foong</strong><sup>&dagger;</sup>, Victor García Satorras<sup>&dagger;</sup>, Osama Abdin<sup>&dagger;</sup>, Bastiaan S. Veeling<sup>&dagger;</sup>, Iryna Zaporozhets, Yaoyi Chen, Soojung Yang, Arne Schneuing, Jigyasa Nigam, Federico Barbero, Vincent Stimper, Andrew Campbell, Jason Yim, Marten Lienen, Yu Shi, Shuxin Zheng, Hannes Schulz, Usman Munir, Cecilia Clementi, Frank Noé
     </p>
 
