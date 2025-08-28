@@ -1319,6 +1319,7 @@ $cp-sc-weights: (
   font-variant: small-caps;
   font-variant-numeric: lining-nums;   /* = onum */
   font-feature-settings: "smcp" 1, "c2sc" 1;
+  letter-spacing: 0.02em;
 }
 
 .sidebar h1, 
@@ -1342,6 +1343,7 @@ $cp-sc-weights: (
   font-size: 20px;
   font-weight: 600;
   font-variant: small-caps;
+  letter-spacing: 0.02em;
 }
 
 .author__urls-wrapper button {
