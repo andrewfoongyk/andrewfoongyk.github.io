@@ -44,7 +44,7 @@ where I developed generative deep learning models for proteins in the
 <span class="small-caps">ai</span> for Science team.
 <!-- [<span class="small-caps">ai</span> for Science team](https://www.microsoft.com/en-us/research/lab/microsoft-research-ai4science/). -->
 Our work on
-<a href="https://www.microsoft.com/en-us/research/video/scalable-emulation-of-protein-equilibrium-ensembles-with-bioemu/" >BioEmu</a>
+<a href="#bioemu" >BioEmu</a>
 was published in the journal [*Science*](https://www.science.org/doi/10.1126/science.adv9817).
 
 I earned my 
@@ -196,7 +196,8 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <div>
     <!-- Remove default top margin so it lines up with the image -->
     <h3 style="margin:0 0 0.0em 0;">
-      <a href="https://www.biorxiv.org/content/10.1101/2024.12.05.626885">
+      <a id="bioemu" style="display: block; position: relative; top: -58px; visibility: hidden;"></a>
+      <a href="https://www.science.org/doi/10.1126/science.adv9817">
         Scalable Emulation of Protein Equilibrium Ensembles With Generative Deep Learning
       </a>
     </h3>
