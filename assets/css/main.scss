@@ -55,6 +55,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
 
 * {
@@ -1357,7 +1358,7 @@ $cp-sc-weights: (
 }
 @media screen and (max-width: 992px) {
   .sidebar .author__name {
-    margin-top: -4px;
+    margin-top: -6px;
   }
 }
 
@@ -1365,14 +1366,54 @@ $cp-sc-weights: (
   font-family: $sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 13px;
+}
+
+.author__urls-wrapper button {
+  float: left;
+  margin-left: 2.7em;
+  margin-top: -1.5em;
+}
+
+/* Ensure the dropdown is positioned relative to the wrapper */
+.sidebar .author__urls-wrapper { position: relative; }
+
+/* Open the menu from the right edge (under the Follow button) */
+.sidebar .author__urls {
+  left: auto !important;
+  right: 0;
+}
+
+/* Move the little triangle to the right as well */
+.sidebar .author__urls::before,
+.sidebar .author__urls::after {
+  left: auto;
+  right: 1rem;   /* tweak this to align the arrow with the button */
+}
+
+/* Drop the menu slightly lower so the arrow clears the button */
+.sidebar .author__urls {
+  top: calc(100% - 25px); /* increase this number until arrow is fully visible */
+}
+
+/* Re-align the arrow with the button */
+.sidebar .author__urls::before,
+.sidebar .author__urls::after {
+  top: -6px;   /* arrow height offset */
+  right: 1rem; /* keep it aligned with button */
 }
 
 .masthead,
 .masthead * {
   font-family: $sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 16.5px;
+}
+@media screen and (max-width: 992px) {
+.masthead,
+.masthead * {
+  font-size: 14px;
+}
 }
 
 .masthead, .masthead *, .masthead a, .masthead-nav a {
