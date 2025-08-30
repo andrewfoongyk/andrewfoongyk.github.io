@@ -77,7 +77,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
   <img src="../assets/mayo_clinic_logo.jpeg" alt="Mayo Clinic logo"
-       style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 10px;" />
+       style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 9px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <span class="small-caps">ai scientist & senior associate consultant<br> mayo clinic</span><br/>
@@ -92,7 +92,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
   <img src="../assets/msr.jpeg" alt="Microsoft logo"
-       style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 10px;" />
+       style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 9px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <span class="small-caps">senior researcher<br> microsoft research</span><br/>
@@ -107,7 +107,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
   <img src="../assets/camlogo.png" alt="University of Cambridge logo"
-       style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 10px;" />
+       style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 9px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <span class="small-caps">ph.d. in machine learning<br> university of cambridge</span><br/>
@@ -123,7 +123,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
   <img src="../assets/deepmind.png" alt="DeepMind logo"
-       style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 10px;" />
+       style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 9px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <span class="small-caps">research scientist intern<br> google deepmind</span><br/>
@@ -138,7 +138,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
   <img src="../assets/msr.jpeg" alt="Microsoft logo"
-       style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 10px;" />
+       style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 9px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <span class="small-caps">research intern<br> microsoft research</span><br/>
@@ -153,7 +153,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
   <img src="../assets/camlogo.png" alt="University of Cambridge logo"
-       style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 10px;" />
+       style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 9px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <span class="small-caps">b.a. & m.eng. in information and computer engineering<br> university of cambridge</span><br/>
@@ -618,7 +618,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
       Neural Information Processing Systems <span class="small-caps">(n</span>eur<span class="small-caps">ips)</span>
     </p>
 
-    <p style="margin-bottom:0; margin-top:-0.8em; font-size:0.9rem">
+    <p style="margin-bottom:0; margin-top:-0.8em; font-size:1.0rem">
       <strong>Andrew Y. K. Foong</strong><sup>&dagger;</sup>, David R. Burt<sup>&dagger;</sup>, Yingzhen Li, Richard E. Turner
     </p>
 
@@ -752,7 +752,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
       <a href="https://mssvideoupload.mayo.edu/playlist/dedicated/1_uq8gpkab/1_rhvbtb46" target="_blank">
         <img src="/assets/lectures/lecture1-thumb.jpg" alt="Lecture 1 thumbnail" style="width: 100%; border-radius: 8px;">
       </a>
-      <div style="margin-top: 0.5em; font-size: 0.95em;">
+      <div style="margin-top: 0.5em; font-size: 1.0em;">
         <span class="small-caps">lecture 1</span> <br> <span style="font-style: italic">What is Deep Learning?</span>
       </div>
     </div>
@@ -761,7 +761,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
       <a href="https://mssvideoupload.mayo.edu/playlist/dedicated/1_uq8gpkab/1_xbkcrbjs" target="_blank">
         <img src="/assets/lectures/lecture2-thumb.jpg" alt="Lecture 2 thumbnail" style="width: 100%; border-radius: 8px;">
       </a>
-      <div style="margin-top: 0.5em; font-size: 0.95em;">
+      <div style="margin-top: 0.5em; font-size: 1.0em;">
         <span class="small-caps">lecture 2</span> <br> <span style="font-style: italic">From Single Neurons to Neural Networks</span>
       </div>
     </div>
@@ -770,7 +770,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
       <a href="https://mssvideoupload.mayo.edu/playlist/dedicated/1_uq8gpkab/1_2q24t2cy" target="_blank">
         <img src="/assets/lectures/lecture3-thumb.jpg" alt="Lecture 3 thumbnail" style="width: 100%; border-radius: 8px;">
       </a>
-      <div style="margin-top: 0.5em; font-size: 0.95em;">
+      <div style="margin-top: 0.5em; font-size: 1.0em;">
         <span class="small-caps">lecture 3</span> <br><span style="font-style: italic"><span class="small-caps">ai</span> for Imaging</span>
       </div>
     </div>
@@ -779,7 +779,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
       <a href="https://mssvideoupload.mayo.edu/playlist/dedicated/1_uq8gpkab/1_4m5awnik" target="_blank">
         <img src="/assets/lectures/lecture4-thumb.jpg" alt="Lecture 4 thumbnail" style="width: 100%; border-radius: 8px;">
       </a>
-      <div style="margin-top: 0.5em; font-size: 0.95em;">
+      <div style="margin-top: 0.5em; font-size: 1.0em;">
         <span class="small-caps">lecture 4</span> <br><span style="font-style: italic">Practical <span class="small-caps">ai</span> for Imaging</span>
       </div>
     </div>
@@ -788,7 +788,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
       <a href="https://mssvideoupload.mayo.edu/playlist/dedicated/1_uq8gpkab/1_h9wwrlo9" target="_blank">
         <img src="/assets/lectures/lecture5-thumb.jpg" alt="Lecture 5 thumbnail" style="width: 100%; border-radius: 8px;">
       </a>
-      <div style="margin-top: 0.5em; font-size: 0.95em;">
+      <div style="margin-top: 0.5em; font-size: 1.0em;">
         <span class="small-caps">lecture 5</span> <br><span style="font-style: italic">How Does Chat<span class="small-caps">gpt</span> Work?</span>
       </div>
     </div>
@@ -797,7 +797,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
       <a href="https://mssvideoupload.mayo.edu/playlist/dedicated/1_uq8gpkab/1_euus6hqk" target="_blank">
         <img src="/assets/lectures/lecture6-thumb.jpg" alt="Lecture 6 thumbnail" style="width: 100%; border-radius: 8px;">
       </a>
-      <div style="margin-top: 0.5em; font-size: 0.95em;">
+      <div style="margin-top: 0.5em; font-size: 1.0em;">
         <span class="small-caps">lecture 6</span> <br><span style="font-style: italic">Prompting Chat<span class="small-caps">gpt</span></span>
       </div>
     </div>
