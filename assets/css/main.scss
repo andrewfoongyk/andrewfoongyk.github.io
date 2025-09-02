@@ -97,7 +97,7 @@ h1, h2 {
 
 h3, h4, h5, h6 {
   font-family: $serif, 'Gentium','Alegreya', 'Jost', 'EB Garamond';
-  font-weight: 700; //600;
+  font-weight: 600; //600;
   margin-top: 1.5em;
   margin-bottom: 0.2em;
   line-height: 1.2;
@@ -110,18 +110,23 @@ body {
   line-height: 1.45; 
 }
 
-a {
-  // color: #5B7E91;
-  color: inherit;
-  text-decoration: underline;
-  text-decoration-color: #5B7E91 !important; // Adjust transparency here
-  text-decoration-thickness: 1.5px !important;
-  text-underline-offset: 3.5px !important;
+.page__content a[href]:not(.btn):not(.button) {
+  color: inherit!important;// #5B7E91 !important;                     /* base color for the text */
+  text-decoration: none !important;              /* remove default underline */
+  background-image: linear-gradient(
+    to right,
+    rgba(91, 126, 145, 0.6),
+    rgba(91, 126, 145, 1.0),  /* your base color at ~60% */
+    rgba(91, 126, 145, 0.6) 
+  )!important;
+  background-repeat: no-repeat!important;
+  background-size: 100% 1.0px!important;          /* thickness of the underline */
+  background-position: 0 100%!important;        /* place at bottom of text */
+  padding-bottom: 3px!important;                /* space so underline doesn’t collide */
 }
-
-a:hover {
-  color: #5B7E91;
-  text-decoration-color: rgba(0, 0, 0, 0.5); // Slightly darker on hover
+/* Hover: only the text color changes to your blue; underline stays */
+.page__content a:hover[href]:not(.btn):not(.button) {
+  color: #5B7E91 !important;
 }
 
 p {
@@ -140,7 +145,7 @@ strong em, strong i {
 }
 
 strong, b {
-  font-weight: 700; /* or 500, 700, 800 */
+  font-weight: 600; /* or 500, 700, 800 */
   // font-style: bold;
 }
 
