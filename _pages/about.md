@@ -165,6 +165,9 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   </div>
 </div>
 
+<!-- Custom styled HR -->
+<hr class="hr-ghost">
+
 <a id="publications" style="display: block; position: relative; top: -58px; visibility: hidden;"></a>
 <h1>Research Papers</h1>
 
@@ -681,6 +684,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
 </div>
 
 
+<hr class="hr-ghost">
 
 <a id="talks" style="display: block; position: relative; top: -58px; visibility: hidden;"></a>
 <h1 id="talks">Talks</h1>
@@ -1144,7 +1148,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   </div>
 </div>
 
-
+<hr class="hr-ghost">
 
 <a id="blog" style="display: block; position: relative; top: -58px; visibility: hidden;"></a>
 <h1>Blog Posts</h1>
@@ -1211,6 +1215,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
 </div>
 
 
+<hr class="hr-ghost">
 
 <a id="cv" style="display: block; position: relative; top: -58px; visibility: hidden;"></a>
 <h1>Curriculum Vitae</h1>

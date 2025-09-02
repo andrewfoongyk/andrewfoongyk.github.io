@@ -82,7 +82,7 @@ html {
   
 @media (min-width: 992px) {
 html {
-    font-size: 125%;  // or 130% (≈ 19–20px) for tablets/desktops
+    font-size: 120%;  // or 130% (≈ 19–20px) for tablets/desktops
 }
 }
 
@@ -497,4 +497,18 @@ body {
 .hanging-indent {
   padding-left: 1.0em;      /* space from left edge */
   text-indent: -1.0em;      /* pull back the first line */
+}
+
+
+.hr-ghost {
+  border: none;
+  height: 1.5px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(91, 126, 145, 1.0),  /* your base color at ~60% */
+    transparent
+  );
+  margin-top: 4rem;
+  margin-bottom: 1rem;
 }
