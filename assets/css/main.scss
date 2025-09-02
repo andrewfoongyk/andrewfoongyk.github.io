@@ -90,8 +90,8 @@ h1, h2 {
   font-family: 'Crimson Pro SC',  $serif;
   font-weight: 500; //600;
   margin-top: 2em;
-  margin-bottom: 0.5em;
-  line-height: 1.2;
+  margin-bottom: 1em;
+  line-height: 1.0;
   border-bottom: none !important;
 }
 
@@ -324,7 +324,9 @@ $cp-sc-weights: (
   font-size: 18px;
   font-weight: 500;
   font-variant: small-caps;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
+  white-space: nowrap;     /* don’t wrap */
+  overflow: visible;       /* allow it to spill outside */
 }
 @media screen and (max-width: 992px) {
   .sidebar .author__name {
@@ -341,7 +343,7 @@ $cp-sc-weights: (
 
 .author__urls-wrapper button {
   float: left;
-  margin-left: 2.7em;
+  margin-left: 4em;
   margin-top: -1.5em;
 }
 
