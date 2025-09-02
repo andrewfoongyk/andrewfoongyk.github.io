@@ -64,7 +64,6 @@ See my selected [papers](#publications), or visit my Google Scholar [profile](ht
 
 <span class="small-caps"> contact</span>:<span class="email">
 foong.andrew@mayo.edu
-<!-- foong [dot] andrew [at] mayo [dot] edu -->
 </span>
 
 
@@ -115,7 +114,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
       October 2018–November 2022 <br> Cambridge, <span class="small-caps">uk</span><br/>
       Computational and Biological Learning Laboratory <br/>
       <em>Supervisor</em>: Professor Richard E. Turner<br/>
-      <em>Deep learning</em> | <em>Probabilistic modeling</em>
+      <em>Deep learning</em> · <em>Probabilistic modeling</em>
      </span>
     </p>
   </div>
@@ -130,7 +129,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
       <span style="font-size: 1.0rem">
       February 2022–May 2022 <br> London, <span class="small-caps">uk</span><br/>
       <em>Supervisor</em>: Dr. Michalis Titsias<br/>
-      <em>Deep generative modeling</em> | <em>Gaussian processes</em>
+      <em>Deep generative modeling</em> · <em>Gaussian processes</em>
       </span>
     </p>
   </div>

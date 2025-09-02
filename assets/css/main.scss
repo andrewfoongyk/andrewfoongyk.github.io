@@ -82,20 +82,17 @@ html {
   
 @media (min-width: 992px) {
 html {
-    font-size: 115%;  // or 130% (≈ 19–20px) for tablets/desktops
+    font-size: 125%;  // or 130% (≈ 19–20px) for tablets/desktops
 }
 }
 
 h1, h2 {
-  font-family: 'Crimson Pro SC', 'Alegreya Sans SC', $serif, 'Gentium','Alegreya', 'Jost', 'EB Garamond';
-  font-weight: 600; //600;
-  margin-top: 1.2em;
+  font-family: 'Crimson Pro SC',  $serif;
+  font-weight: 500; //600;
+  margin-top: 2em;
   margin-bottom: 0.5em;
   line-height: 1.2;
   border-bottom: none !important;
-  // font-variant: small-caps;
-  // font-feature-settings: "smcp" 1, "c2sc" 1;
-  // letter-spacing: 0.04em;
 }
 
 h3, h4, h5, h6 {
@@ -293,7 +290,7 @@ $cp-sc-weights: (
   font-variant: small-caps;
   font-variant-numeric: lining-nums;   /* = onum */
   font-feature-settings: "smcp" 1, "c2sc" 1;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.05em;
 }
 
 .sidebar h1, 
@@ -379,8 +376,9 @@ $cp-sc-weights: (
 .masthead,
 .masthead * {
   font-family: $sans-serif;
-  font-weight: 400;
-  font-size: 16.5px;
+  font-weight: 350;
+  font-size: 18px;
+  letter-spacing: 0.02em;
 }
 @media screen and (max-width: 992px) {
 .masthead,
@@ -472,18 +470,12 @@ body {
     display: inline;
     font-weight: 400;
     letter-spacing: 0.02em;
-    // text-transform: uppercase;
   }
-
-  // /* Add tracking to all masthead buttons */
-  // .masthead__menu-item a {
-  //   letter-spacing: 0.02em;
-  // }
 
   /* Spacer for desktop layout only */
   .nav-spacer {
     display: inline-block;
-    width: 57px;  /* Adjust to align second link with content */
+    width: 35px;  /* Adjust to align second link with content */
   }
 }
 
