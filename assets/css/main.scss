@@ -512,9 +512,7 @@ body {
   height: 1.5px;
   background: linear-gradient(
     to right,
-    transparent,
-    rgba(91, 126, 145, 1.0),  /* your base color at ~60% */
-    transparent
+    $gray,
   );
   margin-top: 4rem;
   margin-bottom: 1rem;
