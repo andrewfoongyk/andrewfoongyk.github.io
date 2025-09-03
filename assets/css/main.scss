@@ -51,11 +51,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 
 
 * {
   font-kerning: normal;
   font-feature-settings: "kern" 1;
+}
+
+/* Override only ampersand glyph */
+.ampersand {
+  font-family: 'EB Garamond', serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 0.9em;
 }
 
 .email {
@@ -379,13 +388,13 @@ $cp-sc-weights: (
 .masthead * {
   font-family: $sans-serif;
   font-weight: 350;
-  font-size: 17px;
+  font-size: 15px;
   letter-spacing: 0.02em;
 }
 @media screen and (max-width: 992px) {
 .masthead,
 .masthead * {
-  font-size: 14px;
+  font-size: 15px;
 }
 }
 
@@ -477,7 +486,7 @@ body {
   /* Spacer for desktop layout only */
   .nav-spacer {
     display: inline-block;
-    width: 45px;  /* Adjust to align second link with content */
+    width: 75px;  /* Adjust to align second link with content */
   }
 }
 
