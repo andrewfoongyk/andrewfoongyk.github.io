@@ -83,7 +83,7 @@ html {
 
 h1, h2 {
   font-family: 'Crimson Pro SC',  $serif;
-  font-weight: 500; //600;
+  font-weight: 400; //600;
   margin-top: 2em;
   margin-bottom: 1em;
   line-height: 1.0;
@@ -92,7 +92,7 @@ h1, h2 {
 
 h3, h4, h5, h6 {
   font-family: $serif, 'Gentium','Alegreya', 'Jost', 'EB Garamond';
-  font-weight: 600; //600;
+  font-weight: 500; //600;
   margin-top: 1.5em;
   margin-bottom: 0.2em;
   line-height: 1.2;
@@ -324,7 +324,7 @@ $cp-sc-weights: (
   font-size: 18px;
   font-weight: 500;
   font-variant: small-caps;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.05em;
   white-space: nowrap;     /* don’t wrap */
   overflow: visible;       /* allow it to spill outside */
 }
