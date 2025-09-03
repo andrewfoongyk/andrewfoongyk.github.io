@@ -45,7 +45,7 @@ where I developed generative deep learning models for proteins in the
 <!-- [<span class="small-caps">ai</span> for Science team](https://www.microsoft.com/en-us/research/lab/microsoft-research-ai4science/). -->
 Our work on
 <a href="#bioemu" >BioEmu</a>
-was published in the journal [*Science*](https://www.science.org/doi/10.1126/science.adv9817).
+was featured on the front cover of [*Science*](https://www.science.org/doi/10.1126/science.adv9817).
 
 I earned my 
 <span class="small-caps">p</span>h.<span class="small-caps">d</span>.
