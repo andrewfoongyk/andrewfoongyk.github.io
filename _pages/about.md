@@ -176,7 +176,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
       For a full list of research papers, see my
       <a href="https://scholar.google.com/citations?user=2UOjgIUAAAAJ&hl=en" target="_blank">
         Google Scholar page</a>. 
-      Daggers† denote co-first authorship.
+      Daggers<span style="font-style: normal;">†</span> denote co-first authorship.
     </p>
 </div>
 
