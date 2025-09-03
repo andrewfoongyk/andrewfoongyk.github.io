@@ -90,18 +90,22 @@ html {
 }
 }
 
-h1, h2 {
+h1 {
   font-family: 'Crimson Pro SC',  $serif;
-  font-weight: 400; //600;
+  font-weight: 500; //600;
   margin-top: 2em;
   margin-bottom: 1em;
   line-height: 1.0;
   border-bottom: none !important;
 }
 
+h2 {
+  font-weight: 500;
+}
+
 h3, h4, h5, h6 {
   font-family: $serif, 'Gentium','Alegreya', 'Jost', 'EB Garamond';
-  font-weight: 500; //600;
+  font-weight: 600; //600;
   margin-top: 1.5em;
   margin-bottom: 0.2em;
   line-height: 1.2;
