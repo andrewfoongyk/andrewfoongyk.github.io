@@ -99,8 +99,13 @@ h1, h2 {
   border-bottom: none !important;
 }
 
+h2 {
+  font-family: $serif;
+  font-weight: 500;
+}
+
 h3, h4, h5, h6 {
-  font-family: 'Source Sans 3', $serif, 'Gentium','Alegreya', 'Jost', 'EB Garamond';
+  font-family: $serif, 'Gentium','Alegreya', 'Jost', 'EB Garamond';
   font-weight: 500; //600;
   margin-top: 1.5em;
   margin-bottom: 0.2em;
