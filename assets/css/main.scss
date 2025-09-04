@@ -49,7 +49,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 
@@ -90,22 +90,18 @@ html {
 }
 }
 
-h1 {
-  font-family: 'Crimson Pro SC',  $serif;
-  font-weight: 500; //600;
+h1, h2 {
+  font-family: 'Source Sans 3', 'Crimson Pro SC',  $serif;
+  font-weight: 450; //600;
   margin-top: 2em;
   margin-bottom: 1em;
   line-height: 1.0;
   border-bottom: none !important;
 }
 
-h2 {
-  font-weight: 500;
-}
-
 h3, h4, h5, h6 {
-  font-family: $serif, 'Gentium','Alegreya', 'Jost', 'EB Garamond';
-  font-weight: 600; //600;
+  font-family: 'Source Sans 3', $serif, 'Gentium','Alegreya', 'Jost', 'EB Garamond';
+  font-weight: 450; //600;
   margin-top: 1.5em;
   margin-bottom: 0.2em;
   line-height: 1.2;
@@ -191,6 +187,20 @@ $cp-sc-weights: (
   @include font("Crimson Pro SC", "CrimsonProSC-#{$name}Italic",  $w, italic);
 }
 
+// Source Sans 3
+@font-face {
+  font-family: 'Source Sans 3';
+  src: url('/assets/fonts/source-sans-3/SourceSans3-VariableFont_wght.ttf') format('truetype-variations');
+  font-weight: 200 900;   /* full variable weight range */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source Sans 3';
+  src: url('/assets/fonts/source-sans-3/SourceSans3-Italic-VariableFont_wght.ttf') format('truetype-variations');
+  font-weight: 200 900;   /* full variable weight range */
+  font-style: italic;
+}
 
 // Drafting Mono
 @font-face {

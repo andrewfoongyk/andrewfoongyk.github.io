@@ -9,12 +9,12 @@ main:
   - title: "Talks"
     url: "#talks"
 
-  - title: "Blog"
-    url: "#blog" 
-
   - title: "CV"
     url: "#cv"
 
-  - title: "Understanding AI Webinar"
+  - title: "Blog"
+    url: "#blog" 
+
+  - title: "Understanding AI Lectures"
     url: "#ai-from-scratch"
 
