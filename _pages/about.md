@@ -55,8 +55,7 @@ University of Cambridge, advised by
 Professor Richard E. Turner.
 <!-- [Professor Richard E. Turner](https://rich-turner-group.github.io). -->
 My research, combining probabilistic modeling and deep learning, was published at leading machine learning conferences including
-<span class="small-caps">n</span>eur<span class="small-caps">ips, iclr</span>
-<!-- <span class="small-caps">neurips, iclr</span> -->
+<span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span>, <span class="small-caps">iclr</span>,
 and
 <span class="small-caps">icml</span>.
 
@@ -245,7 +244,7 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
     </h3>
 
     <p style="margin:0 0 0.3em; font-style:italic;">
-      <span class="small-caps">n</span>eur<span class="small-caps">ips</span> Machine Learning for Structural Biology workshop <span class="small-caps">(mlsb)</span>
+      <span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span> Machine Learning for Structural Biology workshop <span class="small-caps">(mlsb)</span>
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
@@ -324,7 +323,7 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
     </h3>
 
     <p style="margin:0 0 0.3em; font-style:italic;">
-      Neural Information Processing Systems <span class="small-caps">(n</span>eur<span class="small-caps">ips)</span> 2023 (spotlight presentation)
+      Neural Information Processing Systems (<span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span>) spotlight presentation
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
@@ -417,7 +416,7 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
     </h3>
 
     <p style="margin:0 0 0.3em; font-style:italic;">
-      Neural Information Processing Systems <span class="small-caps">(n</span>eur<span class="small-caps">ips)</span>
+      Neural Information Processing Systems (<span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span>)
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
@@ -454,7 +453,7 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
     </h3>
 
     <p style="margin:0 0 0.3em; font-style:italic;">
-      Neural Information Processing Systems <span class="small-caps">(n</span>eur<span class="small-caps">ips)</span>
+      Neural Information Processing Systems (<span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span>)
     </p>    
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
@@ -538,7 +537,7 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
     </h3>
 
     <p style="margin:0 0 0.3em; font-style:italic;">
-      Neural Information Processing Systems <span class="small-caps">(n</span>eur<span class="small-caps">ips)</span>
+      Neural Information Processing Systems (<span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span>)
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
@@ -616,7 +615,7 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
     </h3>
 
     <p style="margin:0 0 0.3em; font-style:italic;">
-      Neural Information Processing Systems <span class="small-caps">(n</span>eur<span class="small-caps">ips)</span>
+      Neural Information Processing Systems (<span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span>)
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size:1.0rem">
@@ -837,7 +836,7 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
       </span>
 
       <p style="margin-top: 0.6em;">
-        Co-first author <a href="https://www.mi.fu-berlin.de/en/math/groups/ai4s/staff/klein/index.html" target="_blank" rel="noopener noreferrer">Leon Klein</a> and I presented our <span class="small-caps">n</span>eur<span class="small-caps">ips</span> 2023 spotlight paper on using deep learning to accelerate molecular dynamics simulation at two online reading groups.
+        Co-first author <a href="https://www.mi.fu-berlin.de/en/math/groups/ai4s/staff/klein/index.html" target="_blank" rel="noopener noreferrer">Leon Klein</a> and I presented our <span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span> 2023 spotlight paper on using deep learning to accelerate molecular dynamics simulation at two online reading groups.
       </p>
     </div>
   </div>
@@ -947,7 +946,7 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
       </span>
 
       <p style="margin-top: 0.6em;">
-        I gave a talk on my <a href="https://arxiv.org/abs/1909.00719" target="_blank" rel="noopener noreferrer"><span class="small-caps">n</span>eur<span class="small-caps">ips</span> 2020 paper</a> on approximate inference in Bayesian neural networks, with an accompanying talk by <a href="https://sebastianfarquhar.com/" target="_blank" rel="noopener noreferrer">Sebastian Farquhar</a> of the University of Oxford. Our talks present different perspectives on the effectiveness of the mean-field approximation in these models. View the <a href="../files/BNNs_talk.pdf" target="_blank">slides</a>.
+        I gave a talk on my <a href="https://arxiv.org/abs/1909.00719" target="_blank" rel="noopener noreferrer"><span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span> 2020 paper</a> on approximate inference in Bayesian neural networks, with an accompanying talk by <a href="https://sebastianfarquhar.com/" target="_blank" rel="noopener noreferrer">Sebastian Farquhar</a> of the University of Oxford. Our talks present different perspectives on the effectiveness of the mean-field approximation in these models. View the <a href="../files/BNNs_talk.pdf" target="_blank">slides</a>.
       </p>
     </div>
   </div>
