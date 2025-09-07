@@ -340,6 +340,10 @@ $cp-sc-weights: (
   margin-left: -1.5px;  /* tweak until aligned */
   margin-bottom: 2px;
 }
+.sidebar .author__urls a:hover {
+  color: #c83f42 !important; // #5B7E91 !important;
+  text-decoration: none !important;              /* remove default underline */
+}
 
 
 .sidebar .author__name {
