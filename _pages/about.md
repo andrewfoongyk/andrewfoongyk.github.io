@@ -168,7 +168,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
 <!-- Custom styled HR -->
 <hr class="hr-ghost">
 
-<a id="publications" style="display: block; position: relative; top: -58px; visibility: hidden;"></a>
+<a id="publications" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
 <h1>Research Papers</h1>
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
@@ -198,7 +198,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <div>
     <!-- Remove default top margin so it lines up with the image -->
     <h3 style="margin:0 0 0.0em 0;">
-      <a id="bioemu" style="display: block; position: relative; top: -58px; visibility: hidden;"></a>
+      <a id="bioemu" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
       <a href="https://www.science.org/doi/10.1126/science.adv9817">
         Scalable Emulation of Protein Equilibrium Ensembles With Generative Deep Learning
       </a>
@@ -686,7 +686,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
 
 <hr class="hr-ghost">
 
-<a id="talks" style="display: block; position: relative; top: -58px; visibility: hidden;"></a>
+<a id="talks" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
 <h1 id="talks">Talks</h1>
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
@@ -702,7 +702,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
 
 
 
-<a id="ai-from-scratch" style="display: block; position: relative; top: -58px; visibility: hidden;"></a>
+<a id="ai-from-scratch" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
 
 <!-- Header row: icon + title + description -->
 <div style="margin-bottom: 2em;">
@@ -1150,7 +1150,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
 
 <hr class="hr-ghost">
 
-<a id="blog" style="display: block; position: relative; top: -58px; visibility: hidden;"></a>
+<a id="blog" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
 <h1>Blog Posts</h1>
 
 *Occasional writings and tutorials on machine learning.*
@@ -1217,7 +1217,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
 
 <hr class="hr-ghost">
 
-<a id="cv" style="display: block; position: relative; top: -58px; visibility: hidden;"></a>
+<a id="cv" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
 <h1>Curriculum Vitae</h1>
 
 <p>
