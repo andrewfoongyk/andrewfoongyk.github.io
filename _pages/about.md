@@ -244,7 +244,7 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
     </h3>
 
     <p style="margin:0 0 0.3em; font-style:italic;">
-      <span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span> Machine Learning for Structural Biology workshop <span class="small-caps">(mlsb)</span>
+      <span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span> Machine Learning for Structural Biology workshop <span class="small-caps"><span style="font-style:normal;">(</span>mlsb<span style="font-style:normal; margin:0 0.025em;">)</span></span>
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
@@ -284,7 +284,7 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
     </h3>
 
     <p style="margin:0 0 0.3em; font-style:italic;">
-      International Conference on Learning Representations <span class="small-caps">(iclr)</span>
+      International Conference on Learning Representations <span class="small-caps"><span style="font-style:normal;">(</span>iclr<span style="font-style:normal; margin:0 0.025em;">)</span></span>
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
@@ -323,7 +323,7 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
     </h3>
 
     <p style="margin:0 0 0.3em; font-style:italic;">
-      Neural Information Processing Systems (<span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span>) spotlight presentation
+      Neural Information Processing Systems <span style="font-style:normal;">(</span><span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span><span style="font-style:normal; margin:0 0.025em;">)</span> spotlight presentation
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
