@@ -975,7 +975,7 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
 </div>
 
 
-<div style="margin-bottom: 2em;">
+<div style="margin-bottom: 4em;">
   <!-- Header row: icon + title + description -->
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/publications/expressiveness-banner.png"
@@ -1018,7 +1018,7 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
 
 
 <!-- Talk container -->
-<div style="margin-bottom: 2em;">
+<div style="margin-bottom: 4em;">
   <!-- Header row: icon + title + description -->
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/publications/convnp-banner.png"
