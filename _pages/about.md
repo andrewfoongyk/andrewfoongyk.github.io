@@ -68,9 +68,7 @@ foong.andrew@mayo.edu
 
 
 <h1>Hiring News</h1>
-I am hiring for research fellow positions in <span class="small-caps">ai</span> for cancer treatment in the Mayo Clinic
-<span class="small-caps">aida</span>
-team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-and-data-analytics-aida-radiation-oncology/33647/80077797392) or reach out via [email](mailto:foong.andrew@mayo.edu).
+I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester/research-associate-multimodal-ai-for-oncology/33647/85322167136) in multimodal <span class="small-caps">ai</span> for oncology and a [research fellow](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-and-data-analytics-aida-radiation-oncology/33647/80077797392) in the Mayo Clinic <span class="small-caps">ai</span> and Data Analytics team. Candidates must have (or will soon be completing) a <span class="small-caps">p</span>h.<span class="small-caps">d</span>, and have <span class="small-caps">ai</span> expertise. Feel free to reach out via email if you have any questions.
 
 <h1>Experience</h1>
 
@@ -183,7 +181,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
   <div style="margin-left: calc(50px + 0.8em);">
-    <h2 style="margin:0;">2024</h2>
+    <h2 style="margin:0;">2025</h2>
   </div>
 </div>
 
