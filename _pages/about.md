@@ -655,7 +655,7 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
   <div>
     <h3 style="margin:0 0 0.3em 0;">
       <a href="https://arxiv.org/abs/1906.11537">
-        <span style="display: inline-block; margin-left: -0.5em;">“</span>In-Between” Uncertainty in Bayesian Neural Networks
+        <span style="display: inline-block; margin-left: -0.47em;">“</span>In-Between” Uncertainty in Bayesian Neural Networks
       </a>
     </h3>
 
@@ -1119,7 +1119,7 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
      style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
   <div>
-    <h3 style="margin-top: 0em; margin-bottom: 0.1em; text-indent: -0.5em;">
+    <h3 style="margin-top: 0em; margin-bottom: 0.1em; text-indent: -0.47em;">
       “In-Between” Uncertainty in Bayesian Neural Networks
     </h3>
 
