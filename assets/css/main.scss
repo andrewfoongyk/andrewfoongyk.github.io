@@ -407,7 +407,7 @@ $cp-sc-weights: (
 .masthead * {
   font-family: $sans-serif;
   font-weight: 350;
-  font-size: 15px;
+  font-size: 0.97em;
   letter-spacing: 0.02em;
 }
 @media screen and (max-width: 992px) {
@@ -505,7 +505,7 @@ body {
   /* Spacer for desktop layout only */
   .nav-spacer {
     display: inline-block;
-    width: 75px;  /* Adjust to align second link with content */
+    width: 43px;  /* Adjust to align second link with content */
   }
 }
 
