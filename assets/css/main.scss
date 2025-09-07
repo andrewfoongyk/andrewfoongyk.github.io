@@ -122,16 +122,6 @@ body {
 .page__content a[href]:not(.btn):not(.button) {
   color: #5B7E91 !important; //inherit!important;// #5B7E91 !important;                     /* base color for the text */
   text-decoration: none !important;              /* remove default underline */
-  // background-image: linear-gradient(
-  //   to right,
-  //   rgba(91, 126, 145, 0.6),
-  //   rgba(91, 126, 145, 1.0),  /* your base color at ~60% */
-  //   rgba(91, 126, 145, 0.6) 
-  // )!important;
-  // background-repeat: no-repeat!important;
-  // background-size: 100% 1.0px!important;          /* thickness of the underline */
-  // background-position: 0 100%!important;        /* place at bottom of text */
-  // padding-bottom: 3px!important;                /* space so underline doesn’t collide */
 }
 /* Hover: only the text color changes to your blue; underline stays */
 .page__content a:hover[href]:not(.btn):not(.button) {
@@ -429,8 +419,8 @@ $cp-sc-weights: (
 
 .page__footer,
 .page__footer * {
-  background-color: #5B7E91 !important;
-  color: #F8F6F1; 
+  background-color: mix(Black, $primary-color, 35%) !important; // #5B7E91 !important;
+  color: mix(Black, #F8F6F1, 20%); 
 }
 
 html {
