@@ -192,7 +192,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/bioemu-banner.png"
        alt="BioEmu figure"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
   <div>
@@ -236,7 +236,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/frameflow-banner.png"
        alt="FrameFlow figure"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
   <div>
@@ -276,7 +276,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/acnp-banner.png"
        alt="Autoregressive Conditional Neural Processes figure"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
   <div>
@@ -315,7 +315,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/timewarp-banner.png"
        alt="Timewarp figure"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
   <div>
@@ -360,7 +360,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/thesis-banner.png"
        alt="Thesis figure"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
   <div>
@@ -408,7 +408,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/bnn-collapsed-banner.png"
        alt="Collapsed Variational Bounds for bnns figure"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
   <div>
@@ -445,7 +445,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/pacbayes-smalldata-banner.png"
        alt="pac-Bayes Small Data figure"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
   <div>
@@ -483,7 +483,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/gnp-banner.png"
        alt="Gaussian Neural Process figure"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
   <div>
@@ -529,7 +529,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/convnp-banner.png"
        alt="ConvNP figure"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
   <div>
@@ -568,7 +568,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/convcnp-banner.png"
        alt="Convolutional Conditional Neural Processes figure"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
   <div>
@@ -607,7 +607,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/expressiveness-banner.png"
        alt="bnn figure"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
   <div>
@@ -652,7 +652,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/inbetween-uncertainty-banner.png"
        alt="In-Between Uncertainty in Bayesian Neural Networks figure"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
   <div>
@@ -710,7 +710,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
     <!-- Small icon placeholder -->
     <img src="/assets/images/talks/ai-from-scratch.png"
      alt="Icon"
-     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0;">
+     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
     <div style="flex: 1;">
       <h3 style="margin-top: 0; margin-bottom: 0.1em;">
@@ -824,7 +824,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/publications/timewarp-banner.png"
      alt="Icon"
-     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0;">
+     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
     <div style="flex: 1;">
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
@@ -889,7 +889,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/pac-bayes.png"
      alt="Icon"
-     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0;">
+     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
     <div style="flex: 1;">
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
@@ -932,7 +932,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/oxford.png"
      alt="Icon"
-     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0;">
+     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
     <div style="flex: 1;">
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
@@ -976,7 +976,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/publications/expressiveness-banner.png"
      alt="Icon"
-     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0;">
+     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
     <div style="flex: 1;">
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
@@ -1019,7 +1019,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/publications/convnp-banner.png"
      alt="Icon"
-     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0;">
+     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
     <div style="flex: 1;">
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
@@ -1061,7 +1061,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <!-- Icon placeholder -->
     <img src="/assets/images/blogs/npf-icon.png"
      alt="Icon"
-     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0;">
+     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
   <div>
     <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
@@ -1083,7 +1083,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <!-- Icon placeholder -->
     <img src="/assets/images/talks/bdl.png"
      alt="Icon"
-     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0;">
+     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
   <div>
     <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
@@ -1110,7 +1110,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
   <!-- Optional: placeholder square or icon -->
     <img src="/assets/images/publications/inbetween-uncertainty-banner.png"
      alt="Icon"
-     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0;">
+     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
   <div>
     <h3 style="margin-top: 0em; margin-bottom: 0.1em; text-indent: -0.5em;">
@@ -1131,7 +1131,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
 <div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em;">
     <img src="/assets/images/talks/implicit.png"
      alt="Icon"
-     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0;">
+     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
   <div>
     <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
@@ -1160,7 +1160,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
 
   <img src="/assets/images/blogs/npf-icon.png"
        alt="Neural Process Family icon"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <div>
     <h3 style="margin-top: 0em; margin-bottom: 1em;">
@@ -1184,7 +1184,7 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
 
   <img src="/assets/images/blogs/bayesian-icon.png"
        alt="Bayesian blog icon"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0;">
+       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <div>
     <h3 style="margin-top: 0em; margin-bottom: 1em;">
