@@ -21,8 +21,8 @@ redirect_from:
 I am an
 <span class="small-caps">ai</span>
 scientist at the 
-<span class="small-caps">mayo clinic</span>,
-<!-- Mayo Clinic, -->
+<!-- <span class="small-caps">mayo clinic</span>, -->
+Mayo Clinic,
 where I lead the
 <span class="small-caps">ai</span>
 and Data Analytics 
@@ -36,8 +36,8 @@ See my [faculty page](https://www.mayo.edu/research/faculty/foong-andrew-ph-d/bi
 
 Before joining Mayo, I was a senior researcher
 at
-<span class="small-caps">microsoft research</span>
-<!-- Microsoft Research -->
+<!-- <span class="small-caps">microsoft research</span> -->
+Microsoft Research
 in Cambridge,
 <span class="small-caps">uk</span>,
 where I developed generative deep learning models for proteins in the 
@@ -50,8 +50,8 @@ I earned my
 <span class="small-caps">p</span>h.<span class="small-caps">d</span>.
 in machine learning
 from the
-<span class="small-caps">university of cambridge</span>
-<!-- University of Cambridge,  -->
+<!-- <span class="small-caps">university of cambridge</span> -->
+University of Cambridge, 
 advised by 
 Professor Richard E. Turner.
 My research, combining probabilistic modeling and deep learning, was published at leading machine learning conferences including
