@@ -697,9 +697,10 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
 
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:1em;">
+  <div style="margin-left: calc(50px + 0.8em);">
     <h2 style="margin:0;">2025</h2>
+  </div>
 </div>
-
 
 
 <a id="ai-from-scratch" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
@@ -814,7 +815,9 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
 
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:1em;">
-    <h2>2023</h2>
+  <div style="margin-left: calc(50px + 0.8em);">
+    <h2 style="margin:0;">2023</h2>
+  </div>
 </div>
 
 
@@ -879,7 +882,9 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
 
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:1em;">
+  <div style="margin-left: calc(50px + 0.8em);">
     <h2 style="margin:0;">2021</h2>
+  </div>
 </div>
 
 
@@ -967,7 +972,9 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
 
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:1em;">
-    <h2 style="margin-bottom:0">2020</h2>
+  <div style="margin-left: calc(50px + 0.8em);">
+    <h2 style="margin:0;">2020</h2>
+  </div>
 </div>
 
 
@@ -1101,8 +1108,10 @@ team. Apply [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-
 </div>
 
 
-<div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:1em; margin-top:-2em;">
-    <h2 style="margin-bottom:0">2019</h2>
+<div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:1em;">
+  <div style="margin-left: calc(50px + 0.8em);">
+    <h2 style="margin:0;">2019</h2>
+  </div>
 </div>
 
 <!-- Talk 1 -->
