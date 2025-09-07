@@ -67,7 +67,7 @@ foong.andrew@mayo.edu
 
 
 <h1>Hiring News</h1>
-I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester/research-associate-multimodal-ai-for-oncology/33647/85322167136) in multimodal <span class="small-caps">ai</span> for oncology and a [research fellow](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-and-data-analytics-aida-radiation-oncology/33647/80077797392) in the Mayo Clinic <span class="small-caps">ai</span> and Data Analytics team. Candidates must have (or will soon be completing) a <span class="small-caps">p</span>h.<span class="small-caps">d.</span>, and have <span class="small-caps">ai</span> expertise. Feel free to reach out via email if you have any questions.
+I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester/research-associate-multimodal-ai-for-oncology/33647/85322167136) in multimodal <span class="small-caps">ai</span> for oncology and a [research fellow](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-and-data-analytics-aida-radiation-oncology/33647/80077797392) in the Mayo Clinic <span class="small-caps">ai</span> and Data Analytics team. Applicants must have (or will soon be completing) a <span class="small-caps">p</span>h.<span class="small-caps">d.</span>, and have <span class="small-caps">ai</span> expertise. Feel free to reach out via email if you have any questions.
 
 <h1>Experience</h1>
 
@@ -237,7 +237,7 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
 
   <!-- Text content -->
   <div>
-    <h3 style="margin:0 0 0.3em 0;">
+    <h3 style="margin:0 0 0.3em 0; font-variant-numeric: lining-nums;">
       <a href="https://www.mlsb.io/papers_2023/Fast_protein_backbone_generation_with_SE3_flow_matching.pdf">
         Fast Protein Backbone Generation with SE(3) Flow Matching
       </a>
@@ -254,13 +254,13 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
     </p>
 
     <p>
-    FrameFlow is a generative model that rapidly produces realistic protein backbones by using flow matching on the <span class="small-caps">se(</span>3<span class="small-caps">)</span> geometry group, significantly improving computational efficiency over previous diffusion-based approaches. By generating higher-quality proteins at a fraction of the computational cost, FrameFlow streamlines the design of novel proteins, making drug development and biological research more efficient.
+    FrameFlow is a generative model that rapidly produces realistic protein backbones by using flow matching on the <span class="small-caps">se(3)</span> geometry group, significantly improving computational efficiency over previous diffusion-based approaches. By generating higher-quality proteins at a fraction of the computational cost, FrameFlow streamlines the design of novel proteins, making drug development and biological research more efficient.
     </p>
 
     <details style="margin-top:0.2em;">
       <summary style="cursor:pointer; margin-top:-0.8em; margin-top:-0.8em; font-variant: small-caps; font-size: 1.0rem;" class="small-caps">abstract</summary>
       <p style="margin-top:0.4em;">
-        We present FrameFlow, a method for fast protein backbone generation using <span class="small-caps">se(</span>3<span class="small-caps">)</span> flow matching. Specifically, we adapt FrameDiff, a state-of-the-art diffusion model, to the flow-matching generative modeling paradigm. We show how flow matching can be applied on <span class="small-caps">se(</span>3<span class="small-caps">)</span> and propose modifications during training to effectively learn the vector field. Compared to FrameDiff, FrameFlow requires five times fewer sampling timesteps while achieving two fold better designability. The ability to generate high quality protein samples at a fraction of the cost of previous methods paves the way towards more efficient generative models in de novo protein design.
+        We present FrameFlow, a method for fast protein backbone generation using <span class="small-caps">se(3)</span> flow matching. Specifically, we adapt FrameDiff, a state-of-the-art diffusion model, to the flow-matching generative modeling paradigm. We show how flow matching can be applied on <span class="small-caps">se(3)</span> and propose modifications during training to effectively learn the vector field. Compared to FrameDiff, FrameFlow requires five times fewer sampling timesteps while achieving two fold better designability. The ability to generate high quality protein samples at a fraction of the cost of previous methods paves the way towards more efficient generative models in de novo protein design.
       </p>
     </details>
   </div>
@@ -416,7 +416,7 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
     </h3>
 
     <p style="margin:0 0 0.3em; font-style:italic;">
-      Neural Information Processing Systems (<span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span>)
+      Neural Information Processing Systems <span style="font-style:normal;">(</span><span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span><span style="font-style:normal; margin:0 0.025em;">)</span>
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
@@ -453,7 +453,7 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
     </h3>
 
     <p style="margin:0 0 0.3em; font-style:italic;">
-      Neural Information Processing Systems (<span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span>)
+      Neural Information Processing Systems <span style="font-style:normal;">(</span><span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span><span style="font-style:normal; margin:0 0.025em;">)</span>
     </p>    
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
@@ -491,7 +491,7 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
     </h3>
 
     <p style="margin:0 0 0.3em; font-style:italic;">
-      Advances in Approximate Bayesian Inference <span class="small-caps">(aabi)</span>
+      Advances in Approximate Bayesian Inference <span class="small-caps"><span style="font-style:normal;">(</span>aabi<span style="font-style:normal; margin-left: 0.05em;">)</span></span>
     </p>    
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
@@ -537,7 +537,7 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
     </h3>
 
     <p style="margin:0 0 0.3em; font-style:italic;">
-      Neural Information Processing Systems (<span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span>)
+      Neural Information Processing Systems <span style="font-style:normal;">(</span><span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span><span style="font-style:normal; margin:0 0.025em;">)</span>
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
@@ -576,7 +576,7 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
     </h3>
 
     <p style="margin:0 0 0.3em; font-style:italic;">
-      International Conference on Learning Representations (<span class="small-caps">iclr</span>)
+      International Conference on Learning Representations <span class="small-caps"><span style="font-style:normal;">(</span>iclr<span style="font-style:normal; margin:0 0.025em;">)</span></span>
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
@@ -615,7 +615,7 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
     </h3>
 
     <p style="margin:0 0 0.3em; font-style:italic;">
-      Neural Information Processing Systems (<span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span>)
+      Neural Information Processing Systems <span style="font-style:normal;">(</span><span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span><span style="font-style:normal; margin:0 0.025em;">)</span>
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size:1.0rem">
