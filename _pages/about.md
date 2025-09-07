@@ -21,28 +21,27 @@ redirect_from:
 I am an
 <span class="small-caps">ai</span>
 scientist at the 
-Mayo Clinic,
-<!-- <a href="https://www.mayoclinic.org">Mayo Clinic</a>,  -->
+<span class="small-caps">mayo clinic</span>,
+<!-- Mayo Clinic, -->
 where I lead the
 <span class="small-caps">ai</span>
 and Data Analytics 
 <span class="small-caps">(aida)</span>
 team in the 
 Department of Radiation Oncology.
-<!-- [Department of Radiation Oncology](https://www.mayoclinic.org/departments-centers/radiation-oncology/home/orc-20188588). -->
 We develop next-generation 
 <span class="small-caps">ai</span>
-systems to advance cancer treatment.
+systems to advance cancer diagnosis and treatment.
 See my [faculty page](https://www.mayo.edu/research/faculty/foong-andrew-ph-d/bio-20583559) for research areas.
 
 Before joining Mayo, I was a senior researcher
 at
-Microsoft Research in Cambridge,
-<!-- <a href= "https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Microsoft Research</a> in Cambridge, -->
+<span class="small-caps">microsoft research</span>
+<!-- Microsoft Research -->
+in Cambridge,
 <span class="small-caps">uk</span>,
 where I developed generative deep learning models for proteins in the 
 <span class="small-caps">ai</span> for Science team.
-<!-- [<span class="small-caps">ai</span> for Science team](https://www.microsoft.com/en-us/research/lab/microsoft-research-ai4science/). -->
 Our work on
 <a href="#bioemu" >BioEmu</a>
 was featured on the front cover of [*Science*](https://www.science.org/doi/10.1126/science.adv9817).
@@ -51,9 +50,10 @@ I earned my
 <span class="small-caps">p</span>h.<span class="small-caps">d</span>.
 in machine learning
 from the
-University of Cambridge, advised by 
+<span class="small-caps">university of cambridge</span>
+<!-- University of Cambridge,  -->
+advised by 
 Professor Richard E. Turner.
-<!-- [Professor Richard E. Turner](https://rich-turner-group.github.io). -->
 My research, combining probabilistic modeling and deep learning, was published at leading machine learning conferences including
 <span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span>, <span class="small-caps">iclr</span>,
 and
