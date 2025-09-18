@@ -91,7 +91,7 @@ html {
 }
 
 h1, h2 {
-  font-family: 'Source Sans 3', 'Crimson Pro SC',  $serif;
+  font-family: $sans-serif, 'Source Sans 3', 'Crimson Pro SC',  $serif;
   font-weight: 500; //600;
   margin-top: 2em;
   margin-bottom: 1em;
@@ -181,6 +181,52 @@ $cp-sc-weights: (
   @include font("Crimson Pro SC", "CrimsonProSC-#{$name}",        $w, normal);
   @include font("Crimson Pro SC", "CrimsonProSC-#{$name}Italic",  $w, italic);
 }
+
+
+// Delicious
+@font-face {
+  font-family: 'Delicious';
+  src: url('/assets/fonts/delicious/Delicious_R_2021.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+// @font-face {
+//   font-family: 'Delicious';
+//   src: url('/assets/fonts/delicious/Delicious_I_2021.otf') format('opentype');
+//   font-weight: 400;
+//   font-style: italic;
+// }
+
+// @font-face {
+//   font-family: 'Delicious';
+//   src: url('/assets/fonts/delicious/Delicious_B_2021.otf') format('opentype');
+//   font-weight: 700;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: 'Delicious';
+//   src: url('/assets/fonts/delicious/Delicious_BI_2021.otf') format('opentype');
+//   font-weight: 700;
+//   font-style: italic;
+// }
+
+// @font-face {
+//   font-family: 'Delicious';
+//   src: url('/assets/fonts/delicious/Delicious_H_2021.otf') format('opentype');
+//   font-weight: 900;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: 'Delicious SC';
+//   src: url('/assets/fonts/delicious/Delicious_SC_2021.otf') format('opentype');
+//   font-weight: 400;
+//   font-style: normal;
+//   font-variant: small-caps;
+// }
+
 
 // Source Sans 3
 @font-face {

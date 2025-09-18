@@ -585,7 +585,7 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
     </p>
 
     <p>
-    This paper introduces the Convolutional Conditional Neural Process (Conv<span class="small-caps">cnp</span>), a neural-network alternative to Gaussian processes, designed for reliable predictions when data is scarce or uncertainty matters. By incorporating translation symmetry, Conv<span class="small-caps" style="margin-right: -0.03em;">cnp</span>s accurately capture patterns in structured data, such as images or time series, and provides meaningful uncertainty estimates even on tasks it hasn't encountered before.
+    This paper introduces the Convolutional Conditional Neural Process (Conv<span class="small-caps">cnp</span>), a neural-network alternative to Gaussian processes, designed for reliable predictions when data is scarce or uncertainty matters. By incorporating translation symmetry, Conv<span class="small-caps" style="margin-right: -0.03em;">cnp</span>s accurately capture patterns in structured data, such as images or time series, and provides meaningful uncertainty estimates even on tasks it hasn’t encountered before.
     </p>
 
     <details style="margin-top:0.2em;">
@@ -1180,7 +1180,7 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
     </p>
 
     <p style="margin-top:0.4em;">
-      Deep learning shines when there's lots of data, but fails in low-data settings where uncertainty matters, commonly encountered in medical time-series. Neural processes are a family of models that tackles this by meta-learning a distribution over predictors, blending stochastic processes with neural networks. This site walks through the ideas, maths, and code from scratch.
+      Deep learning shines when there’s lots of data, but fails in low-data settings where uncertainty matters, commonly encountered in medical time-series. Neural processes are a family of models that tackles this by meta-learning a distribution over predictors, blending stochastic processes with neural networks. This site walks through the ideas, maths, and code from scratch.
     </p>
   </div>
 </div>
