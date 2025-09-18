@@ -854,7 +854,8 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
       </iframe>
     </div>
     <div style="font-style: italic; margin-top: 0.4em; text-align: center;">
-      Learning on Graphs and Geometry <span class="small-caps">(l</span>o<span class="small-caps">gg)</span>
+      Learning on Graphs and Geometry 
+      <span class="small-caps"><span style="font-style:normal;">(</span>l</span>o<span class="small-caps">gg<span style="font-style:normal; margin-left: 0.05em;">)</span></span>
     </div>
   </div>
 
@@ -871,7 +872,8 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
       </iframe>
     </div>
     <div style="font-style: italic; margin-top: 0.4em; text-align: center;">
-      Molecular Modeling and Drug Discovery <span class="small-caps">(m</span>2<span class="small-caps">d</span>2<span class="small-caps">)</span>
+      Molecular Modeling and Drug Discovery 
+      <span style="font-style:normal;">(</span><span class="small-caps">m</span>2<span class="small-caps">d</span>2<span class="small-caps"></span><span style="font-style:normal; margin-left: 0.05em;">)</span>
     </div>
   </div>
 </div>
