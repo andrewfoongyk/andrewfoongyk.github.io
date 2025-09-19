@@ -1185,10 +1185,10 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
 <a id="blog" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
 <h1>Blog Posts</h1>
 
-*Occasional writings and tutorials on machine learning.*
+<span style="font-style: italic;">Occasional writings and tutorials on machine learning.</span>
 
 <!-- Blog 1: Neural Process Family -->
-<div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em;">
+<div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em; margin-top: 1.5em;">
 
   <img src="/assets/images/blogs/npf-icon.png"
        alt="Neural Process Family icon"
