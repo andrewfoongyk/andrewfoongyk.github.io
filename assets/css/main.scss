@@ -198,12 +198,12 @@ $cp-sc-weights: (
 //   font-style: italic;
 // }
 
-// @font-face {
-//   font-family: 'Delicious';
-//   src: url('/assets/fonts/delicious/Delicious_B_2021.otf') format('opentype');
-//   font-weight: 700;
-//   font-style: normal;
-// }
+@font-face {
+  font-family: 'Delicious';
+  src: url('/assets/fonts/delicious/Delicious_B_2021.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
 
 // @font-face {
 //   font-family: 'Delicious';
