@@ -724,7 +724,7 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
   </div>
 
 
-<div style="margin-bottom: 4em;">
+<div style="margin-bottom: 4em; margin-top: 2em;">
   <!-- Header row: icon + title + description -->
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/ai-selective-course.png"
@@ -742,7 +742,7 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
       </span>
 
       <p style="margin-top: 0.6em;">
-        This lecture, the first in a selective course delivered to students at the Mayo Clinic, provides a concise introduction to deep learning, explaining gradient descent, and how large language models are trained and generate text. View the <a href="../files/AI-Selective-Course.pdf" target="_blank">slides</a>. 
+        This lecture—the first in a selective course delivered to students at the Mayo Clinic—provides a concise introduction to deep learning, explaining gradient descent, and how large language models are trained and generate text. View the <a href="../files/AI-Selective-Course.pdf" target="_blank">slides</a>. 
       </p>
     </div>
   </div>
