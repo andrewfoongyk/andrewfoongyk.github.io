@@ -724,6 +724,30 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
   </div>
 
 
+<div style="margin-bottom: 4em;">
+  <!-- Header row: icon + title + description -->
+  <div style="display:flex; align-items:flex-start; gap:0.8em;">
+    <img src="/assets/images/talks/ai-selective-course.png"
+
+     alt="Icon"
+     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
+
+    <div style="flex: 1;">
+      <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
+        The Emergence of AI in Healthcare
+      </h3>
+
+      <span class="small-caps">
+        mayo clinic ai selective course
+      </span>
+
+      <p style="margin-top: 0.6em;">
+        This lecture, the first in a selective course delivered to students at the Mayo Clinic, provides a concise introduction to deep learning, explaining gradient descent, and how large language models are trained and generate text. View the <a href="../files/AI-Selective-Course.pdf" target="_blank">slides</a>. 
+      </p>
+    </div>
+  </div>
+
+
 <a id="ai-from-scratch" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
 
 <!-- Header row: icon + title + description -->
