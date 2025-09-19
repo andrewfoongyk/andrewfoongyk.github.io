@@ -700,10 +700,34 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
 </div>
 
 
+<div style="margin-bottom: 4em;">
+  <!-- Header row: icon + title + description -->
+  <div style="display:flex; align-items:flex-start; gap:0.8em;">
+    <img src="/assets/images/talks/lunch-and-learn.png"
+
+     alt="Icon"
+     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
+
+    <div style="flex: 1;">
+      <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
+        Reading Clinical Notes with AI: Building an Effective System
+      </h3>
+
+      <span class="small-caps">
+        mayo clinic ai lunch & learn series
+      </span>
+
+      <p style="margin-top: 0.6em;">
+        Enormous volumes of clinical data are stored in free-text clinical notes that cannot be queried or statistically analyzed without painstaking human review. This <span style="font-style: italic;">dark data</span> can now be accessed at scale using large language models. This talk, delivered to clinicians, explains best practices for building reliable workflows to extract this data. View the <a href="../files/AI_lunch_and_learn_backup.pdf" target="_blank">slides</a>. 
+      </p>
+    </div>
+  </div>
+
+
 <a id="ai-from-scratch" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
 
 <!-- Header row: icon + title + description -->
-<div style="margin-bottom: 2em;">
+<div style="margin-bottom: 2em; margin-top: 2em;">
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <!-- Small icon placeholder -->
     <img src="/assets/images/talks/ai-from-scratch.png"
