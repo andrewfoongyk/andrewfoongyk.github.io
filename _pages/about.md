@@ -21,7 +21,6 @@ redirect_from:
 I am an
 <span class="small-caps">ai</span>
 scientist at the 
-<!-- <span class="small-caps">mayo clinic</span>, -->
 Mayo Clinic,
 where I lead the
 <span class="small-caps">ai</span>
@@ -36,7 +35,6 @@ See my [faculty page](https://www.mayo.edu/research/faculty/foong-andrew-ph-d/bi
 
 Before joining Mayo, I was a senior researcher
 at
-<!-- <span class="small-caps">microsoft research</span> -->
 Microsoft Research
 in Cambridge,
 <span class="small-caps">uk</span>,
@@ -50,7 +48,6 @@ I earned my
 <span class="small-caps">p</span>h.<span class="small-caps">d</span>.
 in machine learning
 from the
-<!-- <span class="small-caps">university of cambridge</span> -->
 University of Cambridge, 
 advised by 
 Professor Richard E. Turner.
@@ -699,8 +696,42 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
   </div>
 </div>
 
-
 <div style="margin-bottom: 4em;">
+  <!-- Header row: icon + title + description -->
+  <div style="display:flex; align-items:flex-start; gap:0.8em;">
+    <img src="/assets/images/talks/bmb-seminar.png"
+
+     alt="Icon"
+     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
+
+    <div style="flex: 1;">
+      <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
+       Scalable Emulation of Protein Equilibrium Ensembles with Generative Deep Learning
+      </h3>
+
+      <span class="small-caps">
+        mayo clinic biochemistry & molecular biology seminar series
+      </span>
+
+      <p style="margin-top: 0.6em;">
+      This talk provides an introduction to <a href="#bioemu" >BioEmu</a>, starting with AlphaFold and the deep learning revolution in protein structure, to the necessity of dynamics and conformational change prediction. I describe the training data, model architecture and capabilities of BioEmu. View the <a href="../files/bmb-seminar.pdf" target="_blank">slides</a>. 
+
+      <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;">
+        <iframe 
+          src="https://cdnapisec.kaltura.com/p/1601341/embedPlaykitJs/uiconf_id/53010392?iframeembed=true&entry_id=1_u377wdng&config[playback]=%7B%22startTime%22%3A630%7D"
+          style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+          allowfullscreen
+          allow="autoplay *; fullscreen *; encrypted-media *">
+        </iframe>
+      </div>
+
+      </p>
+    </div>
+  </div>
+
+
+
+<div style="margin-bottom: 4em; margin-top: 2em;">
   <!-- Header row: icon + title + description -->
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/lunch-and-learn.png"
