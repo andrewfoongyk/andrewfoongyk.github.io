@@ -1239,13 +1239,13 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
        style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <div>
-    <h3 style="margin-top: 0em; margin-bottom: 1em;">
+    <h3 style="margin-top: 0em;">
       <a href="/viz/mlp/" target="_blank" rel="noopener noreferrer">
         MLP Weight Evolution Visualizer
       </a>
     </h3>
 
-    <p style="margin-top:0.4em;">
+    <p>
       This tool allows you to view the weights of a small three-layer MLP evolve as it trains on the MNIST dataset. Created as an educational aid for an AI lecture course at the Mayo Clinic.
     </p>
   </div>
