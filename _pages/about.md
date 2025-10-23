@@ -1246,7 +1246,7 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
     </h3>
 
     <p>
-      This tool allows you to view the weights of a small three-layer MLP evolve as it trains on the MNIST dataset. Created as an educational aid for an AI lecture course at the Mayo Clinic.
+      This tool allows you to view the weights of a small three-layer <span class="small-caps">mlp</span> evolve as it trains on the <span class="small-caps">mnist</span> dataset. Created as an educational aid for an AI lecture course at the Mayo Clinic.
     </p>
   </div>
 </div>
