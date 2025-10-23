@@ -716,6 +716,11 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
       <p style="margin-top: 0.6em;">
       This talk provides an introduction to <a href="#bioemu" >BioEmu</a>, starting with AlphaFold and the deep learning revolution in protein structure, to the necessity of dynamics and conformational change prediction. I describe the training data, model architecture and capabilities of BioEmu. View the <a href="../files/bmb-seminar.pdf" target="_blank">slides</a>. 
       </p>
+
+      <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/e38r-xW2lM0?si=qGEO93bOMMZ7I4QE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+
     </div>
   </div>
 
