@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MLP Weight Evolution — MNIST</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header>
+    <div class="title">MLP weight evolution on MNIST dataset</div>
+  </header>
+
+  <section class="controls">
+    <!-- <label class="file-label">
+      <input id="fileInput" type="file" accept=".json">
+      <span>Load snapshots JSON</span>
+    </label> -->
+
+    <button id="playBtn" disabled>Play</button>
+    <button id="pauseBtn" disabled>Pause</button>
+    <button id="prevBtn" disabled>◀︎</button>
+    <button id="nextBtn" disabled>▶︎</button>
+
+    <label>Speed
+      <select id="speedSelect">
+        <option value="100">100 fps</option>
+        <option value="250">250 fps</option>
+        <option value="500">500 fps</option>
+      </select>
+    </label>
+
+    <label class="toggle">
+      <input type="checkbox" id="lockScale">
+      <span>Lock global scale</span>
+    </label>
+
+    <div class="stepinfo">
+      <label><input id="stepRange" type="range" min="0" max="0" value="0" disabled></label>
+      <span id="stepText">–</span>
+    </div>
+  </section>
+
+  <main>
+  <!-- Top info bar -->
+  <section class="infobar">
+    <!-- <div><strong>Run:</strong> <span id="runMeta">–</span></div> -->
+    <div>Epoch: <span id="epochMeta">–</span></div>
+    <div>Step: <span id="stepMeta">–</span></div>
+    <div>Loss (train): <span id="lossMeta">–</span></div>
+    <div>Val loss: <span id="vallossMeta">–</span></div>
+    <div>Val acc: <span id="valaccMeta">–</span></div>
+  </section>
+
+  <!-- Three side-by-side panels -->
+  <section class="panels">
+    <!-- Left: Layer 1 -->
+    <div class="panel">
+      <h2>First layer weights: 784 × 64</h2>
+      <div id="grid64" class="grid64"></div>
+      <div class="rowlabel">First layer biases: 64</div>
+      <canvas id="b1" class="bar"></canvas>
+    </div>
+
+    <!-- Middle: Layer 2 -->
+    <div class="panel">
+      <h2>Second layer weights: 64 × 64</h2>
+      <canvas id="W2" class="square"></canvas>
+      <div class="rowlabel">Second layer biases: 64</div>
+      <canvas id="b2" class="bar"></canvas>
+    </div>
+
+    <!-- Right: Layer 3 -->
+    <div class="panel">
+      <h2>Third layer weights: 64 × 10</h2>
+      <canvas id="W3" class="rect"></canvas>
+      <div class="rowlabel">Third layer biases: 10</div>
+      <canvas id="b3" class="bar"></canvas>
+    </div>
+  </section>
+  </main>
+
+</body>
+</html>

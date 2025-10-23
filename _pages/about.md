@@ -1232,8 +1232,27 @@ I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester
 
 <span style="font-style: italic;">Occasional writings and tutorials on machine learning.</span>
 
-<!-- Blog 1: Neural Process Family -->
 <div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em; margin-top: 1.5em;">
+
+  <img src="/assets/images/blogs/mlp-viz-icon.png"
+       alt="MLP viz icon"
+       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
+
+  <div>
+    <h3 style="margin-top: 0em; margin-bottom: 1em;">
+      <a href="/viz/mlp/" target="_blank" rel="noopener noreferrer">
+        MLP Weight Evolution Visualizer
+      </a>
+    </h3>
+
+    <p style="margin-top:0.4em;">
+      This tool allows you to view the weights of a small three-layer MLP evolve as it trains on the MNIST dataset. Created as an educational aid for an AI lecture course at the Mayo Clinic.
+    </p>
+  </div>
+</div>
+
+<!-- Blog 1: Neural Process Family -->
+<div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em;">
 
   <img src="/assets/images/blogs/npf-icon.png"
        alt="Neural Process Family icon"
