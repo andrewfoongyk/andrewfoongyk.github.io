@@ -62,10 +62,6 @@ See my selected [papers](#publications), or visit my Google Scholar [profile](ht
 foong.andrew@mayo.edu
 </span>
 
-
-<h1 style="margin-top: 2.3em;">Hiring News</h1>
-I am hiring for a [research associate](https://jobs.mayoclinic.org/job/rochester/research-associate-multimodal-ai-for-oncology/33647/85322167136) in multimodal <span class="small-caps">ai</span> for oncology and a [research fellow](https://jobs.mayoclinic.org/job/rochester/research-fellow-ai-and-data-analytics-aida-radiation-oncology/33647/80077797392) in the Mayo Clinic <span class="small-caps">ai</span> and Data Analytics team. Applicants must have (or will soon be completing) a <span class="small-caps">p</span>h.<span class="small-caps">d.</span>, and have <span class="small-caps">ai</span> expertise. Feel free to reach out via email if you have any questions.
-
 <h1 style="margin-top: 2.3em; margin-bottom: 1.0em;">Experience</h1>
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
