@@ -121,7 +121,7 @@ h3, h4, h5, h6 {
 body {
   font-family: $serif,'Gentium', 'Alegreya', 'EB Garamond', serif;
   font-weight: 400; /* Slightly heavier than normal */
-  line-height: 1.45; 
+  line-height: 1.35; 
 }
 
 .page__content a[href]:not(.btn):not(.button) {
@@ -456,7 +456,7 @@ $cp-sc-weights: (
 .masthead,
 .masthead * {
   font-family: $sans-serif;
-  font-weight: 350;
+  font-weight: 400;
   font-size: 0.97em;
   letter-spacing: 0.02em;
 }
