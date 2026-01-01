@@ -93,15 +93,18 @@ html {
 
 h1, h2 {
   font-family: $sans-serif, 'Crimson Pro SC',  $serif;
-  font-weight: 400; //600;
+  font-weight: 500; //600;
   font-style: normal;
   // font-variant: small-caps;
-  letter-spacing: 0.11em;
   margin-top: 2em;
   margin-bottom: 1em;
   line-height: 1.0;
   border-bottom: none !important;
   text-transform: uppercase;
+}
+
+h1 {
+  letter-spacing: 0.11em;
 }
 
 h2 {
