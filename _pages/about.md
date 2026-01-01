@@ -62,7 +62,7 @@ See my selected [papers](#publications), or visit my Google Scholar [profile](ht
 foong.andrew@mayo.edu
 </span>
 
-<h1 style="margin-top: 2.3em; margin-bottom: 1.0em;">Experience</h1>
+<h1 style="margin-top: 3em; margin-bottom: 1.0em;">Experience</h1>
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
   <img src="../assets/mayo_clinic_logo.jpeg" alt="Mayo Clinic logo"

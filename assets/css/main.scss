@@ -92,15 +92,16 @@ html {
 }
 
 h1, h2 {
-  font-family: 'Crimson Pro SC',  $serif;
-  font-weight: 600; //600;
+  font-family: $sans-serif, 'Crimson Pro SC',  $serif;
+  font-weight: 400; //600;
   font-style: normal;
   // font-variant: small-caps;
-  // letter-spacing: 0.1em;
+  letter-spacing: 0.11em;
   margin-top: 2em;
   margin-bottom: 1em;
   line-height: 1.0;
   border-bottom: none !important;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -555,7 +556,7 @@ body {
   /* Spacer for desktop layout only */
   .nav-spacer {
     display: inline-block;
-    width: 52px;  /* Adjust to align second link with content */
+    width: 43px;  /* Adjust to align second link with content */
   }
 }
 
