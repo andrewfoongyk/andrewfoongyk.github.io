@@ -20,7 +20,9 @@ redirect_from:
 
 I am an
 <span class="small-caps">ai</span>
-scientist at the 
+scientist 
+and Assistant Professor of Biomedical Informatics
+at the 
 Mayo Clinic,
 where I lead the
 <span class="small-caps">ai</span>
@@ -69,9 +71,9 @@ foong.andrew@mayo.edu
        style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 9px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
-      <span class="small-caps">ai scientist & senior associate consultant<br> mayo clinic</span><br/>
+      <span class="small-caps">ai scientist, senior associate consultant<br>assistant professor of biomedical informatics<br>mayo clinic</span><br/>
       <span style="font-size: 1.0rem">
-      January 2025–present <br> Rochester, Minnesota, <span class="small-caps">usa</span><br/>
+      January 2025 – present <br> Rochester, Minnesota, <span class="small-caps">usa</span><br/>
       Department of Radiation Oncology<br/>
       <em><span class="small-caps">ai</span> for cancer treatment</em>
       </span>
@@ -86,7 +88,7 @@ foong.andrew@mayo.edu
     <p style="margin-top: 0;">
       <span class="small-caps">senior researcher<br> microsoft research</span><br/>
       <span style="font-size: 1.0rem">
-      November 2022–November 2024 <br> Cambridge, <span class="small-caps">uk</span><br/>
+      November 2022 – November 2024 <br> Cambridge, <span class="small-caps">uk</span><br/>
       <span class="small-caps">ai</span> for Science team<br/> 
       <em>Generative deep learning for protein structure</em>
       </span>
@@ -101,7 +103,7 @@ foong.andrew@mayo.edu
     <p style="margin-top: 0;">
       <span class="small-caps">ph.d. in machine learning<br> university of cambridge</span><br/>
       <span style="font-size: 1.0rem">
-      October 2018–November 2022 <br> Cambridge, <span class="small-caps">uk</span><br/>
+      October 2018 – November 2022 <br> Cambridge, <span class="small-caps">uk</span><br/>
       Computational and Biological Learning Laboratory <br/>
       <em>Supervisor</em>: Professor Richard E. Turner<br/>
       <em>Deep learning</em> · <em>Probabilistic modeling</em>
@@ -117,7 +119,7 @@ foong.andrew@mayo.edu
     <p style="margin-top: 0;">
       <span class="small-caps">research scientist intern<br> google deepmind</span><br/>
       <span style="font-size: 1.0rem">
-      February 2022–May 2022 <br> London, <span class="small-caps">uk</span><br/>
+      February 2022 – May 2022 <br> London, <span class="small-caps">uk</span><br/>
       <em>Supervisor</em>: Dr. Michalis Titsias<br/>
       <em>Deep generative modeling</em> · <em>Gaussian processes</em>
       </span>
@@ -132,7 +134,7 @@ foong.andrew@mayo.edu
     <p style="margin-top: 0;">
       <span class="small-caps">research intern<br> microsoft research</span><br/>
       <span style="font-size: 1.0rem">
-      July 2021–October 2021 <br> Cambridge, <span class="small-caps">uk</span><br/>
+      July 2021 – October 2021 <br> Cambridge, <span class="small-caps">uk</span><br/>
       <em>Supervisor</em>: Dr. Sebastian Nowozin<br/>
       <em>Deep learning for molecular dynamics simulation</em>
       </span>
@@ -147,7 +149,7 @@ foong.andrew@mayo.edu
     <p style="margin-top: 0;">
       <span class="small-caps">b.a. & m.eng. in information and computer engineering<br> university of cambridge</span><br/>
       <span style="font-size: 1.0rem">
-      October 2014–July 2018 <br> Cambridge, <span class="small-caps">uk</span><br/>
+      October 2014 – July 2018 <br> Cambridge, <span class="small-caps">uk</span><br/>
       Department of Engineering<br/>
       <em>First class honours with distinction, top 1–2% in year group</em>
       </span>
