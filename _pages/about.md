@@ -179,6 +179,146 @@ foong.andrew@mayo.edu
   </div>
 </div>
 
+
+<!-- Paper -->
+<div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em;">
+
+  <!-- Square thumbnail -->
+  <img src="/assets/images/publications/toxicity-extraction-banner.png"
+       alt="toxicity figure"
+       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
+
+  <!-- Text content -->
+  <div>
+    <h3 style="margin:0 0 0.3em 0;">
+      <a href="https://www.sciencedirect.com/science/article/pii/S0167814025053526">
+      Large language models for toxicity extraction in oncology trials: A real-world benchmark in prostate radiotherapy
+      </a>
+    </h3>
+
+    <p style="margin:0 0 0.3em; font-style:italic;">
+      Radiotherapy and Oncology
+    </p>
+
+    <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
+      Federico Mastroleo, Mariana Borras-Osorio, Shiv Patel, Sarah Peterson, Renthony Wilson, Mi Zhou, Satomi Shiraishi, <strong>Andrew Y. K. Foong</strong>, David Routman, Mark R. Waddle
+    </p>
+
+    <p>
+    This study evaluates the accuracy and cost-effectiveness of off-the-shelf large language models for extracting <span class="small-caps">ctcae</span>-graded toxicities from a prospective prostate radiotherapy trial. The results show that modern <span class="small-caps">llm</span>s achieve near–human inter-rater reliability at low cost, supporting their feasibility for scalable toxicity monitoring in clinical research despite remaining limitations in grade-level accuracy.
+    </p>
+
+    <details style="margin-top:0.2em;">
+      <summary style="cursor:pointer; margin-top:-0.8em; margin-top:-0.8em; font-variant: small-caps; font-size: 1.0rem;" class="small-caps">abstract</summary>
+      <p style="margin-top:0.4em;">
+        <span style="font-style: italic;">Background</span>:
+        Accurate toxicity assessment is critical in oncology trials, yet current reporting frameworks such as the Common Terminology Criteria for Adverse Events (<span class="small-caps">ctcae</span>) remain labor-intensive and subject to inter-observer variability. Large language models (<span class="small-caps">llm</span>s) offer potential to automate extraction and grading of adverse events from clinical notes and patient-reported outcomes (<span class="small-caps">pro</span>s), but their comparative performance and cost-effectiveness remain underexplored.
+        <br>
+        <br>
+        <span style="font-style: italic;">Methods</span>:
+        We evaluated five off-the-shelf <span class="small-caps">llms</span> (Gemini 2.0 Flash, Gemini 2.5 Flash, Gemini 2.5 Pro, <span class="small-caps">gpt-4</span>o, and <span class="small-caps">gpt-5</span>) using a rule-augmented few-shot prompting strategy to extract <span class="small-caps">ctcae</span>-graded gastrointestinal and genitourinary toxicities from a prospective prostate radiotherapy trial (<span class="small-caps">nct02874014</span>; n = 55 patients, 8968 toxicity records). Binary and grade-level accuracy, precision, recall, specificity, <span class="small-caps">f1</span> score, Cohen’s kappa, and computational costs were assessed.
+        <br>
+        <br>
+        <span style="font-style: italic;">Results</span>:
+        All models achieved high binary accuracy (84.6–87.4 %) and moderate grade accuracy (79.1–82.3 %). <span class="small-caps">gpt-4</span>o reached the best binary (87.4 %) and grade (83.5 %) accuracy, while Gemini 2.5 Pro demonstrated highest sensitivity (74.0 %). Specificity peaked with <span class="small-caps">gpt-4</span>o (96.0 %). Cohen’s kappa values indicated moderate agreement (0.552–0.560 for binary; 0.401–0.465 for grades). Costs for the entire extraction varied substantially: Gemini 2.0 Flash delivered competitive accuracy at $0.77 total, whereas Gemini 2.5 Pro and <span class="small-caps">gpt-5</span> exceeded $21.
+        <br>
+        <br>
+        <span style="font-style: italic;">Conclusions</span>:
+        Off-the-shelf <span class="small-caps">llm</span>s can extract clinically relevant toxicities with performance approaching human inter-rater reliability, at variable but often negligible costs. While grade-level accuracy remains limited, <span class="small-caps">llm</span> integration into oncology workflows is feasible, offering scalable, low-cost support for toxicity monitoring and data abstraction in clinical research.
+      </p>
+    </details>
+  </div>
+</div>
+
+
+
+<!-- Paper -->
+<div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em;">
+
+  <!-- Square thumbnail -->
+  <img src="/assets/images/publications/toxicity-review-banner.png"
+       alt="toxicity figure"
+       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
+
+  <!-- Text content -->
+  <div>
+    <h3 style="margin:0 0 0.3em 0;">
+      <a href="https://www.sciencedirect.com/science/article/pii/S2405632425000733">
+        From BERT to GPT-4: A systematic review of AI-Driven toxicity extraction and grading in radiation oncology
+      </a>
+    </h3>
+
+    <p style="margin:0 0 0.3em; font-style:italic;">
+      Technical Innovations & Patient Support in Radiation Oncology
+    </p>
+
+    <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
+      Federico Mastroleo, Mariana Borras-Osorio, Shiv Patel, Sarah Peterson, Renthony Wilson, Mohammad Javad Namazi, Mi Zhou, Satomi Shiraishi, <strong>Andrew Y. K. Foong</strong>, David Routman, Mark R. Waddle
+    </p>
+
+    <p>
+    This systematic review examines how natural language processing and large language models are being used to extract and synthesize toxicity data from radiation oncology records. Across five studies, current approaches demonstrate promise but remain limited by single-center data, generalizability challenges, and computational and privacy constraints, highlighting the need for scalable, secure multi-center solutions.
+    </p>
+
+    <details style="margin-top:0.2em;">
+      <summary style="cursor:pointer; margin-top:-0.8em; margin-top:-0.8em; font-variant: small-caps; font-size: 1.0rem;" class="small-caps">abstract</summary>
+      <p style="margin-top:0.4em;">
+        <span style="font-style: italic;">Background</span>: Toxicity assessment is a fundamental component of radiation therapy patient management. Natural language processing (<span class="small-caps">nlp</span>) and large language models (<span class="small-caps">llm</span>s) are transforming clinical practice by efficiently extracting and synthesizing information from electronic health records (<span class="small-caps">ehr</span>s). This systematic review evaluates the current literature on the use of <span class="small-caps">nlp</span> and <span class="small-caps">llm</span>s to extract toxicity data from radiation oncology records.
+        <br>
+        <br>
+        <span style="font-style: italic;">Methods</span>: Three databases were systematically searched on 14 March 2025 for English-language studies. Two reviewers screened the articles and extracted available data. Discrepancies were resolved by a third reviewer. The review adhered to <span class="small-caps">prisma</span> guidelines.
+        <br>
+        <br>
+        <span style="font-style: italic;">Results</span>: We identified 246 manuscripts; after screening, five studies were included. Four studies focused on identifying toxicity terms and linking them to <span class="small-caps">ctcae</span> terms, while severity grading or longitudinal tracking of toxicities was addressed by two studies. One study explored the summarization capabilities of <span class="small-caps">llm</span> to convert free text or patient surveys into concise clinician notes/chatbot responses. Included studies utilized transformer models (<span class="small-caps">bert</span>, Bio<span class="small-caps">bert</span>, Clinical Longformer) for recognition and grading tasks; rule-based systems (Apache <span class="small-caps">ctakes</span>, <span class="small-caps">ideal-x</span>) used dictionaries and negation detection rules for toxicity identification. <span class="small-caps">gpt-4</span> demonstrated zero-shot summarization and response capabilities for patient-reported outcomes. All included studies were single-center. Common challenges identified were limited generalizability, difficulty recognizing rare or negated toxicities, privacy concerns, and substantial computing requirements for fine-tuning transformer-based models.
+        <br>
+        <br>
+        <span style="font-style: italic;">Conclusions</span>: Current research primarily focused on three basic tasks and three categories of models. Multi-center datasets and secure, lightweight deployment methods are needed before widespread integration into routine radiation oncology practice can be considered.
+      </p>
+    </details>
+  </div>
+</div>
+
+
+
+<!-- Paper -->
+<div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em;">
+
+  <!-- Square thumbnail -->
+  <img src="/assets/images/publications/radoncgpt-banner.png"
+       alt="RadOncGPT figure"
+       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
+
+  <!-- Text content -->
+  <div>
+    <h3 style="margin:0 0 0.3em 0;">
+      <a href="https://arxiv.org/abs/2509.25540">
+        RadOnc-GPT: An Autonomous LLM Agent for Real-Time Patient Outcomes Labeling at Scale
+      </a>
+    </h3>
+
+    <p style="margin:0 0 0.3em; font-style:italic;">
+      arXiv preprint
+    </p>
+
+    <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
+      Jason Holmes, Yuexing Hao, Mariana Borras-Osorio, Federico Mastroleo, Santiago Romero Brufau, Valentina Carducci, Katie M. Van Abel, David M. Routman, <strong>Andrew Y. K. Foong</strong>, Liv M. Muller, Satomi Shiraishi, Daniel K. Ebner, Daniel J. Ma, Sameer R. Keole, Samir H. Patel, Mirek Fatyga, Martin Bues, Brad J. Stish, Yolanda I. Garces, Michelle A. Neben Wittich, Robert L. Foote, Sujay A. Vora, Nadia N. Laack, Mark R. Waddle, Wei Liu
+    </p>
+
+    <p>
+    RadOnc-GPT is an autonomous large language model agent designed to replace manual labeling by retrieving patient-specific data, synthesizing structured and unstructured clinical evidence, and producing real-time, structured outcomes at scale in radiation oncology. We validate the system across a tiered framework, demonstrating reliable structured data retrieval and accurate labeling of complex clinical outcomes, including osteoradionecrosis and cancer recurrence across independent cohorts.
+    </p>
+
+    <details style="margin-top:0.2em;">
+      <summary style="cursor:pointer; margin-top:-0.8em; margin-top:-0.8em; font-variant: small-caps; font-size: 1.0rem;" class="small-caps">abstract</summary>
+      <p style="margin-top:0.4em;">
+        Manual labeling limits the scale, accuracy, and timeliness of patient outcomes research in radiation oncology. We present RadOnc-<span class="small-caps">gpt</span>, an autonomous large language model <span class="small-caps">(llm)</span>-based agent capable of independently retrieving patient-specific information, iteratively assessing evidence, and returning structured outcomes. Our evaluation explicitly validates RadOnc-<span class="small-caps">gpt</span> across two clearly defined tiers of increasing complexity: (1) a structured quality assurance <span class="small-caps">(qa)</span> tier, assessing the accurate retrieval of demographic and radiotherapy treatment plan details, followed by (2) a complex clinical outcomes labeling tier involving determination of mandibular osteoradionecrosis <span class="small-caps">(orn)</span> in head-and-neck cancer patients and detection of cancer recurrence in independent prostate and head-and-neck cancer cohorts requiring combined interpretation of structured and unstructured patient data. The <span class="small-caps">qa</span> tier establishes foundational trust in structured-data retrieval, a critical prerequisite for successful complex clinical outcome labeling.
+      </p>
+    </details>
+  </div>
+</div>
+
+
+
 <div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em;">
 
   <!-- Square thumbnail -->
@@ -695,6 +835,31 @@ foong.andrew@mayo.edu
 </div>
 
 <div style="margin-bottom: 4em;">
+  <!-- Header row: icon + title + description -->
+  <div style="display:flex; align-items:flex-start; gap:0.8em;">
+    <img src="/assets/images/talks/ai_safety.png"
+
+     alt="Icon"
+     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
+
+    <div style="flex: 1;">
+      <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
+        AI in the Clinic: What Could Go Wrong, and How We Can Catch It
+      </h3>
+
+      <span class="small-caps">
+        mayo clinic quality & safety grand rounds
+      </span>
+
+      <p style="margin-top: 0.6em;">
+        This talk explores case studies of past <span class="small-caps">ai</span> implementation failures in healthcare and how we can avoid them in the future. I provide general principles for how to think through a rational approach to the enormous opporutinies, but also risks, that <span class="small-caps">ai</span> in healthcare poses. View the <a href="../files/AI_Safety_Slides.pdf" target="_blank">slides</a>. 
+      </p>
+
+    </div>
+  </div>
+
+
+<div style="margin-bottom: 4em; margin-top: 2em">
   <!-- Header row: icon + title + description -->
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/bmb-seminar.png"
