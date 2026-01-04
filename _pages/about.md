@@ -192,7 +192,7 @@ foong.andrew@mayo.edu
   <div>
     <h3 style="margin:0 0 0.3em 0;">
       <a href="https://www.sciencedirect.com/science/article/pii/S0167814025053526">
-      Large language models for toxicity extraction in oncology trials: A real-world benchmark in prostate radiotherapy
+      Large Language Models for Toxicity Extraction in Oncology Trials: A Real-World Benchmark in Prostate Radiotherapy
       </a>
     </h3>
 
@@ -205,7 +205,7 @@ foong.andrew@mayo.edu
     </p>
 
     <p>
-    This study evaluates the accuracy and cost-effectiveness of off-the-shelf large language models for extracting <span class="small-caps">ctcae</span>-graded toxicities from a prospective prostate radiotherapy trial. The results show that modern <span class="small-caps">llm</span>s achieve near–human inter-rater reliability at low cost, supporting their feasibility for scalable toxicity monitoring in clinical research despite remaining limitations in grade-level accuracy.
+    This study evaluates the accuracy and cost-effectiveness of off-the-shelf large language models for extracting <span class="small-caps">ctcae</span>-graded toxicities from a prospective prostate radiotherapy trial. The results show that modern <span class="small-caps">llm</span>s achieve near-human inter-rater reliability at low cost, supporting their feasibility for scalable toxicity monitoring in clinical research despite remaining limitations in grade-level accuracy.
     </p>
 
     <details style="margin-top:0.2em;">
@@ -241,7 +241,7 @@ foong.andrew@mayo.edu
   <div>
     <h3 style="margin:0 0 0.3em 0;">
       <a href="https://www.sciencedirect.com/science/article/pii/S2405632425000733">
-        From BERT to GPT-4: A systematic review of AI-Driven toxicity extraction and grading in radiation oncology
+        From BERT to GPT-4: A Systematic Review of AI-Driven Toxicity Extraction and Grading in Radiation Oncology
       </a>
     </h3>
 
