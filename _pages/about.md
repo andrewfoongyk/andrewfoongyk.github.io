@@ -299,7 +299,7 @@ foong.andrew@mayo.edu
     </p>
 
     <p>
-    RadOnc-GPT is an autonomous large language model agent designed to replace manual labeling by retrieving patient-specific data, synthesizing structured and unstructured clinical evidence, and producing real-time, structured outcomes at scale in radiation oncology. We validate the system across a tiered framework, demonstrating reliable structured data retrieval and accurate labeling of complex clinical outcomes, including osteoradionecrosis and cancer recurrence across independent cohorts.
+    RadOnc-<span class="small-caps">gpt</span> is an autonomous large language model agent designed to replace manual labeling by retrieving patient-specific data, synthesizing structured and unstructured clinical evidence, and producing real-time, structured outcomes at scale in radiation oncology. We validate the system across a tiered framework, demonstrating reliable structured data retrieval and accurate labeling of complex clinical outcomes, including osteoradionecrosis and cancer recurrence across independent cohorts.
     </p>
 
     <details style="margin-top:0.2em;">
