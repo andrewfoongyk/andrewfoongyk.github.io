@@ -353,6 +353,52 @@ foong.andrew@mayo.edu
   </div>
 </div>
 
+
+<div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
+  <div style="margin-left: calc(50px + 0.8em);">
+    <h2 style="margin:0;">2024</h2>
+  </div>
+</div>
+
+
+<div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em;">
+
+  <!-- Square thumbnail -->
+  <img src="/assets/images/publications/motif-banner.png"
+       alt="Motif figure"
+       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
+
+  <!-- Text content -->
+  <div>
+    <h3 style="margin:0 0 0.3em 0; font-variant-numeric: lining-nums;">
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10802670/pdf/nihpp-2401.04082v2.pdf">
+        Improved Motif-Scaffolding with SE(3) Flow Matching
+      </a>
+    </h3>
+
+    <p style="margin:0 0 0.3em; font-style:italic;">
+      Transactions on Machine Learning Research <span class="small-caps"><span style="font-style:normal;">(</span>tmlr<span style="font-style:normal; margin:0 0.025em;">)</span></span>
+    </p>
+
+    <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
+      Jason Yim, Andrew Campbell, Emile Mathieu, <strong>Andrew Y. K. Foong</strong>, Michael Gastegger, José Jiménez-Luna, Sarah Lewis, Victor Garcia Satorras, Bastiaan S. Veeling, Frank Noé, Regina Barzilay, Tommi S. Jaakkola
+    </p>
+
+    <p>
+    Designing proteins around functional motifs is now possible with generative models, but often at the cost of structural diversity. We introduce motif-aware extensions to FrameFlow that expand the space of viable motif-scaffolds, yielding more diverse and designable proteins across a broad benchmark of biological motifs.
+    </p>
+
+    <details style="margin-top:0.2em;">
+      <summary style="cursor:pointer; margin-top:-0.8em; margin-top:-0.8em; font-variant: small-caps; font-size: 1.0rem;" class="small-caps">abstract</summary>
+      <p style="margin-top:0.4em;">
+        Protein design often begins with the knowledge of a desired function from a motif which motif-scaffolding aims to construct a functional protein around. Recently, generative models have achieved breakthrough success in designing scaffolds for a range of motifs. However, generated scaffolds tend to lack structural diversity, which can hinder success in wet-lab validation. In this work, we extend FrameFlow, an <span class="small-caps">se(3)</span> flow matching model for protein backbone generation, to perform motif-scaffolding with two complementary approaches. The first is motif amortization, in which FrameFlow is trained with the motif as input using a data augmentation strategy. The second is motif guidance, which performs scaffolding using an estimate of the conditional score from FrameFlow without additional training. On a benchmark of 24 biologically meaningful motifs, we show our method achieves 2.5 times more designable and unique motif-scaffolds compared to state-of-the-art. Code: <a href="https://github.com/microsoft/protein-frame-flow"><span class="email" style="font-size: 0.9em;">https://github.com/microsoft/protein-frame-flow</span></a>
+      </p>
+    </details>
+  </div>
+</div>
+
+
+
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
   <div style="margin-left: calc(50px + 0.8em);">
     <h2 style="margin:0;">2023</h2>
