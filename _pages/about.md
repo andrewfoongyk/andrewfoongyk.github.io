@@ -25,10 +25,12 @@ and Assistant Professor of Biomedical Informatics
 at the 
 Mayo Clinic,
 where I lead the
-<span class="small-caps">ai</span>
-and Data Analytics 
+<a href="https://radonc-aida.github.io">
+<span class="small-caps">ai</span> and Data Analytics
 <span class="small-caps">(aida)</span>
-team in the 
+team 
+</a>
+in the 
 Department of Radiation Oncology.
 We develop next-generation 
 <span class="small-caps">ai</span>
@@ -828,7 +830,37 @@ foong.andrew@mayo.edu
   </div>
 </div>
 
+
 <div style="margin-bottom: 4em;">
+  <!-- Header row: icon + title + description -->
+  <div style="display:flex; align-items:flex-start; gap:0.8em;">
+    <img src="/assets/images/talks/psa.png"
+
+     alt="Icon"
+     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
+
+    <div style="flex: 1;">
+      <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
+        PSA Control Tower
+      </h3>
+
+      <span class="small-caps">
+        mayo clinic vibe summit
+      </span>
+
+      <p style="margin-top: 0.6em;">
+        The <span class="small-caps">psa</span> Control Tower creates a unified dashboard that uses <span class="small-caps">ai</span> to predict prostate cancer recurrence sooner. This short talk explains the need for a new approach to prostate cancer management as our society ages, and how our team is using machine learning to address the problem.
+      </p>
+
+      <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/_JEeotclWu4?si=B8uxgEn9iikksUt7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+
+    </div>
+  </div>
+
+
+<div style="margin-bottom: 4em; margin-top: 2em">
   <!-- Header row: icon + title + description -->
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/ai_safety.png"
