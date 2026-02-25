@@ -894,7 +894,7 @@ foong.andrew@mayo.edu
       </span>
 
       <p style="margin-top: 0.6em;">
-        Censored time-to-event data is ubiquitous in machine learning for healthcare. This lecture provides an introduction to survival analysis from a probabilistic, likelihood-first perspective, covering the classical Cox proportional hazards model as well as modern deep learning approaches.
+        Censored time-to-event data is ubiquitous in machine learning for healthcare. This lecture provides an introduction to survival analysis from a probabilistic, likelihood-first perspective, covering the classical Cox proportional hazards model as well as modern deep learning approaches. View the <a href="../files/Survival_Analysis_Slides.pdf" target="_blank">slides</a>.
       </p>
 
       <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;">
