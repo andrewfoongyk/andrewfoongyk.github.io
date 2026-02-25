@@ -872,6 +872,42 @@ foong.andrew@mayo.edu
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:1em;">
   <div style="margin-left: calc(50px + 0.8em);">
+    <h2 style="margin:0;">2026</h2>
+  </div>
+</div>
+
+<div style="margin-bottom: 6em;">
+  <!-- Header row: icon + title + description -->
+  <div style="display:flex; align-items:flex-start; gap:0.8em;">
+    <img src="/assets/images/talks/survival.png"
+
+     alt="Icon"
+     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
+
+    <div style="flex: 1;">
+      <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
+        Survival Analysis for Healthcare Data: From Cox Models to Deep Learning
+      </h3>
+
+      <span class="small-caps">
+        mayo clinic platform accelerate education session
+      </span>
+
+      <p style="margin-top: 0.6em;">
+        Censored time-to-event data is ubiquitous in machine learning for healthcare. This lecture provides an introduction to survival analysis from a probabilistic, likelihood-first perspective, covering the classical Cox proportional hazards model as well as modern deep learning approaches.
+      </p>
+
+      <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/N0f88WYju0M?si=RbfTzNpab21GIvQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+
+    </div>
+  </div>
+
+
+
+<div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:1em; margin-top:3em;">
+  <div style="margin-left: calc(50px + 0.8em);">
     <h2 style="margin:0;">2025</h2>
   </div>
 </div>
