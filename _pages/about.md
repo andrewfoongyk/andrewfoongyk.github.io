@@ -177,6 +177,52 @@ foong.andrew@mayo.edu
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
   <div style="margin-left: calc(50px + 0.8em);">
+    <h2 style="margin:0;">2026</h2>
+  </div>
+</div>
+
+
+<!-- Paper -->
+<div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em;">
+
+  <!-- Square thumbnail -->
+  <img src="/assets/images/publications/position-paper-banner.png"
+       alt="toxicity figure"
+       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
+
+  <!-- Text content -->
+  <div>
+    <h3 style="margin:0 0 0.3em 0;">
+      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6143772">
+      Position: Agentic AI Systems Should be Making Bayes-Consistent Decisions
+      </a>
+    </h3>
+
+    <p style="margin:0 0 0.3em; font-style:italic;">
+     <span class="small-caps">ssrn</span> preprint
+    </p>
+
+    <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
+      Theodore Papamarkou, Pierre Alquier, Matthias Bauer, Wray Buntine, Andrew Davison, Gintare Karolina Dziugaite, Maurizio Filippone, <strong>Andrew Y. K. Foong</strong>, Vincent Fortuin, Dimitris Fouskakis, Eyke Hüllermeier, Theofanis Karaletsos, Mohammad Emtiyaz Khan, Nikita Kotelevskii, Salem Lahlou, Yingzhen Li, Fang Liu, Clare Lyle, Thomas Möllenhoff, Konstantina Palla, Maxim Panov, Yusuf Sale, Kajetan Schweighofer, Artem Shelmanov, Siddharth Swaroop, Martin Trapp, Willem Waegeman, Andrew Gordon Wilson, Alexey Zaytsev
+    </p>
+
+    <p>
+    Modern <span class="small-caps">llm</span>-powered systems are increasingly asked not just to reason, but to make decisions under uncertainty—choosing tools, allocating resources, and coordinating with humans. This paper argues that while individual <span class="small-caps">llm</span>s need not be fully Bayesian, the control layer orchestrating agentic <span class="small-caps">ai</span> should follow Bayesian decision principles to maintain calibrated beliefs and make coherent, utility-aware choices.
+    </p>
+
+    <details style="margin-top:0.2em;">
+      <summary style="cursor:pointer; margin-top:-0.8em; margin-top:-0.8em; font-variant: small-caps; font-size: 1.0rem;" class="small-caps">abstract</summary>
+      <p style="margin-top:0.4em;">
+      <span class="small-caps">llm</span>s excel at predictive tasks and complex reasoning tasks, but many high-value deployments rely on decisions under uncertainty, for example, which tool to call, which expert to consult, or how many resources to invest. While the usefulness and feasibility of Bayesian approaches remain unclear for <span class="small-caps">llm</span> inference, this position paper argues that the control layer of an agentic <span class="small-caps">ai</span> system (that orchestrates <span class="small-caps">llm</span>s and tools) is a clear case where Bayesian principles should shine. Bayesian decision theory provides a framework for agentic systems that can help to maintain beliefs over task-relevant latent quantities, to update these beliefs from observed agentic and human-<span class="small-caps">ai</span> interactions, and to choose actions. Making <span class="small-caps">llm</span>s themselves explicitly Bayesian belief-updating engines remains computationally intensive and conceptually nontrivial as a general modeling target. In contrast, this paper argues that coherent decision-making requires Bayesian principles at the level of the agentic system, not necessarily the <span class="small-caps">llm</span> agent parameters. This paper articulates practical properties for Bayesian control that fit modern agentic <span class="small-caps">ai</span> systems and human-<span class="small-caps">ai</span> collaboration, and provides concrete examples and design patterns to illustrate how calibrated beliefs and utility-aware policies can improve agentic <span class="small-caps">ai</span> orchestration.
+      </p>
+    </details>
+  </div>
+</div>
+
+
+
+<div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
+  <div style="margin-left: calc(50px + 0.8em);">
     <h2 style="margin:0;">2025</h2>
   </div>
 </div>
