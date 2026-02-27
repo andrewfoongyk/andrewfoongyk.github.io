@@ -211,7 +211,7 @@ foong.andrew@mayo.edu
     </p>
 
     <details style="margin-top:0.2em;">
-      <summary style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
+      <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
       <p style="margin-top:0.4em;">
@@ -259,7 +259,7 @@ foong.andrew@mayo.edu
     </p>
 
     <details style="margin-top:0.2em;">
-      <summary style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
+      <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
       <p style="margin-top:0.4em;">
@@ -310,7 +310,7 @@ foong.andrew@mayo.edu
     </p>
 
     <details style="margin-top:0.2em;">
-      <summary style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
+      <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
       <p style="margin-top:0.4em;">
@@ -357,7 +357,7 @@ foong.andrew@mayo.edu
     </p>
 
     <details style="margin-top:0.2em;">
-      <summary style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
+      <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
       <p style="margin-top:0.4em;">
@@ -445,7 +445,7 @@ foong.andrew@mayo.edu
     </p>
 
     <details style="margin-top:0.2em;">
-      <summary style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
+      <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
       <p style="margin-top:0.4em;">
@@ -493,7 +493,7 @@ foong.andrew@mayo.edu
     </p>
 
     <details style="margin-top:0.2em;">
-      <summary style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
+      <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
       <p style="margin-top:0.4em;">
@@ -534,7 +534,7 @@ foong.andrew@mayo.edu
     </p>
 
     <details style="margin-top:0.2em;">
-      <summary style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
+      <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
       <p style="margin-top:0.4em;">
@@ -575,7 +575,7 @@ foong.andrew@mayo.edu
     </p>
 
     <details style="margin-top:0.2em;">
-      <summary style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
+      <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
       <p style="margin-top:0.4em;">
@@ -621,7 +621,7 @@ foong.andrew@mayo.edu
     </p>
 
     <details style="margin-top:0.2em;">
-      <summary style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
+      <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
       <p style="margin-top:0.4em;">
@@ -671,7 +671,7 @@ foong.andrew@mayo.edu
     </p>
 
     <details style="margin-top:0.2em;">
-      <summary style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
+      <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
       <p style="margin-top:0.4em;">
@@ -710,7 +710,7 @@ foong.andrew@mayo.edu
     </p>
 
     <details style="margin-top:0.2em;">
-      <summary style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
+      <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
       <p style="margin-top:0.4em;">
@@ -751,7 +751,7 @@ foong.andrew@mayo.edu
     </p>
 
     <details style="margin-top:0.2em;">
-      <summary style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
+      <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
       <p style="margin-top:0.4em;">
@@ -799,7 +799,7 @@ foong.andrew@mayo.edu
     </p>
 
     <details style="margin-top:0.2em;">
-      <summary style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
+      <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
       <p style="margin-top:0.4em;">
@@ -840,7 +840,7 @@ foong.andrew@mayo.edu
     </p>
 
     <details style="margin-top:0.2em;">
-      <summary style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
+      <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
       <p style="margin-top:0.4em;">
@@ -880,7 +880,7 @@ foong.andrew@mayo.edu
     </p>
 
     <details style="margin-top:0.2em;">
-      <summary style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
+      <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
       <p style="margin-top:0.4em;">
@@ -927,7 +927,7 @@ foong.andrew@mayo.edu
     </p>
 
     <details style="margin-top:0.2em;">
-      <summary style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
+      <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
       <p style="margin-top:0.4em;">

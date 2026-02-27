@@ -475,3 +475,37 @@ body {
   margin-top: 6rem;
   margin-bottom: 1rem;
 }
+
+// Abstract triangles
+
+/* 1) Hide the native disclosure marker (varies by browser) */
+.details-summary::-webkit-details-marker { display: none; } /* Safari/Chrome */
+.details-summary::marker { content: ""; }                  /* Firefox/modern */
+
+/* 2) Insert our own marker as an inline SVG so it never falls back to emoji fonts */
+.details-summary {
+  list-style: none;   /* belt + suspenders */
+  position: relative; /* anchor pseudo-element */
+  padding-left: 1.05em; /* room for marker */
+}
+
+/* Right-pointing triangle (closed) */
+.details-summary::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.42em;           /* baseline-ish; tweak by eye */
+  width: 0.75em;         /* marker size */
+  height: 0.75em;
+  background: currentColor;
+
+  /* triangle via clip-path (no font dependency) */
+  -webkit-clip-path: polygon(20% 10%, 85% 50%, 20% 90%);
+  clip-path: polygon(20% 10%, 85% 50%, 20% 90%);
+}
+
+/* Down-pointing triangle (open): same shape, rotated */
+details[open] > .details-summary::before {
+  transform: rotate(90deg);
+  transform-origin: 50% 50%;
+}
