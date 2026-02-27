@@ -26,7 +26,7 @@ at the
 Mayo Clinic,
 where I lead the
 <a href="https://radonc-aida.github.io">
-<span class="small-caps">ai</span> and Data Analytics
+<span class="small-caps">ai</span> <span class="amp">&amp;</span> Data Analytics
 <span class="small-caps">(aida)</span>
 team 
 </a>
@@ -73,7 +73,7 @@ foong.andrew@mayo.edu
        style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 9px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
-      <span class="small-caps">ai scientist, senior associate consultant<br>assistant professor of biomedical informatics<br>mayo clinic</span><br/>
+      <span class="small-caps">ai scientist <span class="amp">&amp;</span> senior associate consultant<br>assistant professor of biomedical informatics<br>mayo clinic</span><br/>
       <span style="font-size: 1.0rem">
       January 2025 – present <br> Rochester, Minnesota, <span class="small-caps">usa</span><br/>
       Department of Radiation Oncology<br/>
@@ -149,7 +149,7 @@ foong.andrew@mayo.edu
        style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 9px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
-      <span class="small-caps">b.a. & m.eng. in information and computer engineering<br> university of cambridge</span><br/>
+      <span class="small-caps">b.a. <span class="amp">&amp;</span> m.eng. in information and computer engineering<br> university of cambridge</span><br/>
       <span style="font-size: 1.0rem">
       October 2014 – July 2018 <br> Cambridge, <span class="small-caps">uk</span><br/>
       Department of Engineering<br/>
@@ -294,7 +294,7 @@ foong.andrew@mayo.edu
     </h3>
 
     <p style="margin:0 0 0.3em; font-style:italic;">
-      Technical Innovations & Patient Support in Radiation Oncology
+      Technical Innovations <span class="amp">&amp;</span> Patient Support in Radiation Oncology
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
@@ -1002,7 +1002,7 @@ foong.andrew@mayo.edu
       </h3>
 
       <span class="small-caps">
-        mayo clinic quality & safety grand rounds
+        mayo clinic quality <span class="amp">&amp;</span> safety grand rounds
       </span>
 
       <p style="margin-top: 0.6em;">
@@ -1027,7 +1027,7 @@ foong.andrew@mayo.edu
       </h3>
 
       <span class="small-caps">
-        mayo clinic biochemistry & molecular biology seminar series
+        mayo clinic biochemistry <span class="amp">&amp;</span> molecular biology seminar series
       </span>
 
       <p style="margin-top: 0.6em;">
@@ -1057,7 +1057,7 @@ foong.andrew@mayo.edu
       </h3>
 
       <span class="small-caps">
-        mayo clinic ai lunch & learn series
+        mayo clinic ai lunch <span class="amp">&amp;</span> learn series
       </span>
 
       <p style="margin-top: 0.6em;">
@@ -1115,15 +1115,24 @@ foong.andrew@mayo.edu
       </p>
 
       <p class="hanging-indent" style="margin-top: 0.6em;">
-       <span class="small-caps">lectures 1 &amp; 2</span> cover deep learning from the ground up, from linear regression and gradient descent to neural networks, overfitting, and generalization.
+        <span style="display:inline; text-indent:0; padding-left:0;">
+          <span class="small-caps">lectures 1</span> <span class="amp">&amp;</span> <span class="small-caps">2</span>
+          cover deep learning from the ground up, from linear regression and gradient descent to neural networks, overfitting, and generalization.
+        </span>
       </p>
 
       <p style="margin-top: 0.6em;" class="hanging-indent">
-      <span class="small-caps">lectures 3 &amp; 4</span> explain what convolutional neural networks are and how they can be used to understand images.
+        <span style="display:inline; text-indent:0; padding-left:0;">
+          <span class="small-caps">lectures 3</span> <span class="amp">&amp;</span> <span class="small-caps">4</span>
+          explain what convolutional neural networks are and how they can be used to understand images.
+        </span>
       </p>
 
       <p style="margin-top: 0.6em;" class="hanging-indent">
-      <span class="small-caps">lectures 5 &amp; 6</span> explain how Chat<span class="small-caps">gpt</span> works, how it was made, and how prompting and retrieval-augmented generation <span class="small-caps">(rag)</span> can increase accuracy.
+        <span style="display:inline; text-indent:0; padding-left:0;">
+          <span class="small-caps">lectures 5</span> <span class="amp">&amp;</span> <span class="small-caps">6</span>
+          explain how Chat<span class="small-caps">gpt</span> works, how it was made, and how prompting and retrieval-augmented generation <span class="small-caps">(rag)</span> can increase accuracy.
+        </span>
       </p>
 
     </div>

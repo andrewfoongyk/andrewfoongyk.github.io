@@ -192,51 +192,6 @@ $cp-sc-weights: (
 }
 
 
-// Delicious
-@font-face {
-  font-family: 'Delicious';
-  src: url('/assets/fonts/delicious/Delicious_R_2021.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-}
-
-// @font-face {
-//   font-family: 'Delicious';
-//   src: url('/assets/fonts/delicious/Delicious_I_2021.otf') format('opentype');
-//   font-weight: 400;
-//   font-style: italic;
-// }
-
-@font-face {
-  font-family: 'Delicious';
-  src: url('/assets/fonts/delicious/Delicious_B_2021.otf') format('opentype');
-  font-weight: 500;
-  font-style: normal;
-}
-
-// @font-face {
-//   font-family: 'Delicious';
-//   src: url('/assets/fonts/delicious/Delicious_BI_2021.otf') format('opentype');
-//   font-weight: 700;
-//   font-style: italic;
-// }
-
-// @font-face {
-//   font-family: 'Delicious';
-//   src: url('/assets/fonts/delicious/Delicious_H_2021.otf') format('opentype');
-//   font-weight: 900;
-//   font-style: normal;
-// }
-
-// @font-face {
-//   font-family: 'Delicious SC';
-//   src: url('/assets/fonts/delicious/Delicious_SC_2021.otf') format('opentype');
-//   font-weight: 400;
-//   font-style: normal;
-//   font-variant: small-caps;
-// }
-
-
 // Source Sans 3
 @font-face {
   font-family: 'Source Sans 3';
@@ -252,111 +207,37 @@ $cp-sc-weights: (
   font-style: italic;
 }
 
-// Drafting Mono
-@font-face {
-  font-family: 'Drafting Mono';
-  src: url('/assets/fonts/drafting-mono/DraftingMono-Regular.otf') format('truetype-variations');
-  font-weight: 400;   /* full variable weight range */
-  font-style: normal;
-}
 
-// Junction
+// Sentient for ampersands
 @font-face {
-  font-family: 'Junction';
-  src: url('/assets/fonts/junction/Junction-regular.otf') format('truetype-variations');
-  font-weight: 400;   /* full variable weight range */
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Junction';
-  src: url('/assets/fonts/junction/Junction-light.otf') format('truetype-variations');
-  font-weight: 300;   /* full variable weight range */
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Junction';
-  src: url('/assets/fonts/junction/Junction-bold.otf') format('truetype-variations');
-  font-weight: 600;   /* full variable weight range */
-  font-style: normal;
-}
-
-// Andada Pro
-
-@font-face {
-  font-family: 'Andada Pro';
-  src: url('../fonts/andada-pro/AndadaPro-Regular.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Andada Pro';
-  src: url('../fonts/andada-pro/AndadaPro-Italic.otf') format('opentype');
-  font-weight: normal;
+  font-family: "SentientAmp";
+  src: url("/assets/fonts/sentient/Sentient-Italic.woff2") format("woff2");
   font-style: italic;
+  font-weight: 1 1000; /* allows variable weight ranges; harmless if static */
+  font-display: swap;
 }
 
-@font-face {
-  font-family: 'Andada Pro';
-  src: url('../fonts/andada-pro/AndadaPro-Bold.otf') format('opentype');
-  font-weight: bold;
-  font-style: normal;
+:root {
+  /* tweak these by eye */
+  --amp-wght: 550;     /* weight (works well if Sentient is variable) */
+  --amp-size: 0.85em;  /* size relative to surrounding text */
+  --amp-y: -0.02em;    /* tiny baseline nudge */
 }
 
-@font-face {
-  font-family: 'Andada Pro';
-  src: url('../fonts/andada-pro/AndadaPro-BoldItalic.otf') format('opentype');
-  font-weight: bold;
+.amp {
+  font-family: "SentientAmp", "Sentient", serif;
   font-style: italic;
+  font-weight: var(--amp-wght);
+  font-size: var(--amp-size);
+
+  /* Helps “sit” nicely with Crimson Pro */
+  display: inline-block;
+  transform: translateY(var(--amp-y));
+
+  /* Optional: slightly tighter spacing around it */
+  margin: 0 -0.02em;
 }
 
-@font-face {
-  font-family: 'Andada Pro';
-  src: url('../fonts/andada-pro/AndadaPro-Medium.otf') format('opentype');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Andada Pro';
-  src: url('../fonts/andada-pro/AndadaPro-MediumItalic.otf') format('opentype');
-  font-weight: 500;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Andada Pro';
-  src: url('../fonts/andada-pro/AndadaPro-SemiBold.otf') format('opentype');
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Andada Pro';
-  src: url('../fonts/andada-pro/AndadaPro-SemiBoldItalic.otf') format('opentype');
-  font-weight: 600;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Andada Pro';
-  src: url('../fonts/andada-pro/AndadaPro-ExtraBold.otf') format('opentype');
-  font-weight: 800;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Andada Pro';
-  src: url('../fonts/andada-pro/AndadaPro-ExtraBoldItalic.otf') format('opentype');
-  font-weight: 800;
-  font-style: italic;
-}
-
-// .small-caps {
-//   font-family: 'Spectral SC', 'Alegreya SC', 'EB Garamond SC', serif;
-// }
 
 .small-caps {
   font-family: $serif, serif;
