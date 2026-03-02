@@ -20,8 +20,10 @@ redirect_from:
 
 I am an
 <span class="small-caps">ai</span>
-scientist 
-and Assistant Professor of Biomedical Informatics
+scientist,
+Assistant Professor of Biomedical Informatics,
+and
+Assistant Professor of Biochemistry and Molecular Biology
 at the 
 Mayo Clinic,
 where I lead the
@@ -73,7 +75,7 @@ foong.andrew@mayo.edu
        style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 9px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
-      <span class="small-caps">ai scientist <span class="amp">&amp;</span> senior associate consultant<br>assistant professor of biomedical informatics<br>mayo clinic</span><br/>
+      <span class="small-caps">ai scientist, senior associate consultant<br>assistant professor of biomedical informatics<br>assistant professor of biochemistry <span class="amp">&amp;</span> molecular biology<br>mayo clinic</span><br/>
       <span style="font-size: 1.0rem">
       January 2025 – present <br> Rochester, Minnesota, <span class="small-caps">usa</span><br/>
       Department of Radiation Oncology<br/>
