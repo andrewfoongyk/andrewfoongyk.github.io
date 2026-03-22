@@ -28,7 +28,7 @@ at the
 Mayo Clinic,
 where I lead the
 <a href="https://radonc-aida.github.io">
-<span class="small-caps">ai</span> <span class="amp">&amp;</span> Data Analytics
+<span class="small-caps">ai</span> and Data Analytics
 <span class="small-caps">(aida)</span>
 team 
 </a>
@@ -1641,6 +1641,32 @@ foong.andrew@mayo.edu
     </p>
   </div>
 </div>
+
+
+<div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em;">
+
+  <img src="/assets/images/blogs/pac-bayes-note-icon.png"
+       alt="PAC bayes icon"
+       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
+
+  <div>
+    <h3 style="margin-top: 0em; margin-bottom: 1em;">
+      <a href="/files/PAC_bayes_notes.pdf" target="_blank" rel="noopener noreferrer">
+        A Philosophical Note on the Interpretation of Generalization Bounds in Machine Learning
+      </a>
+    </h3>
+
+    <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
+      <strong>Andrew Y. K. Foong</strong>
+    </p>
+
+    <p style="margin-top:0.4em;">
+      This note explains a subtle limitation of a popular machine learning theory tool (<span class="small-caps">pac</span>-Bayes): while it can give useful guarantees about how well models might perform before seeing data, those guarantees become harder to interpret once the model has already been trained on a specific dataset.
+      It argues that some common ways researchers justify these guarantees rely on “ignoring” information they actually have, which can make the conclusions less meaningful in practice, even if they are mathematically valid.
+    </p>
+  </div>
+</div>
+
 
 <!-- Blog 2: Bayesian Posts -->
 <div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em;">
