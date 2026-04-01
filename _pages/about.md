@@ -1147,7 +1147,7 @@ foong.andrew@mayo.edu
       </p>
 
       <p style="margin-top: 0.6em;">
-        I designed this six-part series to help clinicians at the Mayo Clinic with no prior <span class="small-caps">ai</span> experience understand deep learning from first principles. 
+        I designed this six-part series to help clinicians at the Mayo Clinic with no prior <span class="small-caps">ai</span> experience understand deep learning from first principles. View the <a href="../files/Understanding_AI_from_Scratch.pdf" target="_blank">slides</a>.
       </p>
 
       <p class="hanging-indent" style="margin-top: 0.6em;">
