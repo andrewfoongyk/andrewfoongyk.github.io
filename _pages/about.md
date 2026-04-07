@@ -68,6 +68,9 @@ See my selected [papers](#publications), or visit my Google Scholar [profile](ht
 foong.andrew@mayo.edu
 </span>
 
+<h1 style="margin-top: 3em; margin-bottom: 1.0em;">Hiring News</h1>
+I am hiring for remote <span class="small-caps">ai/ml</span> intern positions in the Mayo Clinic Radiation Oncology <span class="small-caps">ai</span> and Data Analytics team. If you’re interested in doing immediately impactful, technically serious work in healthcare, please apply [here](https://jobs.mayoclinic.org/job/rochester/ai-ml-intern-radiation-oncology/33647/93652510512).
+
 <h1 style="margin-top: 3em; margin-bottom: 1.0em;">Experience</h1>
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
