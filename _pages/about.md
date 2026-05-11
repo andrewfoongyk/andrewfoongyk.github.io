@@ -69,7 +69,7 @@ foong.andrew@mayo.edu
 </span>
 
 <h1 style="margin-top: 3em; margin-bottom: 1.0em;">Hiring News</h1>
-I am hiring for remote <span class="small-caps">ai/ml</span> intern positions in the Mayo Clinic Radiation Oncology <span class="small-caps">ai</span> and Data Analytics team. If you’re interested in doing immediately impactful, technically serious work in healthcare, please apply [here](https://jobs.mayoclinic.org/job/rochester/ai-ml-intern-radiation-oncology/33647/93652510512).
+I am hiring for remote <span class="small-caps">ai/ml</span> intern positions and in-person research fellow positions in the Mayo Clinic Radiation Oncology <span class="small-caps">ai</span> and Data Analytics team. If you’re interested in doing immediately impactful, technically serious work in healthcare, please apply [here](https://jobs.mayoclinic.org/job/rochester/ai-ml-intern-radiation-oncology/33647/94467042096) for the internship and [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-radiation-oncology/33647/93729609296) for the research fellow position.
 
 <h1 style="margin-top: 3em; margin-bottom: 1.0em;">Experience</h1>
 
@@ -199,12 +199,12 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions in
   <div>
     <h3 style="margin:0 0 0.3em 0;">
       <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6143772">
-      Position: Agentic AI Systems Should be Making Bayes-Consistent Decisions
+      Position: Agentic <span class="small-caps">ai</span> Orchestration Should be Bayes-Consistent
       </a>
     </h3>
 
     <p style="margin:0 0 0.3em; font-style:italic;">
-     <span class="small-caps">ssrn</span> preprint
+     International Conference on Machine Learning <span class="small-caps"><span style="font-style:normal;">(</span>icml<span style="font-style:normal; margin:0 0.025em;">)</span></span>
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
@@ -961,7 +961,57 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions in
   </div>
 </div>
 
-<div style="margin-bottom: 6em;">
+<div style="margin-bottom: 4em;">
+  <!-- Header row: icon + title + description -->
+  <div style="display:flex; align-items:flex-start; gap:0.8em;">
+    <img src="/assets/images/talks/harvard.png"
+
+     alt="Icon"
+     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
+
+    <div style="flex: 1;">
+      <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
+        Cancer Recurrence Prediction: a Multimodal Deep Learning Approach
+      </h3>
+
+      <span class="small-caps">
+        Harvard Health Data Science Master's Course Guest Lecture
+      </span>
+
+      <p style="margin-top: 0.6em;">
+        Delivered a guest lecture in Harvard’s Health Data Science master’s program with <a href="https://scholar.google.com/citations?user=bV4XHocAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Shashank Yadav</a> on cancer recurrence prediction using multimodal deep learning, highlighting work developed at the Mayo Clinic. The lecture covered integrating clinical and pathology data, and modern deep learning approaches to predict time-to-event outcomes in oncology. View the <a href="../files/harvard_guest_lecture.pdf" target="_blank">slides</a>.
+      </p>
+
+    </div>
+  </div>
+
+
+<div style="margin-bottom: 4em; margin-top: 2em">
+  <!-- Header row: icon + title + description -->
+  <div style="display:flex; align-items:flex-start; gap:0.8em;">
+    <img src="/assets/images/talks/cme.png"
+
+     alt="Icon"
+     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
+
+    <div style="flex: 1;">
+      <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
+        Practical Applications of <span class="small-caps">ai</span> at Mayo Clinic
+      </h3>
+
+      <span class="small-caps">
+        continuing medical education online course
+      </span>
+
+      <p style="margin-top: 0.6em;">
+      Contributed a lecture on <em>The <span class="small-caps">abc</span>s of <span class="small-caps">ai</span></em> to Mayo Clinic’s online <span class="small-caps">cme</span> course <em>Practical Applications of <span class="small-caps">ai</span> at Mayo Clinic</em>, which provides role-specific training on integrating <span class="small-caps">ai</span> into clinical care, research, education, and operations. The course equips healthcare professionals with practical frameworks and real-world examples to support informed adoption and responsible use of <span class="small-caps">ai</span> in healthcare settings. Sign up <a href="https://ce.mayo.edu/online-education/content/practical-applications-ai-mayo-clinic-online-course#group-tabs-node-course-default1" target="_blank" rel="noopener noreferrer">here</a>.
+      </p>
+
+    </div>
+  </div>
+
+
+<div style="margin-bottom: 6em; margin-top:2em">
   <!-- Header row: icon + title + description -->
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/survival.png"
