@@ -975,7 +975,7 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
       </h3>
 
       <span class="small-caps">
-        Harvard Health Data Science Master's Course Guest Lecture
+        Harvard Health Data Science Master’s Course Guest Lecture
       </span>
 
       <p style="margin-top: 0.6em;">
