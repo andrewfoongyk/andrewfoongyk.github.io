@@ -1000,6 +1000,72 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
   </div>
 </div>
 
+
+
+<a id="intro-to-dl" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
+
+<div style="margin-bottom: 4em;">
+  <div style="display:flex; align-items:flex-start; gap:0.8em;">
+    <img src="/assets/images/talks/intro-to-dl.png"
+         alt="Icon"
+         style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top:6px;">
+    <div style="flex:1;">
+      <h3 style="margin-top:0; margin-bottom:0.1em;">
+        Introduction to Deep Learning
+      </h3>
+      <span class="small-caps">mayo clinic lecture series</span>
+      <p style="margin-top:0.6em;">
+        A ten-lecture course designed for clinicians and medical physicists at the Mayo Clinic. More accessible than a standard deep learning course – building up from vectors and linear regression – but more detailed and technically up-to-date than most healthcare-focused <span class="small-caps">ai</span> curricula, with modern topics including self-attention, <span class="small-caps">rlhf</span>, byte-pair encoding, <span class="small-caps">rag</span>, and agents.
+      </p>
+    </div>
+  </div>
+
+  <div style="margin-top:0.0em; margin-left: calc(50px + 0.8em);">
+    <div style="display:flex; align-items:baseline; gap:0.5em; margin-bottom:0.25em;">
+      <span class="small-caps" style="min-width:1.6em; text-align:right; flex-shrink:0; opacity:0.5;">1.</span>
+      <a href="/files/intro_to_deep_learning/lecture1_background.pdf" target="_blank">Background <span class="amp">&amp;</span> Linear Regression</a>
+    </div>
+    <div style="display:flex; align-items:baseline; gap:0.5em; margin-bottom:0.25em;">
+      <span class="small-caps" style="min-width:1.6em; text-align:right; flex-shrink:0; opacity:0.5;">2.</span>
+      <a href="/files/intro_to_deep_learning/lecture2_single_neurons.pdf" target="_blank">From Single Neurons to Neural Networks</a>
+    </div>
+    <div style="display:flex; align-items:baseline; gap:0.5em; margin-bottom:0.25em;">
+      <span class="small-caps" style="min-width:1.6em; text-align:right; flex-shrink:0; opacity:0.5;">3.</span>
+      <a href="/files/intro_to_deep_learning/lecture3_generalization.pdf" target="_blank">Generalization <span class="amp">&amp;</span> Learning Algorithms</a>
+    </div>
+    <div style="display:flex; align-items:baseline; gap:0.5em; margin-bottom:0.25em;">
+      <span class="small-caps" style="min-width:1.6em; text-align:right; flex-shrink:0; opacity:0.5;">4.</span>
+      <a href="/files/intro_to_deep_learning/lecture4_imagedata.pdf" target="_blank">Image Data</a>
+    </div>
+    <div style="display:flex; align-items:baseline; gap:0.5em; margin-bottom:0.25em;">
+      <span class="small-caps" style="min-width:1.6em; text-align:right; flex-shrink:0; opacity:0.5;">5.</span>
+      <a href="/files/intro_to_deep_learning/lecture5_cnns.pdf" target="_blank">Convolutional Neural Networks</a>
+      <span>(<span style="font-style:italic;">slides by Thomas Tavolara</span>)</span>
+    </div>
+    <div style="display:flex; align-items:baseline; gap:0.5em; margin-bottom:0.25em;">
+      <span class="small-caps" style="min-width:1.6em; text-align:right; flex-shrink:0; opacity:0.5;">6.</span>
+      <a href="/files/intro_to_deep_learning/lecture6_unets.pdf" target="_blank">U-Nets</a>
+    </div>
+    <div style="display:flex; align-items:baseline; gap:0.5em; margin-bottom:0.25em;">
+      <span class="small-caps" style="min-width:1.6em; text-align:right; flex-shrink:0; opacity:0.5;">7.</span>
+      <a href="/files/intro_to_deep_learning/lecture7_language.pdf" target="_blank">Deep Learning for Language</a>
+    </div>
+    <div style="display:flex; align-items:baseline; gap:0.5em; margin-bottom:0.25em;">
+      <span class="small-caps" style="min-width:1.6em; text-align:right; flex-shrink:0; opacity:0.5;">8.</span>
+      <a href="/files/intro_to_deep_learning/lecture8_assistants.pdf" target="_blank">Turning LLMs into Assistants</a>
+    </div>
+    <div style="display:flex; align-items:baseline; gap:0.5em; margin-bottom:0.25em;">
+      <span class="small-caps" style="min-width:1.6em; text-align:right; flex-shrink:0; opacity:0.5;">9.</span>
+      <a href="/files/intro_to_deep_learning/lecture9_rag.pdf" target="_blank">Retrieval-Augmented Generation and Agents</a>
+    </div>
+    <div style="display:flex; align-items:baseline; gap:0.5em;">
+      <span class="small-caps" style="min-width:1.6em; text-align:right; flex-shrink:0; opacity:0.5;">10.</span>
+      <a href="/files/intro_to_deep_learning/lecture10_transformers.pdf" target="_blank">Transformers</a>
+    </div>
+  </div>
+</div>
+
+
 <div style="margin-bottom: 4em;">
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/harvard.png"
@@ -1189,7 +1255,7 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
       </span>
 
       <p style="margin-top: 0.6em;">
-        Enormous volumes of clinical data are stored in free-text clinical notes that cannot be queried or statistically analyzed without painstaking human review. This <span style="font-style: italic;">dark data</span> can now be accessed at scale using large language models. This talk, delivered to clinicians, explains best practices for building reliable workflows to extract this data. View the <a href="../files/AI_lunch_and_learn_backup.pdf" target="_blank">slides</a>.
+        Enormous volumes of clinical data are stored in free-text clinical notes that cannot be queried or statistically analyzed without painstaking human review. This <span style="font-style: italic;">dark data</span> can now be accessed at scale using large language models. This talk, delivered to clinicians, explains best practices for building reliable workflows to extract this data. Watch the <a href="https://mssvideoupload.mayo.edu/media/1_3taf2gcw" target="_blank">video</a>. View the <a href="../files/AI_lunch_and_learn_backup.pdf" target="_blank">slides</a>.
       </p>
     </div>
   </div>
