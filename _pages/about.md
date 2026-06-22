@@ -199,7 +199,7 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
   <div>
     <h3 style="margin:0 0 0.3em 0;">
       <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6143772">
-      Position: Agentic <span class="small-caps">ai</span> Orchestration Should be Bayes-Consistent
+      Position: Agentic AI Orchestration Should be Bayes-Consistent
       </a>
     </h3>
 
@@ -212,7 +212,7 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
     </p>
 
     <p>
-    Modern <span class="small-caps">llm</span>-powered systems are increasingly asked not just to reason, but to make decisions under uncertainty—choosing tools, allocating resources, and coordinating with humans. This paper argues that while individual <span class="small-caps">llm</span>s need not be fully Bayesian, the control layer orchestrating agentic <span class="small-caps">ai</span> should follow Bayesian decision principles to maintain calibrated beliefs and make coherent, utility-aware choices.
+    Modern <span class="small-caps">llm</span>-powered systems are increasingly asked not just to reason, but to make decisions under uncertainty – choosing tools, allocating resources, and coordinating with humans. This paper argues that while individual <span class="small-caps">llm</span>s need not be fully Bayesian, the control layer orchestrating agentic <span class="small-caps">ai</span> should follow Bayesian decision principles to maintain calibrated beliefs and make coherent, utility-aware choices.
     </p>
 
     <details style="margin-top:0.2em;">
@@ -226,6 +226,45 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
   </div>
 </div>
 
+
+<!-- Paper -->
+<div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em;">
+
+  <!-- Square thumbnail -->
+  <img src="/assets/images/publications/ehr-sae-banner.png"
+       alt="EHR SAE figure"
+       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
+
+  <!-- Text content -->
+  <div>
+    <h3 style="margin:0 0 0.3em 0;">
+      <a href="https://openreview.net/forum?id=evQ2B5kjmh">
+        Probing Clinical Concepts in an EHR Foundation Model via Sparse Autoencoders
+      </a>
+    </h3>
+
+    <p style="margin:0 0 0.3em; font-style:italic;">
+      <span class="small-caps">icml</span> Workshop on Mechanistic Interpretability
+    </p>
+
+    <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
+      Shashank Yadav, David M. Routman, <strong>Andrew Y. K. Foong</strong>
+    </p>
+
+    <p>
+      This paper extends sparse autoencoder-based mechanistic interpretability to electronic health record foundation models, revealing that a transformer trained on <span class="small-caps">mimic-iv</span> learns a clinical ontology distinct from the <span class="small-caps">icd</span> system, with candidate clinical syndromes encoded as single monosemantic features. The learned features are validated by alignment with held-out <span class="small-caps">icd</span> phenotypes and by activation patching experiments that produce measurable downstream effects.
+    </p>
+
+    <details style="margin-top:0.2em;">
+      <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
+  <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
+</summary>
+      <p style="margin-top:0.4em;">
+        Foundation models (<span class="small-caps">fm</span>s) trained on large electronic health record (<span class="small-caps">ehr</span>) datasets can predict patient outcomes, but it is difficult to know what medical knowledge they have acquired. Unlike chatbot <span class="small-caps">llm</span>s, <span class="small-caps">ehr</span>-<span class="small-caps">fm</span>s are being considered for high-stakes clinical deployment, making it especially important to audit what they have learned beyond predictive accuracy. We apply sparse autoencoders (<span class="small-caps">sae</span>s) to a transformer-based <span class="small-caps">fm</span> trained on the <span class="small-caps">mimic-iv</span> dataset, extending <span class="small-caps">sae</span>-based mechanistic interpretability to <span class="small-caps">fm</span>s trained on clinical event streams. We use <span class="small-caps">llm</span>-based interpretation to characterize learned features, revealing that <span class="small-caps">ehr</span> models learn a clinical ontology distinct from the International Classification of Diseases (<span class="small-caps">icd</span>) system. We show that learned features are organized by prevalence and that the model encodes candidate matches to known clinical syndromes as single monosemantic features. Syndromic features are composed from lower-level features through cross-layer information-flow circuits that we probe via activation patching. We validate the learned features along two axes: external validity, where feature activations align with held-out <span class="small-caps">icd</span> phenotypes, and interventional consistency, where activation patching produces measurable downstream effects in source-target pairs. Together, these results demonstrate the utility of <span class="small-caps">sae</span>s as an interpretive layer for <span class="small-caps">ehr</span> foundation models.
+      </p>
+    </details>
+  </div>
+</div>
 
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
@@ -630,7 +669,7 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
       <p style="margin-top:0.4em;">
-       It has been a longstanding goal in machine learning to develop flexible prediction methods that ‘know what they don’t know’—when faced with an out-of-distribution input, these models should signal their uncertainty rather than be confidently wrong. This thesis is concerned with two such probabilistic machine learning models: Bayesian neural networks and neural processes. Bayesian neural networks are a classical model that has been the subject of research since the 1990s. They rely on Bayesian inference to represent uncertainty in the weights of a neural network. On the other hand, neural processes are a recently introduced model that relies on meta-learning rather than Bayesian inference to obtain uncertainty estimates.
+       It has been a longstanding goal in machine learning to develop flexible prediction methods that ‘know what they don’t know’ – when faced with an out-of-distribution input, these models should signal their uncertainty rather than be confidently wrong. This thesis is concerned with two such probabilistic machine learning models: Bayesian neural networks and neural processes. Bayesian neural networks are a classical model that has been the subject of research since the 1990s. They rely on Bayesian inference to represent uncertainty in the weights of a neural network. On the other hand, neural processes are a recently introduced model that relies on meta-learning rather than Bayesian inference to obtain uncertainty estimates.
 
        This thesis provides contributions to both of these research areas. For Bayesian neural networks, we provide a theoretical and empirical study of the quality of common variational methods in approximating the Bayesian predictive distribution. We show that for single-hidden layer networks with <span class="small-caps" style="margin-right: -0.04em;">r</span>e<span class="small-caps">lu</span> activation functions, there are fundamental limitations concerning the representation of in-between uncertainty: increased uncertainty in between well separated regions of low uncertainty. We show that this theoretical limitation doesn’t apply for deeper networks. However, in practice, in-between uncertainty is a feature of the exact predictive distribution that is still often lost by approximate inference, even with deep networks.
 
@@ -1172,7 +1211,7 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
       </span>
 
       <p style="margin-top: 0.6em;">
-        This lecture—the first in a selective course delivered to students at the Mayo Clinic—provides a concise introduction to deep learning, explaining gradient descent, and how large language models are trained and generate text. View the <a href="../files/AI-Selective-Course.pdf" target="_blank">slides</a>.
+        This lecture – the first in a selective course delivered to students at the Mayo Clinic – provides a concise introduction to deep learning, explaining gradient descent, and how large language models are trained and generate text. View the <a href="../files/AI-Selective-Course.pdf" target="_blank">slides</a>.
       </p>
     </div>
   </div>
