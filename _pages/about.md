@@ -962,10 +962,8 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
 </div>
 
 <div style="margin-bottom: 4em;">
-  <!-- Header row: icon + title + description -->
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/harvard.png"
-
      alt="Icon"
      style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
@@ -981,16 +979,13 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
       <p style="margin-top: 0.6em;">
         Delivered a guest lecture in Harvard’s Health Data Science master’s program with <a href="https://scholar.google.com/citations?user=bV4XHocAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Shashank Yadav</a> on cancer recurrence prediction using multimodal deep learning, highlighting work developed at the Mayo Clinic. The lecture covered integrating clinical and pathology data, and modern deep learning approaches to predict time-to-event outcomes in oncology. View the <a href="../files/harvard_guest_lecture.pdf" target="_blank">slides</a>.
       </p>
-
     </div>
   </div>
+</div>
 
-
-<div style="margin-bottom: 4em; margin-top: 2em">
-  <!-- Header row: icon + title + description -->
+<div style="margin-bottom: 4em; margin-top: 2em;">
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/cme.png"
-
      alt="Icon"
      style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
@@ -1006,16 +1001,13 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
       <p style="margin-top: 0.6em;">
       Contributed a lecture on <em>The <span class="small-caps">abc</span>s of <span class="small-caps">ai</span></em> to Mayo Clinic’s online <span class="small-caps">cme</span> course <em>Practical Applications of <span class="small-caps">ai</span> at Mayo Clinic</em>, which provides role-specific training on integrating <span class="small-caps">ai</span> into clinical care, research, education, and operations. The course equips healthcare professionals with practical frameworks and real-world examples to support informed adoption and responsible use of <span class="small-caps">ai</span> in healthcare settings. Sign up <a href="https://ce.mayo.edu/online-education/content/practical-applications-ai-mayo-clinic-online-course#group-tabs-node-course-default1" target="_blank" rel="noopener noreferrer">here</a>.
       </p>
-
     </div>
   </div>
+</div>
 
-
-<div style="margin-bottom: 6em; margin-top:2em">
-  <!-- Header row: icon + title + description -->
+<div style="margin-bottom: 6em; margin-top: 2em;">
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/survival.png"
-
      alt="Icon"
      style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
@@ -1032,12 +1024,18 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
         Censored time-to-event data is ubiquitous in machine learning for healthcare. This lecture provides an introduction to survival analysis from a probabilistic, likelihood-first perspective, covering the classical Cox proportional hazards model as well as modern deep learning approaches. View the <a href="../files/Survival_Analysis_Slides.pdf" target="_blank">slides</a>.
       </p>
 
-      <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/N0f88WYju0M?si=RbfTzNpab21GIvQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <div style="aspect-ratio: 16 / 9; width: 100%;">
+        <iframe src="https://www.youtube.com/embed/N0f88WYju0M?si=RbfTzNpab21GIvQk"
+          title="YouTube video player"
+          style="width: 100%; height: 100%; border: none;"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+        </iframe>
       </div>
-
     </div>
   </div>
+</div>
 
 
 
@@ -1049,10 +1047,8 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
 
 
 <div style="margin-bottom: 4em;">
-  <!-- Header row: icon + title + description -->
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/psa.png"
-
      alt="Icon"
      style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
@@ -1069,19 +1065,22 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
         The <span class="small-caps">psa</span> Control Tower creates a unified dashboard that uses <span class="small-caps">ai</span> to predict prostate cancer recurrence sooner. This short talk explains the need for a new approach to prostate cancer management as our society ages, and how our team is using machine learning to address the problem.
       </p>
 
-      <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/_JEeotclWu4?si=B8uxgEn9iikksUt7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <div style="aspect-ratio: 16 / 9; width: 100%;">
+        <iframe src="https://www.youtube.com/embed/_JEeotclWu4?si=B8uxgEn9iikksUt7"
+          title="YouTube video player"
+          style="width: 100%; height: 100%; border: none;"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+        </iframe>
       </div>
-
     </div>
   </div>
+</div>
 
-
-<div style="margin-bottom: 4em; margin-top: 2em">
-  <!-- Header row: icon + title + description -->
+<div style="margin-bottom: 4em; margin-top: 2em;">
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/ai_safety.png"
-
      alt="Icon"
      style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
@@ -1095,24 +1094,21 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
       </span>
 
       <p style="margin-top: 0.6em;">
-        This talk explores case studies of past <span class="small-caps">ai</span> implementation failures in healthcare and how we can avoid them in the future. I provide general principles for how to think through a rational approach to the enormous opportunities, but also risks, that <span class="small-caps">ai</span> in healthcare poses. View the <a href="../files/AI_Safety_Slides.pdf" target="_blank">slides</a>. 
+        This talk explores case studies of past <span class="small-caps">ai</span> implementation failures in healthcare and how we can avoid them in the future. I provide general principles for how to think through a rational approach to the enormous opportunities, but also risks, that <span class="small-caps">ai</span> in healthcare poses. View the <a href="../files/AI_Safety_Slides.pdf" target="_blank">slides</a>.
       </p>
-
     </div>
   </div>
+</div>
 
-
-<div style="margin-bottom: 4em; margin-top: 2em">
-  <!-- Header row: icon + title + description -->
+<div style="margin-bottom: 4em; margin-top: 2em;">
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/bmb-seminar.png"
-
      alt="Icon"
      style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
     <div style="flex: 1;">
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
-       Scalable Emulation of Protein Equilibrium Ensembles with Generative Deep Learning
+        Scalable Emulation of Protein Equilibrium Ensembles with Generative Deep Learning
       </h3>
 
       <span class="small-caps">
@@ -1120,23 +1116,27 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
       </span>
 
       <p style="margin-top: 0.6em;">
-      This talk provides an introduction to <a href="#bioemu" >BioEmu</a>, starting with AlphaFold and the deep learning revolution in protein structure, to the necessity of dynamics and conformational change prediction. I describe the training data, model architecture and capabilities of BioEmu. View the <a href="../files/bmb-seminar.pdf" target="_blank">slides</a>. 
+        This talk provides an introduction to <a href="#bioemu">BioEmu</a>, starting with AlphaFold and the deep learning revolution in protein structure, to the necessity of dynamics and conformational change prediction. I describe the training data, model architecture and capabilities of BioEmu. View the <a href="../files/bmb-seminar.pdf" target="_blank">slides</a>.
       </p>
 
-      <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/e38r-xW2lM0?si=qGEO93bOMMZ7I4QE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <div style="aspect-ratio: 16 / 9; width: 100%;">
+        <iframe src="https://www.youtube.com/embed/e38r-xW2lM0?si=qGEO93bOMMZ7I4QE"
+          title="YouTube video player"
+          style="width: 100%; height: 100%; border: none;"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+        </iframe>
       </div>
-
     </div>
   </div>
+</div>
 
 
 
 <div style="margin-bottom: 4em; margin-top: 2em;">
-  <!-- Header row: icon + title + description -->
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/lunch-and-learn.png"
-
      alt="Icon"
      style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
@@ -1150,17 +1150,15 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
       </span>
 
       <p style="margin-top: 0.6em;">
-        Enormous volumes of clinical data are stored in free-text clinical notes that cannot be queried or statistically analyzed without painstaking human review. This <span style="font-style: italic;">dark data</span> can now be accessed at scale using large language models. This talk, delivered to clinicians, explains best practices for building reliable workflows to extract this data. View the <a href="../files/AI_lunch_and_learn_backup.pdf" target="_blank">slides</a>. 
+        Enormous volumes of clinical data are stored in free-text clinical notes that cannot be queried or statistically analyzed without painstaking human review. This <span style="font-style: italic;">dark data</span> can now be accessed at scale using large language models. This talk, delivered to clinicians, explains best practices for building reliable workflows to extract this data. View the <a href="../files/AI_lunch_and_learn_backup.pdf" target="_blank">slides</a>.
       </p>
     </div>
   </div>
-
+</div>
 
 <div style="margin-bottom: 4em; margin-top: 2em;">
-  <!-- Header row: icon + title + description -->
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/ai-selective-course.png"
-
      alt="Icon"
      style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
@@ -1174,18 +1172,17 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
       </span>
 
       <p style="margin-top: 0.6em;">
-        This lecture—the first in a selective course delivered to students at the Mayo Clinic—provides a concise introduction to deep learning, explaining gradient descent, and how large language models are trained and generate text. View the <a href="../files/AI-Selective-Course.pdf" target="_blank">slides</a>. 
+        This lecture—the first in a selective course delivered to students at the Mayo Clinic—provides a concise introduction to deep learning, explaining gradient descent, and how large language models are trained and generate text. View the <a href="../files/AI-Selective-Course.pdf" target="_blank">slides</a>.
       </p>
     </div>
   </div>
+</div>
 
 
 <a id="ai-from-scratch" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
 
-<!-- Header row: icon + title + description -->
 <div style="margin-bottom: 2em; margin-top: 2em;">
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
-    <!-- Small icon placeholder -->
     <img src="/assets/images/talks/ai-from-scratch.png"
      alt="Icon"
      style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
@@ -1195,9 +1192,9 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
         Understanding AI from Scratch
       </h3>
 
-      <p style="margin: 0; font-size: 1.0rem; font-variant: small-caps;" class="small-caps">
+      <span class="small-caps">
         mayo clinic lecture series
-      </p>
+      </span>
 
       <p style="margin-top: 0.6em;">
         I designed this six-part series to help clinicians at the Mayo Clinic with no prior <span class="small-caps">ai</span> experience understand deep learning from first principles. View the <a href="../files/Understanding_AI_from_Scratch.pdf" target="_blank">slides</a>.
@@ -1309,7 +1306,6 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
 
 
 <div style="margin-bottom: 2em;">
-  <!-- Header row: icon + title + description -->
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/publications/timewarp-banner.png"
      alt="Icon"
@@ -1330,10 +1326,9 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
     </div>
   </div>
 
-  <!-- Video 1 -->
   <div style="margin-top: 1em; margin-left: calc(50px + 0.8em); max-width: calc(100% - 50px - 0.8em);">
     <div style="aspect-ratio: 16 / 9; width: 100%;">
-      <iframe 
+      <iframe
         src="https://www.youtube.com/embed/4rtT-hE9Xqo?si=tfpzjzFw9n-gbMp_"
         title="YouTube video player"
         style="width: 100%; height: 100%; border: none;"
@@ -1348,7 +1343,6 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
     </div>
   </div>
 
-  <!-- Video 2 -->
   <div style="margin-top: 2em; margin-left: calc(50px + 0.8em); max-width: calc(100% - 50px - 0.8em);">
     <div style="aspect-ratio: 16 / 9; width: 100%;">
       <iframe 
@@ -1378,7 +1372,6 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
 
 
 <div style="margin-bottom: 2em;">
-  <!-- Header row: icon + title + description -->
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/pac-bayes.png"
      alt="Icon"
@@ -1399,7 +1392,6 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
     </div>
   </div>
 
-  <!-- Aligned YouTube embed -->
   <div style="margin-top: 1em; margin-left: calc(50px + 0.8em); max-width: calc(100% - 50px - 0.8em);">
     <div style="aspect-ratio: 16 / 9; width: 100%;">
       <iframe 
@@ -1416,12 +1408,7 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
 
 
 
-<div style="margin-bottom: 2em;"></div>
-
-
-
 <div style="margin-bottom: 2em;">
-  <!-- Header row: icon + title + description -->
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/oxford.png"
      alt="Icon"
@@ -1442,7 +1429,6 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
     </div>
   </div>
 
-  <!-- Aligned YouTube embed -->
   <div style="margin-top: 1em; margin-left: calc(50px + 0.8em); max-width: calc(100% - 50px - 0.8em);">
     <div style="aspect-ratio: 16 / 9; width: 100%;">
       <iframe 
@@ -1467,7 +1453,6 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
 
 
 <div style="margin-bottom: 4em;">
-  <!-- Header row: icon + title + description -->
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/publications/expressiveness-banner.png"
      alt="Icon"
@@ -1488,8 +1473,7 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
     </div>
   </div>
 
-  <!-- Responsive video embed -->
-  <div class="embed-wrapper" style="line-height: 0; margin-top: 1em; margin-left: calc(50px + 0.8em); position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: calc(100% - 50px - 0.8em);">
+  <div class="embed-wrapper" style="position: relative; aspect-ratio: 16 / 9; width: 100%; margin-top: 1em; margin-left: calc(50px + 0.8em); max-width: calc(100% - 50px - 0.8em);">
     <div id="presentation-embed-38937338"
         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
     </div>
@@ -1505,12 +1489,7 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
   </script>
 </div>
 
-
-
-
-<!-- Talk container -->
 <div style="margin-bottom: 4em;">
-  <!-- Header row: icon + title + description -->
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/publications/convnp-banner.png"
      alt="Icon"
@@ -1531,8 +1510,7 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
     </div>
   </div>
 
-  <!-- Responsive video embed -->
-  <div class="embed-wrapper" style="line-height: 0; margin-top: 1em; margin-left: calc(50px + 0.8em); position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: calc(100% - 50px - 0.8em);">
+  <div class="embed-wrapper" style="position: relative; aspect-ratio: 16 / 9; width: 100%; margin-top: 1em; margin-left: calc(50px + 0.8em); max-width: calc(100% - 50px - 0.8em);">
     <div id="presentation-embed-38937329"
         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
     </div>
@@ -1548,12 +1526,7 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
   </script>
 </div>
 
-
-
-
-<!-- Talk: Neural Processes -->
 <div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em;">
-  <!-- Icon placeholder -->
     <img src="/assets/images/blogs/npf-icon.png"
      alt="Icon"
      style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
@@ -1573,9 +1546,7 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
   </div>
 </div>
 
-<!-- Talk: Recent Advances in Bayesian Deep Learning -->
 <div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em;">
-  <!-- Icon placeholder -->
     <img src="/assets/images/talks/bdl.png"
      alt="Icon"
      style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
@@ -1602,9 +1573,7 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
   </div>
 </div>
 
-<!-- Talk 1 -->
 <div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em;">
-  <!-- Optional: placeholder square or icon -->
     <img src="/assets/images/publications/inbetween-uncertainty-banner.png"
      alt="Icon"
      style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
@@ -1624,7 +1593,6 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
   </div>
 </div>
 
-<!-- Talk 2 -->
 <div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em;">
     <img src="/assets/images/talks/implicit.png"
      alt="Icon"
@@ -1671,7 +1639,6 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
   </div>
 </div>
 
-<!-- Blog 1: Neural Process Family -->
 <div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em;">
 
   <img src="/assets/images/blogs/npf-icon.png"
@@ -1721,7 +1688,6 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
 </div>
 
 
-<!-- Blog 2: Bayesian Posts -->
 <div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em;">
 
   <img src="/assets/images/blogs/bayesian-icon.png"
