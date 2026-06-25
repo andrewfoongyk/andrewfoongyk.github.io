@@ -69,7 +69,8 @@ foong.andrew@mayo.edu
 </span>
 
 <h1 style="margin-top: 3em; margin-bottom: 1.0em;">Hiring News</h1>
-I am hiring for remote <span class="small-caps">ai/ml</span> intern positions and in-person research fellow positions in the Mayo Clinic Radiation Oncology <span class="small-caps">ai</span> and Data Analytics team. If you’re interested in doing immediately impactful, technically serious work in healthcare, please apply [here](https://jobs.mayoclinic.org/job/rochester/ai-ml-intern-radiation-oncology/33647/94467042096) for the internship and [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-radiation-oncology/33647/93729609296) for the research fellow position.
+I am hiring for <span class="small-caps">ai/ml</span> interns and research fellows in the Mayo Clinic Radiation Oncology <span class="small-caps">ai</span> and Data Analytics team. If you’re interested in doing immediately impactful, technically serious work in healthcare, please apply [here](https://jobs.mayoclinic.org/job/rochester/ai-ml-intern-radiation-oncology/33647/96924204752) for the internship and [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-radiation-oncology/33647/93729609296) for the research fellow position.
+All applicants must be based within 100 miles of Mayo Clinic Rochester upon beginning their role.
 
 <h1 style="margin-top: 3em; margin-bottom: 1.0em;">Experience</h1>
 
@@ -1022,44 +1023,44 @@ I am hiring for remote <span class="small-caps">ai/ml</span> intern positions an
 
   <div style="margin-top:0.0em; margin-left: calc(50px + 0.8em);">
     <div style="display:flex; align-items:baseline; gap:0.5em; margin-bottom:0.25em;">
-      <span class="small-caps" style="min-width:1.6em; text-align:right; flex-shrink:0; opacity:0.5;">1.</span>
+      <span style="min-width:1.6em; text-align:right; flex-shrink:0; opacity:0.5;">1.</span>
       <a href="/files/intro_to_deep_learning/lecture1_background.pdf" target="_blank">Background <span class="amp">&amp;</span> Linear Regression</a>
     </div>
     <div style="display:flex; align-items:baseline; gap:0.5em; margin-bottom:0.25em;">
-      <span class="small-caps" style="min-width:1.6em; text-align:right; flex-shrink:0; opacity:0.5;">2.</span>
+      <span style="min-width:1.6em; text-align:right; flex-shrink:0; opacity:0.5;">2.</span>
       <a href="/files/intro_to_deep_learning/lecture2_single_neurons.pdf" target="_blank">From Single Neurons to Neural Networks</a>
     </div>
     <div style="display:flex; align-items:baseline; gap:0.5em; margin-bottom:0.25em;">
-      <span class="small-caps" style="min-width:1.6em; text-align:right; flex-shrink:0; opacity:0.5;">3.</span>
+      <span style="min-width:1.6em; text-align:right; flex-shrink:0; opacity:0.5;">3.</span>
       <a href="/files/intro_to_deep_learning/lecture3_generalization.pdf" target="_blank">Generalization <span class="amp">&amp;</span> Learning Algorithms</a>
     </div>
     <div style="display:flex; align-items:baseline; gap:0.5em; margin-bottom:0.25em;">
-      <span class="small-caps" style="min-width:1.6em; text-align:right; flex-shrink:0; opacity:0.5;">4.</span>
+      <span style="min-width:1.6em; text-align:right; flex-shrink:0; opacity:0.5;">4.</span>
       <a href="/files/intro_to_deep_learning/lecture4_imagedata.pdf" target="_blank">Image Data</a>
     </div>
     <div style="display:flex; align-items:baseline; gap:0.5em; margin-bottom:0.25em;">
-      <span class="small-caps" style="min-width:1.6em; text-align:right; flex-shrink:0; opacity:0.5;">5.</span>
+      <span style="min-width:1.6em; text-align:right; flex-shrink:0; opacity:0.5;">5.</span>
       <a href="/files/intro_to_deep_learning/lecture5_cnns.pdf" target="_blank">Convolutional Neural Networks</a>
       <span>(<span style="font-style:italic;">slides by Thomas Tavolara</span>)</span>
     </div>
     <div style="display:flex; align-items:baseline; gap:0.5em; margin-bottom:0.25em;">
-      <span class="small-caps" style="min-width:1.6em; text-align:right; flex-shrink:0; opacity:0.5;">6.</span>
+      <span style="min-width:1.6em; text-align:right; flex-shrink:0; opacity:0.5;">6.</span>
       <a href="/files/intro_to_deep_learning/lecture6_unets.pdf" target="_blank">U-Nets</a>
     </div>
     <div style="display:flex; align-items:baseline; gap:0.5em; margin-bottom:0.25em;">
-      <span class="small-caps" style="min-width:1.6em; text-align:right; flex-shrink:0; opacity:0.5;">7.</span>
+      <span style="min-width:1.6em; text-align:right; flex-shrink:0; opacity:0.5;">7.</span>
       <a href="/files/intro_to_deep_learning/lecture7_language.pdf" target="_blank">Deep Learning for Language</a>
     </div>
     <div style="display:flex; align-items:baseline; gap:0.5em; margin-bottom:0.25em;">
-      <span class="small-caps" style="min-width:1.6em; text-align:right; flex-shrink:0; opacity:0.5;">8.</span>
+      <span style="min-width:1.6em; text-align:right; flex-shrink:0; opacity:0.5;">8.</span>
       <a href="/files/intro_to_deep_learning/lecture8_assistants.pdf" target="_blank">Turning LLMs into Assistants</a>
     </div>
     <div style="display:flex; align-items:baseline; gap:0.5em; margin-bottom:0.25em;">
-      <span class="small-caps" style="min-width:1.6em; text-align:right; flex-shrink:0; opacity:0.5;">9.</span>
+      <span style="min-width:1.6em; text-align:right; flex-shrink:0; opacity:0.5;">9.</span>
       <a href="/files/intro_to_deep_learning/lecture9_rag.pdf" target="_blank">Retrieval-Augmented Generation and Agents</a>
     </div>
     <div style="display:flex; align-items:baseline; gap:0.5em;">
-      <span class="small-caps" style="min-width:1.6em; text-align:right; flex-shrink:0; opacity:0.5;">10.</span>
+      <span style="min-width:1.6em; text-align:right; flex-shrink:0; opacity:0.5;">10.</span>
       <a href="/files/intro_to_deep_learning/lecture10_transformers.pdf" target="_blank">Transformers</a>
     </div>
   </div>
