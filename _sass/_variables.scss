@@ -6,8 +6,6 @@
    Typography
    ========================================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:opsz,wght@8..24,400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
 
 $doc-font-size              : 16;
 
@@ -17,7 +15,7 @@ $indent-var                 : 1.3em;
 
 /* system typefaces */
 $serif                      : "Crimson Pro SC", "Andada Pro", sans-serif;
-$sans-serif                 : "Source Sans 3", "Alegreya Sans", "Source Sans 3", "Junction", sans-serif;
+$sans-serif                 : "Martel Sans", "Source Sans 3", "Alegreya Sans", "Source Sans 3", "Junction", sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 /* sans serif typefaces */
