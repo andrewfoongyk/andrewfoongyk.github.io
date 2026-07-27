@@ -1112,6 +1112,8 @@ All applicants must be based within 100 miles of Mayo Clinic Rochester upon begi
   </div>
 </div>
 
+<a id="survival-analysis" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
+
 <div style="margin-bottom: 6em; margin-top: 2em;">
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/survival.png"
