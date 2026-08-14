@@ -201,7 +201,7 @@ All applicants must be based within 100 miles of Mayo Clinic Rochester upon begi
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.3em 0;">
-      <a href="">
+      <a href="https://arxiv.org/pdf/2608.04046">
 The Cost of Binarizing Survival Outcomes in Clinical Prognostic Modeling
       </a>
     </h3>
