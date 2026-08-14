@@ -25,7 +25,7 @@ Assistant Professor of Biomedical Informatics,
 and
 Assistant Professor of Biochemistry and Molecular Biology
 at the 
-Mayo Clinic,
+<strong>Mayo Clinic</strong>,
 where I lead the
 <a href="https://radonc-aida.github.io">
 <span class="small-caps">ai</span> and Data Analytics
@@ -41,7 +41,7 @@ See my [faculty page](https://www.mayo.edu/research/faculty/foong-andrew-ph-d/bi
 
 Before joining Mayo, I was a senior researcher
 at
-Microsoft Research
+<strong>Microsoft Research</strong>
 in Cambridge,
 <span class="small-caps">uk</span>,
 where I developed generative deep learning models for proteins in the 
@@ -54,7 +54,7 @@ I earned my
 <span class="small-caps">p</span>h.<span class="small-caps">d</span>.
 in machine learning
 from the
-University of Cambridge, 
+<strong>University of Cambridge</strong>, 
 advised by 
 Professor Richard E. Turner.
 My research, combining probabilistic modeling and deep learning, was published at leading machine learning conferences including
