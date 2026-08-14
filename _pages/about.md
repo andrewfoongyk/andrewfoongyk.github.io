@@ -190,6 +190,50 @@ All applicants must be based within 100 miles of Mayo Clinic Rochester upon begi
 
 
 <!-- Paper -->
+
+<div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em;">
+
+  <!-- Square thumbnail -->
+  <img src="/assets/images/publications/binarization-banner.png"
+       alt="toxicity figure"
+       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
+
+  <!-- Text content -->
+  <div>
+    <h3 style="margin:0 0 0.3em 0;">
+      <a href="">
+The Cost of Binarizing Survival Outcomes in Clinical Prognostic Modeling
+      </a>
+    </h3>
+
+    <p style="margin:0 0 0.3em; font-style:italic;">
+    Machine Learning for Healthcare <span class="small-caps"><span style="font-style:normal;">(</span>mlhc<span style="font-style:normal; margin:0 0.025em;">)</span></span>
+    </p>
+
+    <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
+	Shashank Yadav, David M. Routman, <strong>Andrew Y. K. Foong</strong>
+    </p>
+
+    <p>
+When <span class="small-caps">ai</span> is used to predict treatment outcomes, a common practice is to treat it as binary classification – did a patient have the outcome by <span class="small-caps"><span style="font-style: italic;">n</span></span> years, or not?
+We show that this simplification isn’t free: in addition to throwing away data (i.e., all patients with fewer than <span class="small-caps"><span style="font-style: italic;">n</span></span> years of follow-up), we also lose fine-grained information about covariate effects.
+The good news is there’s a straightforward solution: survival analysis. But in practice this established tool is often ignored in <span class="small-caps">ml</span> papers. We claim this is unnecessarily suboptimal, and that whenever a binary survival model is used, a full survival analysis should be done instead.
+    </p>
+
+    <details style="margin-top:0.2em;">
+      <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
+  <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
+</summary>
+      <p style="margin-top:0.4em;">
+Survival analysis is an established framework for analyzing time-to-event data, yet many clinical machine learning studies still binarize the outcome before model training. This practice excludes censored patients, collapses temporal information into a single threshold, and can affect which features are selected as prognostically relevant. We examine the cost of this binarization in the context of Bayesian network (<span class="small-caps">bn</span>) feature selection, using two recent publications as case studies: one that applies <span class="small-caps">bn</span>-based feature selection to a head-and-neck cancer cohort and a second surgical cohort study that, while not <span class="small-caps">bn</span>-based, likewise binarizes its survival endpoint. We replace the binary scoring function with the Cox partial log-likelihood for feature-to-outcome edges, a modification we call the Survival-Aware Bayesian network, and recover prognostic features that binarization misses. Our ablation experiment confirms that the improvement is driven by the time-to-event scoring formulation rather than by retaining more patients. The results generalize across five endpoint-cohort combinations in head-and-neck cancer and extend to three further cancer types (breast, colorectal, and kidney). We propose that clinical studies with survival outcomes should use time-to-event methods by default, as binarization discards the prognostic signal retained by survival analysis.
+      </p>
+    </details>
+  </div>
+</div>
+
+
+<!-- Paper -->
+
 <div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em;">
 
   <!-- Square thumbnail -->
@@ -760,7 +804,7 @@ All applicants must be based within 100 miles of Mayo Clinic Rochester upon begi
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
       <p style="margin-top:0.4em;">
-        In this paper, we investigate the question: Given a small number of datapoints, for example <span class="small-caps">n</span> = 30, how tight can <span class="small-caps">pac</span>-Bayes and test set bounds be made? For such small datasets, test set bounds adversely affect generalisation performance by discarding data. In this setting, <span class="small-caps">pac</span>-Bayes bounds are especially attractive, due to their ability to use all the data to simultaneously learn a posterior and bound its generalisation risk. We focus on the case of i.i.d. data with a bounded loss and consider the generic <span class="small-caps">pac</span>-Bayes theorem of Germain et al. (2009) and Begin et al. (2016). While their theorem is known to recover many existing <span class="small-caps">pac</span>-Bayes bounds, it is unclear what the tightest bound derivable from their framework is. Surprisingly, we show that for a fixed learning algorithm and dataset, the tightest bound of this form coincides with the tightest bound of the more restrictive family of bounds considered in Catoni (2007). In contrast, in the more natural case of distributions over datasets, we give examples (both analytic and numerical) showing that the family of bounds in Catoni (2007) can be suboptimal. Within the proof framework of Germain et al. (2009) and Begin et al. (2016), we establish a lower bound on the best bound achievable in expectation, which recovers the Chernoff test set bound in the case when the posterior is equal to the prior. Finally, to illustrate how tight these bounds can potentially be, we study a synthetic one-dimensional classification task in which it is feasible to meta-learn both the prior and the form of the bound to obtain the tightest <span class="small-caps">pac</span>-Bayes and test set bounds possible. We find that in this simple, controlled scenario, <span class="small-caps">pac</span>-Bayes bounds are surprisingly competitive with comparable, commonly used Chernoff test set bounds. However, the sharpest test set bounds still lead to better guarantees on the generalisation error than the <span class="small-caps">pac</span>-Bayes bounds we consider.
+        In this paper, we investigate the question: Given a small number of datapoints, for example <span class="small-caps"><span style="font-style: italic;">n</span></span> = 30, how tight can <span class="small-caps">pac</span>-Bayes and test set bounds be made? For such small datasets, test set bounds adversely affect generalisation performance by discarding data. In this setting, <span class="small-caps">pac</span>-Bayes bounds are especially attractive, due to their ability to use all the data to simultaneously learn a posterior and bound its generalisation risk. We focus on the case of i.i.d. data with a bounded loss and consider the generic <span class="small-caps">pac</span>-Bayes theorem of Germain et al. (2009) and Begin et al. (2016). While their theorem is known to recover many existing <span class="small-caps">pac</span>-Bayes bounds, it is unclear what the tightest bound derivable from their framework is. Surprisingly, we show that for a fixed learning algorithm and dataset, the tightest bound of this form coincides with the tightest bound of the more restrictive family of bounds considered in Catoni (2007). In contrast, in the more natural case of distributions over datasets, we give examples (both analytic and numerical) showing that the family of bounds in Catoni (2007) can be suboptimal. Within the proof framework of Germain et al. (2009) and Begin et al. (2016), we establish a lower bound on the best bound achievable in expectation, which recovers the Chernoff test set bound in the case when the posterior is equal to the prior. Finally, to illustrate how tight these bounds can potentially be, we study a synthetic one-dimensional classification task in which it is feasible to meta-learn both the prior and the form of the bound to obtain the tightest <span class="small-caps">pac</span>-Bayes and test set bounds possible. We find that in this simple, controlled scenario, <span class="small-caps">pac</span>-Bayes bounds are surprisingly competitive with comparable, commonly used Chernoff test set bounds. However, the sharpest test set bounds still lead to better guarantees on the generalisation error than the <span class="small-caps">pac</span>-Bayes bounds we consider.
       </p>
     </details>
   </div>
