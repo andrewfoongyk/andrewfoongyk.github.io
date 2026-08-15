@@ -25,7 +25,7 @@ Assistant Professor of Biomedical Informatics,
 and
 Assistant Professor of Biochemistry and Molecular Biology
 at the 
-<span class="sans">Mayo Clinic</span>
+<span class="sans">Mayo Clinic</span>,
 where I lead the
 <a href="https://radonc-aida.github.io">
 <span class="small-caps">ai</span> and Data Analytics
@@ -39,7 +39,7 @@ We develop next-generation
 systems to advance cancer diagnosis and treatment.
 See my [faculty page](https://www.mayo.edu/research/faculty/foong-andrew-ph-d/bio-20583559) for research areas.
 
-Previously, I was a senior researcher
+Prior to joining Mayo Clinic, I was a senior researcher
 at
 <span class="sans">Microsoft Research</span>
 in Cambridge,
