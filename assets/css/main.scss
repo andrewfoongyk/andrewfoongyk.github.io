@@ -542,3 +542,15 @@ details[open] > .details-summary::before {
   font-size: 0.76em;
   // text-transform: uppercase;
 }
+
+// p {
+//   hyphens: auto;
+//   -webkit-hyphens: auto;
+//   overflow-wrap: break-word;
+// }
+
+p {
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphenate-limit-chars: 8 3 3;
+}
