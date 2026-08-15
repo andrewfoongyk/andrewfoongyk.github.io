@@ -25,7 +25,7 @@ Assistant Professor of Biomedical Informatics,
 and
 Assistant Professor of Biochemistry and Molecular Biology
 at the 
-<span class="sans">MAYO CLINIC</span>
+<span class="sans">Mayo Clinic</span>
 where I lead the
 <a href="https://radonc-aida.github.io">
 <span class="small-caps">ai</span> and Data Analytics
@@ -39,9 +39,9 @@ We develop next-generation
 systems to advance cancer diagnosis and treatment.
 See my [faculty page](https://www.mayo.edu/research/faculty/foong-andrew-ph-d/bio-20583559) for research areas.
 
-Before joining Mayo, I was a senior researcher
+Previously, I was a senior researcher
 at
-<span class="sans">MICROSOFT RESEARCH</span>
+<span class="sans">Microsoft Research</span>
 in Cambridge,
 <span class="small-caps">uk</span>,
 where I developed generative deep learning models for proteins in the 
@@ -52,11 +52,11 @@ was featured on the front cover of [*Science*](https://www.science.org/doi/10.11
 
 I earned my 
 <span class="small-caps">p</span>h.<span class="small-caps">d</span>.
-in machine learning
-from the
-<span class="sans">UNIVERSITY OF CAMBRIDGE</span>
+in machine learning,
 advised by 
-Professor Richard E. Turner.
+Professor Richard E. Turner,
+at the
+<span class="sans">University of Cambridge</span>.
 My research, combining probabilistic modeling and deep learning, was published at leading machine learning conferences including
 <span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span>, <span class="small-caps">iclr</span>,
 and
@@ -211,7 +211,7 @@ The Cost of Binarizing Survival Outcomes in Clinical Prognostic Modeling
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
-	Shashank Yadav, David M. Routman, <strong>Andrew Y. K. Foong</strong>
+	Shashank Yadav, David M. Routman, <span class="sans">Andrew Y.K. Foong</span>
     </p>
 
     <p>
@@ -254,7 +254,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
-      Theodore Papamarkou, Pierre Alquier, Matthias Bauer, Wray Buntine, Andrew Davison, Gintare Karolina Dziugaite, Maurizio Filippone, <strong>Andrew Y. K. Foong</strong>, Vincent Fortuin, Dimitris Fouskakis, Eyke Hüllermeier, Theofanis Karaletsos, Mohammad Emtiyaz Khan, Nikita Kotelevskii, Salem Lahlou, Yingzhen Li, Fang Liu, Clare Lyle, Thomas Möllenhoff, Konstantina Palla, Maxim Panov, Yusuf Sale, Kajetan Schweighofer, Artem Shelmanov, Siddharth Swaroop, Martin Trapp, Willem Waegeman, Andrew Gordon Wilson, Alexey Zaytsev
+      Theodore Papamarkou, Pierre Alquier, Matthias Bauer, Wray Buntine, Andrew Davison, Gintare Karolina Dziugaite, Maurizio Filippone, <span class="sans">Andrew Y.K. Foong</span>, Vincent Fortuin, Dimitris Fouskakis, Eyke Hüllermeier, Theofanis Karaletsos, Mohammad Emtiyaz Khan, Nikita Kotelevskii, Salem Lahlou, Yingzhen Li, Fang Liu, Clare Lyle, Thomas Möllenhoff, Konstantina Palla, Maxim Panov, Yusuf Sale, Kajetan Schweighofer, Artem Shelmanov, Siddharth Swaroop, Martin Trapp, Willem Waegeman, Andrew Gordon Wilson, Alexey Zaytsev
     </p>
 
     <p>
@@ -294,7 +294,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
-      Shashank Yadav, David M. Routman, <strong>Andrew Y. K. Foong</strong>
+      Shashank Yadav, David M. Routman, <span class="sans">Andrew Y.K. Foong</span>
     </p>
 
     <p>
@@ -341,7 +341,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
-      Federico Mastroleo, Mariana Borras-Osorio, Shiv Patel, Sarah Peterson, Renthony Wilson, Mi Zhou, Satomi Shiraishi, <strong>Andrew Y. K. Foong</strong>, David Routman, Mark R. Waddle
+      Federico Mastroleo, Mariana Borras-Osorio, Shiv Patel, Sarah Peterson, Renthony Wilson, Mi Zhou, Satomi Shiraishi, <span class="sans">Andrew Y.K. Foong</span>, David Routman, Mark R. Waddle
     </p>
 
     <p>
@@ -392,7 +392,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
-      Federico Mastroleo, Mariana Borras-Osorio, Shiv Patel, Sarah Peterson, Renthony Wilson, Mohammad Javad Namazi, Mi Zhou, Satomi Shiraishi, <strong>Andrew Y. K. Foong</strong>, David Routman, Mark R. Waddle
+      Federico Mastroleo, Mariana Borras-Osorio, Shiv Patel, Sarah Peterson, Renthony Wilson, Mohammad Javad Namazi, Mi Zhou, Satomi Shiraishi, <span class="sans">Andrew Y.K. Foong</span>, David Routman, Mark R. Waddle
     </p>
 
     <p>
@@ -439,7 +439,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
-      Jason Holmes, Yuexing Hao, Mariana Borras-Osorio, Federico Mastroleo, Santiago Romero Brufau, Valentina Carducci, Katie M. Van Abel, David M. Routman, <strong>Andrew Y. K. Foong</strong>, Liv M. Muller, Satomi Shiraishi, Daniel K. Ebner, Daniel J. Ma, Sameer R. Keole, Samir H. Patel, Mirek Fatyga, Martin Bues, Brad J. Stish, Yolanda I. Garces, Michelle A. Neben Wittich, Robert L. Foote, Sujay A. Vora, Nadia N. Laack, Mark R. Waddle, Wei Liu
+      Jason Holmes, Yuexing Hao, Mariana Borras-Osorio, Federico Mastroleo, Santiago Romero Brufau, Valentina Carducci, Katie M. Van Abel, David M. Routman, <span class="sans">Andrew Y.K. Foong</span>, Liv M. Muller, Satomi Shiraishi, Daniel K. Ebner, Daniel J. Ma, Sameer R. Keole, Samir H. Patel, Mirek Fatyga, Martin Bues, Brad J. Stish, Yolanda I. Garces, Michelle A. Neben Wittich, Robert L. Foote, Sujay A. Vora, Nadia N. Laack, Mark R. Waddle, Wei Liu
     </p>
 
     <p>
@@ -481,7 +481,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size:1.0rem">
-      Sarah Lewis†, Tim Hempel†, José Jiménez-Luna†, Michael Gastegger†, Yu Xie†, <strong>Andrew Y. K. Foong</strong>†, Victor García Satorras†, Osama Abdin†, Bastiaan S. Veeling†, Iryna Zaporozhets, Yaoyi Chen, Soojung Yang, Arne Schneuing, Jigyasa Nigam, Federico Barbero, Vincent Stimper, Andrew Campbell, Jason Yim, Marten Lienen, Yu Shi, Shuxin Zheng, Hannes Schulz, Usman Munir, Cecilia Clementi, Frank Noé
+      Sarah Lewis†, Tim Hempel†, José Jiménez-Luna†, Michael Gastegger†, Yu Xie†, <span class="sans">Andrew Y.K. Foong</span>†, Victor García Satorras†, Osama Abdin†, Bastiaan S. Veeling†, Iryna Zaporozhets, Yaoyi Chen, Soojung Yang, Arne Schneuing, Jigyasa Nigam, Federico Barbero, Vincent Stimper, Andrew Campbell, Jason Yim, Marten Lienen, Yu Shi, Shuxin Zheng, Hannes Schulz, Usman Munir, Cecilia Clementi, Frank Noé
     </p>
 
     <p>
@@ -527,7 +527,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
-      Jason Yim, Andrew Campbell, Emile Mathieu, <strong>Andrew Y. K. Foong</strong>, Michael Gastegger, José Jiménez-Luna, Sarah Lewis, Victor Garcia Satorras, Bastiaan S. Veeling, Frank Noé, Regina Barzilay, Tommi S. Jaakkola
+      Jason Yim, Andrew Campbell, Emile Mathieu, <span class="sans">Andrew Y.K. Foong</span>, Michael Gastegger, José Jiménez-Luna, Sarah Lewis, Victor Garcia Satorras, Bastiaan S. Veeling, Frank Noé, Regina Barzilay, Tommi S. Jaakkola
     </p>
 
     <p>
@@ -573,7 +573,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
-      Jason Yim, Andrew Campbell, <strong>Andrew Y. K. Foong</strong>, Michael Gastegger,
+      Jason Yim, Andrew Campbell, <span class="sans">Andrew Y.K. Foong</span>, Michael Gastegger,
       José Jiménez-Luna, Sarah Lewis, Victor Garcia Satorras, Bastiaan S. Veeling,
       Regina Barzilay, Tommi Jaakkola, Frank Noé
     </p>
@@ -615,7 +615,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
-      Wessel Bruinsma†, Stratis Markou†, James Requeima†, <strong>Andrew Y. K. Foong</strong>†,
+      Wessel Bruinsma†, Stratis Markou†, James Requeima†, <span class="sans">Andrew Y.K. Foong</span>†,
       Anna Vaughan, Tom Andersson, Anthony Buonomo, Scott Hosking, Richard E. Turner
     </p>
 
@@ -656,7 +656,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
-      Leon Klein†, <strong>Andrew Y. K. Foong</strong>†, Tor Erlend Fjelde†, Bruno Mlodozeniec†,
+      Leon Klein†, <span class="sans">Andrew Y.K. Foong</span>†, Tor Erlend Fjelde†, Bruno Mlodozeniec†,
       Marc Brockschmidt, Sebastian Nowozin, Frank Noé, Ryota Tomioka
     </p>
 
@@ -703,7 +703,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
-      <strong>Andrew Y. K. Foong</strong>
+      <span class="sans">Andrew Y.K. Foong</span>
     </p>
 
     <p>
@@ -753,7 +753,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
-      Marcin B. Tomczak, Siddharth Swaroop, <strong>Andrew Y. K. Foong</strong>, Richard E. Turner
+      Marcin B. Tomczak, Siddharth Swaroop, <span class="sans">Andrew Y.K. Foong</span>, Richard E. Turner
     </p>
 
     <p>
@@ -792,7 +792,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     </p>    
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
-      <strong>Andrew Y. K. Foong</strong>†, Wessel P. Bruinsma†, David R. Burt, and Richard E. Turner
+      <span class="sans">Andrew Y.K. Foong</span>†, Wessel P. Bruinsma†, David R. Burt, and Richard E. Turner
     </p>
 
     <p>
@@ -832,7 +832,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     </p>    
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
-      Wessel P. Bruinsma, James Requeima, <strong>Andrew Y. K. Foong</strong>,
+      Wessel P. Bruinsma, James Requeima, <span class="sans">Andrew Y.K. Foong</span>,
       Jonathan Gordon, and Richard E. Turner
     </p>
 
@@ -880,7 +880,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
-      <strong>Andrew Y. K. Foong</strong>†, Wessel P. Bruinsma†, Jonathan Gordon†, Yann Dubois,
+      <span class="sans">Andrew Y.K. Foong</span>†, Wessel P. Bruinsma†, Jonathan Gordon†, Yann Dubois,
       James Requeima, and Richard E. Turner
     </p>
 
@@ -921,7 +921,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
-      Jonathan Gordon†, Wessel P. Bruinsma†, <strong>Andrew Y. K. Foong</strong>,
+      Jonathan Gordon†, Wessel P. Bruinsma†, <span class="sans">Andrew Y.K. Foong</span>,
       James Requeima, Yann Dubois, and Richard E. Turner
     </p>
 
@@ -962,7 +962,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size:1.0rem">
-      <strong>Andrew Y. K. Foong</strong>†, David R. Burt†, Yingzhen Li, Richard E. Turner
+      <span class="sans">Andrew Y.K. Foong</span>†, David R. Burt†, Yingzhen Li, Richard E. Turner
     </p>
 
     <p>
@@ -1009,7 +1009,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
-      <strong>Andrew Y. K. Foong</strong>, Yingzhen Li, José Miguel Hernández-Lobato, and Richard E. Turner
+      <span class="sans">Andrew Y.K. Foong</span>, Yingzhen Li, José Miguel Hernández-Lobato, and Richard E. Turner
     </p>
 
     <p>
@@ -1808,7 +1808,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     </h3>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
-      Yann Dubois, Jonathan Gordon, <strong>Andrew Y. K. Foong</strong>
+      Yann Dubois, Jonathan Gordon, <span class="sans">Andrew Y.K. Foong</span>
     </p>
 
     <p style="margin-top:0.4em;">
@@ -1832,7 +1832,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     </h3>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
-      <strong>Andrew Y. K. Foong</strong>
+      <span class="sans">Andrew Y.K. Foong</span>
     </p>
 
     <p style="margin-top:0.4em;">
@@ -1857,7 +1857,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     </h3>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
-      Wessel P. Bruinsma, <strong>Andrew Y. K. Foong</strong>, Richard E. Turner
+      Wessel P. Bruinsma, <span class="sans">Andrew Y.K. Foong</span>, Richard E. Turner
     </p>
 
     <p style="margin-top:0.4em;">
