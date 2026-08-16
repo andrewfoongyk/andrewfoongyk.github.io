@@ -268,6 +268,13 @@ body { padding-top: 60px; } // must match the masthead's rendered height
 .page__footer * {
   background-color: mix(Black, $primary-color, 35%) !important;
   color: mix(Black, $body-color, 20%);
+  font-family: $sans-serif;
+  font-size: 0.85em;
+  font-weight: 300;
+  line-height: 1.8;
+  // Martel Sans may not include oldstyle figures; this is a best-effort request
+  font-variant-numeric: oldstyle-nums;
+  font-feature-settings: "onum" 1;
 }
 
 
