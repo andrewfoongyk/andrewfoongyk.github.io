@@ -18,7 +18,9 @@ redirect_from:
 <!-- <h1 style = "margin-top: -1.5rem;">About Me</h1> -->
 <h1 class="about-heading">About Me</h1>
 
-I am an
+I develop machine learning systems for cancer care and scientific discovery, connecting modern <span class="small-caps">ai</span> with consequential clinical and biological problems.
+
+I am currently an 
 <span class="small-caps">ai</span>
 scientist,
 Assistant Professor of Biomedical Informatics,
