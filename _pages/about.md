@@ -79,7 +79,7 @@ All applicants must be based within 100 miles of Mayo Clinic Rochester upon begi
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
   <img src="../assets/mayo_clinic_logo.jpeg" alt="Mayo Clinic logo"
-       style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 9px;" />
+       width="50" height="50" style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 9px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <span class="small-caps">ai scientist, senior associate consultant<br>assistant professor of biomedical informatics<br>assistant professor of biochemistry <span class="amp">&amp;</span> molecular biology<br>mayo clinic</span><br/>
@@ -94,7 +94,7 @@ All applicants must be based within 100 miles of Mayo Clinic Rochester upon begi
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
   <img src="../assets/msr.jpeg" alt="Microsoft logo"
-       style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 9px;" />
+       width="50" height="50" style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 9px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <span class="small-caps">senior researcher<br> microsoft research</span><br/>
@@ -109,7 +109,7 @@ All applicants must be based within 100 miles of Mayo Clinic Rochester upon begi
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
   <img src="../assets/camlogo.png" alt="University of Cambridge logo"
-       style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 9px;" />
+       width="50" height="50" style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 9px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <span class="small-caps">ph.d. in machine learning<br> university of cambridge</span><br/>
@@ -125,7 +125,7 @@ All applicants must be based within 100 miles of Mayo Clinic Rochester upon begi
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
   <img src="../assets/deepmind.png" alt="DeepMind logo"
-       style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 9px;" />
+       width="50" height="50" style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 9px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <span class="small-caps">research scientist intern<br> google deepmind</span><br/>
@@ -140,7 +140,7 @@ All applicants must be based within 100 miles of Mayo Clinic Rochester upon begi
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
   <img src="../assets/msr.jpeg" alt="Microsoft logo"
-       style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 9px;" />
+       width="50" height="50" style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 9px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <span class="small-caps">research intern<br> microsoft research</span><br/>
@@ -155,7 +155,7 @@ All applicants must be based within 100 miles of Mayo Clinic Rochester upon begi
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
   <img src="../assets/camlogo.png" alt="University of Cambridge logo"
-       style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 9px;" />
+       width="50" height="50" style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 9px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
       <span class="small-caps">b.a. <span class="amp">&amp;</span> m.eng. in information and computer engineering<br> university of cambridge</span><br/>
@@ -198,7 +198,7 @@ All applicants must be based within 100 miles of Mayo Clinic Rochester upon begi
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/binarization-banner.png"
        alt="toxicity figure"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
+       width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
   <div>
@@ -241,7 +241,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/position-paper-banner.png"
        alt="toxicity figure"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
+       width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
   <div>
@@ -281,7 +281,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/ehr-sae-banner.png"
        alt="EHR SAE figure"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
+       width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
   <div>
@@ -328,7 +328,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/toxicity-extraction-banner.png"
        alt="toxicity figure"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
+       width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
   <div>
@@ -379,7 +379,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/toxicity-review-banner.png"
        alt="toxicity figure"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
+       width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
   <div>
@@ -426,7 +426,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/radoncgpt-banner.png"
        alt="RadOncGPT figure"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
+       width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
   <div>
@@ -466,7 +466,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/bioemu-banner.png"
        alt="BioEmu figure"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
+       width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
   <div>
@@ -514,7 +514,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/motif-banner.png"
        alt="Motif figure"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
+       width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
   <div>
@@ -560,7 +560,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/frameflow-banner.png"
        alt="FrameFlow figure"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
+       width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
   <div>
@@ -602,7 +602,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/acnp-banner.png"
        alt="Autoregressive Conditional Neural Processes figure"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
+       width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
   <div>
@@ -643,7 +643,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/timewarp-banner.png"
        alt="Timewarp figure"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
+       width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
   <div>
@@ -690,7 +690,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/thesis-banner.png"
        alt="Thesis figure"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
+       width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
   <div>
@@ -740,7 +740,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/bnn-collapsed-banner.png"
        alt="Collapsed Variational Bounds for bnns figure"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
+       width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
   <div>
@@ -779,7 +779,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/pacbayes-smalldata-banner.png"
        alt="pac-Bayes Small Data figure"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
+       width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
   <div>
@@ -819,7 +819,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/gnp-banner.png"
        alt="Gaussian Neural Process figure"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
+       width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
   <div>
@@ -867,7 +867,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/convnp-banner.png"
        alt="ConvNP figure"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
+       width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
   <div>
@@ -908,7 +908,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/convcnp-banner.png"
        alt="Convolutional Conditional Neural Processes figure"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
+       width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
   <div>
@@ -949,7 +949,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/expressiveness-banner.png"
        alt="bnn figure"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
+       width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
   <div>
@@ -996,7 +996,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <!-- Square thumbnail -->
   <img src="/assets/images/publications/inbetween-uncertainty-banner.png"
        alt="In-Between Uncertainty in Bayesian Neural Networks figure"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
+       width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
   <div>
@@ -1056,7 +1056,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/intro-to-dl.png"
          alt="Icon"
-         style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top:6px;">
+         width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top:6px;">
     <div style="flex:1;">
       <h3 style="margin-top:0; margin-bottom:0.1em;">
         Introduction to Deep Learning
@@ -1118,7 +1118,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/harvard.png"
      alt="Icon"
-     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
+     width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
     <div style="flex: 1;">
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
@@ -1140,7 +1140,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/cme.png"
      alt="Icon"
-     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
+     width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
     <div style="flex: 1;">
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
@@ -1164,7 +1164,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/survival.png"
      alt="Icon"
-     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
+     width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
     <div style="flex: 1;">
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
@@ -1205,7 +1205,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/psa.png"
      alt="Icon"
-     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
+     width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
     <div style="flex: 1;">
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
@@ -1237,7 +1237,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/ai_safety.png"
      alt="Icon"
-     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
+     width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
     <div style="flex: 1;">
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
@@ -1261,7 +1261,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/bmb-seminar.png"
      alt="Icon"
-     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
+     width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
     <div style="flex: 1;">
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
@@ -1295,7 +1295,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/lunch-and-learn.png"
      alt="Icon"
-     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
+     width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
     <div style="flex: 1;">
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
@@ -1317,7 +1317,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/ai-selective-course.png"
      alt="Icon"
-     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
+     width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
     <div style="flex: 1;">
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
@@ -1342,7 +1342,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/ai-from-scratch.png"
      alt="Icon"
-     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
+     width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
     <div style="flex: 1;">
       <h3 style="margin-top: 0; margin-bottom: 0.1em;">
@@ -1466,7 +1466,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/publications/timewarp-banner.png"
      alt="Icon"
-     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
+     width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
     <div style="flex: 1;">
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
@@ -1532,7 +1532,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/pac-bayes.png"
      alt="Icon"
-     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
+     width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
     <div style="flex: 1;">
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
@@ -1569,7 +1569,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/oxford.png"
      alt="Icon"
-     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
+     width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
     <div style="flex: 1;">
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
@@ -1613,7 +1613,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/publications/expressiveness-banner.png"
      alt="Icon"
-     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
+     width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
     <div style="flex: 1;">
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
@@ -1650,7 +1650,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/publications/convnp-banner.png"
      alt="Icon"
-     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
+     width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
     <div style="flex: 1;">
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
@@ -1686,7 +1686,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 <div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em;">
     <img src="/assets/images/blogs/npf-icon.png"
      alt="Icon"
-     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
+     width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
   <div>
     <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
@@ -1706,7 +1706,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 <div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em;">
     <img src="/assets/images/talks/bdl.png"
      alt="Icon"
-     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
+     width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
   <div>
     <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
@@ -1733,7 +1733,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 <div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em;">
     <img src="/assets/images/publications/inbetween-uncertainty-banner.png"
      alt="Icon"
-     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
+     width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
   <div>
     <h3 style="margin-top: 0em; margin-bottom: 0.1em; text-indent: -0.47em;">
@@ -1753,7 +1753,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 <div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em;">
     <img src="/assets/images/talks/implicit.png"
      alt="Icon"
-     style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
+     width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
   <div>
     <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
@@ -1781,7 +1781,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 
   <img src="/assets/images/blogs/mlp-viz-icon.png"
        alt="MLP viz icon"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
+       width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <div>
     <h3 style="margin-top: 0em;">
@@ -1800,7 +1800,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 
   <img src="/assets/images/blogs/npf-icon.png"
        alt="Neural Process Family icon"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
+       width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <div>
     <h3 style="margin-top: 0em; margin-bottom: 1em;">
@@ -1824,7 +1824,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 
   <img src="/assets/images/blogs/pac-bayes-note-icon.png"
        alt="PAC bayes icon"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
+       width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <div>
     <h3 style="margin-top: 0em; margin-bottom: 1em;">
@@ -1849,7 +1849,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 
   <img src="/assets/images/blogs/bayesian-icon.png"
        alt="Bayesian blog icon"
-       style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
+       width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <div>
     <h3 style="margin-top: 0em; margin-bottom: 1em;">

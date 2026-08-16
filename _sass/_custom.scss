@@ -11,10 +11,11 @@ $site-red:  #c83f42; // hover accent
 
 // ─── Fonts ───────────────────────────────────────────────────
 
-// Single request for both Google Fonts (saves a round-trip)
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+// Google Fonts loaded as a <link> tag in head/custom.html (not here) to avoid
+// render-blocking. @import url() in CSS forces synchronous stylesheet fetch.
 
-// Crimson Pro SC — primary serif, local OTFs, all 8 weights × normal + italic
+// Crimson Pro SC — primary serif, local OTFs.
+// Only the 3 weights that the site actually renders: 400 body, 500 headings, 600 bold.
 @mixin cp-sc-face($file, $weight, $style) {
   @font-face {
     font-family: "Crimson Pro SC";
@@ -25,8 +26,7 @@ $site-red:  #c83f42; // hover accent
   }
 }
 $cp-sc-weights: (
-  "ExtraLight": 200, "Light": 300, "Regular": 400, "Medium":    500,
-  "SemiBold":   600, "Bold":  700, "ExtraBold": 800, "Black":   900
+  "Regular": 400, "Medium": 500, "SemiBold": 600
 );
 @each $name, $w in $cp-sc-weights {
   @include cp-sc-face("CrimsonProSC-#{$name}",       $w, normal);
