@@ -1641,7 +1641,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 
   <script src="https://slideslive.com/embed_presentation.js"></script>
   <script>
-    embed = new SlidesLiveEmbed("presentation-embed-38937338", {
+    var embedBNN = new SlidesLiveEmbed("presentation-embed-38937338", {
       presentationId: "38937338",
       autoPlay: false,
       verticalEnabled: false,
@@ -1676,9 +1676,8 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     </div>
   </div>
 
-  <script src="https://slideslive.com/embed_presentation.js"></script>
   <script>
-    embed = new SlidesLiveEmbed("presentation-embed-38937329", {
+    var embedConvNP = new SlidesLiveEmbed("presentation-embed-38937329", {
       presentationId: "38937329",
       autoPlay: false,
       verticalEnabled: false,
