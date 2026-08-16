@@ -150,8 +150,9 @@ strong i      { font-weight: 500; } // bold-italic: medium rather than full-bold
   font-style: italic;
   font-weight: var(--amp-wght);
   font-size: var(--amp-size);
-  display: inline-block;
-  transform: translateY(var(--amp-y));
+  display: inline;
+  position: relative;
+  top: var(--amp-y); // baseline nudge; relative+top works in all inline contexts unlike inline-block+transform
   margin: 0 -0.02em; // tighten side-bearing so & doesn't add visual gap
 }
 

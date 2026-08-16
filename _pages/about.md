@@ -82,7 +82,10 @@ All applicants must be based within 100 miles of Mayo Clinic Rochester upon begi
        width="50" height="50" style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 9px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
-      <span class="small-caps">ai scientist, senior associate consultant<br>assistant professor of biomedical informatics<br>assistant professor of biochemistry <span class="amp">&amp;</span> molecular biology<br>mayo clinic</span><br/>
+      <span class="small-caps" style="display:block; padding-left:1.2em; text-indent:-1.2em;">ai scientist, senior associate consultant</span>
+      <span class="small-caps" style="display:block; padding-left:1.2em; text-indent:-1.2em;">assistant professor of biomedical informatics</span>
+      <span class="small-caps" style="display:block; padding-left:1.2em; text-indent:-1.2em;">assistant professor of biochemistry <span class="amp">&amp;</span> molecular biology</span>
+      <span class="small-caps">mayo clinic</span><br/>
       <span style="font-size: 1.0rem">
       January 2025 – present <br> Rochester, Minnesota, <span class="small-caps">usa</span><br/>
       Department of Radiation Oncology<br/>
@@ -1359,21 +1362,21 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 
       <p class="hanging-indent" style="margin-top: 0.6em;">
         <span style="display:inline; text-indent:0; padding-left:0;">
-          <span class="small-caps">lectures 1</span> <span class="amp">&amp;</span> <span class="small-caps">2</span>
+          <span class="small-caps">lectures 1</span> <span class="small-caps">&amp;</span> <span class="small-caps">2</span>
           cover deep learning from the ground up, from linear regression and gradient descent to neural networks, overfitting, and generalization.
         </span>
       </p>
 
       <p style="margin-top: 0.6em;" class="hanging-indent">
         <span style="display:inline; text-indent:0; padding-left:0;">
-          <span class="small-caps">lectures 3</span> <span class="amp">&amp;</span> <span class="small-caps">4</span>
+          <span class="small-caps">lectures 3</span> <span class="small-caps">&amp;</span> <span class="small-caps">4</span>
           explain what convolutional neural networks are and how they can be used to understand images.
         </span>
       </p>
 
       <p style="margin-top: 0.6em;" class="hanging-indent">
         <span style="display:inline; text-indent:0; padding-left:0;">
-          <span class="small-caps">lectures 5</span> <span class="amp">&amp;</span> <span class="small-caps">6</span>
+          <span class="small-caps">lectures 5</span> <span class="small-caps">&amp;</span> <span class="small-caps">6</span>
           explain how Chat<span class="small-caps">gpt</span> works, how it was made, and how prompting and retrieval-augmented generation <span class="small-caps">(rag)</span> can increase accuracy.
         </span>
       </p>
