@@ -1,0 +1,395 @@
+// ============================================================
+// Custom overrides for andrewfoongyk.github.io
+// All upstream theme partials live in _sass/ and are untouched.
+// ============================================================
+
+// Site palette (hex codes kept here so they're easy to change)
+$site-blue: #5B7E91; // masthead background, body link colour
+$site-red:  #c83f42; // hover accent
+// Warm off-white background (#F8F6F1) is already $body-color in _variables.scss
+
+
+// ─── Fonts ───────────────────────────────────────────────────
+
+// Single request for both Google Fonts (saves a round-trip)
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+// Crimson Pro SC — primary serif, local OTFs, all 8 weights × normal + italic
+@mixin cp-sc-face($file, $weight, $style) {
+  @font-face {
+    font-family: "Crimson Pro SC";
+    src: url("/assets/fonts/crimson-pro-sc/#{$file}.otf") format("opentype");
+    font-weight: $weight;
+    font-style: $style;
+    font-display: swap;
+  }
+}
+$cp-sc-weights: (
+  "ExtraLight": 200, "Light": 300, "Regular": 400, "Medium":    500,
+  "SemiBold":   600, "Bold":  700, "ExtraBold": 800, "Black":   900
+);
+@each $name, $w in $cp-sc-weights {
+  @include cp-sc-face("CrimsonProSC-#{$name}",       $w, normal);
+  @include cp-sc-face("CrimsonProSC-#{$name}Italic", $w, italic);
+}
+
+// Source Sans 3 — sans-serif, variable font
+@font-face {
+  font-family: 'Source Sans 3';
+  src: url('/assets/fonts/source-sans-3/SourceSans3-VariableFont_wght.ttf') format('truetype-variations');
+  font-weight: 200 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Source Sans 3';
+  src: url('/assets/fonts/source-sans-3/SourceSans3-Italic-VariableFont_wght.ttf') format('truetype-variations');
+  font-weight: 200 900;
+  font-style: italic;
+}
+
+// Sentient italic — used only for the .amp class (the & glyph).
+// Declaring font-weight: 1 1000 registers the full variable axis so the
+// browser honours --amp-wght even if it doesn't detect the font as variable.
+@font-face {
+  font-family: "SentientAmp";
+  src: url("/assets/fonts/sentient/Sentient-Italic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 1 1000;
+  font-display: swap;
+}
+
+
+// ─── Base Typography ─────────────────────────────────────────
+
+* {
+  font-kerning: normal;
+  font-feature-settings: "kern" 1;
+}
+
+html {
+  font-size: 115%;                    // ~18px mobile base
+  font-variant-numeric: oldstyle-nums; // inherits throughout; no need to repeat on every element
+  scroll-behavior: smooth;
+}
+@media (min-width: 992px) {
+  html { font-size: 135%; }           // ~22px desktop
+}
+
+body {
+  font-family: $serif, serif;
+  font-weight: 400;
+  line-height: 1.35;
+}
+
+// Shared layout properties for all section headings
+h1, h2 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  line-height: 1.0;
+  border-bottom: none !important; // overrides a Minimal Mistakes default
+  text-transform: uppercase;
+}
+// h1: sans-serif nav/page title treatment
+h1 {
+  font-family: $sans-serif, $serif;
+  font-weight: 700;
+  letter-spacing: 0.11em;
+  font-size: 0.83em;
+}
+// h2: serif section heading — softer than h1
+h2 {
+  font-family: $serif;
+  font-weight: 500;
+  color: $dark-gray;
+}
+h3, h4, h5, h6 {
+  font-family: $serif;
+  font-weight: 500;
+  margin-top: 1.5em;
+  margin-bottom: 0.2em;
+  line-height: 1.2;
+  border-bottom: none !important;
+}
+
+p {
+  margin-bottom: 1.0em !important;
+  line-height: 1.35;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphenate-limit-chars: 8 3 3;
+}
+
+strong, b     { font-weight: 600; }
+strong em,
+strong i      { font-weight: 500; } // bold-italic: medium rather than full-bold
+
+
+// ─── Utility Classes ─────────────────────────────────────────
+// All used in about.md.
+
+// Acronyms and labels in small caps (AI, PhD, NeurIPS, …).
+// Lining-nums overrides the global oldstyle setting because digits inside
+// a small-caps label (e.g. "NeurIPS 2023") look better as lining.
+.small-caps {
+  font-family: $serif, serif;
+  font-variant: small-caps;
+  font-variant-numeric: lining-nums;
+  font-feature-settings: "smcp" 1, "c2sc" 1;
+  letter-spacing: 0.05em;
+}
+
+// Ampersand in Sentient italic for a more elegant & than Crimson Pro provides.
+// Tweak the CSS custom properties by eye without touching the rule itself.
+:root {
+  --amp-wght: 550;     // position on Sentient's weight axis
+  --amp-size: 0.85em;
+  --amp-y:    -0.02em; // baseline nudge to optically align with Crimson Pro
+}
+.amp {
+  font-family: "SentientAmp", serif;
+  font-style: italic;
+  font-weight: var(--amp-wght);
+  font-size: var(--amp-size);
+  display: inline-block;
+  transform: translateY(var(--amp-y));
+  margin: 0 -0.02em; // tighten side-bearing so & doesn't add visual gap
+}
+
+// Author name in publication / talk rows — sans-serif for contrast with surrounding serif text
+.sans {
+  font-family: $sans-serif;
+  font-weight: 700;
+  font-size: 0.76em;
+}
+
+// Email address in monospace
+.email {
+  font-family: 'Inconsolata', monospace;
+  font-size: 95%;
+}
+
+// Hanging first line for bibliography-style entries
+.hanging-indent {
+  padding-left: 1.0em;
+  text-indent: -1.0em;
+}
+
+// Thin decorative rule used between major sections of about.md
+.hr-ghost {
+  border: none;
+  height: 1.5px;
+  background-color: $gray;
+  margin-top: 6rem;
+  margin-bottom: 1rem;
+}
+
+// Wrapper for embedded YouTube iframes. Negative bottom margin pulls up the
+// next element to cancel the extra whitespace the embed container adds.
+.embed-wrapper {
+  margin-bottom: -3em;
+}
+@media screen and (min-width: 1280px) {
+  .embed-wrapper { margin-bottom: -9em; }
+}
+
+
+// ─── Colors & Links ──────────────────────────────────────────
+
+// !important needed throughout this section to beat Minimal Mistakes' specificity
+.page__content a[href]:not(.btn):not(.button) {
+  color: $site-blue !important;
+  text-decoration: none !important;
+}
+.page__content a:hover[href]:not(.btn):not(.button) {
+  color: $site-red !important;
+}
+
+// Hamburger bars: cream so they're visible against the slate-blue masthead
+.navicon,
+.navicon::after,
+.navicon::before { background-color: $body-color !important; }
+.close .navicon  { background-color: transparent !important; } // middle bar hides when × is formed
+
+
+// ─── Sticky Positioning ──────────────────────────────────────
+// The masthead is fixed at the top; body gets top padding to compensate.
+// On desktop the sidebar is also fixed so it stays visible while scrolling.
+
+.masthead {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+body { padding-top: 60px; } // must match the masthead's rendered height
+
+@media screen and (min-width: 992px) {
+  .sidebar {
+    position: fixed;
+    top: 100px;   // masthead (60px) + comfortable gap
+    width: 260px;
+    z-index: 900;
+  }
+}
+
+// "About Me" heading has an automatic top margin from the heading rule above;
+// pull it back so it sits flush with the top of the content column.
+.about-heading {
+  margin-top: -1.2rem;
+  @media screen and (min-width: 992px) { margin-top: -0.7rem; }
+}
+
+
+// ─── Masthead ────────────────────────────────────────────────
+
+.masthead,
+.masthead * {
+  font-family: $sans-serif;
+  font-weight: 300;
+  font-size: 0.953em;
+  letter-spacing: 0.01em;
+}
+@media screen and (max-width: 992px) {
+  .masthead,
+  .masthead * { font-size: 14px; }
+}
+
+// Cream text on slate-blue. !important overrides the theme's link-colour cascade.
+.masthead, .masthead *, .masthead a, .masthead-nav a {
+  color: $body-color !important;
+  background-color: $site-blue;
+}
+
+
+// ─── Footer ──────────────────────────────────────────────────
+
+.page__footer,
+.page__footer * {
+  background-color: mix(Black, $primary-color, 35%) !important;
+  color: mix(Black, $body-color, 20%);
+}
+
+
+// ─── Sidebar ─────────────────────────────────────────────────
+
+// Base font for all sidebar content
+.sidebar h1,
+.sidebar h2,
+.sidebar .author__bio,
+.sidebar .author__content,
+.sidebar .author__location,
+.author__urls,
+.author__urls a,
+.author__urls li,
+.author__urls button,
+.sidebar .author__urls-wrapper {
+  font-family: $serif, $sans-serif, serif;
+  font-size: 0.95em;
+  font-weight: 400;
+}
+
+// Author name: small-caps, slightly larger, never wraps
+.sidebar .author__name {
+  font-family: $serif;
+  font-size: 1.05em;
+  font-weight: 500;
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+  overflow: visible;
+}
+@media screen and (max-width: 992px) {
+  .sidebar .author__name { margin-top: -6px; }
+}
+
+// Social links list
+.sidebar .author__urls { margin-top: 1rem; }
+.sidebar .author__urls li {
+  margin-bottom: 0.25rem;
+  line-height: 1.2;
+}
+.sidebar .author__urls li i.fa-map-marker {
+  margin-left: -1.5px; // optically align with narrower icons
+  margin-bottom: 2px;
+}
+.sidebar .author__urls a:hover {
+  color: $site-red !important;
+  text-decoration: none !important;
+}
+
+// "Follow" dropdown: anchored to the right edge so it doesn't overflow the
+// sidebar. ::before/::after are the CSS arrow indicator above the dropdown.
+.sidebar .author__urls-wrapper { position: relative; }
+.sidebar .author__urls {
+  left: auto !important; // override theme default (left-anchored)
+  right: 0;
+  top: calc(100% - 25px); // nudged up so the arrow clears the button
+}
+.sidebar .author__urls::before,
+.sidebar .author__urls::after {
+  top: -6px;
+  left: auto;
+  right: 1rem; // align arrow with the Follow button
+}
+
+// Follow button
+.author__urls-wrapper button {
+  font-family: $sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  float: left;
+  margin-left: 4em;
+  margin-top: -1.5em;
+}
+
+
+// ─── Navigation Labels ───────────────────────────────────────
+// The first nav item shows "About" on mobile (short) and the full name on
+// desktop (where there is room). nav-spacer compensates for the extra width.
+
+.label-mobile  { display: inline; font-weight: 400; letter-spacing: 0.02em; }
+.label-desktop { display: none; }
+.nav-spacer    { display: none; }
+
+@media screen and (min-width: 1280px) {
+  .label-mobile  { display: none; }
+  .label-desktop { display: inline; font-weight: 400; letter-spacing: 0.02em; }
+  .nav-spacer    { display: inline-block; width: 43px; }
+}
+
+
+// ─── Publication Abstracts ───────────────────────────────────
+// Each publication has a <details> block for the abstract. The browser's
+// native disclosure triangle is inconsistent across platforms, so we replace
+// it with a clip-path triangle that inherits the text colour.
+
+// Hide native marker
+.details-summary::-webkit-details-marker { display: none; }
+.details-summary::marker { content: ""; }
+
+.details-summary {
+  list-style: none;
+  position: relative;
+  padding-left: 1.05em; // room for the custom triangle
+}
+
+// Closed: right-pointing triangle
+.details-summary::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.42em;
+  width: 0.75em;
+  height: 0.75em;
+  background: currentColor;
+  -webkit-clip-path: polygon(20% 10%, 85% 50%, 20% 90%);
+  clip-path: polygon(20% 10%, 85% 50%, 20% 90%);
+}
+
+// Open: same shape rotated 90° → points downward
+details[open] > .details-summary::before {
+  transform: rotate(90deg);
+  transform-origin: 50% 50%;
+}
