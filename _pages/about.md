@@ -26,7 +26,7 @@ hero_link: "#bioemu"
   <!-- <figcaption>BioEmu: a biomolecular emulator</figcaption> -->
 </figure>
 
-<a id="about" style="display: block; position: relative; top: -200px; visibility: hidden;"></a>
+<a id="about" style="display: block; position: relative; top: -500px; visibility: hidden;"></a>
 <!-- <h1 style = "margin-top: -1.5rem;">About Me</h1> -->
 <h1 class="about-heading">About Me</h1>
 

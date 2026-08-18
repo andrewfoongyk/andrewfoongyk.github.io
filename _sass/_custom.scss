@@ -144,6 +144,10 @@ strong i      { font-weight: 500; } // bold-italic: medium rather than full-bold
   --amp-wght: 550;     // position on Sentient's weight axis
   --amp-size: 0.85em;
   --amp-y:    -0.02em; // baseline nudge to optically align with Crimson Pro
+  --hero-mt:  -1.3em;  // mobile: eats whitespace above hero banner
+}
+@media (min-width: 992px) {
+  :root { --hero-mt: -0.5em; } // desktop: adjust independently
 }
 .amp {
   font-family: "SentientAmp", serif;
@@ -209,7 +213,7 @@ strong i      { font-weight: 500; } // bold-italic: medium rather than full-bold
 }
 
 .hero-banner {
-  margin: 0 0 1.5em;
+  margin: var(--hero-mt, -1em) 0 1.5em;
 }
 .hero-banner img {
   display: block;
