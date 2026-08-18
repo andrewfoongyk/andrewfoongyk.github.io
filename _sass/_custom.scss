@@ -238,10 +238,10 @@ strong i      { font-weight: 500; } // bold-italic: medium rather than full-bold
 
 .greedy-nav .hidden-links {
   background: $body-color;
-  border: none;
+  border: 1.5px solid $light-gray;
   border-radius: 0;
   box-shadow: none;
-  margin-top: 0;
+  margin-top: 12px;
   padding: 0;
   min-width: 120px;
 
@@ -253,6 +253,17 @@ strong i      { font-weight: 500; } // bold-italic: medium rather than full-bold
     padding: 0.6em 1.2em;
     color: $dark-gray;
     &:hover { color: $site-red; }
+  }
+
+  // Triangle: solid, matches border colour, positioned under button centre
+  &::before {
+    top: -6px;
+    right: 15px;
+    border-width: 0 5px 5px;
+    border-color: $light-gray transparent;
+  }
+  &::after {
+    content: none; // solid fill — no hollow inner triangle
   }
 }
 
@@ -268,11 +279,24 @@ strong i      { font-weight: 500; } // bold-italic: medium rather than full-bold
   color: $site-red !important;
 }
 
-// Hamburger bars: cream so they're visible against the slate-blue masthead
+// Hamburger button: transparent so it blends into the masthead (no gray box)
+.greedy-nav button { background-color: $site-blue !important; }
+
+// Hamburger bars: cream on the slate-blue masthead; thinned to 2px
 .navicon,
 .navicon::after,
-.navicon::before { background-color: $body-color !important; }
-.close .navicon  { background-color: transparent !important; } // middle bar hides when × is formed
+.navicon::before {
+  background-color: $body-color !important;
+  height: 2px !important;
+  width: 22px !important;
+}
+.navicon::before { top:    -5px !important; }
+.navicon::after  { bottom: -5px !important; }
+// Close (×) state: both bars must snap to top:0 so the X is balanced.
+// The !important above would otherwise hold them off-centre.
+.close .navicon          { background-color: transparent !important; }
+.close .navicon::before,
+.close .navicon::after   { top: 0 !important; bottom: auto !important; }
 
 
 // ─── Sticky Positioning ──────────────────────────────────────
