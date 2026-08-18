@@ -293,6 +293,10 @@ body { padding-top: 60px; } // must match the masthead's rendered height
 @media screen and (max-width: 992px) {
   .masthead,
   .masthead * { font-size: 14px; }
+  // Tighter per-item margin so more links fit before overflowing to hamburger.
+  // Theme default is 0 1rem; halving it reclaims ~1rem per item.
+  .greedy-nav a { margin: 0 0.5rem; }
+  .greedy-nav .visible-links li:first-child a { margin-left: 0; }
 }
 
 // Cream text on slate-blue. !important overrides the theme's link-colour cascade.

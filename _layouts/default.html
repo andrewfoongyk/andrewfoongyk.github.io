@@ -27,6 +27,14 @@ layout: compress
 
     {% include scripts.html %}
 
+    <!-- Re-run greedy-nav after fonts load; without this the nav measures widths
+         using a fallback font (FOUT), making visible item count inconsistent. -->
+    <script>
+      if (document.fonts && document.fonts.ready) {
+        document.fonts.ready.then(function() { $(window).trigger('resize'); });
+      }
+    </script>
+
     <script data-goatcounter="https://andrewfoongyk.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 
