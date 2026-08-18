@@ -67,18 +67,18 @@ $cp-sc-weights: (
 }
 
 html {
-  font-size: 115%;                    // ~18px mobile base
+  font-size: 110%;                    // ~18px mobile base
   font-variant-numeric: oldstyle-nums; // inherits throughout; no need to repeat on every element
   scroll-behavior: smooth;
 }
 @media (min-width: 992px) {
-  html { font-size: 135%; }           // ~22px desktop
+  html { font-size: 130%; }           // ~20px desktop
 }
 
 body {
   font-family: $serif, serif;
   font-weight: 400;
-  line-height: 1.35;
+  line-height: 1.3;
 }
 
 // Shared layout properties for all section headings
@@ -113,7 +113,7 @@ h3, h4, h5, h6 {
 
 p {
   margin-bottom: 1.0em !important;
-  line-height: 1.35;
+  line-height: 1.25;
   hyphens: auto;
   -webkit-hyphens: auto;
   hyphenate-limit-chars: 8 3 3;
