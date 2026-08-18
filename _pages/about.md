@@ -6,6 +6,9 @@ author_profile: true
 redirect_from:
   - /about/
   - /about.html
+hero_image: /assets/images/hero/protein-hero.png
+hero_link: "#bioemu"
+# hero_caption: "BioEmu: a biomolecular emulator"
 ---
 
 <style>
@@ -13,6 +16,15 @@ redirect_from:
     display: none;
   }
 </style>
+
+<figure class="hero-banner hero-banner--desktop">
+  <a href="#bioemu">
+    <img src="/assets/images/hero/protein-hero.png"
+         alt="Protein conformational ensembles visualized with BioEmu"
+         width="1968" height="799">
+  </a>
+  <!-- <figcaption>BioEmu: a biomolecular emulator</figcaption> -->
+</figure>
 
 <a id="about" style="display: block; position: relative; top: -200px; visibility: hidden;"></a>
 <!-- <h1 style = "margin-top: -1.5rem;">About Me</h1> -->
@@ -1277,7 +1289,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       </span>
 
       <p style="margin-top: 0.6em;">
-        This talk provides an introduction to <a href="#bioemu">BioEmu</a>, starting with AlphaFold and the deep learning revolution in protein structure, to the necessity of dynamics and conformational change prediction. I describe the training data, model architecture and capabilities of BioEmu. View the <a href="../files/bmb-seminar.pdf" target="_blank">slides</a>.
+        This talk provides an introduction to <a href="#">BioEmu</a>, starting with AlphaFold and the deep learning revolution in protein structure, to the necessity of dynamics and conformational change prediction. I describe the training data, model architecture and capabilities of BioEmu. View the <a href="../files/bmb-seminar.pdf" target="_blank">slides</a>.
       </p>
 
       <div style="aspect-ratio: 16 / 9; width: 100%;">

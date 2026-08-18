@@ -194,6 +194,41 @@ strong i      { font-weight: 500; } // bold-italic: medium rather than full-bold
 }
 
 
+// ─── Hero Banner ─────────────────────────────────────────────
+// mix-blend-mode: multiply dissolves the image's white background into the
+// site's warm off-white, leaving the protein structures floating on the page.
+
+// Mobile copy lives in #main before the sidebar (so it stacks above it).
+// Desktop copy lives inside the article content column.
+// Only one is visible at a time.
+.hero-banner--mobile  { display: block; }
+.hero-banner--desktop { display: none; }
+@media (min-width: 992px) {
+  .hero-banner--mobile  { display: none; }
+  .hero-banner--desktop { display: block; }
+}
+
+.hero-banner {
+  margin: 0 0 1.5em;
+}
+.hero-banner img {
+  display: block;
+  width: 100%;
+  height: auto;
+  mix-blend-mode: multiply;
+}
+.hero-banner figcaption {
+  font-family: $sans-serif;
+  font-weight: 400;
+  font-size: 0.60em;
+  letter-spacing: 0.09em;
+  color: $dark-gray;
+  text-align: right;
+  margin-top: 0.5em;
+  text-transform: uppercase;
+}
+
+
 // ─── Colors & Links ──────────────────────────────────────────
 
 // !important needed throughout this section to beat Minimal Mistakes' specificity
