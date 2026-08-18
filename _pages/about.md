@@ -161,7 +161,8 @@ All applicants must be based within 100 miles of Mayo Clinic Rochester upon begi
        width="50" height="50" style="width: 50px; height: 50px; margin-right: 15px; flex-shrink: 0; vertical-align: top; margin-top: 9px;" />
   <div style="margin-top: 0;">
     <p style="margin-top: 0;">
-      <span class="small-caps">b.a. <span class="amp">&amp;</span> m.eng. in information and computer engineering<br> university of cambridge</span><br/>
+      <span class="small-caps" style="display:block; padding-left:1.2em; text-indent:-1.2em;">b.a. <span class="amp">&amp;</span> m.eng. in information and computer engineering</span>
+      <span class="small-caps">university of cambridge</span><br/>
       <span style="font-size: 1.0rem">
       October 2014 – July 2018 <br> Cambridge, <span class="small-caps">uk</span><br/>
       Department of Engineering<br/>
@@ -1055,7 +1056,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 
 <a id="intro-to-dl" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
 
-<div style="margin-bottom: 4em;">
+<div style="margin-bottom: 2em;">
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/intro-to-dl.png"
          alt="Icon"
@@ -1117,7 +1118,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 </div>
 
 
-<div style="margin-bottom: 4em;">
+<div style="margin-bottom: 2em;">
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/harvard.png"
      alt="Icon"
@@ -1139,7 +1140,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   </div>
 </div>
 
-<div style="margin-bottom: 4em; margin-top: 2em;">
+<div style="margin-bottom: 2em;">
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/cme.png"
      alt="Icon"
@@ -1163,7 +1164,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 
 <a id="survival-analysis" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
 
-<div style="margin-bottom: 6em; margin-top: 2em;">
+<div style="margin-bottom: 2em;">
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/survival.png"
      alt="Icon"
@@ -1204,7 +1205,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 </div>
 
 
-<div style="margin-bottom: 4em;">
+<div style="margin-bottom: 2em;">
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/psa.png"
      alt="Icon"
@@ -1236,7 +1237,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   </div>
 </div>
 
-<div style="margin-bottom: 4em; margin-top: 2em;">
+<div style="margin-bottom: 2em;">
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/ai_safety.png"
      alt="Icon"
@@ -1260,7 +1261,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 
 <a id="bioemu-talk" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
 
-<div style="margin-bottom: 4em; margin-top: 2em;">
+<div style="margin-bottom: 2em;">
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/bmb-seminar.png"
      alt="Icon"
@@ -1294,7 +1295,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 
 
 
-<div style="margin-bottom: 4em; margin-top: 2em;">
+<div style="margin-bottom: 2em;">
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/lunch-and-learn.png"
      alt="Icon"
@@ -1316,7 +1317,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   </div>
 </div>
 
-<div style="margin-bottom: 4em; margin-top: 2em;">
+<div style="margin-bottom: 2em;">
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/ai-selective-course.png"
      alt="Icon"
@@ -1341,7 +1342,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 
 <a id="ai-from-scratch" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
 
-<div style="margin-bottom: 2em; margin-top: 2em;">
+<div style="margin-bottom: 2em;">
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
     <img src="/assets/images/talks/ai-from-scratch.png"
      alt="Icon"
