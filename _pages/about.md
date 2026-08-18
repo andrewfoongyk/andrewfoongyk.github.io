@@ -6,7 +6,7 @@ author_profile: true
 redirect_from:
   - /about/
   - /about.html
-hero_image: /assets/images/hero/protein-hero.png
+hero_image: /assets/images/hero/protein-hero.webp
 hero_link: "#bioemu"
 # hero_caption: "BioEmu: a biomolecular emulator"
 ---
@@ -19,7 +19,7 @@ hero_link: "#bioemu"
 
 <figure class="hero-banner hero-banner--desktop">
   <a href="#bioemu">
-    <img src="/assets/images/hero/protein-hero.png"
+    <img src="/assets/images/hero/protein-hero.webp"
          alt="Protein conformational ensembles visualized with BioEmu"
          width="1968" height="799">
   </a>
