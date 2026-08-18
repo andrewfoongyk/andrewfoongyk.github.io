@@ -232,6 +232,31 @@ strong i      { font-weight: 500; } // bold-italic: medium rather than full-bold
 }
 
 
+// ─── Hidden Links Dropdown ───────────────────────────────────
+// Restyle the greedy-nav overflow dropdown to match the site palette.
+// Typography is left as-is (inherits masthead font rules).
+
+.greedy-nav .hidden-links {
+  background: $body-color;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  margin-top: 0;
+  padding: 0;
+  min-width: 120px;
+
+  li + li {
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+  }
+
+  a {
+    padding: 0.6em 1.2em;
+    color: $dark-gray;
+    &:hover { color: $site-red; }
+  }
+}
+
+
 // ─── Colors & Links ──────────────────────────────────────────
 
 // !important needed throughout this section to beat Minimal Mistakes' specificity
