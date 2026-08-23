@@ -30,7 +30,9 @@ hero_link: "#bioemu"
 <!-- <h1 style = "margin-top: -1.5rem;">About Me</h1> -->
 <h1 class="about-heading">About Me</h1>
 
-I develop machine learning systems for cancer care and scientific discovery, connecting modern <span class="small-caps">ai</span> with consequential clinical and biological problems.
+<span class="small-caps">I develop machine learning systems</span>
+<!-- I develop machine learning systems -->
+for cancer care and scientific discovery, connecting modern <span class="small-caps">ai</span> with consequential clinical and biological problems.
 
 I am currently an 
 <span class="small-caps">ai</span>
