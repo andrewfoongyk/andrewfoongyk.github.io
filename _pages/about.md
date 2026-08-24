@@ -15,6 +15,10 @@ hero_slides:
     link: "#expressiveness"
     alt: "On the Expressiveness of Approximate Inference in Bayesian Neural Networks"
     caption: "Uncertainty in Bayesian neural networks"
+  - image: /assets/images/hero/survival-banner.png
+    link: "#binarization"
+    alt: "Kaplan-Meier survival curves illustrating time-to-event analysis"
+    caption: "Time-to-event analysis in clinical ML"
 ---
 
 <style>
@@ -221,6 +225,7 @@ All applicants must be based within 100 miles of Mayo Clinic Rochester upon begi
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.3em 0;">
+      <a id="binarization" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
       <a href="https://arxiv.org/pdf/2608.04046">
 The Cost of Binarizing Survival Outcomes in Clinical Prognostic Modeling
       </a>
