@@ -15,11 +15,8 @@ layout: default
 {% endif %}
 
 <div id="main" role="main">
-  {% if page.hero_image %}
-  <figure class="hero-banner hero-banner--mobile">
-    <a href="{{ page.hero_link }}"><img src="{{ page.hero_image }}" alt="{{ page.hero_caption }}" width="1968" height="799" loading="eager"></a>
-    <figcaption>{{ page.hero_caption }}</figcaption>
-  </figure>
+  {% if page.hero_slides %}
+  {% include hero-carousel.html variant="mobile" %}
   {% endif %}
 
   {% include sidebar.html %}

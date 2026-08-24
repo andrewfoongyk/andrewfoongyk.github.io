@@ -6,9 +6,13 @@ author_profile: true
 redirect_from:
   - /about/
   - /about.html
-hero_image: /assets/images/hero/protein-hero.webp
-hero_link: "#bioemu"
-# hero_caption: "BioEmu: a biomolecular emulator"
+hero_slides:
+  - image: /assets/images/hero/protein-hero.webp
+    link: "#bioemu"
+    alt: "Protein conformational ensembles visualized with BioEmu"
+  - image: /assets/images/hero/GP_banner.jpeg
+    link: "#expressiveness"
+    alt: "On the Expressiveness of Approximate Inference in Bayesian Neural Networks"
 ---
 
 <style>
@@ -17,14 +21,8 @@ hero_link: "#bioemu"
   }
 </style>
 
-<figure class="hero-banner hero-banner--desktop">
-  <a href="#bioemu">
-    <img src="/assets/images/hero/protein-hero.webp"
-         alt="Protein conformational ensembles visualized with BioEmu"
-         width="1968" height="799">
-  </a>
-  <!-- <figcaption>BioEmu: a biomolecular emulator</figcaption> -->
-</figure>
+{% include hero-carousel.html variant="desktop" %}
+<script src="{{ '/assets/js/hero-carousel.js' | relative_url }}" defer></script>
 
 <a id="about" style="display: block; position: relative; top: -500px; visibility: hidden;"></a>
 <!-- <h1 style = "margin-top: -1.5rem;">About Me</h1> -->
@@ -971,7 +969,8 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 
   <!-- Text content -->
   <div>
-    <h3 style="margin:0 0 0.3em 0;">
+    <h3 style="margin:0 0 0.0em 0;">
+      <a id="expressiveness" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
       <a href="https://arxiv.org/abs/1909.00719">
         On the Expressiveness of Approximate Inference in Bayesian Neural Networks
       </a>
