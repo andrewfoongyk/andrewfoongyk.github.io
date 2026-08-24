@@ -223,7 +223,9 @@ strong i      { font-weight: 500; } // bold-italic: medium rather than full-bold
 
 // Crossfading slides, stacked via absolute positioning inside a
 // fixed-aspect-ratio box so layout doesn't shift as slides change.
-.hero-carousel {
+// The caption lives outside this box (see .hero-carousel__caption below)
+// so it never overlaps the image.
+.hero-carousel__viewport {
   position: relative;
   aspect-ratio: 1968 / 799;
   overflow: hidden;
@@ -276,15 +278,20 @@ strong i      { font-weight: 500; } // bold-italic: medium rather than full-bold
 .hero-carousel__arrow--prev { left: 0.4em; }
 .hero-carousel__arrow--next { right: 0.4em; }
 
-.hero-banner figcaption {
+// Caption sits below the viewport (not overlaid on the image); JS swaps its
+// text to match the active slide.
+.hero-carousel__caption {
+  margin: 0.3em 0 0;
   font-family: $sans-serif;
   font-weight: 400;
-  font-size: 0.60em;
-  letter-spacing: 0.09em;
+  font-size: 0.16em; // mobile
+  letter-spacing: 0.15em;
   color: $dark-gray;
   text-align: right;
-  margin-top: 0.5em;
   text-transform: uppercase;
+}
+@media (min-width: 992px) {
+  .hero-carousel__caption { font-size: 0.30em; }
 }
 
 

@@ -10,9 +10,11 @@ hero_slides:
   - image: /assets/images/hero/protein-hero.webp
     link: "#bioemu"
     alt: "Protein conformational ensembles visualized with BioEmu"
+    caption: "BioEmu: a biomolecular emulator"
   - image: /assets/images/hero/GP_banner.jpeg
     link: "#expressiveness"
     alt: "On the Expressiveness of Approximate Inference in Bayesian Neural Networks"
+    caption: "Uncertainty in Bayesian neural networks"
 ---
 
 <style>
