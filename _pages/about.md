@@ -19,6 +19,10 @@ hero_slides:
     link: "#binarization"
     alt: "Kaplan-Meier survival curves illustrating time-to-event analysis"
     caption: "Time-to-event analysis in clinical ML"
+  - image: /assets/images/hero/dl-lecture-banner.png
+    link: "#intro-to-dl"
+    alt: "Mosaic of diagrams from the Introduction to Deep Learning lecture series"
+    caption: "Ten lectures on deep learning"
 ---
 
 <style>

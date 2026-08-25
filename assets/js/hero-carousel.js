@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (slides.length < 2) return;
 
     var index = 0;
-    var intervalMs = 10000;
+    var intervalMs = 6000;
     var timer;
 
     function show(nextIndex) {
