@@ -119,9 +119,10 @@ p {
   hyphenate-limit-chars: 8 3 3;
 }
 
-// About section: half-line gap between paragraphs instead of a full line.
+// About section: 0.75 line-height gap between paragraphs instead of a full line
+// (p line-height is 1.25em, so 0.75 * 1.25em = 0.9375em).
 .about-p {
-  margin-bottom: 0.5em !important;
+  margin-bottom: 0.9375em !important;
 }
 
 strong, b     { font-weight: 600; }
