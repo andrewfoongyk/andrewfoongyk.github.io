@@ -119,6 +119,11 @@ p {
   hyphenate-limit-chars: 8 3 3;
 }
 
+// About section: half-line gap between paragraphs instead of a full line.
+.about-p {
+  margin-bottom: 0.5em !important;
+}
+
 strong, b     { font-weight: 600; }
 strong em,
 strong i      { font-weight: 500; } // bold-italic: medium rather than full-bold

@@ -41,6 +41,7 @@ hero_slides:
 <span class="small-caps">I develop machine learning</span> systems
 <!-- I develop machine learning systems -->
 for cancer care and scientific discovery, connecting modern <span class="small-caps">ai</span> with consequential clinical and biological problems.
+{: .about-p}
 
 I am currently an 
 <span class="small-caps">ai</span>
@@ -62,6 +63,7 @@ We develop next-generation
 <span class="small-caps">ai</span>
 systems to advance cancer diagnosis and treatment.
 See my [faculty page](https://www.mayo.edu/research/faculty/foong-andrew-ph-d/bio-20583559) for research areas.
+{: .about-p}
 
 Prior to joining Mayo Clinic, I was a senior researcher
 at
@@ -73,6 +75,7 @@ where I developed generative deep learning models for proteins in the
 Our work on
 <a href="#bioemu" >BioEmu</a>
 was featured on the front cover of [*Science*](https://www.science.org/doi/10.1126/science.adv9817).
+{: .about-p}
 
 I earned my 
 <span class="small-caps">p</span>h.<span class="small-caps">d</span>.
@@ -85,8 +88,10 @@ My research, combining probabilistic modeling and deep learning, was published a
 <span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span>, <span class="small-caps">iclr</span>,
 and
 <span class="small-caps">icml</span>.
+{: .about-p}
 
 See my selected [papers](#publications), or visit my Google Scholar [profile](https://scholar.google.com/citations?user=2UOjgIUAAAAJ&hl=en) for a full list.
+{: .about-p}
 
 <span class="small-caps"> contact</span>:<span class="email">
 foong.andrew@mayo.edu
