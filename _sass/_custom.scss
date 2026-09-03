@@ -383,9 +383,12 @@ body { padding-top: 60px; } // must match the masthead's rendered height
 
 @media screen and (min-width: 992px) {
   .sidebar {
-    position: fixed;
+    // Sticky (not fixed) so the column keeps whatever width/position the
+    // grid (Susy) computes for it at the current viewport width — a
+    // hardcoded fixed width here previously drifted out of sync with the
+    // grid and collided with .page's content at some viewport widths.
+    position: sticky;
     top: 100px;   // masthead (60px) + comfortable gap
-    width: 260px;
     z-index: 900;
   }
 }
@@ -466,6 +469,20 @@ body { padding-top: 60px; } // must match the masthead's rendered height
   letter-spacing: 0.05em;
   white-space: nowrap;
   overflow: visible;
+}
+// Between $large and $x-large, #main is pinned at a fixed (925px) width
+// (see Susy container config), so the grid leaves almost no slack between
+// the sidebar column and .page's content in that range. Carve out an
+// explicit gutter here: let the name wrap (so it can't spill past its own
+// column) and shift .page's content over a bit more.
+@media screen and (min-width: $large) and (max-width: $x-large - 1) {
+  .sidebar .author__name {
+    white-space: normal;
+  }
+  .page {
+    margin-left: 2em;
+    width: calc(83.0508474576% - 2em);
+  }
 }
 @media screen and (max-width: 992px) {
   .sidebar .author__name { margin-top: -6px; }
