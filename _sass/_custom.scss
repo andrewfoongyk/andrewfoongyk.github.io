@@ -15,7 +15,8 @@ $site-red:  #c83f42; // hover accent
 // render-blocking. @import url() in CSS forces synchronous stylesheet fetch.
 
 // Crimson Pro SC — primary serif, local OTFs.
-// Only the 3 weights that the site actually renders: 400 body, 500 headings, 600 bold.
+// Only the weights the site actually renders: 200 drop cap, 400 body,
+// 500 headings, 600 bold.
 @mixin cp-sc-face($file, $weight, $style) {
   @font-face {
     font-family: "Crimson Pro SC";
@@ -26,7 +27,7 @@ $site-red:  #c83f42; // hover accent
   }
 }
 $cp-sc-weights: (
-  "Regular": 400, "Medium": 500, "SemiBold": 600
+  "ExtraLight": 200, "Regular": 400, "Medium": 500, "SemiBold": 600
 );
 @each $name, $w in $cp-sc-weights {
   @include cp-sc-face("CrimsonProSC-#{$name}",       $w, normal);
@@ -125,6 +126,20 @@ p {
   margin-bottom: 0.9375em !important;
 }
 
+// Drop cap on the About Me intro's first word ("I"), sized to span two
+// lines of body text (p line-height is 1.25em, so 2 lines = 2.5em).
+.drop-cap {
+  float: left;
+  font-family: $serif;
+  font-weight: 300;
+  line-height: 0.8;
+  font-size: 3.01em;
+  padding-right: 0.08em;
+  padding-top: 0.00em;
+  margin-top: -0.01em;
+  margin-left: -0.05em;
+}
+
 strong, b     { font-weight: 600; }
 strong em,
 strong i      { font-weight: 500; } // bold-italic: medium rather than full-bold
@@ -169,7 +184,7 @@ strong i      { font-weight: 500; } // bold-italic: medium rather than full-bold
 // Author name in publication / talk rows — sans-serif for contrast with surrounding serif text
 .sans {
   font-family: $sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 0.76em;
 }
 

@@ -38,11 +38,10 @@ hero_slides:
 <!-- <h1 style = "margin-top: -1.5rem;">About Me</h1> -->
 <h1 class="about-heading">About Me</h1>
 
-<span class="small-caps">I develop machine learning</span> systems
+<span class="drop-cap">I</span><span class="small-caps">develop machine learning</span> systems
 <!-- I develop machine learning systems -->
 for cancer care and scientific discovery, connecting modern <span class="small-caps">ai</span> with consequential clinical and biological problems.
-{: .about-p}
-
+<!-- {: .about-p} -->
 I am currently an 
 <span class="small-caps">ai</span>
 scientist,
@@ -75,8 +74,7 @@ where I developed generative deep learning models for proteins in the
 Our work on
 <a href="#bioemu" >BioEmu</a>
 was featured on the front cover of [*Science*](https://www.science.org/doi/10.1126/science.adv9817).
-{: .about-p}
-
+<!-- {: .about-p} -->
 I earned my 
 <span class="small-caps">p</span>h.<span class="small-caps">d</span>.
 in machine learning,
