@@ -88,7 +88,9 @@ and
 <span class="small-caps">icml</span>.
 {: .about-p}
 
+<i>
 See my selected [papers](#publications), or visit my Google Scholar [profile](https://scholar.google.com/citations?user=2UOjgIUAAAAJ&hl=en) for a full list.
+</i>
 {: .about-p}
 
 <span class="small-caps"> contact</span>:<span class="email">
