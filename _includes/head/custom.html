@@ -2,6 +2,10 @@
 
 <!-- start custom head snippets -->
 
+<!-- Hide the page until fonts are ready (see _custom.scss), then fade in.
+     Must run blocking/synchronous, before anything paints. -->
+<script>document.documentElement.classList.add('fonts-loading');</script>
+
 <!-- Apple Touch Icon -->
 <link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png">
 
@@ -37,5 +41,41 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap">
+
+<!-- Preload the self-hosted fonts actually needed early, so they start
+     fetching immediately instead of waiting for CSS/layout to discover
+     them — that discovery delay is most of what causes a visible font
+     swap. CrimsonProSC-SemiBold is deliberately left out: it's only used
+     once, deep in the page, so preloading it would just compete for
+     bandwidth with things that matter for the initial view. -->
+<link rel="preload" href="/assets/fonts/crimson-pro-sc/CrimsonProSC-ExtraLight.otf" as="font" type="font/otf" crossorigin>
+<link rel="preload" href="/assets/fonts/crimson-pro-sc/CrimsonProSC-Regular.otf" as="font" type="font/otf" crossorigin>
+<link rel="preload" href="/assets/fonts/crimson-pro-sc/CrimsonProSC-RegularItalic.otf" as="font" type="font/otf" crossorigin>
+<link rel="preload" href="/assets/fonts/crimson-pro-sc/CrimsonProSC-Medium.otf" as="font" type="font/otf" crossorigin>
+<link rel="preload" href="/assets/fonts/sentient/Sentient-Italic.woff2" as="font" type="font/woff2" crossorigin>
+
+<!-- Reveal the page (see fonts-loading/fonts-loaded in _custom.scss) once
+     the critical fonts above are ready, or after 600ms, whichever is
+     first — so a slow/failed font fetch can never leave the page hidden
+     indefinitely. -->
+<script>
+(function () {
+  var html = document.documentElement;
+  function reveal() {
+    html.classList.remove('fonts-loading');
+    html.classList.add('fonts-loaded');
+  }
+  if (!('fonts' in document)) { reveal(); return; }
+  var ready = Promise.all([
+    document.fonts.load('200 1em "Crimson Pro SC"'),
+    document.fonts.load('400 1em "Crimson Pro SC"'),
+    document.fonts.load('italic 400 1em "Crimson Pro SC"'),
+    document.fonts.load('500 1em "Crimson Pro SC"'),
+    document.fonts.load('italic 550 1em "SentientAmp"')
+  ]);
+  var timeout = new Promise(function (resolve) { setTimeout(resolve, 600); });
+  Promise.race([ready, timeout]).then(reveal, reveal);
+})();
+</script>
 
 <!-- end custom head snippets -->

@@ -60,6 +60,23 @@ $cp-sc-weights: (
 }
 
 
+// Hide the page until the critical fonts are ready, then fade in, instead
+// of flashing between the fallback font and Crimson Pro SC. `fonts-loading`
+// is added by a blocking inline script in head/custom.html before the
+// browser paints anything, and swapped for `fonts-loaded` once the fonts
+// resolve (or a timeout elapses). If JS is disabled, neither class is ever
+// added and the page just renders normally with the ordinary font swap.
+html.fonts-loading body {
+  opacity: 0;
+}
+html.fonts-loaded body {
+  opacity: 1;
+  transition: opacity 0.4s ease;
+}
+@media (prefers-reduced-motion: reduce) {
+  html.fonts-loaded body { transition: none; }
+}
+
 // ─── Base Typography ─────────────────────────────────────────
 
 * {
