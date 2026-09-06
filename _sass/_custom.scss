@@ -492,6 +492,12 @@ body { padding-top: 60px; } // must match the masthead's rendered height
   letter-spacing: 0.05em;
   white-space: nowrap;
   overflow: visible;
+
+  // Pulls the "." in "Y.K." closer to the "Y" without disturbing the
+  // letter-spacing set on the rest of the name.
+  .name-kern {
+    margin-left: -0.10em;
+  }
 }
 // Susy's default 2-of-12 sidebar span isn't wide enough for "Andrew Y.K.
 // Foong" to fit on one line at any two-column width, so it wrapped and — at
