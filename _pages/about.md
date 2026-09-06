@@ -199,6 +199,10 @@ All applicants must be based within 100 miles of Mayo Clinic Rochester upon begi
   </div>
 </div>
 
+
+<p style="text-align: center; margin-top: 90px; margin-bottom: 0px;">❧</p>
+
+
 <!-- Custom styled HR -->
 <hr class="hr-ghost">
 
@@ -1924,5 +1928,4 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <span style="font-style: italic; color: #666; font-size: 1.0rem;">Last updated February 2026. <span style="font-size: 1.1em;">■</span></span>
 </p>
 
-<p style="text-align: center; margin-top: 90px; margin-bottom: -600px;">❧</p>
 
