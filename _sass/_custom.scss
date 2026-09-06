@@ -200,6 +200,14 @@ strong i      { font-weight: 500; } // bold-italic: medium rather than full-bold
   text-indent: -1.0em;
 }
 
+// Fleuron divider. Needs its own class + !important because the global
+// `p { margin-bottom: 1.0em !important; }` above wins over any inline
+// margin-bottom regardless of value — only a higher-specificity !important
+// rule can beat it.
+.fleuron {
+  margin-bottom: -2.5rem !important;
+}
+
 // Thin decorative rule used between major sections of about.md
 .hr-ghost {
   border: none;

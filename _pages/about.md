@@ -200,7 +200,7 @@ All applicants must be based within 100 miles of Mayo Clinic Rochester upon begi
 </div>
 
 
-<p style="text-align: center; margin-top: 90px; margin-bottom: 0px;">❧</p>
+<p class="fleuron" style="text-align: center; margin-top: 5rem; font-size:1.17em;">❧</p>
 
 
 <!-- Custom styled HR -->
