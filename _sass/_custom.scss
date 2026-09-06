@@ -208,6 +208,14 @@ strong i      { font-weight: 500; } // bold-italic: medium rather than full-bold
   margin-bottom: -2.5rem !important;
 }
 
+// Section mark ahead of each year divider in Publications/Talks — turns a
+// bare numeral into something closer to a running head.
+.pub-year::before {
+  content: "§ ";
+  color: $gray;
+  font-weight: 400;
+}
+
 // Thin decorative rule used between major sections of about.md
 .hr-ghost {
   border: none;

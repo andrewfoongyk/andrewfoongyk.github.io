@@ -99,7 +99,7 @@ foong.andrew@mayo.edu
 
 <a id="hiring-news" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
 <h1 style="margin-top: 3em; margin-bottom: 1.0em;">Hiring News</h1>
-I am hiring for <span class="small-caps">ai/ml</span> interns and research fellows in the Mayo Clinic Radiation Oncology <span class="small-caps">ai</span> and Data Analytics team. If you’re interested in doing immediately impactful, technically serious work in healthcare, please apply [here](https://jobs.mayoclinic.org/job/rochester/ai-ml-intern-radiation-oncology/33647/96924204752) for the internship and [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-radiation-oncology/33647/93729609296) for the research fellow position.
+<span class="small-caps">i am hiring</span> for <span class="small-caps">ai/ml</span> interns and research fellows in the Mayo Clinic Radiation Oncology <span class="small-caps">ai</span> and Data Analytics team. If you’re interested in doing immediately impactful, technically serious work in healthcare, please apply [here](https://jobs.mayoclinic.org/job/rochester/ai-ml-intern-radiation-oncology/33647/96924204752) for the internship and [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-radiation-oncology/33647/93729609296) for the research fellow position.
 All applicants must be based within 100 miles of Mayo Clinic Rochester upon beginning their role.
 
 <h1 style="margin-top: 3em; margin-bottom: 1.0em;">Experience</h1>
@@ -221,7 +221,7 @@ All applicants must be based within 100 miles of Mayo Clinic Rochester upon begi
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
   <div style="margin-left: calc(50px + 0.8em);">
-    <h2 style="margin:0;">2026</h2>
+    <h2 style="margin:0;" class="pub-year">2026</h2>
   </div>
 </div>
 
@@ -353,7 +353,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
   <div style="margin-left: calc(50px + 0.8em);">
-    <h2 style="margin:0;">2025</h2>
+    <h2 style="margin:0;" class="pub-year">2025</h2>
   </div>
 </div>
 
@@ -540,7 +540,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
   <div style="margin-left: calc(50px + 0.8em);">
-    <h2 style="margin:0;">2024</h2>
+    <h2 style="margin:0;" class="pub-year">2024</h2>
   </div>
 </div>
 
@@ -587,7 +587,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
   <div style="margin-left: calc(50px + 0.8em);">
-    <h2 style="margin:0;">2023</h2>
+    <h2 style="margin:0;" class="pub-year">2023</h2>
   </div>
 </div>
 
@@ -715,7 +715,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
   <div style="margin-left: calc(50px + 0.8em);">
-    <h2 style="margin:0;">2022</h2>
+    <h2 style="margin:0;" class="pub-year">2022</h2>
   </div>
 </div>
 
@@ -765,7 +765,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
   <div style="margin-left: calc(50px + 0.8em);">
-    <h2 style="margin:0;">2021</h2>
+    <h2 style="margin:0;" class="pub-year">2021</h2>
   </div>
 </div>
 
@@ -893,7 +893,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
   <div style="margin-left: calc(50px + 0.8em);">
-    <h2 style="margin:0;">2020</h2>
+    <h2 style="margin:0;" class="pub-year">2020</h2>
   </div>
 </div>
 
@@ -1022,7 +1022,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
   <div style="margin-left: calc(50px + 0.8em);">
-    <h2 style="margin:0;">2019</h2>
+    <h2 style="margin:0;" class="pub-year">2019</h2>
   </div>
 </div>
 
@@ -1081,7 +1081,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:1em;">
   <div style="margin-left: calc(50px + 0.8em);">
-    <h2 style="margin:0;">2026</h2>
+    <h2 style="margin:0;" class="pub-year">2026</h2>
   </div>
 </div>
 
@@ -1233,7 +1233,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:1em; margin-top:3em;">
   <div style="margin-left: calc(50px + 0.8em);">
-    <h2 style="margin:0;">2025</h2>
+    <h2 style="margin:0;" class="pub-year">2025</h2>
   </div>
 </div>
 
@@ -1493,7 +1493,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:1em;">
   <div style="margin-left: calc(50px + 0.8em);">
-    <h2 style="margin:0;">2023</h2>
+    <h2 style="margin:0;" class="pub-year">2023</h2>
   </div>
 </div>
 
@@ -1559,7 +1559,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:1em;">
   <div style="margin-left: calc(50px + 0.8em);">
-    <h2 style="margin:0;">2021</h2>
+    <h2 style="margin:0;" class="pub-year">2021</h2>
   </div>
 </div>
 
@@ -1641,7 +1641,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:1em;">
   <div style="margin-left: calc(50px + 0.8em);">
-    <h2 style="margin:0;">2020</h2>
+    <h2 style="margin:0;" class="pub-year">2020</h2>
   </div>
 </div>
 
@@ -1762,7 +1762,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:1em;">
   <div style="margin-left: calc(50px + 0.8em);">
-    <h2 style="margin:0;">2019</h2>
+    <h2 style="margin:0;" class="pub-year">2019</h2>
   </div>
 </div>
 
@@ -1927,5 +1927,4 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <br>
   <span style="font-style: italic; color: #666; font-size: 1.0rem;">Last updated February 2026. <span style="font-size: 1.1em;">■</span></span>
 </p>
-
 
