@@ -1925,6 +1925,6 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   My academic <span class="small-caps">cv</span> is available as a <span class="small-caps">pdf</span> 
   <a href="/files/CV.pdf" target="_blank" rel="noopener noreferrer">here</a>.
   <br>
-  <span style="font-style: italic; color: #666; font-size: 1.0rem;">Last updated February 2026. </span><span style="font-size: 1.1em; color: #666;">■</span>
+  <span style="font-style: italic; color: #666; font-size: 1.0rem;">Last updated February 2026.</span><span class="tombstone" aria-hidden="true"></span>
 </p>
 

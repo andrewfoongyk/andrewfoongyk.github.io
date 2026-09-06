@@ -208,6 +208,20 @@ strong i      { font-weight: 500; } // bold-italic: medium rather than full-bold
   margin-bottom: -2.5rem !important;
 }
 
+// Tombstone (printer's end-of-document mark) after the CV colophon. Drawn
+// as a CSS box instead of the Unicode ■ glyph — Crimson Pro SC has no glyph
+// for it, so it fell back to each browser's own substitute font, and those
+// don't share baseline metrics (Chrome and Safari placed it at different
+// heights). A plain box's own bottom edge is its baseline, so it lines up
+// with the text baseline identically everywhere.
+.tombstone {
+  display: inline-block;
+  width: 0.5em;
+  height: 0.5em;
+  background: #666;
+  margin-left: 0.3em;
+}
+
 // Section mark ahead of each year divider in Publications/Talks — turns a
 // bare numeral into something closer to a running head.
 .pub-year::before {
