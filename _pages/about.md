@@ -1187,6 +1187,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
      width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
     <div style="flex: 1;">
+      <a id="practical-applications-ai" class="anchor-offset"></a>
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
         Practical Applications of <span class="small-caps">ai</span> at Mayo Clinic
       </h3>
