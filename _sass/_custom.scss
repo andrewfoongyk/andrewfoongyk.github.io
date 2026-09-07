@@ -616,13 +616,20 @@ body { padding-top: 58px; } // mobile masthead height (~57.375px)
 .masthead-nav__caret::before {
   content: "";
   position: absolute;
-  inset: 0;
+  // Fixed size + centered via transform, not `inset: 0` — that would stretch
+  // the triangle to fill the button's own box, so enlarging the button's tap
+  // target (mobile block below) would enlarge the visible triangle with it.
+  top: 50%;
+  left: 50%;
+  width: 0.55em;
+  height: 0.55em;
+  transform: translate(-50%, -50%);
   background: currentColor;
   clip-path: polygon(10% 25%, 90% 25%, 50% 85%);
   transition: transform 0.15s ease;
 }
 .masthead-nav__caret[aria-expanded="true"]::before {
-  transform: rotate(180deg);
+  transform: translate(-50%, -50%) rotate(180deg);
 }
 @media (prefers-reduced-motion: reduce) {
   .masthead-nav__caret::before { transition: none; }
@@ -801,6 +808,17 @@ body { padding-top: 58px; } // mobile masthead height (~57.375px)
   // instead of sitting beside the link as a third item in the same flex row.
   .masthead-nav__item { padding-right: 1em; flex-wrap: wrap; }
   .masthead-nav__item a { flex: 1 1 auto; min-width: 0; }
+
+  // Mobile only: enlarge the caret's tap target well past its visible size —
+  // ::before above is fixed-size and centered via transform, so this padding
+  // grows only the invisible clickable box. The negative margin (equal to
+  // the padding, minus the caret's own 0.3em margin-left) pulls that bigger
+  // box back so it doesn't push surrounding layout outward — only the
+  // invisible hit region bleeds into the existing whitespace around it.
+  .masthead-nav__caret {
+    padding: 0.6em;
+    margin: -0.6em -0.6em -0.6em -0.3em;
+  }
 
   // Accordion: the panel renders inline, full width, under its trigger row —
   // not floated, since there's no room to float on a narrow viewport.

@@ -106,6 +106,18 @@ document.addEventListener("DOMContentLoaded", function () {
     if (currentOpenItem && !currentOpenItem.contains(e.target)) {
       closePanel(currentOpenItem, true);
     }
+    // Mobile only: a tap outside the open menu sheet closes it. The toggle
+    // button is excluded so this doesn't fight its own click handler below
+    // (that handler already closes an open sheet on its own).
+    if (
+      !desktopMQ.matches &&
+      navList &&
+      navList.classList.contains("is-open") &&
+      !navList.contains(e.target) &&
+      !(toggle && toggle.contains(e.target))
+    ) {
+      closeList();
+    }
   });
 
   // Same hidden-until-after-transition choreography as openPanel/closePanel
@@ -145,6 +157,20 @@ document.addEventListener("DOMContentLoaded", function () {
       } else {
         openList();
       }
+    });
+  }
+
+  // Leaf-node links — the nav's own <a> elements, as opposed to the caret and
+  // toggle <button>s that only open/close a panel — always close whatever's
+  // open once clicked, since a real navigation is about to happen. Matching
+  // by tag rather than a class means this naturally excludes the caret and
+  // toggle controls without any extra bookkeeping.
+  if (navList) {
+    navList.addEventListener("click", function (e) {
+      var link = e.target.closest("a");
+      if (!link) return;
+      if (currentOpenItem) closePanel(currentOpenItem, true);
+      if (toggle && !desktopMQ.matches) closeList(true);
     });
   }
 
