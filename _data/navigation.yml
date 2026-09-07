@@ -58,10 +58,10 @@ main:
     browse:
       - title: "The Neural Process Family: Jupyter Book"
         url: "#npf"
-      - title: "Note on the Interpretation of Generalization Bounds"
-        url: "#pac-bayes-note"
       - title: "What Keeps a Bayesian Awake at Night?"
         url: "#bayesian-awake"
+      - title: "The Interpretation of Generalization Bounds"
+        url: "#pac-bayes-note"
 
   - title: "Understanding AI Lectures"
     url: "#ai-from-scratch"
