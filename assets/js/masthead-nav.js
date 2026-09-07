@@ -64,6 +64,14 @@ document.addEventListener("DOMContentLoaded", function () {
     if (currentOpenItem === item) currentOpenItem = null;
   }
 
+  function togglePanel(item, panel) {
+    if (panel.hidden || !panel.classList.contains("is-open")) {
+      openPanel(item);
+    } else {
+      closePanel(item);
+    }
+  }
+
   items.forEach(function (item) {
     var caret = item.querySelector(".masthead-nav__caret");
     var panel = item.querySelector(".masthead-nav__panel");
@@ -71,12 +79,38 @@ document.addEventListener("DOMContentLoaded", function () {
 
     caret.addEventListener("click", function (e) {
       e.preventDefault();
-      if (panel.hidden || !panel.classList.contains("is-open")) {
-        openPanel(item);
-      } else {
-        closePanel(item);
-      }
+      togglePanel(item, panel);
     });
+
+    // The item's own row (the label link itself, which already spans the
+    // full row width via `flex: 1 1 auto`) opens/closes the panel exactly
+    // like the caret, at every breakpoint — it never navigates directly.
+    // Only real links inside the panel (featured item, browse list, "View
+    // all …") should ever take you to a section; the bar itself is purely
+    // a disclosure control, same idea as the caret it sits beside.
+    //
+    // This has to be a capturing listener on `item` (an ancestor of the
+    // label), not a normal listener on the label itself: the label's href
+    // points at the same on-page anchor as the section it represents (e.g.
+    // #publications), and the theme's bundled main.min.js already binds its
+    // own smooth-scroll handler straight to that link — registered before
+    // this script runs, so it fires first and still animates a scroll to
+    // the section no matter what a same-target listener added afterwards
+    // does. Intercepting in the capture phase, from an ancestor, runs
+    // before the event ever reaches the label's own listeners at all.
+    var label = item.querySelector(":scope > a");
+    if (label) {
+      item.addEventListener(
+        "click",
+        function (e) {
+          if (e.target !== label && !label.contains(e.target)) return;
+          e.preventDefault();
+          e.stopPropagation();
+          togglePanel(item, panel);
+        },
+        true
+      );
+    }
 
     // Hover-intent open/close — desktop, mouse-driven only. Touch devices
     // (no fine hover) rely purely on the caret click above.
