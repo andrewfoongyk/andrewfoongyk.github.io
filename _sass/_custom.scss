@@ -738,14 +738,14 @@ body { padding-top: 58px; } // mobile masthead height (~57.375px)
   padding-top: 0.6em;
   border-top: 1px solid $light-gray;
   text-transform: uppercase;
-  font-size: 0.78em !important;
+  font-size: 0.9em !important;
 }
 // `.masthead *` (above) sets letter-spacing and font-weight directly on
 // every descendant, which beats plain inheritance from the li — target the
 // anchor itself for both.
 .masthead-nav__view-all,
 .masthead-nav__view-all a {
-  letter-spacing: 0.05em;
+  letter-spacing: 0.07em;
   font-weight: 700 !important;
 }
 

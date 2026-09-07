@@ -603,6 +603,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.3em 0; font-variant-numeric: lining-nums;">
+      <a id="flow-matching" class="anchor-offset"></a>
       <a href="https://www.mlsb.io/papers_2023/Fast_protein_backbone_generation_with_SE3_flow_matching.pdf">
         Fast Protein Backbone Generation with SE(3) Flow Matching
       </a>
@@ -686,6 +687,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.3em 0;">
+      <a id="timewarp" class="anchor-offset"></a>
       <a href="https://arxiv.org/abs/2302.01170">
         Timewarp: Transferable Acceleration of Molecular Dynamics by Learning Time-Coarsened Dynamics
       </a>
@@ -951,6 +953,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.3em 0;">
+      <a id="convcnp" class="anchor-offset"></a>
       <a href="https://arxiv.org/abs/1910.13556">
         Convolutional Conditional Neural Processes
       </a>
@@ -1040,6 +1043,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.3em 0;">
+      <a id="in-between" class="anchor-offset"></a>
       <a href="https://arxiv.org/abs/1906.11537">
         <span style="display: inline-block; margin-left: -0.47em;">“</span>In-Between” Uncertainty in Bayesian Neural Networks
       </a>
@@ -1508,6 +1512,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
      width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
     <div style="flex: 1;">
+      <a id="timewarp-reading-group" class="anchor-offset"></a>
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
         Timewarp: Transferable Acceleration of Molecular Dynamics by Learning Time-Coarsened Dynamics
       </h3>
@@ -1574,6 +1579,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
      width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
     <div style="flex: 1;">
+      <a id="intro-pac-bayes" class="anchor-offset"></a>
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
         An Introduction to PAC-Bayes
       </h3>
@@ -1611,6 +1617,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
      width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
     <div style="flex: 1;">
+      <a id="bnn-joint-talk" class="anchor-offset"></a>
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
         Understanding Approximate Inference in Bayesian Neural Networks
       </h3>
