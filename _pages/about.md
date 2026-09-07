@@ -97,7 +97,7 @@ See my selected [papers](#publications), or visit my Google Scholar [profile](ht
 foong.andrew@mayo.edu
 </span>
 
-<a id="hiring-news" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
+<a id="hiring-news" class="anchor-offset"></a>
 <h1 style="margin-top: 3em; margin-bottom: 1.0em;">Hiring News</h1>
 <span class="small-caps">i am hiring</span> for <span class="small-caps">ai/ml</span> interns and research fellows in the Mayo Clinic Radiation Oncology <span class="small-caps">ai</span> and Data Analytics team. If you’re interested in doing immediately impactful, technically serious work in healthcare, please apply [here](https://jobs.mayoclinic.org/job/rochester/ai-ml-intern-radiation-oncology/33647/96924204752) for the internship and [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-radiation-oncology/33647/93729609296) for the research fellow position.
 All applicants must be based within 100 miles of Mayo Clinic Rochester upon beginning their role.
@@ -206,7 +206,7 @@ All applicants must be based within 100 miles of Mayo Clinic Rochester upon begi
 <!-- Custom styled HR -->
 <hr class="hr-ghost">
 
-<a id="publications" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
+<a id="publications" class="anchor-offset"></a>
 <h1>Research Papers</h1>
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
@@ -238,7 +238,7 @@ All applicants must be based within 100 miles of Mayo Clinic Rochester upon begi
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.3em 0;">
-      <a id="binarization" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
+      <a id="binarization" class="anchor-offset"></a>
       <a href="https://arxiv.org/pdf/2608.04046">
 The Cost of Binarizing Survival Outcomes in Clinical Prognostic Modeling
       </a>
@@ -282,6 +282,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.3em 0;">
+      <a id="bayes-consistent" class="anchor-offset"></a>
       <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6143772">
       Position: Agentic AI Orchestration Should be Bayes-Consistent
       </a>
@@ -322,6 +323,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.3em 0;">
+      <a id="ehr-sae" class="anchor-offset"></a>
       <a href="https://openreview.net/forum?id=evQ2B5kjmh">
         Probing Clinical Concepts in an EHR Foundation Model via Sparse Autoencoders
       </a>
@@ -508,7 +510,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <div>
     <!-- Remove default top margin so it lines up with the image -->
     <h3 style="margin:0 0 0.0em 0;">
-      <a id="bioemu" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
+      <a id="bioemu" class="anchor-offset"></a>
       <a href="https://www.science.org/doi/10.1126/science.adv9817">
         Scalable Emulation of Protein Equilibrium Ensembles With Generative Deep Learning
       </a>
@@ -990,7 +992,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.0em 0;">
-      <a id="expressiveness" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
+      <a id="expressiveness" class="anchor-offset"></a>
       <a href="https://arxiv.org/abs/1909.00719">
         On the Expressiveness of Approximate Inference in Bayesian Neural Networks
       </a>
@@ -1069,7 +1071,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 
 <hr class="hr-ghost">
 
-<a id="talks" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
+<a id="talks" class="anchor-offset"></a>
 <h1 id="talks">Talks</h1>
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
@@ -1087,7 +1089,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 
 
 
-<a id="intro-to-dl" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
+<a id="intro-to-dl" class="anchor-offset"></a>
 
 <div style="margin-bottom: 2em;">
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
@@ -1195,7 +1197,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   </div>
 </div>
 
-<a id="survival-analysis" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
+<a id="survival-analysis" class="anchor-offset"></a>
 
 <div style="margin-bottom: 2em;">
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
@@ -1292,7 +1294,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   </div>
 </div>
 
-<a id="bioemu-talk" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
+<a id="bioemu-talk" class="anchor-offset"></a>
 
 <div style="margin-bottom: 2em;">
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
@@ -1373,7 +1375,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 </div>
 
 
-<a id="ai-from-scratch" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
+<a id="ai-from-scratch" class="anchor-offset"></a>
 
 <div style="margin-bottom: 2em;">
   <div style="display:flex; align-items:flex-start; gap:0.8em;">
@@ -1808,11 +1810,12 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 
 <hr class="hr-ghost">
 
-<a id="blog" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
+<a id="blog" class="anchor-offset"></a>
 <h1>Blog Posts</h1>
 
 <span style="font-style: italic;">Occasional writings and tutorials on machine learning.</span>
 
+<a id="mlp-viz" class="anchor-offset"></a>
 <div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em; margin-top: 1.5em;">
 
   <img src="/assets/images/blogs/mlp-viz-icon.png"
@@ -1832,6 +1835,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   </div>
 </div>
 
+<a id="npf" class="anchor-offset"></a>
 <div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em;">
 
   <img src="/assets/images/blogs/npf-icon.png"
@@ -1856,6 +1860,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 </div>
 
 
+<a id="pac-bayes-note" class="anchor-offset"></a>
 <div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em;">
 
   <img src="/assets/images/blogs/pac-bayes-note-icon.png"
@@ -1881,6 +1886,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 </div>
 
 
+<a id="bayesian-awake" class="anchor-offset"></a>
 <div style="display:flex; align-items:flex-start; gap:0.8em; margin-bottom:2em;">
 
   <img src="/assets/images/blogs/bayesian-icon.png"
@@ -1918,7 +1924,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 
 <hr class="hr-ghost">
 
-<a id="cv" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
+<a id="cv" class="anchor-offset"></a>
 <h1>Curriculum Vitae</h1>
 
 <p>

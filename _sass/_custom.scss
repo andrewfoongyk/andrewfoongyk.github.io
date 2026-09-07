@@ -363,42 +363,6 @@ strong i      { font-weight: 500; } // bold-italic: medium rather than full-bold
 }
 
 
-// ─── Hidden Links Dropdown ───────────────────────────────────
-// Restyle the greedy-nav overflow dropdown to match the site palette.
-// Typography is left as-is (inherits masthead font rules).
-
-.greedy-nav .hidden-links {
-  background: $body-color;
-  border: 1.5px solid $light-gray;
-  border-radius: 0;
-  box-shadow: none;
-  margin-top: 12px;
-  padding: 0;
-  min-width: 120px;
-
-  li + li {
-    border-top: 1px solid rgba(0, 0, 0, 0.08);
-  }
-
-  a {
-    padding: 0.6em 1.2em;
-    color: $dark-gray;
-    &:hover { color: $site-red; }
-  }
-
-  // Triangle: solid, matches border colour, positioned under button centre
-  &::before {
-    top: -6px;
-    right: 15px;
-    border-width: 0 5px 5px;
-    border-color: $light-gray transparent;
-  }
-  &::after {
-    content: none; // solid fill — no hollow inner triangle
-  }
-}
-
-
 // ─── Colors & Links ──────────────────────────────────────────
 
 // !important needed throughout this section to beat Minimal Mistakes' specificity
@@ -409,25 +373,6 @@ strong i      { font-weight: 500; } // bold-italic: medium rather than full-bold
 .page__content a:hover[href]:not(.btn):not(.button) {
   color: $site-red !important;
 }
-
-// Hamburger button: transparent so it blends into the masthead (no gray box)
-.greedy-nav button { background-color: $site-blue !important; }
-
-// Hamburger bars: cream on the slate-blue masthead; thinned to 2px
-.navicon,
-.navicon::after,
-.navicon::before {
-  background-color: $body-color !important;
-  height: 2px !important;
-  width: 22px !important;
-}
-.navicon::before { top:    -5px !important; }
-.navicon::after  { bottom: -5px !important; }
-// Close (×) state: both bars must snap to top:0 so the X is balanced.
-// The !important above would otherwise hold them off-centre.
-.close .navicon          { background-color: transparent !important; }
-.close .navicon::before,
-.close .navicon::after   { top: 0 !important; bottom: auto !important; }
 
 
 // ─── Sticky Positioning ──────────────────────────────────────
@@ -441,7 +386,30 @@ strong i      { font-weight: 500; } // bold-italic: medium rather than full-bold
   z-index: 1000;
 }
 
-body { padding-top: 60px; } // must match the masthead's rendered height
+// Masthead height differs by breakpoint (~57px mobile, ~71px desktop — the
+// nav grows a row of letter-spacing/font-size at the 993px nav breakpoint),
+// so padding/offsets that need to clear it are set per-tier below rather
+// than as one flat value; a single flat value previously left the desktop
+// tier under-compensated and content peeked out from under the bar.
+body { padding-top: 58px; } // mobile masthead height (~57.375px)
+@media screen and (min-width: 993px) {
+  body { padding-top: 71px; } // desktop masthead height (~70.66px)
+}
+
+// Shared invisible scroll target used before each internal section/anchor
+// (see about.md) — its negative `top` pulls the anchor above its static
+// flow position by the masthead's height plus a small buffer, so scrolling
+// the anchor to the viewport top lands the real heading just clear of the
+// fixed bar instead of underneath it.
+.anchor-offset {
+  display: block;
+  position: relative;
+  top: -65px;
+  visibility: hidden;
+}
+@media screen and (min-width: 993px) {
+  .anchor-offset { top: -78px; }
+}
 
 @media screen and (min-width: 992px) {
   .sidebar {
@@ -450,7 +418,7 @@ body { padding-top: 60px; } // must match the masthead's rendered height
     // hardcoded fixed width here previously drifted out of sync with the
     // grid and collided with .page's content at some viewport widths.
     position: sticky;
-    top: 100px;   // masthead (60px) + comfortable gap
+    top: 110px;   // masthead (~71px) + comfortable gap
     z-index: 900;
   }
 }
@@ -475,16 +443,414 @@ body { padding-top: 60px; } // must match the masthead's rendered height
 @media screen and (max-width: 992px) {
   .masthead,
   .masthead * { font-size: 14px; }
-  // Tighter per-item margin so more links fit before overflowing to hamburger.
-  // Theme default is 0 1rem; halving it reclaims ~1rem per item.
-  .greedy-nav a { margin: 0 0.5rem; }
-  .greedy-nav .visible-links li:first-child a { margin-left: 0; }
 }
 
 // Cream text on slate-blue. !important overrides the theme's link-colour cascade.
 .masthead, .masthead *, .masthead a, .masthead-nav a {
   color: $body-color !important;
   background-color: $site-blue;
+}
+
+
+// ─── Masthead Navigation ─────────────────────────────────────
+// Dropdown/accordion nav that replaced the stock "greedy nav" overflow menu
+// (see _includes/masthead.html for why its markup avoids greedy-nav's
+// selectors). 992px is the single breakpoint between the desktop
+// hover/click dropdowns below and the mobile accordion menu.
+
+.masthead-nav { position: relative; }
+
+// Wraps the persistent brand link, the (optional) spacer, the collapsible
+// nav, and the mobile toggle in one flex row. `.masthead__menu` itself has
+// no layout CSS at all (theme or custom) — this bar is what lays out the
+// whole header row now that the brand link no longer lives inside
+// `.masthead-nav__list` (it must stay visible on mobile while that list is
+// collapsed).
+.masthead-nav__bar {
+  display: flex;
+  align-items: center;
+}
+
+.masthead-nav__brand {
+  position: relative; // anchors the ::after underline bar below
+  display: block;
+  margin: 0 1rem 0 0;
+  padding: 0.5rem 0;
+  // Slightly heavier than the other nav labels (300, from the `.masthead *`
+  // wildcard) so the brand reads as "home", but not as heavy as bold.
+  font-weight: 500;
+  white-space: nowrap;
+  text-decoration: none;
+}
+// `.masthead *` (above) sets font-size: 0.953em directly on every
+// descendant, and `em` compounds relative to each element's own parent —
+// so depth matters. This brand link is a direct child of `.masthead-nav__bar`,
+// while the other nav links sit 4 levels deeper (bar > nav > ul > li > a),
+// so both inherit the exact same 0.953em rule yet render at visibly
+// different sizes. Reapplying that identical multiplier 4 more times here
+// (rather than a hardcoded px/em value disconnected from where it came
+// from) lines the brand's rendered size back up with the other items'.
+// Desktop-only: below 993px `.masthead *` sets a flat, non-compounding
+// `font-size: 14px` directly instead, so every item already matches there.
+@media screen and (min-width: 993px) {
+  .masthead-nav__brand {
+    font-size: calc(1em * 0.953 * 0.953 * 0.953 * 0.953);
+  }
+}
+// AcademicPages-style hover underline: a thin bar that expands outward from
+// the center, rather than the browser's plain `text-decoration: underline`
+// (which just appears instantly, flush against descenders like "y"/"g", and
+// can't be animated as a growing bar). `scaleX`'s default transform-origin
+// is the center, so scaling from 0 to 1 grows the bar symmetrically both
+// ways at once.
+.masthead-nav__brand::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0.3em;
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+.masthead-nav__brand:hover::after,
+.masthead-nav__brand:focus-visible::after {
+  transform: scaleX(1);
+}
+@media (prefers-reduced-motion: reduce) {
+  .masthead-nav__brand::after { transition: none; }
+}
+
+.masthead-nav__list {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap; // deliberate: no greedy-nav overflow safety net anymore
+  margin: 0;
+  padding: 0;
+}
+
+// Direct-child selector (not a plain descendant combinator) deliberately —
+// this must style only each item's own top-level label, not every nested
+// anchor inside its dropdown/accordion panel (featured link, browse links),
+// which need to wrap normally instead of inheriting nowrap from this rule.
+.masthead-nav .masthead__menu-item > a {
+  display: block;
+  margin: 0 1rem;
+  padding: 0.5rem 0;
+  white-space: nowrap;
+}
+
+// Dropdown items: pull the label's own right margin in tight so the caret
+// reads as belonging to its label, not sitting equidistant between it and
+// the next item's label (the gap to the next item still comes from that
+// item's own left margin above, untouched).
+.masthead-nav .masthead-nav__item > a { margin-right: 0.25em; }
+
+// Dropdown items only (the ones with a featured/browse panel) — lay the link
+// and caret out side by side, and anchor the floating panel to this element.
+.masthead-nav__item {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+// Text-labeled toggle replacing the old icon hamburger. Hidden on desktop;
+// shown only under 992px. Both labels sit in the same grid cell (so the
+// track sizes to the wider word, "Close", and the button never changes
+// width between states) and cross-fade via opacity, driven by aria-expanded
+// — no JS text mutation, so the swap is a graceful fade, not an instant snap.
+.masthead-nav__toggle {
+  display: none;
+  background: none;
+  border: none;
+  padding: 0.5rem 0;
+  font: inherit;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 0.85em;
+}
+.masthead-nav__toggle-label {
+  grid-row: 1;
+  grid-column: 1;
+  text-align: right;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  // `.masthead *` (far above) sets letter-spacing directly on every
+  // descendant, including these label spans — a value set on the parent
+  // `.masthead-nav__toggle` button never reaches them, since a directly-set
+  // value on the element itself always wins over inheritance. Set it here,
+  // on the actual text-bearing element, to land the increase visibly.
+  letter-spacing: 0.16em;
+}
+.masthead-nav__toggle-label--closed { opacity: 1; }
+.masthead-nav__toggle[aria-expanded="true"] .masthead-nav__toggle-label--closed {
+  opacity: 0;
+}
+.masthead-nav__toggle[aria-expanded="true"] .masthead-nav__toggle-label--open {
+  opacity: 1;
+}
+.masthead-nav__toggle:hover .masthead-nav__toggle-label,
+.masthead-nav__toggle:focus-visible .masthead-nav__toggle-label {
+  text-decoration: underline;
+}
+@media (prefers-reduced-motion: reduce) {
+  .masthead-nav__toggle-label { transition: none; }
+}
+
+// Dropdown caret — small triangle, same clip-path technique as
+// .details-summary below, rotated 180° open instead of 90° (a downward
+// chevron is the conventional dropdown affordance, not a disclosure one).
+.masthead-nav__caret {
+  display: inline-block;
+  position: relative;
+  width: 0.55em;
+  height: 0.55em;
+  margin-left: 0.3em;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+}
+.masthead-nav__caret::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: currentColor;
+  clip-path: polygon(10% 25%, 90% 25%, 50% 85%);
+  transition: transform 0.15s ease;
+}
+.masthead-nav__caret[aria-expanded="true"]::before {
+  transform: rotate(180deg);
+}
+@media (prefers-reduced-motion: reduce) {
+  .masthead-nav__caret::before { transition: none; }
+}
+
+// Dropdown panel — desktop: floats below the bar, "the page peeking out
+// beneath the toolbar"; mobile: renders inline as an accordion row (see the
+// max-width: 992px block below).
+.masthead-nav__panel {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 280px;
+  max-width: 340px;
+  padding: 1.1em 1.3em;
+  background: $body-color;
+  // Reset the theme's `.masthead__menu-item { white-space: nowrap; }`, which
+  // otherwise inherits into every line of text in here (titles, descriptions,
+  // browse links) and makes them overflow instead of wrapping.
+  white-space: normal;
+  border: 1px solid $light-gray;
+  opacity: 0;
+  transform: translateY(-4px);
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+.masthead-nav__panel.is-open {
+  opacity: 1;
+  transform: translateY(0);
+}
+@media (prefers-reduced-motion: reduce) {
+  .masthead-nav__panel { transition: none; }
+}
+
+// The panel sits on its own cream background, not the masthead's slate-blue,
+// so every descendant (not just the panel div itself) needs its own dark
+// text — `.masthead *` above targets each of them directly (not just via
+// inheritance) with `color: $body-color !important`, which would otherwise
+// stay invisible-on-cream. This rule's source position (after that one) is
+// what lets it win the tie in specificity; the more specific meta/hover-color
+// rules further below still win over this. Anchors need the extra 2-class
+// selector below too: `.masthead-nav a` (class + type, ~line 486) outranks
+// the plain-class `.masthead-nav__panel *` on specificity alone, order aside.
+.masthead-nav__panel,
+.masthead-nav__panel *,
+.masthead .masthead-nav__panel a {
+  color: $dark-gray !important;
+}
+
+// Descendants (links, spans, list items) also paint their own slate-blue
+// background directly via that same `.masthead *` rule, which would sit on
+// top of the panel's own cream background — clear it on descendants only,
+// not the panel div itself, which needs to keep its cream background.
+.masthead-nav__panel * {
+  background-color: transparent !important;
+}
+
+.masthead-nav__featured {
+  display: block;
+  margin-bottom: 0.8em;
+}
+.masthead-nav__featured-title {
+  display: block;
+  font-weight: 700;
+  font-size: 1.05em;
+}
+.masthead-nav__featured-meta {
+  display: block;
+  font-style: italic;
+  font-size: 0.85em;
+  margin-top: 0.15em;
+  color: $gray !important;
+}
+.masthead-nav__featured-desc {
+  display: block;
+  font-size: 0.85em;
+  font-weight: 300;
+  margin-top: 0.4em;
+  line-height: 1.35;
+}
+.masthead-nav__featured:hover .masthead-nav__featured-title {
+  color: $site-red !important;
+}
+
+.masthead-nav__divider {
+  border: none;
+  border-top: 1px solid $light-gray;
+  margin: 0.8em 0;
+}
+
+.masthead-nav__browse {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.masthead-nav__browse li {
+  margin-bottom: 0.5em;
+  font-weight: 300;
+}
+// `.masthead *` (above) sets font-size directly on every descendant, which
+// beats plain inheritance from the li — same landmine as .masthead-nav__view-all
+// above. Target the anchor directly so browse links actually render smaller
+// than the featured title instead of both landing on the wildcard's value.
+.masthead-nav__browse li,
+.masthead-nav__browse li a {
+  font-size: 0.9em;
+}
+.masthead-nav__browse a:hover { color: $site-red !important; }
+.masthead-nav__view-all {
+  margin-top: 0.6em !important;
+  padding-top: 0.6em;
+  border-top: 1px solid $light-gray;
+  text-transform: uppercase;
+  font-size: 0.78em !important;
+}
+// `.masthead *` (above) sets letter-spacing and font-weight directly on
+// every descendant, which beats plain inheritance from the li — target the
+// anchor itself for both.
+.masthead-nav__view-all,
+.masthead-nav__view-all a {
+  letter-spacing: 0.05em;
+  font-weight: 700 !important;
+}
+
+@media screen and (max-width: 992px) {
+  // display: grid (not block) is what makes the two stacked labels above
+  // overlap in one cell instead of stacking vertically.
+  .masthead-nav__toggle { display: grid; margin-left: auto; }
+
+  // `.masthead-nav { position: relative; }` (above) is only there to anchor
+  // the desktop caret dropdowns — but nothing on mobile actually needs it,
+  // and left in place it makes the nav itself (not `.masthead`) the
+  // containing block for the absolutely-positioned list below. The nav has
+  // no in-flow content of its own once the list is taken out of flow, so it
+  // collapses to 0 width — and the list, positioned against a 0-width box,
+  // collapsed to 0 width too (nothing visibly clickable). Switching to
+  // `static` here makes `.masthead` — fixed, real viewport width — the
+  // containing block instead, which is also exactly what makes the list
+  // span the full page edge-to-edge as requested.
+  .masthead-nav { position: static; }
+
+  // Collapsed by default via the `hidden` attribute in the markup; JS toggles
+  // `hidden` + `.is-open` together (same choreography as the dropdown panels:
+  // hidden=false → force reflow → add .is-open → transition runs) so the
+  // sheet fades + slides down instead of popping instantly. The plain
+  // `.masthead-nav__list { display: flex }` rule above has no `[hidden]`
+  // qualifier, so it stays the permanent desktop row regardless of this
+  // attribute — only this media query's explicit `[hidden]` override below
+  // makes the attribute actually hide anything, and only on mobile.
+  .masthead-nav__list {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transform: translateY(-14px);
+    // Slower and eased-out (fast start, gentle settle) than the 0.15s snap
+    // used elsewhere — this is the whole sheet appearing, not a small
+    // hover-driven affordance, so it reads better with room to be seen.
+    transition: opacity 0.32s cubic-bezier(0.16, 1, 0.3, 1),
+                transform 0.32s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .masthead-nav__list[hidden] { display: none; }
+  .masthead-nav__list.is-open { opacity: 1; transform: translateY(0); }
+
+  .masthead-nav .masthead__menu-item > a { margin: 0; padding: 0.7em 1em; }
+  .masthead-nav .masthead__menu-item + .masthead__menu-item {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+  }
+
+  // Pin the caret to the row's right edge instead of hugging the label text.
+  // flex-wrap is what makes the panel below drop to its own full-width line
+  // instead of sitting beside the link as a third item in the same flex row.
+  .masthead-nav__item { padding-right: 1em; flex-wrap: wrap; }
+  .masthead-nav__item a { flex: 1 1 auto; min-width: 0; }
+
+  // Accordion: the panel renders inline, full width, under its trigger row —
+  // not floated, since there's no room to float on a narrow viewport.
+  // flex-basis: 100% (with flex-wrap above) is what forces it onto its own
+  // line rather than being sized/positioned as a third flex item in the row.
+  // max-height (rather than height) lets it expand smoothly without a fixed
+  // height in the markup — masthead-nav.js sets the inline max-height to the
+  // panel's exact measured `scrollHeight` on open (and back to 0 on close),
+  // rather than an arbitrary oversized cap: a fixed overshoot value (e.g.
+  // 2000px) makes the transition's easing curve run across that whole
+  // range, so real content — usually well under half of it — finishes
+  // growing very early and the motion reads as an instant snap rather than
+  // an expand. Measuring the exact height means the entire declared
+  // duration below is spent on visible growth.
+  .masthead-nav__panel {
+    position: static;
+    flex: 1 0 100%;
+    width: 100%;
+    max-width: none;
+    min-width: 0;
+    border: none;
+    padding: 1.1em 1em 1em;
+    max-height: 0;
+    overflow: hidden;
+    transform: none;
+    // This base transition is what's active the instant `.is-open` is
+    // removed (masthead-nav.js removes the class *before* setting the
+    // inline max-height back to 0 — see closePanel), so it's what actually
+    // governs closing: short and decisive, matching how a close should
+    // feel, rather than the longer opening transition below which would
+    // otherwise make every close linger by the same amount as the reveal.
+    transition: opacity 0.18s ease, max-height 0.2s ease-in;
+  }
+  .masthead-nav__panel.is-open {
+    transform: none;
+    // Opening gets its own longer, more visible transition. JS adds this
+    // class *before* setting the inline max-height (see openPanel), so the
+    // reveal itself always animates with this value, not the short one above.
+    transition: opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+                max-height 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+}
+@media screen and (max-width: 992px) and (prefers-reduced-motion: reduce) {
+  // `.masthead-nav__panel.is-open` (above) declares its own `transition:`
+  // (specificity 0,2,0), which beats the plain `.masthead-nav__panel` rule
+  // below (0,1,0) regardless of source order — so it must be listed here
+  // explicitly, or reduced motion would fail to disable the open transition.
+  .masthead-nav__list,
+  .masthead-nav__panel,
+  .masthead-nav__panel.is-open { transition: none; }
 }
 
 
@@ -611,21 +977,6 @@ body { padding-top: 60px; } // must match the masthead's rendered height
   float: left;
   margin-left: 4em;
   margin-top: -1.5em;
-}
-
-
-// ─── Navigation Labels ───────────────────────────────────────
-// The first nav item shows "About" on mobile (short) and the full name on
-// desktop (where there is room). nav-spacer compensates for the extra width.
-
-.label-mobile  { display: inline; font-weight: 400; letter-spacing: 0.02em; }
-.label-desktop { display: none; }
-.nav-spacer    { display: none; }
-
-@media screen and (min-width: 1280px) {
-  .label-mobile  { display: none; }
-  .label-desktop { display: inline; font-weight: 400; letter-spacing: 0.02em; }
-  .nav-spacer    { display: inline-block; width: 43px; }
 }
 
 

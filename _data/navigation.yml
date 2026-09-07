@@ -1,20 +1,75 @@
-# main links links
+# main links
+# Each item is a plain {title, url} link. Items may optionally add:
+#   featured: {title, meta, description, url}  — one curated highlight
+#   browse:   [{title, url}, ...]               — a short "see also" list
+#   view_all: "..."                              — overrides "View all {title}"
+# Items with neither featured nor browse (e.g. CV) render as a plain link
+# with no dropdown.
 main:
   # - title: "About"
   #   url: "#about"
 
   - title: "Papers"
     url: "#publications"
+    featured:
+      title: "BioEmu"
+      meta: "Science – cover article"
+      description: "Scalable emulation of protein equilibrium ensembles with generative deep learning."
+      url: "#bioemu"
+    browse:
+      - title: "The Cost of Binarizing Survival Outcomes in Clinical Prognostic Modeling"
+        url: "#binarization"
+      - title: "Position: Agentic AI Orchestration Should be Bayes-Consistent"
+        url: "#bayes-consistent"
+      - title: "Probing Clinical Concepts in an EHR Foundation Model via Sparse Autoencoders"
+        url: "#ehr-sae"
 
   - title: "Talks"
     url: "#talks"
+    featured:
+      title: "Scalable Emulation of Protein Equilibrium Ensembles with Generative Deep Learning"
+      meta: "Mayo Clinic Biochemistry & Molecular Biology Seminar Series"
+      description: "An introduction to BioEmu, from AlphaFold to conformational ensemble prediction."
+      url: "#bioemu-talk"
+    browse:
+      - title: "Introduction to Deep Learning"
+        url: "#intro-to-dl"
+      - title: "Survival Analysis for Healthcare Data"
+        url: "#survival-analysis"
 
   - title: "Blog"
-    url: "#blog" 
+    url: "#blog"
+    view_all: "Blog Posts"
+    featured:
+      title: "MLP Weight Evolution Visualizer"
+      meta: "Interactive tool"
+      description: "Watch the weights of a small MLP evolve as it trains on MNIST."
+      url: "#mlp-viz"
+    browse:
+      - title: "The Neural Process Family"
+        url: "#npf"
+      - title: "A Philosophical Note on the Interpretation of Generalization Bounds"
+        url: "#pac-bayes-note"
+      - title: "What Keeps a Bayesian Awake at Night?"
+        url: "#bayesian-awake"
+
+  - title: "Understanding AI Lectures"
+    url: "#ai-from-scratch"
+    featured:
+      title: "1. What is Deep Learning?"
+      description: "The first module of the Understanding AI from Scratch series."
+      url: "https://mssvideoupload.mayo.edu/playlist/dedicated/1_uq8gpkab/1_rhvbtb46"
+    browse:
+      - title: "2. From Single Neurons to Neural Networks"
+        url: "https://mssvideoupload.mayo.edu/playlist/dedicated/1_uq8gpkab/1_xbkcrbjs"
+      - title: "3. AI for Imaging"
+        url: "https://mssvideoupload.mayo.edu/playlist/dedicated/1_uq8gpkab/1_2q24t2cy"
+      - title: "4. Practical AI for Imaging"
+        url: "https://mssvideoupload.mayo.edu/playlist/dedicated/1_uq8gpkab/1_4m5awnik"
+      - title: "5. How Does ChatGPT Work?"
+        url: "https://mssvideoupload.mayo.edu/playlist/dedicated/1_uq8gpkab/1_h9wwrlo9"
+      - title: "6. Prompting ChatGPT"
+        url: "https://mssvideoupload.mayo.edu/playlist/dedicated/1_uq8gpkab/1_euus6hqk"
 
   - title: "CV"
     url: "#cv"
-
-  - title: "Lectures"
-    url: "#ai-from-scratch"
-

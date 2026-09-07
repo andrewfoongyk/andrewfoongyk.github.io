@@ -4,20 +4,20 @@
   <div class="masthead">
     <div class="masthead__inner-wrap">
       <div class="masthead__menu">
-        <nav id="site-nav" class="greedy-nav">
-          <button><div class="navicon"></div></button>
-          <ul class="visible-links">
+        <div class="masthead-nav__bar">
 
-            <!-- First item: "About" becomes "Andrew Y. K. Foong" on desktop -->
-            <li class="masthead__menu-item masthead__menu-item--lg">
-              <a href="#about">
-                <span class="label-mobile">About</span>
-                <span class="label-desktop">Andrew Y.K. Foong</span>
-              </a>
-            </li>
+          <!-- Persistent brand link — lives outside the collapsible list so it
+               stays visible (left-aligned) at every breakpoint even while the
+               menu is closed. -->
+          <a href="#about" class="masthead-nav__brand">Andrew Y.K. Foong</a>
 
-            <!-- Optional spacer for aligning second button with text -->
-            <li class="masthead__menu-item nav-spacer"></li>
+          <!-- Deliberately NOT "site-nav" / ".visible-links" / ".hidden-links" / a bare
+               <button> inside <nav> — the legacy greedy-nav width-measuring script
+               baked into main.min.js selects those exact identifiers. Avoiding them
+               turns that script into a permanent no-op instead of requiring us to
+               hand-edit an unbuildable minified bundle. -->
+          <nav class="masthead-nav" aria-label="Primary">
+            <ul class="masthead-nav__list" id="masthead-nav-list" hidden>
 
             <!-- Main nav links -->
             {% for link in site.data.navigation.main %}
@@ -26,17 +26,78 @@
               {% else %}
                 {% assign domain = base_path %}
               {% endif %}
-              <li class="masthead__menu-item">
-                <a href="{{ domain }}{{ link.url }}"
-                   {% if link.newtab %}target="_blank" rel="noopener noreferrer"{% endif %}>
-                   {{ link.title }}
-                </a>
+              <li class="masthead__menu-item{% if link.featured or link.browse %} masthead-nav__item{% endif %}">
+                <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+
+                {% if link.featured or link.browse %}
+                  <button type="button" class="masthead-nav__caret" aria-haspopup="true" aria-expanded="false"
+                          aria-controls="masthead-panel-{{ forloop.index }}" aria-label="{{ link.title }} submenu"></button>
+
+                  <div class="masthead-nav__panel" id="masthead-panel-{{ forloop.index }}"
+                       role="group" aria-label="{{ link.title }} menu" hidden>
+
+                    {% if link.featured %}
+                      {% if link.featured.url contains 'http' %}
+                        {% assign featured_domain = '' %}
+                      {% else %}
+                        {% assign featured_domain = base_path %}
+                      {% endif %}
+                      <a class="masthead-nav__featured" href="{{ featured_domain }}{{ link.featured.url }}">
+                        <span class="masthead-nav__featured-title">{{ link.featured.title }}</span>
+                        {% if link.featured.meta %}<span class="masthead-nav__featured-meta">{{ link.featured.meta }}</span>{% endif %}
+                        <span class="masthead-nav__featured-desc">{{ link.featured.description }}</span>
+                      </a>
+                    {% endif %}
+
+                    {% if link.featured and link.browse %}<hr class="masthead-nav__divider">{% endif %}
+
+                    {% if link.browse %}
+                      <ul class="masthead-nav__browse">
+                        {% for item in link.browse %}
+                          {% if item.url contains 'http' %}
+                            {% assign browse_domain = '' %}
+                          {% else %}
+                            {% assign browse_domain = base_path %}
+                          {% endif %}
+                          <li><a href="{{ browse_domain }}{{ item.url }}">{{ item.title }}</a></li>
+                        {% endfor %}
+                        <li class="masthead-nav__view-all"><a href="{{ domain }}{{ link.url }}">View all {{ link.view_all | default: link.title }}</a></li>
+                      </ul>
+                    {% endif %}
+
+                  </div>
+                {% endif %}
               </li>
             {% endfor %}
 
-          </ul>
-          <ul class="hidden-links hidden"></ul>
-        </nav>
+            </ul>
+          </nav>
+
+          <!-- Text-labeled toggle (mobile only, hidden on desktop via CSS) — replaces
+               the old icon hamburger entirely. Both labels are stacked in the same
+               CSS grid cell and cross-fade via opacity, driven purely by the
+               aria-expanded attribute masthead-nav.js already sets — no JS text
+               mutation needed. Right-aligned via CSS (margin-left: auto). -->
+          <button type="button" class="masthead-nav__toggle" aria-expanded="false" aria-controls="masthead-nav-list">
+            <span class="masthead-nav__toggle-label masthead-nav__toggle-label--closed">Menu</span>
+            <span class="masthead-nav__toggle-label masthead-nav__toggle-label--open">Close</span>
+          </button>
+
+          <!-- Without masthead-nav.js, nothing ever removes the `hidden` attribute
+               from the nav list or the dropdown panels, and nothing ever toggles
+               the caret/toggle buttons — which have no href and would otherwise be
+               dead, confusing controls. This is an author stylesheet, so it beats
+               the `[hidden]{display:none}` UA default regardless of specificity,
+               making every link permanently reachable when JS is unavailable. -->
+          <noscript>
+            <style>
+              #masthead-nav-list { display: flex !important; opacity: 1 !important; transform: none !important; position: static !important; }
+              .masthead-nav__panel { display: block !important; opacity: 1 !important; position: static !important; max-height: none !important; transform: none !important; }
+              .masthead-nav__toggle, .masthead-nav__caret { display: none !important; }
+            </style>
+          </noscript>
+
+        </div>
       </div>
     </div>
   </div>
