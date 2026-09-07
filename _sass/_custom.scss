@@ -404,11 +404,11 @@ body { padding-top: 58px; } // mobile masthead height (~57.375px)
 .anchor-offset {
   display: block;
   position: relative;
-  top: -65px;
+  top: -45px;
   visibility: hidden;
 }
 @media screen and (min-width: 993px) {
-  .anchor-offset { top: -78px; }
+  .anchor-offset { top: -58px; }
 }
 
 @media screen and (min-width: 992px) {
@@ -590,10 +590,6 @@ body { padding-top: 58px; } // mobile masthead height (~57.375px)
 .masthead-nav__toggle[aria-expanded="true"] .masthead-nav__toggle-label--open {
   opacity: 1;
 }
-.masthead-nav__toggle:hover .masthead-nav__toggle-label,
-.masthead-nav__toggle:focus-visible .masthead-nav__toggle-label {
-  text-decoration: underline;
-}
 @media (prefers-reduced-motion: reduce) {
   .masthead-nav__toggle-label { transition: none; }
 }
@@ -693,7 +689,7 @@ body { padding-top: 58px; } // mobile masthead height (~57.375px)
 .masthead-nav__featured-title {
   display: block;
   font-weight: 700;
-  font-size: 1.05em;
+  font-size: 0.9em;
 }
 .masthead-nav__featured-meta {
   display: block;
@@ -727,14 +723,14 @@ body { padding-top: 58px; } // mobile masthead height (~57.375px)
 .masthead-nav__browse li {
   margin-bottom: 0.5em;
   font-weight: 300;
+  font-size: 1em; // cancels wildcard's 0.953em at this level
 }
 // `.masthead *` (above) sets font-size directly on every descendant, which
 // beats plain inheritance from the li — same landmine as .masthead-nav__view-all
 // above. Target the anchor directly so browse links actually render smaller
 // than the featured title instead of both landing on the wildcard's value.
-.masthead-nav__browse li,
 .masthead-nav__browse li a {
-  font-size: 0.9em;
+  font-size: 0.9em; // now applies exactly once, matching featured-title
 }
 .masthead-nav__browse a:hover { color: $site-red !important; }
 .masthead-nav__view-all {
@@ -806,7 +802,7 @@ body { padding-top: 58px; } // mobile masthead height (~57.375px)
   // Pin the caret to the row's right edge instead of hugging the label text.
   // flex-wrap is what makes the panel below drop to its own full-width line
   // instead of sitting beside the link as a third item in the same flex row.
-  .masthead-nav__item { padding-right: 1em; flex-wrap: wrap; }
+  .masthead-nav__item { padding-right: 0.3em; flex-wrap: wrap; }
   .masthead-nav__item a { flex: 1 1 auto; min-width: 0; }
 
   // Mobile only: enlarge the caret's tap target well past its visible size —
@@ -816,8 +812,8 @@ body { padding-top: 58px; } // mobile masthead height (~57.375px)
   // box back so it doesn't push surrounding layout outward — only the
   // invisible hit region bleeds into the existing whitespace around it.
   .masthead-nav__caret {
-    padding: 0.6em;
-    margin: -0.6em -0.6em -0.6em -0.3em;
+    padding: 0.6em 0.6em 0.6em 1.2em;
+    margin: -0.6em -0.6em -0.6em -0.9em;
   }
 
   // Accordion: the panel renders inline, full width, under its trigger row —
