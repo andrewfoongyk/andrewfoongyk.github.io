@@ -17,6 +17,10 @@ main:
       description: "Scalable emulation of protein equilibrium ensembles with generative deep learning."
       url: "#bioemu"
     browse:
+      - title: "The Cost of Binarizing Survival Outcomes in Clinical AI"
+        url: "#binarization"
+      - title: "Interpreting an EHR Foundation Model"
+        url: "#ehr-sae"
       - title: "Convolutional Conditional Neural Processes"
         url: "#convcnp"
       - title: "Protein Generation with SE(3) Flow Matching"
