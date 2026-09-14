@@ -61,7 +61,7 @@ Department of Radiation Oncology.
 We develop next-generation 
 <span class="small-caps">ai</span>
 systems to advance cancer diagnosis and treatment.
-See my [faculty page](https://www.mayo.edu/research/faculty/foong-andrew-ph-d/bio-20583559) for research areas.
+<!-- See my [faculty page](https://www.mayo.edu/research/faculty/foong-andrew-ph-d/bio-20583559) for research areas. -->
 {: .about-p}
 
 Prior to joining Mayo Clinic, I was a senior researcher
@@ -96,6 +96,7 @@ See my selected [papers](#publications), or visit my Google Scholar [profile](ht
 <span class="small-caps"> contact</span>:<span class="email">
 foong.andrew@mayo.edu
 </span>
+
 
 <a id="hiring-news" class="anchor-offset"></a>
 <h1 style="margin-top: 3em; margin-bottom: 1.0em;">Hiring News</h1>
@@ -203,6 +204,49 @@ All applicants must be based within 100 miles of Mayo Clinic Rochester upon begi
 
 <p class="fleuron" style="text-align: center; margin-top: 5rem; font-size:1.17em;">❧</p>
 
+<hr class="hr-ghost">
+
+<a id="research-interests" class="anchor-offset"></a>
+<h1 style="margin-top: 3em; margin-bottom: 1.0em;">Research Interests</h1>
+
+<i>
+More information on my research areas can be found on my Mayo Clinic [faculty page](https://www.mayo.edu/research/faculty/foong-andrew-ph-d/bio-20583559).
+</i>
+
+<p style="margin:0;">
+<span class="sans" style="margin-right: 0.75em;">
+<!-- <span style="font-style: italic; font-weight: 400; margin-right: 0.5em;"> -->
+  Generative Modeling of Biomolecules
+</span>
+The release of AlphaFold revolutionized protein structure prediction and design, establishing deep learning techniques such as transformers and diffusion models as the state-of-the-art.
+My contributions in this area have focused on going beyond single-structure prediction towards predicting thermodynamic ensembles.
+This began with Timewarp, which used normalizing flows to predict the future state of molecular dynamics simulations.
+I then worked on flow matching on the Lie group <span class="small-caps">se(3)</span>, allowing faster sampling of proteins in the “backbone frame” representation introduced by AlphaFold.
+More recently, I worked on BioEmu, a diffusion model that samples conformational structures which emulate thermodynamic ensembles of proteins.
+</p>
+
+<span class="sans" style="margin-right: 0.75em;">
+  AI for Healthcare
+</span>
+In the last few years, <span class="small-caps">ai</span> has moved from a research program in healthcare to an indispensable part of practice. My work in this area covers: (1) using large language models and agentic systems to mine the electronic health record at scale and summarize information for clinicians; (2) computer vision and generative modeling for medical imaging data such as <span class="small-caps">mr</span>, <span class="small-caps">ct</span> and radiation treatment plans; (3) predicting treatment outcomes using multimodal <span class="small-caps">ai</span> to inform survival analysis; and (4) training and interpreting biological foundation models.
+
+<span class="sans" style="margin-right: 0.75em;">
+  Bayesian Machine Learning
+</span>
+In high-stakes applications, it is crucial to provide reliable uncertainty estimates; an <span class="small-caps">ai</span> model should “know what it doesn't know”, so that it can flag responses for human review.
+Bayesian inference approaches this by treating uncertainty estimation as an extension of probability theory, providing a consistent mathematical formulation.
+When applied to deep learning, Bayesian inference requires intractable integrals that have to be approximated.
+I investigated these approximations theoretically and empirically, revealing issues with simple variational approximations in Bayesian neural networks.
+I've also worked on <span class="small-caps">pac</span>-Bayes, a frequentist framework for proving generalization bounds closely related to Bayesian approaches.
+
+<span class="sans" style="margin-right: 0.75em;">
+  Neural Processes
+</span>
+Gaussian processes are a well-established Bayesian method for regression with uncertainty.
+However, they are limited by the need to hand-specify a kernel function and by poor scaling with dataset size.
+Neural processes aim to combine the advantages of Gaussian processes with deep learning by meta-learning a map from datasets to predictive distributions with uncertainty.
+My work in this area has focused on incorporating convolutional structure into neural processes and investigating their theoretical properties.
+Neural processes have found high-impact applications in areas from climate modeling to tabular foundation models.
 
 <!-- Custom styled HR -->
 <hr class="hr-ghost">
