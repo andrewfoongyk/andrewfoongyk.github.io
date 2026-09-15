@@ -62,7 +62,7 @@ We develop next-generation
 <span class="small-caps">ai</span>
 systems to advance cancer diagnosis and treatment.
 <!-- See my [faculty page](https://www.mayo.edu/research/faculty/foong-andrew-ph-d/bio-20583559) for research areas. -->
-{: .about-p}
+{: .about-p .text-justify}
 
 Prior to joining Mayo Clinic, I was a senior researcher
 at
@@ -86,7 +86,7 @@ My research, combining probabilistic modeling and deep learning, was published a
 <span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span>, <span class="small-caps">iclr</span>,
 and
 <span class="small-caps">icml</span>.
-{: .about-p}
+{: .about-p .text-justify}
 
 <i>
 See my selected [papers](#publications), or visit my Google Scholar [profile](https://scholar.google.com/citations?user=2UOjgIUAAAAJ&hl=en) for a full list.
@@ -102,6 +102,7 @@ foong.andrew@mayo.edu
 <h1 style="margin-top: 3em; margin-bottom: 1.0em;">Hiring News</h1>
 <span class="small-caps">i am hiring</span> for <span class="small-caps">ai/ml</span> interns and research fellows in the Mayo Clinic Radiation Oncology <span class="small-caps">ai</span> and Data Analytics team. If you’re interested in doing immediately impactful, technically serious work in healthcare, please apply [here](https://jobs.mayoclinic.org/job/rochester/ai-ml-intern-radiation-oncology/33647/96924204752) for the internship and [here](https://jobs.mayoclinic.org/job/rochester/research-fellow-radiation-oncology/33647/93729609296) for the research fellow position.
 All applicants must be based within 100 miles of Mayo Clinic Rochester upon beginning their role.
+{: .text-justify}
 
 <a id="experience" class="anchor-offset"></a>
 <h1 style="margin-top: 3em; margin-bottom: 1.0em;">Experience</h1>
@@ -213,22 +214,23 @@ All applicants must be based within 100 miles of Mayo Clinic Rochester upon begi
 More information on my research areas can be found on my Mayo Clinic [faculty page](https://www.mayo.edu/research/faculty/foong-andrew-ph-d/bio-20583559).
 </i>
 
-<p style="margin:0;">
+<p style="margin:0;" class="text-justify">
 <span class="sans" style="margin-right: 0.75em;">
 <!-- <span style="font-style: italic; font-weight: 400; margin-right: 0.5em;"> -->
   Generative Modeling of Biomolecules
 </span>
 The release of AlphaFold revolutionized protein structure prediction and design, establishing deep learning techniques such as transformers and diffusion models as the state-of-the-art.
 My contributions in this area have focused on going beyond single-structure prediction towards predicting thermodynamic ensembles.
-This began with Timewarp, which used normalizing flows to predict the future state of molecular dynamics simulations.
-I then worked on flow matching on the Lie group <span class="small-caps">se(3)</span>, allowing faster sampling of proteins in the “backbone frame” representation introduced by AlphaFold.
-More recently, I worked on BioEmu, a diffusion model that samples conformational structures which emulate thermodynamic ensembles of proteins.
+This began with <a href="#timewarp" >Timewarp</a>, which used normalizing flows to predict the future state of molecular dynamics simulations.
+I then worked on <a href="#flow-matching">flow matching</a> on the Lie group <span class="small-caps">se(3)</span>, allowing faster sampling of proteins in the “backbone frame” representation introduced by AlphaFold.
+More recently, I worked on <a href="#bioemu" >BioEmu</a>, a diffusion model that samples conformational structures which emulate thermodynamic ensembles of proteins.
 </p>
 
 <span class="sans" style="margin-right: 0.75em;">
   AI for Healthcare
 </span>
-In the last few years, <span class="small-caps">ai</span> has moved from a research program in healthcare to an indispensable part of practice. My work in this area covers: (1) using large language models and agentic systems to mine the electronic health record at scale and summarize information for clinicians; (2) computer vision and generative modeling for medical imaging data such as <span class="small-caps">mr</span>, <span class="small-caps">ct</span> and radiation treatment plans; (3) predicting treatment outcomes using multimodal <span class="small-caps">ai</span> to inform survival analysis; and (4) training and interpreting biological foundation models.
+In the last few years, <span class="small-caps">ai</span> has moved from a research program in healthcare to an indispensable part of practice. My work in this area covers: (1) using large language models and agentic systems to <a href="#toxicity">mine the electronic health record</a> at scale and <a href="#radoncgpt">summarize information</a> for clinicians; (2) computer vision and generative modeling for medical imaging data such as <span class="small-caps">mr</span>, <span class="small-caps">ct</span> and radiation treatment plans; (3) predicting treatment outcomes using multimodal <span class="small-caps">ai</span> to inform <a href="#binarization">survival analysis</a>; and (4) training and interpreting biological foundation models.
+{: .text-justify}
 
 <span class="sans" style="margin-right: 0.75em;">
   Bayesian Machine Learning
@@ -236,17 +238,19 @@ In the last few years, <span class="small-caps">ai</span> has moved from a resea
 In high-stakes applications, it is crucial to provide reliable uncertainty estimates; an <span class="small-caps">ai</span> model should “know what it doesn't know”, so that it can flag responses for human review.
 Bayesian inference approaches this by treating uncertainty estimation as an extension of probability theory, providing a consistent mathematical formulation.
 When applied to deep learning, Bayesian inference requires intractable integrals that have to be approximated.
-I investigated these approximations theoretically and empirically, revealing issues with simple variational approximations in Bayesian neural networks.
-I've also worked on <span class="small-caps">pac</span>-Bayes, a frequentist framework for proving generalization bounds closely related to Bayesian approaches.
+I investigated these approximations <a href="#expressiveness">theoretically</a> and <a href="in-between">empirically</a>, revealing issues with simple variational approximations in Bayesian neural networks.
+I've also worked on <a href="#pac-bayes"><span class="small-caps">pac</span>-Bayes</a>, a frequentist framework for proving generalization bounds closely related to Bayesian approaches.
+{: .text-justify}
 
 <span class="sans" style="margin-right: 0.75em;">
   Neural Processes
 </span>
 Gaussian processes are a well-established Bayesian method for regression with uncertainty.
 However, they are limited by the need to hand-specify a kernel function and by poor scaling with dataset size.
-Neural processes aim to combine the advantages of Gaussian processes with deep learning by meta-learning a map from datasets to predictive distributions with uncertainty.
-My work in this area has focused on incorporating convolutional structure into neural processes and investigating their theoretical properties.
-Neural processes have found high-impact applications in areas from climate modeling to tabular foundation models.
+<a href="#neural-process-family">Neural processes</a> aim to combine the advantages of Gaussian processes with deep learning by meta-learning a map from datasets to predictive distributions with uncertainty.
+My work in this area has focused on incorporating <a href="convcnp">convolutional structure</a> into neural processes and investigating their theoretical properties.
+Neural processes have found high-impact applications in areas from <a href="https://www.nature.com/articles/s41586-025-08897-0">climate modeling</a> to <a href="https://www.nature.com/articles/s41586-024-08328-6">tabular foundation models</a>.
+{: .text-justify}
 
 <!-- Custom styled HR -->
 <hr class="hr-ghost">
@@ -255,7 +259,7 @@ Neural processes have found high-impact applications in areas from climate model
 <h1>Research Papers</h1>
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
-    <p style="margin:0; font-style: italic;">
+    <p style="margin:0; font-style: italic;" class="text-justify">
       For a full list of research papers, see my
       <a href="https://scholar.google.com/citations?user=2UOjgIUAAAAJ&hl=en" target="_blank">
         Google Scholar page</a>. 
@@ -297,7 +301,7 @@ The Cost of Binarizing Survival Outcomes in Clinical Prognostic Modeling
 	Shashank Yadav, David M. Routman, <span class="sans">Andrew Y.K. Foong</span>
     </p>
 
-    <p>
+    <p class="text-justify">
 When <span class="small-caps">ai</span> is used to predict treatment outcomes, a common practice is to treat it as binary classification – did a patient have the outcome by <span class="small-caps"><span style="font-style: italic;">n</span></span> years, or not?
 We show that this simplification isn’t free: in addition to throwing away data (i.e., all patients with fewer than <span class="small-caps"><span style="font-style: italic;">n</span></span> years of follow-up), we also lose fine-grained information about covariate effects.
 The good news is there’s a straightforward solution: survival analysis. But in practice this established tool is often ignored in <span class="small-caps">ml</span> papers. We claim this is unnecessarily suboptimal, and that whenever a binary survival model is used, a full survival analysis should be done instead.
@@ -307,7 +311,7 @@ The good news is there’s a straightforward solution: survival analysis. But in
       <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
-      <p style="margin-top:0.4em;">
+      <p style="margin-top:0.4em;" class="text-justify">
 Survival analysis is an established framework for analyzing time-to-event data, yet many clinical machine learning studies still binarize the outcome before model training. This practice excludes censored patients, collapses temporal information into a single threshold, and can affect which features are selected as prognostically relevant. We examine the cost of this binarization in the context of Bayesian network (<span class="small-caps">bn</span>) feature selection, using two recent publications as case studies: one that applies <span class="small-caps">bn</span>-based feature selection to a head-and-neck cancer cohort and a second surgical cohort study that, while not <span class="small-caps">bn</span>-based, likewise binarizes its survival endpoint. We replace the binary scoring function with the Cox partial log-likelihood for feature-to-outcome edges, a modification we call the Survival-Aware Bayesian network, and recover prognostic features that binarization misses. Our ablation experiment confirms that the improvement is driven by the time-to-event scoring formulation rather than by retaining more patients. The results generalize across five endpoint-cohort combinations in head-and-neck cancer and extend to three further cancer types (breast, colorectal, and kidney). We propose that clinical studies with survival outcomes should use time-to-event methods by default, as binarization discards the prognostic signal retained by survival analysis.
       </p>
     </details>
@@ -341,7 +345,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       Theodore Papamarkou, Pierre Alquier, Matthias Bauer, Wray Buntine, Andrew Davison, Gintare Karolina Dziugaite, Maurizio Filippone, <span class="sans">Andrew Y.K. Foong</span>, Vincent Fortuin, Dimitris Fouskakis, Eyke Hüllermeier, Theofanis Karaletsos, Mohammad Emtiyaz Khan, Nikita Kotelevskii, Salem Lahlou, Yingzhen Li, Fang Liu, Clare Lyle, Thomas Möllenhoff, Konstantina Palla, Maxim Panov, Yusuf Sale, Kajetan Schweighofer, Artem Shelmanov, Siddharth Swaroop, Martin Trapp, Willem Waegeman, Andrew Gordon Wilson, Alexey Zaytsev
     </p>
 
-    <p>
+    <p class="text-justify">
     Modern <span class="small-caps">llm</span>-powered systems are increasingly asked not just to reason, but to make decisions under uncertainty – choosing tools, allocating resources, and coordinating with humans. This paper argues that while individual <span class="small-caps">llm</span>s need not be fully Bayesian, the control layer orchestrating agentic <span class="small-caps">ai</span> should follow Bayesian decision principles to maintain calibrated beliefs and make coherent, utility-aware choices.
     </p>
 
@@ -349,7 +353,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
-      <p style="margin-top:0.4em;">
+      <p style="margin-top:0.4em;" class="text-justify">
       <span class="small-caps">llm</span>s excel at predictive tasks and complex reasoning tasks, but many high-value deployments rely on decisions under uncertainty, for example, which tool to call, which expert to consult, or how many resources to invest. While the usefulness and feasibility of Bayesian approaches remain unclear for <span class="small-caps">llm</span> inference, this position paper argues that the control layer of an agentic <span class="small-caps">ai</span> system (that orchestrates <span class="small-caps">llm</span>s and tools) is a clear case where Bayesian principles should shine. Bayesian decision theory provides a framework for agentic systems that can help to maintain beliefs over task-relevant latent quantities, to update these beliefs from observed agentic and human-<span class="small-caps">ai</span> interactions, and to choose actions. Making <span class="small-caps">llm</span>s themselves explicitly Bayesian belief-updating engines remains computationally intensive and conceptually nontrivial as a general modeling target. In contrast, this paper argues that coherent decision-making requires Bayesian principles at the level of the agentic system, not necessarily the <span class="small-caps">llm</span> agent parameters. This paper articulates practical properties for Bayesian control that fit modern agentic <span class="small-caps">ai</span> systems and human-<span class="small-caps">ai</span> collaboration, and provides concrete examples and design patterns to illustrate how calibrated beliefs and utility-aware policies can improve agentic <span class="small-caps">ai</span> orchestration.
       </p>
     </details>
@@ -382,7 +386,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       Shashank Yadav, David M. Routman, <span class="sans">Andrew Y.K. Foong</span>
     </p>
 
-    <p>
+    <p class="text-justify">
       This paper extends sparse autoencoder-based mechanistic interpretability to electronic health record foundation models, revealing that a transformer trained on <span class="small-caps">mimic-iv</span> learns a clinical ontology distinct from the <span class="small-caps">icd</span> system, with candidate clinical syndromes encoded as single monosemantic features. The learned features are validated by alignment with held-out <span class="small-caps">icd</span> phenotypes and by activation patching experiments that produce measurable downstream effects.
     </p>
 
@@ -390,7 +394,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
-      <p style="margin-top:0.4em;">
+      <p style="margin-top:0.4em;" class="text-justify">
         Foundation models (<span class="small-caps">fm</span>s) trained on large electronic health record (<span class="small-caps">ehr</span>) datasets can predict patient outcomes, but it is difficult to know what medical knowledge they have acquired. Unlike chatbot <span class="small-caps">llm</span>s, <span class="small-caps">ehr</span>-<span class="small-caps">fm</span>s are being considered for high-stakes clinical deployment, making it especially important to audit what they have learned beyond predictive accuracy. We apply sparse autoencoders (<span class="small-caps">sae</span>s) to a transformer-based <span class="small-caps">fm</span> trained on the <span class="small-caps">mimic-iv</span> dataset, extending <span class="small-caps">sae</span>-based mechanistic interpretability to <span class="small-caps">fm</span>s trained on clinical event streams. We use <span class="small-caps">llm</span>-based interpretation to characterize learned features, revealing that <span class="small-caps">ehr</span> models learn a clinical ontology distinct from the International Classification of Diseases (<span class="small-caps">icd</span>) system. We show that learned features are organized by prevalence and that the model encodes candidate matches to known clinical syndromes as single monosemantic features. Syndromic features are composed from lower-level features through cross-layer information-flow circuits that we probe via activation patching. We validate the learned features along two axes: external validity, where feature activations align with held-out <span class="small-caps">icd</span> phenotypes, and interventional consistency, where activation patching produces measurable downstream effects in source-target pairs. Together, these results demonstrate the utility of <span class="small-caps">sae</span>s as an interpretive layer for <span class="small-caps">ehr</span> foundation models.
       </p>
     </details>
@@ -416,6 +420,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.3em 0;">
+      <a id="toxicity" class="anchor-offset"></a>
       <a href="https://www.sciencedirect.com/science/article/pii/S0167814025053526">
       Large Language Models for Toxicity Extraction in Oncology Trials: A Real-World Benchmark in Prostate Radiotherapy
       </a>
@@ -429,7 +434,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       Federico Mastroleo, Mariana Borras-Osorio, Shiv Patel, Sarah Peterson, Renthony Wilson, Mi Zhou, Satomi Shiraishi, <span class="sans">Andrew Y.K. Foong</span>, David Routman, Mark R. Waddle
     </p>
 
-    <p>
+    <p class="text-justify">
     This study evaluates the accuracy and cost-effectiveness of off-the-shelf large language models for extracting <span class="small-caps">ctcae</span>-graded toxicities from a prospective prostate radiotherapy trial. The results show that modern <span class="small-caps">llm</span>s achieve near-human inter-rater reliability at low cost, supporting their feasibility for scalable toxicity monitoring in clinical research despite remaining limitations in grade-level accuracy.
     </p>
 
@@ -480,7 +485,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       Federico Mastroleo, Mariana Borras-Osorio, Shiv Patel, Sarah Peterson, Renthony Wilson, Mohammad Javad Namazi, Mi Zhou, Satomi Shiraishi, <span class="sans">Andrew Y.K. Foong</span>, David Routman, Mark R. Waddle
     </p>
 
-    <p>
+    <p class="text-justify">
     This systematic review examines how natural language processing and large language models are being used to extract and synthesize toxicity data from radiation oncology records. Across five studies, current approaches demonstrate promise but remain limited by single-center data, generalizability challenges, and computational and privacy constraints, highlighting the need for scalable, secure multi-center solutions.
     </p>
 
@@ -514,6 +519,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.3em 0;">
+      <a id="radoncgpt" class="anchor-offset"></a>
       <a href="https://arxiv.org/abs/2509.25540">
         RadOnc-GPT: An Autonomous LLM Agent for Real-Time Patient Outcomes Labeling at Scale
       </a>
@@ -527,7 +533,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       Jason Holmes, Yuexing Hao, Mariana Borras-Osorio, Federico Mastroleo, Santiago Romero Brufau, Valentina Carducci, Katie M. Van Abel, David M. Routman, <span class="sans">Andrew Y.K. Foong</span>, Liv M. Muller, Satomi Shiraishi, Daniel K. Ebner, Daniel J. Ma, Sameer R. Keole, Samir H. Patel, Mirek Fatyga, Martin Bues, Brad J. Stish, Yolanda I. Garces, Michelle A. Neben Wittich, Robert L. Foote, Sujay A. Vora, Nadia N. Laack, Mark R. Waddle, Wei Liu
     </p>
 
-    <p>
+    <p class="text-justify">
     RadOnc-<span class="small-caps">gpt</span> is an autonomous large language model agent designed to replace manual labeling by retrieving patient-specific data, synthesizing structured and unstructured clinical evidence, and producing real-time, structured outcomes at scale in radiation oncology. We validate the system across a tiered framework, demonstrating reliable structured data retrieval and accurate labeling of complex clinical outcomes, including osteoradionecrosis and cancer recurrence across independent cohorts.
     </p>
 
@@ -535,7 +541,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
-      <p style="margin-top:0.4em;">
+      <p style="margin-top:0.4em;" class="text-justify">
         Manual labeling limits the scale, accuracy, and timeliness of patient outcomes research in radiation oncology. We present RadOnc-<span class="small-caps">gpt</span>, an autonomous large language model <span class="small-caps">(llm)</span>-based agent capable of independently retrieving patient-specific information, iteratively assessing evidence, and returning structured outcomes. Our evaluation explicitly validates RadOnc-<span class="small-caps">gpt</span> across two clearly defined tiers of increasing complexity: (1) a structured quality assurance <span class="small-caps">(qa)</span> tier, assessing the accurate retrieval of demographic and radiotherapy treatment plan details, followed by (2) a complex clinical outcomes labeling tier involving determination of mandibular osteoradionecrosis <span class="small-caps">(orn)</span> in head-and-neck cancer patients and detection of cancer recurrence in independent prostate and head-and-neck cancer cohorts requiring combined interpretation of structured and unstructured patient data. The <span class="small-caps">qa</span> tier establishes foundational trust in structured-data retrieval, a critical prerequisite for successful complex clinical outcome labeling.
       </p>
     </details>
@@ -569,7 +575,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       Sarah Lewis†, Tim Hempel†, José Jiménez-Luna†, Michael Gastegger†, Yu Xie†, <span class="sans">Andrew Y.K. Foong</span>†, Victor García Satorras†, Osama Abdin†, Bastiaan S. Veeling†, Iryna Zaporozhets, Yaoyi Chen, Soojung Yang, Arne Schneuing, Jigyasa Nigam, Federico Barbero, Vincent Stimper, Andrew Campbell, Jason Yim, Marten Lienen, Yu Shi, Shuxin Zheng, Hannes Schulz, Usman Munir, Cecilia Clementi, Frank Noé
     </p>
 
-    <p>
+    <p class="text-justify">
     BioEmu is a generative deep-learning model that rapidly predicts the diverse shapes proteins adopt in nature, dramatically speeding up analyses that typically require lengthy molecular simulations. By efficiently uncovering functionally important protein movements, BioEmu accelerates drug discovery and provides a powerful computational tool to explore biological mechanisms previously inaccessible due to technical limitations.
     </p>
 
@@ -577,7 +583,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
-      <p style="margin-top:0.4em;">
+      <p style="margin-top:0.4em;" class="text-justify">
        Following the sequence and structure revolutions, predicting the dynamical mechanisms of proteins that implement biological function remains an outstanding scientific challenge. Several experimental techniques and molecular dynamics <span class="small-caps">(md)</span> simulations can, in principle, determine conformational states, binding configurations and their probabilities, but suffer from low throughput. Here we develop a Biomolecular Emulator (BioEmu), a generative deep learning system that can generate thousands of statistically independent samples from the protein structure ensemble per hour on a single graphical processing unit. By leveraging novel training methods and vast data of protein structures, over 200 milliseconds of <span class="small-caps">md</span> simulation, and experimental protein stabilities, BioEmu’s protein ensembles represent equilibrium in a range of challenging and practically relevant metrics. Qualitatively, BioEmu samples many functionally relevant conformational changes, ranging from formation of cryptic pockets, over unfolding of specific protein regions, to large-scale domain rearrangements. Quantitatively, BioEmu samples protein conformations with relative free energy errors around 1 kcal/mol, as validated against millisecond-timescale <span class="small-caps">md</span> simulation and experimentally-measured protein stabilities. By simultaneously emulating structural ensembles and thermodynamic properties, BioEmu reveals mechanistic insights, such as the causes for fold destabilization of mutants, and can efficiently provide experimentally-testable hypotheses.
       </p>
     </details>
@@ -615,7 +621,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       Jason Yim, Andrew Campbell, Emile Mathieu, <span class="sans">Andrew Y.K. Foong</span>, Michael Gastegger, José Jiménez-Luna, Sarah Lewis, Victor Garcia Satorras, Bastiaan S. Veeling, Frank Noé, Regina Barzilay, Tommi S. Jaakkola
     </p>
 
-    <p>
+    <p class="text-justify">
     Designing proteins around functional motifs is now possible with generative models, but often at the cost of structural diversity. We introduce motif-aware extensions to FrameFlow that expand the space of viable motif-scaffolds, yielding more diverse and designable proteins across a broad benchmark of biological motifs.
     </p>
 
@@ -623,7 +629,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
-      <p style="margin-top:0.4em;">
+      <p style="margin-top:0.4em;" class="text-justify">
         Protein design often begins with the knowledge of a desired function from a motif which motif-scaffolding aims to construct a functional protein around. Recently, generative models have achieved breakthrough success in designing scaffolds for a range of motifs. However, generated scaffolds tend to lack structural diversity, which can hinder success in wet-lab validation. In this work, we extend FrameFlow, an <span class="small-caps">se(3)</span> flow matching model for protein backbone generation, to perform motif-scaffolding with two complementary approaches. The first is motif amortization, in which FrameFlow is trained with the motif as input using a data augmentation strategy. The second is motif guidance, which performs scaffolding using an estimate of the conditional score from FrameFlow without additional training. On a benchmark of 24 biologically meaningful motifs, we show our method achieves 2.5 times more designable and unique motif-scaffolds compared to state-of-the-art. Code: <a href="https://github.com/microsoft/protein-frame-flow"><span class="email" style="font-size: 0.9em;">https://github.com/microsoft/protein-frame-flow</span></a>
       </p>
     </details>
@@ -664,7 +670,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       Regina Barzilay, Tommi Jaakkola, Frank Noé
     </p>
 
-    <p>
+    <p class="text-justify">
     FrameFlow is a generative model that rapidly produces realistic protein backbones by using flow matching on the <span class="small-caps">se(3)</span> geometry group, significantly improving computational efficiency over previous diffusion-based approaches. By generating higher-quality proteins at a fraction of the computational cost, FrameFlow streamlines the design of novel proteins, making drug development and biological research more efficient.
     </p>
 
@@ -672,7 +678,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
-      <p style="margin-top:0.4em;">
+      <p style="margin-top:0.4em;" class="text-justify">
         We present FrameFlow, a method for fast protein backbone generation using <span class="small-caps">se(3)</span> flow matching. Specifically, we adapt FrameDiff, a state-of-the-art diffusion model, to the flow-matching generative modeling paradigm. We show how flow matching can be applied on <span class="small-caps">se(3)</span> and propose modifications during training to effectively learn the vector field. Compared to FrameDiff, FrameFlow requires five times fewer sampling timesteps while achieving two fold better designability. The ability to generate high quality protein samples at a fraction of the cost of previous methods paves the way towards more efficient generative models in de novo protein design.
       </p>
     </details>
@@ -705,7 +711,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       Anna Vaughan, Tom Andersson, Anthony Buonomo, Scott Hosking, Richard E. Turner
     </p>
 
-    <p>
+    <p class="text-justify">
     Autoregressive Conditional Neural Processes enhance the flexibility of Conditional Neural Processes (popular meta-learning models) by making predictions sequentially rather than independently, without complicating training or requiring approximate inference. This simple yet powerful approach enables accurate modeling of complex dependencies in data, achieving results competitive with sophisticated models at substantially reduced computational cost, which is particularly valuable in tasks like clinical time-series prediction.
     </p>
 
@@ -713,7 +719,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
-      <p style="margin-top:0.4em;">
+      <p style="margin-top:0.4em;" class="text-justify">
         Conditional neural processes (<span class="small-caps" style="margin-right: -0.03em;">cnp</span>s; Garnelo et al., 2018a) are attractive meta-learning models which produce well-calibrated predictions and are trainable via a simple maximum likelihood procedure. Although <span class="small-caps" style="margin-right: -0.03em;">cnp</span>s have many advantages, they are unable to model dependencies in their predictions. Various works propose solutions to this, but these come at the cost of either requiring approximate inference or being limited to Gaussian predictions. In this work, we instead propose to change how <span class="small-caps" style="margin-right: -0.03em;">cnp</span>s are deployed at test time, without any modifications to the model or training procedure. Instead of making predictions independently for every target point, we autoregressively define a joint predictive distribution using the chain rule of probability, taking inspiration from the neural autoregressive density estimator <span class="small-caps">(nade)</span> literature. We show that this simple procedure allows factorised Gaussian <span class="small-caps" style="margin-right: -0.03em;">cnp</span>s to model highly dependent, non-Gaussian predictive distributions. Perhaps surprisingly, in an extensive range of tasks with synthetic and real data, we show that <span class="small-caps" style="margin-right: -0.03em;">cnp</span>s in autoregressive <span class="small-caps">(ar)</span> mode not only significantly outperform non-<span class="small-caps">ar</span> <span class="small-caps" style="margin-right: -0.03em;">cnp</span>s, but are also competitive with more sophisticated models that are significantly more computationally expensive and challenging to train.
       </p>
     </details>
@@ -747,7 +753,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       Marc Brockschmidt, Sebastian Nowozin, Frank Noé, Ryota Tomioka
     </p>
 
-    <p>
+    <p class="text-justify">
     Timewarp accelerates molecular dynamics simulations by using machine learning to predict longer-time dynamics directly, enabling researchers to efficiently explore protein behavior occurring over biologically relevant timescales. Uniquely, its learned dynamics are transferable across different molecular systems, significantly reducing computational time and enabling rapid investigation of protein folding and binding processes relevant to drug discovery.
     </p>
 
@@ -755,7 +761,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
-      <p style="margin-top:0.4em;">
+      <p style="margin-top:0.4em;" class="text-justify">
         Molecular dynamics <span class="small-caps">(md)</span> simulation is a widely used technique to simulate molecular systems, most commonly at the all-atom resolution where the equations of motion are integrated with timesteps on the order of femtoseconds (1&nbsp;fs = 10<sup>−15</sup>&nbsp;s). <span class="small-caps">md</span> is often used to compute equilibrium properties, which requires sampling from an equilibrium distribution such as the Boltzmann distribution. However, many important processes, such as binding and folding, occur over timescales of milliseconds or beyond, and cannot be efficiently sampled with conventional <span class="small-caps">md</span>. Furthermore, new <span class="small-caps">md</span> simulations need to be performed from scratch for each molecular system studied. We present Timewarp, an enhanced sampling method which uses a normalising flow as a proposal distribution in a Markov chain Monte Carlo method targeting the Boltzmann distribution. The flow is trained offline on <span class="small-caps">md</span> trajectories and learns to make large steps in time, simulating the molecular dynamics of 10<sup>5</sup>−10<sup>6</sup>&nbsp;fs. Crucially, Timewarp is transferable between molecular systems: once trained, we show that it generalises to unseen small peptides (2–4 amino acids), exploring their metastable states and providing wall-clock acceleration when sampling compared to standard <span class="small-caps">md</span>. Our method constitutes an important step towards developing general, transferable algorithms for accelerating <span class="small-caps">md</span>.
       </p>
     </details>
@@ -793,7 +799,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       <span class="sans">Andrew Y.K. Foong</span>
     </p>
 
-    <p>
+    <p class="text-justify">
     This thesis investigates two probabilistic frameworks for modelling uncertainty in machine learning, Bayesian neural networks and neural processes, and highlights both theoretical limits and architectural advances. It shows where popular inference methods fall short in capturing uncertainty, and introduces Convolutional Neural Processes, which leverage spatial symmetries to improve predictions when structure in the data allows.
     </p>
 
@@ -801,7 +807,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
-      <p style="margin-top:0.4em;">
+      <p style="margin-top:0.4em;" class="text-justify">
        It has been a longstanding goal in machine learning to develop flexible prediction methods that ‘know what they don’t know’ – when faced with an out-of-distribution input, these models should signal their uncertainty rather than be confidently wrong. This thesis is concerned with two such probabilistic machine learning models: Bayesian neural networks and neural processes. Bayesian neural networks are a classical model that has been the subject of research since the 1990s. They rely on Bayesian inference to represent uncertainty in the weights of a neural network. On the other hand, neural processes are a recently introduced model that relies on meta-learning rather than Bayesian inference to obtain uncertainty estimates.
 
        This thesis provides contributions to both of these research areas. For Bayesian neural networks, we provide a theoretical and empirical study of the quality of common variational methods in approximating the Bayesian predictive distribution. We show that for single-hidden layer networks with <span class="small-caps" style="margin-right: -0.04em;">r</span>e<span class="small-caps">lu</span> activation functions, there are fundamental limitations concerning the representation of in-between uncertainty: increased uncertainty in between well separated regions of low uncertainty. We show that this theoretical limitation doesn’t apply for deeper networks. However, in practice, in-between uncertainty is a feature of the exact predictive distribution that is still often lost by approximate inference, even with deep networks.
@@ -843,7 +849,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       Marcin B. Tomczak, Siddharth Swaroop, <span class="sans">Andrew Y.K. Foong</span>, Richard E. Turner
     </p>
 
-    <p>
+    <p class="text-justify">
     This paper introduces tighter variational bounds for Bayesian neural networks by treating prior parameters as latent variables and collapsing the bound analytically. The result is improved performance of mean-field variational inference in deep models along with a more principled way to learn hierarchical priors.
     </p>
 
@@ -851,7 +857,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
-      <p style="margin-top:0.4em;">
+      <p style="margin-top:0.4em;" class="text-justify">
         Recent interest in learning large variational Bayesian Neural Networks <span class="small-caps" style="margin-right: -0.03em">(bnn</span>s<span class="small-caps">)</span>  has been partly hampered by poor predictive performance caused by underfitting, and their performance is known to be very sensitive to the prior over weights. Current practice often fixes the prior parameters to standard values or tunes them using heuristics or cross-validation. In this paper, we treat prior parameters in a distributional way by extending the model and collapsing the variational bound with respect to their posteriors. This leads to novel and tighter Evidence Lower Bounds <span class="small-caps" style="margin-right: -0.03em">(elbo</span>s<span class="small-caps">)</span> for performing variational inference <span class="small-caps">(vi)</span> in <span class="small-caps" style="margin-right: -0.03em">(bnn</span>s<span class="small-caps">)</span>. Our experiments show that the new bounds significantly improve the performance of Gaussian mean-field <span class="small-caps">vi</span> applied to <span class="small-caps" style="margin-right: -0.03em">(bnn</span>s<span class="small-caps">)</span> on a variety of data sets, demonstrating that mean-field <span class="small-caps">vi</span> works well even in deep models. We also find that the tighter <span class="small-caps" style="margin-right: -0.03em">(elbo</span>s<span class="small-caps">)</span> can be good optimization targets for learning the hyperparameters of hierarchical priors.
       </p>
     </details>
@@ -869,6 +875,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <!-- Text content -->
   <div>
     <h3 style="margin:0 0 0.3em 0;">
+      <a id="pac-bayes" class="anchor-offset"></a>
       <a href="https://arxiv.org/abs/2106.03542">
         How Tight Can PAC-Bayes be in the Small Data Regime?
       </a>
@@ -882,7 +889,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       <span class="sans">Andrew Y.K. Foong</span>†, Wessel P. Bruinsma†, David R. Burt, and Richard E. Turner
     </p>
 
-    <p>
+    <p class="text-justify">
     This paper investigates how tight <span class="small-caps">pac</span>-Bayes bounds (tools used to estimate generalization error) can be when applied to small datasets, where each data point matters greatly. It reveals unexpected theoretical limits on <span class="small-caps">pac</span>-Bayes performance, demonstrating that while <span class="small-caps">pac</span>-Bayes bounds outperform standard test-set methods by using all available data, they still fall short of optimal test-set bounds in highly controlled scenarios.
     </p>
 
@@ -890,7 +897,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
-      <p style="margin-top:0.4em;">
+      <p style="margin-top:0.4em;" class="text-justify">
         In this paper, we investigate the question: Given a small number of datapoints, for example <span class="small-caps"><span style="font-style: italic;">n</span></span> = 30, how tight can <span class="small-caps">pac</span>-Bayes and test set bounds be made? For such small datasets, test set bounds adversely affect generalisation performance by discarding data. In this setting, <span class="small-caps">pac</span>-Bayes bounds are especially attractive, due to their ability to use all the data to simultaneously learn a posterior and bound its generalisation risk. We focus on the case of i.i.d. data with a bounded loss and consider the generic <span class="small-caps">pac</span>-Bayes theorem of Germain et al. (2009) and Begin et al. (2016). While their theorem is known to recover many existing <span class="small-caps">pac</span>-Bayes bounds, it is unclear what the tightest bound derivable from their framework is. Surprisingly, we show that for a fixed learning algorithm and dataset, the tightest bound of this form coincides with the tightest bound of the more restrictive family of bounds considered in Catoni (2007). In contrast, in the more natural case of distributions over datasets, we give examples (both analytic and numerical) showing that the family of bounds in Catoni (2007) can be suboptimal. Within the proof framework of Germain et al. (2009) and Begin et al. (2016), we establish a lower bound on the best bound achievable in expectation, which recovers the Chernoff test set bound in the case when the posterior is equal to the prior. Finally, to illustrate how tight these bounds can potentially be, we study a synthetic one-dimensional classification task in which it is feasible to meta-learn both the prior and the form of the bound to obtain the tightest <span class="small-caps">pac</span>-Bayes and test set bounds possible. We find that in this simple, controlled scenario, <span class="small-caps">pac</span>-Bayes bounds are surprisingly competitive with comparable, commonly used Chernoff test set bounds. However, the sharpest test set bounds still lead to better guarantees on the generalisation error than the <span class="small-caps">pac</span>-Bayes bounds we consider.
       </p>
     </details>
@@ -923,7 +930,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       Jonathan Gordon, and Richard E. Turner
     </p>
 
-    <p>
+    <p class="text-justify">
     This paper introduces the Gaussian Neural Process, a new model that captures correlations in predictions and incorporates translation symmetry. By addressing key limitations of existing Neural Processes, the Gaussian Neural Process improves predictive accuracy, broadening their applicability in meta-learning and tasks requiring robust uncertainty estimation.
     </p>
 
@@ -931,7 +938,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
-      <p style="margin-top:0.4em;">
+      <p style="margin-top:0.4em;" class="text-justify">
         Neural Processes (<span class="small-caps" style="margin-right: -0.03em;">np</span>s; Garnelo et al., 2018a,b) are a rich class of models for meta-learning that map data sets directly to predictive stochastic processes. We provide a rigorous analysis of the standard maximum-likelihood objective used to train conditional <span class="small-caps" style="margin-right: -0.03em;">np</span>s. Moreover, we propose a new member to the Neural Process family called the Gaussian Neural Process <span class="small-caps">(gnp)</span>, which models predictive correlations, incorporates translation equivariance, provides universal approximation guarantees, and demonstrates encouraging performance.
       </p>
     </details>
@@ -971,7 +978,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       James Requeima, and Richard E. Turner
     </p>
 
-    <p>
+    <p class="text-justify">
     This follow-up paper builds on Conv<span class="small-caps" style="margin-right: -0.03em;">cnp</span>s by enabling predictions that capture dependencies in structured data, improving coherence in tasks like image completion and spatio-temporal forecasting. Conv<span class="small-caps" style="margin-right: -0.03em;">np</span>s also introduce a simpler and more effective training approach for latent variable models compared with previous latent neural process models.
     </p>
 
@@ -979,7 +986,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
-      <p style="margin-top:0.4em;">
+      <p style="margin-top:0.4em;" class="text-justify">
         Stationary stochastic processes <span class="small-caps">(sp</span>s<span class="small-caps">)</span> are a key component of many probabilistic models, such as those for off-the-grid spatio-temporal data. They enable the statistical symmetry of underlying physical phenomena to be leveraged, thereby aiding generalization. Prediction in such models can be viewed as a translation equivariant map from observed data sets to predictive <span class="small-caps" style="margin-right: -0.03em;">sp</span>s, emphasizing the intimate relationship between stationarity and equivariance. Building on this, we propose the Convolutional Neural Process (Conv<span class="small-caps">np</span>), which endows Neural Processes <span class="small-caps" style="margin-right: -0.03em;">(np</span>s<span class="small-caps">)</span> with translation equivariance and extends convolutional conditional <span class="small-caps" style="margin-right: -0.03em;">np</span>s to allow for dependencies in the predictive distribution. The latter enables Conv<span class="small-caps" style="margin-right: -0.03em;">np</span>s to be deployed in settings which require coherent samples, such as Thompson sampling or conditional image completion. Moreover, we propose a new maximum-likelihood objective to replace the standard <span class="small-caps">elbo</span> objective in <span class="small-caps" style="margin-right: -0.03em;">np</span>s, which conceptually simplifies the framework and empirically improves performance. We demonstrate the strong performance and generalization capabilities of Conv<span class="small-caps" style="margin-right: -0.03em;">np</span>s on 1<span class="small-caps">d</span> regression, image completion, and various tasks with real-world spatio-temporal data.
       </p>
     </details>
@@ -1013,7 +1020,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       James Requeima, Yann Dubois, and Richard E. Turner
     </p>
 
-    <p>
+    <p class="text-justify">
     This paper introduces the Convolutional Conditional Neural Process (Conv<span class="small-caps">cnp</span>), a neural-network alternative to Gaussian processes, designed for reliable predictions when data is scarce or uncertainty matters. By incorporating translation symmetry, Conv<span class="small-caps" style="margin-right: -0.03em;">cnp</span>s accurately capture patterns in structured data, such as images or time series, and provides meaningful uncertainty estimates even on tasks it hasn’t encountered before.
     </p>
 
@@ -1021,7 +1028,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
-      <p style="margin-top:0.4em;">
+      <p style="margin-top:0.4em;" class="text-justify">
         We introduce the Convolutional Conditional Neural Process (Conv<span class="small-caps">cnp</span>), a new member of the Neural Process family that models translation equivariance in the data. Translation equivariance is an important inductive bias for many learning problems including time series modeling, spatial data, and images. The model embeds data sets into an infinite-dimensional function space as opposed to a finite-dimensional vector space. To formalize this notion, we extend the theory of neural representations of sets to include functional representations, and demonstrate that any translation-equivariant embedding can be represented using a convolutional deep set. We evaluate Conv<span class="small-caps" style="margin-right: -0.03em;">cnp</span>s in several settings, demonstrating that they achieve state-of-the-art performance compared to existing <span class="small-caps" style="margin-right: -0.03em;">np</span>s. We demonstrate that building in translation equivariance enables zero-shot generalization to challenging, out-of-domain tasks.
       </p>
     </details>
@@ -1054,7 +1061,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       <span class="sans">Andrew Y.K. Foong</span>†, David R. Burt†, Yingzhen Li, Richard E. Turner
     </p>
 
-    <p>
+    <p class="text-justify">
     This paper explores critical limitations of commonly-used approximation methods in Bayesian neural networks <span class="small-caps">(bnn</span>s<span class="small-caps">)</span>, highlighting cases where these methods fail to represent uncertainty accurately. It reveals that although deeper networks theoretically overcome some limitations, problems persist in practice, emphasizing the need for caution when using approximate inference to obtain reliable uncertainty estimates from <span class="small-caps" style="margin-right: -0.03em;">bnn</span>s.
     </p>
 
@@ -1062,7 +1069,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
-      <p style="margin-top:0.4em;">
+      <p style="margin-top:0.4em;" class="text-justify">
         While Bayesian neural networks <span class="small-caps">(bnn</span>s<span class="small-caps">)</span> hold the promise of being flexible, well-calibrated statistical models, inference often requires approximations whose consequences are poorly understood. We study the quality of common variational methods in approximating the Bayesian predictive distribution. For single-hidden layer <span class="small-caps" style="margin-right: -0.04em;">r</span>e<span class="small-caps">lu</span> <span class="small-caps" style="margin-right: -0.03em;">bnn</span>s, we prove a fundamental limitation in function-space of two of the most commonly used distributions defined in weight-space: mean-field Gaussian and Monte Carlo dropout. We find there are simple cases where neither method can have substantially increased uncertainty in between well-separated regions of low uncertainty. We provide strong empirical evidence that exact inference does not have this pathology, hence it is due to the approximation and not the model. In contrast, for deep networks, we prove a universality result showing that there exist approximate posteriors in the above classes which provide flexible uncertainty estimates. However, we find empirically that pathologies of a similar form as in the single-hidden layer case can persist when performing variational inference in deeper networks. Our results motivate careful consideration of the implications of approximate inference methods in <span class="small-caps" style="margin-right: -0.03em;">bnn</span>s.
       </p>
     </details>
@@ -1102,7 +1109,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       <span class="sans">Andrew Y.K. Foong</span>, Yingzhen Li, José Miguel Hernández-Lobato, and Richard E. Turner
     </p>
 
-    <p>
+    <p class="text-justify">
     This paper identifies a critical flaw in how popular Bayesian neural network methods (like mean-field variational inference) estimate uncertainty, particularly when predicting outside known data regions. It shows that classical approaches, like the linearised Laplace approximation, handle such “in-between” uncertainty more reliably, improving trustworthiness in safety-critical applications.
     </p>
 
@@ -1110,7 +1117,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       <summary class="details-summary" style="cursor:pointer; margin-top:-0.8em; font-size:0.82rem; line-height:1.2;">
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
-      <p style="margin-top:0.4em;">
+      <p style="margin-top:0.4em;" class="text-justify">
         We describe a limitation in the expressiveness of the predictive uncertainty estimate given by mean-field variational inference <span class="small-caps">(mfvi)</span>, a popular approximate inference method for Bayesian neural networks. In particular, <span class="small-caps">mfvi</span> fails to give calibrated uncertainty estimates in between separated regions of observations. This can lead to catastrophically overconfident predictions when testing on out-of-distribution data. Avoiding such overconfidence is critical for active learning, Bayesian optimisation and out-of-distribution robustness. We instead find that a classical technique, the linearised Laplace approximation, can handle “in-between” uncertainty much better for small network architectures.
       </p>
     </details>
@@ -1124,7 +1131,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 <h1 id="talks">Talks</h1>
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
-    <p style="margin:0; font-style: italic;">
+    <p style="margin:0; font-style: italic;" class="text-justify">
       A collection of my publicly available presentations and slide decks.
     </p>
 </div>
@@ -1150,7 +1157,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
         Introduction to Deep Learning
       </h3>
       <span class="small-caps">mayo clinic lecture series</span>
-      <p style="margin-top:0.6em;">
+      <p style="margin-top:0.6em;" class="text-justify">
         A ten-lecture course designed for clinicians and medical physicists at the Mayo Clinic. More accessible than a standard deep learning course – building up from vectors and linear regression – but more detailed and technically up-to-date than most healthcare-focused <span class="small-caps">ai</span> curricula, with modern topics including self-attention, <span class="small-caps">rlhf</span>, byte-pair encoding, <span class="small-caps">rag</span>, and agents.
       </p>
     </div>
@@ -1217,7 +1224,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
         Harvard Health Data Science Master’s Course Guest Lecture
       </span>
 
-      <p style="margin-top: 0.6em;">
+      <p style="margin-top: 0.6em;" class="text-justify">
         Delivered a guest lecture in Harvard’s Health Data Science master’s program with <a href="https://scholar.google.com/citations?user=bV4XHocAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Shashank Yadav</a> on cancer recurrence prediction using multimodal deep learning, highlighting work developed at the Mayo Clinic. The lecture covered integrating clinical and pathology data, and modern deep learning approaches to predict time-to-event outcomes in oncology. View the <a href="../files/harvard_guest_lecture.pdf" target="_blank">slides</a>.
       </p>
     </div>
@@ -1240,7 +1247,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
         continuing medical education online course
       </span>
 
-      <p style="margin-top: 0.6em;">
+      <p style="margin-top: 0.6em;" class="text-justify">
       Contributed a lecture on <em>The <span class="small-caps">abc</span>s of <span class="small-caps">ai</span></em> to Mayo Clinic’s online <span class="small-caps">cme</span> course <em>Practical Applications of <span class="small-caps">ai</span> at Mayo Clinic</em>, which provides role-specific training on integrating <span class="small-caps">ai</span> into clinical care, research, education, and operations. The course equips healthcare professionals with practical frameworks and real-world examples to support informed adoption and responsible use of <span class="small-caps">ai</span> in healthcare settings. Sign up <a href="https://ce.mayo.edu/online-education/content/practical-applications-ai-mayo-clinic-online-course#group-tabs-node-course-default1" target="_blank" rel="noopener noreferrer">here</a>.
       </p>
     </div>
@@ -1264,7 +1271,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
         mayo clinic platform accelerate education session
       </span>
 
-      <p style="margin-top: 0.6em;">
+      <p style="margin-top: 0.6em;" class="text-justify">
         Censored time-to-event data is ubiquitous in machine learning for healthcare. This lecture provides an introduction to survival analysis from a probabilistic, likelihood-first perspective, covering the classical Cox proportional hazards model as well as modern deep learning approaches. View the <a href="../files/Survival_Analysis_Slides.pdf" target="_blank">slides</a>.
       </p>
 
@@ -1305,7 +1312,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
         mayo clinic vibe summit
       </span>
 
-      <p style="margin-top: 0.6em;">
+      <p style="margin-top: 0.6em;" class="text-justify">
         The <span class="small-caps">psa</span> Control Tower creates a unified dashboard that uses <span class="small-caps">ai</span> to predict prostate cancer recurrence sooner. This short talk explains the need for a new approach to prostate cancer management as our society ages, and how our team is using machine learning to address the problem.
       </p>
 
@@ -1337,7 +1344,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
         mayo clinic quality <span class="amp">&amp;</span> safety grand rounds
       </span>
 
-      <p style="margin-top: 0.6em;">
+      <p style="margin-top: 0.6em;" class="text-justify">
         This talk explores case studies of past <span class="small-caps">ai</span> implementation failures in healthcare and how we can avoid them in the future. I provide general principles for how to think through a rational approach to the enormous opportunities, but also risks, that <span class="small-caps">ai</span> in healthcare poses. View the <a href="../files/AI_Safety_Slides.pdf" target="_blank">slides</a>.
       </p>
     </div>
@@ -1361,7 +1368,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
         mayo clinic biochemistry <span class="amp">&amp;</span> molecular biology seminar series
       </span>
 
-      <p style="margin-top: 0.6em;">
+      <p style="margin-top: 0.6em;" class="text-justify">
         This talk provides an introduction to <a href="#">BioEmu</a>, starting with AlphaFold and the deep learning revolution in protein structure, to the necessity of dynamics and conformational change prediction. I describe the training data, model architecture and capabilities of BioEmu. View the <a href="../files/bmb-seminar.pdf" target="_blank">slides</a>.
       </p>
 
@@ -1395,7 +1402,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
         mayo clinic ai lunch <span class="amp">&amp;</span> learn series
       </span>
 
-      <p style="margin-top: 0.6em;">
+      <p style="margin-top: 0.6em;" class="text-justify">
         Enormous volumes of clinical data are stored in free-text clinical notes that cannot be queried or statistically analyzed without painstaking human review. This <span style="font-style: italic;">dark data</span> can now be accessed at scale using large language models. This talk, delivered to clinicians, explains best practices for building reliable workflows to extract this data. Watch the <a href="https://mssvideoupload.mayo.edu/media/1_3taf2gcw" target="_blank">video</a>. View the <a href="../files/AI_lunch_and_learn_backup.pdf" target="_blank">slides</a>.
       </p>
     </div>
@@ -1417,7 +1424,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
         mayo clinic ai selective course
       </span>
 
-      <p style="margin-top: 0.6em;">
+      <p style="margin-top: 0.6em;" class="text-justify">
         This lecture – the first in a selective course delivered to students at the Mayo Clinic – provides a concise introduction to deep learning, explaining gradient descent, and how large language models are trained and generate text. View the <a href="../files/AI-Selective-Course.pdf" target="_blank">slides</a>.
       </p>
     </div>
@@ -1442,25 +1449,25 @@ Survival analysis is an established framework for analyzing time-to-event data, 
         mayo clinic lecture series
       </span>
 
-      <p style="margin-top: 0.6em;">
+      <p style="margin-top: 0.6em;" class="text-justify">
         I designed this six-part series to help clinicians at the Mayo Clinic with no prior <span class="small-caps">ai</span> experience understand deep learning from first principles. View the <a href="../files/Understanding_AI_from_Scratch.pdf" target="_blank">slides</a>.
       </p>
 
-      <p class="hanging-indent" style="margin-top: 0.6em;">
+      <p class="hanging-indent text-justify" style="margin-top: 0.6em;">
         <span style="display:inline; text-indent:0; padding-left:0;">
           <span class="small-caps">lectures 1</span> <span class="small-caps">&amp;</span> <span class="small-caps">2</span>
           cover deep learning from the ground up, from linear regression and gradient descent to neural networks, overfitting, and generalization.
         </span>
       </p>
 
-      <p style="margin-top: 0.6em;" class="hanging-indent">
+      <p style="margin-top: 0.6em;" class="hanging-indent text-justify">
         <span style="display:inline; text-indent:0; padding-left:0;">
           <span class="small-caps">lectures 3</span> <span class="small-caps">&amp;</span> <span class="small-caps">4</span>
           explain what convolutional neural networks are and how they can be used to understand images.
         </span>
       </p>
 
-      <p style="margin-top: 0.6em;" class="hanging-indent">
+      <p style="margin-top: 0.6em;" class="hanging-indent text-justify">
         <span style="display:inline; text-indent:0; padding-left:0;">
           <span class="small-caps">lectures 5</span> <span class="small-caps">&amp;</span> <span class="small-caps">6</span>
           explain how Chat<span class="small-caps">gpt</span> works, how it was made, and how prompting and retrieval-augmented generation <span class="small-caps">(rag)</span> can increase accuracy.
@@ -1567,7 +1574,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
         online reading group presentation
       </span>
 
-      <p style="margin-top: 0.6em;">
+      <p style="margin-top: 0.6em;" class="text-justify">
         Co-first author <a href="https://www.mi.fu-berlin.de/en/math/groups/ai4s/staff/klein/index.html" target="_blank" rel="noopener noreferrer">Leon Klein</a> and I presented our <span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span> 2023 spotlight paper on using deep learning to accelerate molecular dynamics simulation at two online reading groups.
       </p>
     </div>
@@ -1634,7 +1641,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
         cambridge machine learning reading group
       </span>
 
-      <p style="margin-top: 0.6em;">
+      <p style="margin-top: 0.6em;" class="text-justify">
         I gave an introductory talk on the statistical learning framework and <span class="small-caps">pac</span>-Bayes with <a href="https://davidrburt.github.io/" target="_blank" rel="noopener noreferrer">David Burt</a> and <a href="https://javierantoran.github.io/about/" target="_blank" rel="noopener noreferrer">Javier Antoran</a>. View the <a href="../files/pac_bayes_reading_group.pdf" target="_blank">slides</a>.
       </p>
     </div>
@@ -1672,7 +1679,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
         joint talk with oxford university
       </span>
 
-      <p style="margin-top: 0.6em;">
+      <p style="margin-top: 0.6em;" class="text-justify">
         I gave a talk on my <a href="https://arxiv.org/abs/1909.00719" target="_blank" rel="noopener noreferrer"><span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span> 2020 paper</a> on approximate inference in Bayesian neural networks, with an accompanying talk by <a href="https://sebastianfarquhar.com/" target="_blank" rel="noopener noreferrer">Sebastian Farquhar</a> of the University of Oxford. Our talks present different perspectives on the effectiveness of the mean-field approximation in these models. View the <a href="../files/BNNs_talk.pdf" target="_blank">slides</a>.
       </p>
     </div>
@@ -1716,7 +1723,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
         presentation at neurips conference
       </span>
 
-      <p style="margin-top: 0.6em;">
+      <p style="margin-top: 0.6em;" class="text-justify">
         A short video describing my paper on flaws in uncertainty estimation when using common approximate Bayesian neural network inference methods.
       </p>
     </div>
@@ -1753,7 +1760,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
         presentation at neurips conference
       </span>
 
-      <p style="margin-top: 0.6em;">
+      <p style="margin-top: 0.6em;" class="text-justify">
         A short video explaining my paper on neural processes, a deep learning alternative to Gaussian processes for regression problems with uncertainty.
       </p>
     </div>
@@ -1788,7 +1795,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       cambridge machine learning reading group
     </span>
 
-    <p style="margin-top: 0.6em;">
+    <p style="margin-top: 0.6em;" class="text-justify">
       A reading group talk given with <a href="https://twitter.com/sebastian_ober?lang=en" target="_blank" rel="noopener noreferrer">Sebastian Ober</a> and Stratis Markou, introducing various neural processes and covering much of the material in <a href="https://yanndubs.github.io/Neural-Process-Family/text/Intro.html" target="_blank" rel="noopener noreferrer">this blog post</a>. View the <a href="../files/nps_reading_group.pdf" target="_blank">slides</a>.
     </p>
   </div>
@@ -1808,7 +1815,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       cambridge machine learning reading group
     </span>
 
-    <p style="margin-top: 0.6em;">
+    <p style="margin-top: 0.6em;" class="text-justify">
       A reading group talk given with <a href="https://siddharthswaroop.github.io/" target="_blank" rel="noopener noreferrer">Siddharth Swaroop</a>, covering modern stochastic gradient Markov chain Monte Carlo <span class="small-caps">(sgmcmc)</span> and natural gradient variational inference methods for Bayesian deep learning. View the <a href="../files/Recent_Advances_in_Bayesian_Deep_Learning.pdf" target="_blank">slides</a>.
     </p>
   </div>
@@ -1835,7 +1842,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       contributed talk, icml workshop on uncertainty in deep learning
     </span>
 
-    <p style="margin-top: 0.6em;">
+    <p style="margin-top: 0.6em;" class="text-justify">
       A contributed talk explaining my <a href="https://arxiv.org/abs/1906.11537" target="_blank" rel="noopener noreferrer">paper</a> on the lack of “in-between” uncertainty when using the mean-field approximation in Bayesian neural networks. Watch the <a href="https://www.facebook.com/icml.imls/videos/320132412242165/?t=1720" target="_blank" rel="noopener noreferrer">video</a> (beginning at 28:30), or view the <a href="../files/ICML_2019_Workshop_Presentation.pdf" target="_blank">slides</a>.
     </p>
   </div>
@@ -1855,7 +1862,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       cambridge machine learning reading group
     </span>
 
-    <p style="margin-top: 0.6em;">
+    <p style="margin-top: 0.6em;" class="text-justify">
       I gave a talk with <a href="https://davidrburt.github.io/" target="_blank" rel="noopener noreferrer">David Burt</a> introducing implicit variational inference, a way to obtain very flexible approximate posterior distributions for Bayesian inference. View the <a href="../files/Implicit_Inference_RG_notes.pdf" target="_blank">slides</a>.
     </p>
   </div>
@@ -1882,7 +1889,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       </a>
     </h3>
 
-    <p>
+    <p class="text-justify">
       This tool allows you to view the weights of a small three-layer <span class="small-caps">mlp</span> evolve as it trains on the <span class="small-caps">mnist</span> dataset. Created as an educational aid for an <span class="small-caps">ai</span> lecture course at the Mayo Clinic.
     </p>
   </div>
@@ -1897,6 +1904,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 
   <div>
     <h3 style="margin-top: 0em; margin-bottom: 1em;">
+      <a id="neural-process-family" class="anchor-offset"></a>
       <a href="https://yanndubs.github.io/Neural-Process-Family/text/Intro.html" target="_blank" rel="noopener noreferrer">
         The Neural Process Family
       </a>
@@ -1906,7 +1914,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       Yann Dubois, Jonathan Gordon, <span class="sans">Andrew Y.K. Foong</span>
     </p>
 
-    <p style="margin-top:0.4em;">
+    <p style="margin-top:0.4em;" class="text-justify">
       Deep learning shines when there’s lots of data, but fails in low-data settings where uncertainty matters, commonly encountered in medical time-series. Neural processes are a family of models that tackles this by meta-learning a distribution over predictors, blending stochastic processes with neural networks. This site walks through the ideas, maths, and code from scratch.
     </p>
   </div>
@@ -1931,7 +1939,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       <span class="sans">Andrew Y.K. Foong</span>
     </p>
 
-    <p style="margin-top:0.4em;">
+    <p style="margin-top:0.4em;" class="text-justify">
       This note explains a subtle limitation of a popular machine learning theory tool (<span class="small-caps">pac</span>-Bayes): while it can give useful guarantees about how well models might perform before seeing data, those guarantees become harder to interpret once the model has already been trained on a specific dataset.
       It argues that some common ways researchers justify these guarantees rely on “ignoring” information they actually have, which can make the conclusions less meaningful in practice, even if they are mathematically valid.
     </p>
@@ -1957,10 +1965,11 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       Wessel P. Bruinsma, <span class="sans">Andrew Y.K. Foong</span>, Richard E. Turner
     </p>
 
-    <p style="margin-top:0.4em;">
+    <p style="margin-top:0.4em; margin-bottom:0;" class="text-justify">
       A two-part blog exploring the sunny arguments <span style="font-style: italic">for</span> Bayesian inference, and then, in part two, taking a critical perspective. Written by members of an avowedly Bayesian Cambridge research group, we look at where the theory breaks, the modelling compromises we make, and the computational hurdles that keep us up at night.
-      <br>
+    </p>
 
+    <p style="margin-top:0.5em;">
       <a href="https://mlg.eng.cam.ac.uk/blog/2021/03/31/what-keeps-a-bayesian-awake-at-night-part-1.html" target="_blank" rel="noopener noreferrer">
       <span class="small-caps">part 1: day</span>
       </a>
@@ -1968,8 +1977,6 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       <a href="https://mlg.eng.cam.ac.uk/blog/2021/03/31/what-keeps-a-bayesian-awake-at-night-part-2.html" target="_blank" rel="noopener noreferrer">
       <span class="small-caps">part 2: night</span>
       </a>
-
-
     </p>
   </div>
 </div>

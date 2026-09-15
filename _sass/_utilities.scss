@@ -98,6 +98,9 @@ body:hover .visually-hidden button {
 
 .text-justify {
   text-align: justify;
+  // Justif defaults to true, but set explicitly so optical margin
+  // alignment for punctuation doesn't silently depend on the library default.
+  --justif-protrusion: true;
 }
 
 .text-nowrap {

@@ -2,6 +2,47 @@
 
 <!-- start custom head snippets -->
 
+<!-- Justif: Knuth-Plass paragraph justification, upgrading any element with
+     text-align: justify (opt-in via the .text-justify class in
+     _sass/_utilities.scss, applied selectively to verified-safe prose
+     paragraphs). Self-hosted (vendored from justif@0.9.1) rather than
+     CDN-loaded. Must load before first paint so justified text doesn't
+     visibly reflow after render. -->
+<script type="module" blocking="render" src="{{ base_path }}/assets/js/justif/dist/auto.js"></script>
+
+<!-- Abstract <p> elements live inside collapsed <details> blocks, so they
+     have zero width when Justif's initial scan runs. Force a refresh of
+     all controllers whenever any <details> is opened, so the abstract
+     text is correctly measured and justified once it's actually visible. -->
+<script>
+document.addEventListener('toggle', function (e) {
+  if (e.target.tagName === 'DETAILS' && e.target.open && window.justif && window.justif.booted) {
+    window.justif.booted.then(function () {
+      for (var c of window.justif.controllers) { c.refresh(); }
+    });
+  }
+}, true);
+
+// With ~70 justified paragraphs on the page, Justif's own resize-driven
+// rescan can leave some paragraphs settled at a stale intermediate width
+// while a rapid/continuous window resize is in progress. Force one final
+// full rescan shortly after resizing actually stops, so every paragraph
+// ends up re-measured against the same final width.
+(function () {
+  var timer = null;
+  window.addEventListener('resize', function () {
+    clearTimeout(timer);
+    timer = setTimeout(function () {
+      if (window.justif && window.justif.booted) {
+        window.justif.booted.then(function () {
+          for (var c of window.justif.controllers) { c.rescan(); }
+        });
+      }
+    }, 200);
+  });
+})();
+</script>
+
 <!-- Hide the page until fonts are ready (see _custom.scss), then fade in.
      Must run blocking/synchronous, before anything paints. -->
 <script>document.documentElement.classList.add('fonts-loading');</script>
