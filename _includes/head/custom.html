@@ -23,11 +23,17 @@ document.addEventListener('toggle', function (e) {
   }
 }, true);
 
-// With ~70 justified paragraphs on the page, Justif's own resize-driven
-// rescan can leave some paragraphs settled at a stale intermediate width
-// while a rapid/continuous window resize is in progress. Force one final
-// full rescan shortly after resizing actually stops, so every paragraph
-// ends up re-measured against the same final width.
+// _reset.scss steps the root font-size at each breakpoint (16px / 18px /
+// 112% / 130%), so resizing across one changes every paragraph's computed
+// font size. Justif caches per-paragraph font metrics from its initial scan
+// and has no way to observe that, so the cache goes stale and every
+// paragraph relayouts to roughly 86% of its box — short lines in a wide
+// column, stuck that way until a reload.
+//
+// rescan() is the fix because it re-reads author CSS; refresh() only
+// relayouts against the stale cache and measurably does nothing here. This
+// is unrelated to resize speed — a slow drag across a breakpoint breaks it
+// identically, and a fast drag within one breakpoint is fine.
 (function () {
   var timer = null;
   window.addEventListener('resize', function () {
@@ -38,7 +44,7 @@ document.addEventListener('toggle', function (e) {
           for (var c of window.justif.controllers) { c.rescan(); }
         });
       }
-    }, 200);
+    }, 250);
   });
 })();
 </script>
