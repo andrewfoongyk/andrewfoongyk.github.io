@@ -10,30 +10,40 @@
      visibly reflow after render. -->
 <script type="module" blocking="render" src="{{ base_path }}/assets/js/justif/dist/auto.js"></script>
 
-<!-- Abstract <p> elements live inside collapsed <details> blocks, so they
-     have zero width when Justif's initial scan runs. Force a refresh of
-     all controllers whenever any <details> is opened, so the abstract
-     text is correctly measured and justified once it's actually visible. -->
+<!-- NOTE: the inline scripts below must use block comments, never line
+     comments. compress_html (_config.yml, active in production but disabled
+     for the development env) strips newlines, so a line comment silently
+     swallows the rest of the script once it is all on one line. That is a
+     production-only failure the dev server cannot reproduce.
+
+     Abstract <p> elements live inside collapsed <details> blocks, so Justif's
+     initial scan declines them as "not rendered". Only rescan() reconsiders
+     declined paragraphs — refresh() just relayouts the ones already owned,
+     so it can never pick these up. The toggle event fires before the
+     revealed content is laid out, hence the two frames of delay.
+
+     For the resize listener: _reset.scss steps the root font-size at each
+     breakpoint (16px / 18px / 112% / 130%), so resizing across one changes
+     every paragraph's computed font size. Justif caches per-paragraph font
+     metrics from its initial scan and cannot observe that, so the cache goes
+     stale and paragraphs relayout to roughly 86% of their box — short lines
+     and colliding glyphs, stuck until a reload. rescan() re-reads author CSS
+     and fixes it; refresh() relayouts against the stale cache and measurably
+     does nothing. This is unrelated to resize speed: a slow drag across a
+     breakpoint breaks it identically, and a fast drag within one is fine. -->
 <script>
 document.addEventListener('toggle', function (e) {
   if (e.target.tagName === 'DETAILS' && e.target.open && window.justif && window.justif.booted) {
     window.justif.booted.then(function () {
-      for (var c of window.justif.controllers) { c.refresh(); }
+      requestAnimationFrame(function () {
+        requestAnimationFrame(function () {
+          for (var c of window.justif.controllers) { c.rescan(); }
+        });
+      });
     });
   }
 }, true);
 
-// _reset.scss steps the root font-size at each breakpoint (16px / 18px /
-// 112% / 130%), so resizing across one changes every paragraph's computed
-// font size. Justif caches per-paragraph font metrics from its initial scan
-// and has no way to observe that, so the cache goes stale and every
-// paragraph relayouts to roughly 86% of its box — short lines in a wide
-// column, stuck that way until a reload.
-//
-// rescan() is the fix because it re-reads author CSS; refresh() only
-// relayouts against the stale cache and measurably does nothing here. This
-// is unrelated to resize speed — a slow drag across a breakpoint breaks it
-// identically, and a fast drag within one breakpoint is fine.
 (function () {
   var timer = null;
   window.addEventListener('resize', function () {

@@ -83,7 +83,7 @@ Professor Richard E. Turner,
 at the
 <span class="sans">University of Cambridge</span>.
 My research, combining probabilistic modeling and deep learning, was published at leading machine learning conferences including
-<span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span>, <span class="small-caps">iclr</span>,
+<span class="small-caps">n</span>eur<span class="small-caps" style="padding-left: 0.03em;">ips</span>, <span class="small-caps">iclr</span>,
 and
 <span class="small-caps">icml</span>.
 {: .about-p .text-justify}
@@ -215,7 +215,7 @@ More information on my research areas can be found on my Mayo Clinic [faculty pa
 </i>
 
 <p style="margin:0;" class="text-justify">
-<span class="sans" style="margin-right: 0.75em;">
+<span class="sans" style="padding-right: 0.75em;">
 <!-- <span style="font-style: italic; font-weight: 400; margin-right: 0.5em;"> -->
   Generative Modeling of Biomolecules
 </span>
@@ -226,13 +226,13 @@ I then worked on <a href="#flow-matching">flow matching</a> on the Lie group <sp
 More recently, I worked on <a href="#bioemu" >BioEmu</a>, a diffusion model that samples conformational structures which emulate thermodynamic ensembles of proteins.
 </p>
 
-<span class="sans" style="margin-right: 0.75em;">
+<span class="sans" style="padding-right: 0.75em;">
   AI for Healthcare
 </span>
 In the last few years, <span class="small-caps">ai</span> has moved from a research program in healthcare to an indispensable part of practice. My work in this area covers: (1) using large language models and agentic systems to <a href="#toxicity">mine the electronic health record</a> at scale and <a href="#radoncgpt">summarize information</a> for clinicians; (2) computer vision and generative modeling for medical imaging data such as <span class="small-caps">mr</span>, <span class="small-caps">ct</span> and radiation treatment plans; (3) predicting treatment outcomes using multimodal <span class="small-caps">ai</span> to inform <a href="#binarization">survival analysis</a>; and (4) training and interpreting biological foundation models.
 {: .text-justify}
 
-<span class="sans" style="margin-right: 0.75em;">
+<span class="sans" style="padding-right: 0.75em;">
   Bayesian Machine Learning
 </span>
 In high-stakes applications, it is crucial to provide reliable uncertainty estimates; an <span class="small-caps">ai</span> model should “know what it doesn't know”, so that it can flag responses for human review.
@@ -242,7 +242,7 @@ I investigated these approximations <a href="#expressiveness">theoretically</a> 
 I've also worked on <a href="#pac-bayes"><span class="small-caps">pac</span>-Bayes</a>, a frequentist framework for proving generalization bounds closely related to Bayesian approaches.
 {: .text-justify}
 
-<span class="sans" style="margin-right: 0.75em;">
+<span class="sans" style="padding-right: 0.75em;">
   Neural Processes
 </span>
 Gaussian processes are a well-established Bayesian method for regression with uncertainty.
@@ -661,7 +661,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     </h3>
 
     <p style="margin:0 0 0.3em; font-style:italic;">
-      <span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span> Machine Learning for Structural Biology workshop <span class="small-caps"><span style="font-style:normal;">(</span>mlsb<span style="font-style:normal; margin:0 0.025em;">)</span></span>
+      <span class="small-caps">n</span>eur<span class="small-caps" style="padding-left: 0.03em;">ips</span> Machine Learning for Structural Biology workshop <span class="small-caps"><span style="font-style:normal;">(</span>mlsb<span style="font-style:normal; margin:0 0.025em;">)</span></span>
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
@@ -720,7 +720,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
       <p style="margin-top:0.4em;" class="text-justify">
-        Conditional neural processes (<span class="small-caps" style="margin-right: -0.03em;">cnp</span>s; Garnelo et al., 2018a) are attractive meta-learning models which produce well-calibrated predictions and are trainable via a simple maximum likelihood procedure. Although <span class="small-caps" style="margin-right: -0.03em;">cnp</span>s have many advantages, they are unable to model dependencies in their predictions. Various works propose solutions to this, but these come at the cost of either requiring approximate inference or being limited to Gaussian predictions. In this work, we instead propose to change how <span class="small-caps" style="margin-right: -0.03em;">cnp</span>s are deployed at test time, without any modifications to the model or training procedure. Instead of making predictions independently for every target point, we autoregressively define a joint predictive distribution using the chain rule of probability, taking inspiration from the neural autoregressive density estimator <span class="small-caps">(nade)</span> literature. We show that this simple procedure allows factorised Gaussian <span class="small-caps" style="margin-right: -0.03em;">cnp</span>s to model highly dependent, non-Gaussian predictive distributions. Perhaps surprisingly, in an extensive range of tasks with synthetic and real data, we show that <span class="small-caps" style="margin-right: -0.03em;">cnp</span>s in autoregressive <span class="small-caps">(ar)</span> mode not only significantly outperform non-<span class="small-caps">ar</span> <span class="small-caps" style="margin-right: -0.03em;">cnp</span>s, but are also competitive with more sophisticated models that are significantly more computationally expensive and challenging to train.
+        Conditional neural processes (<span class="small-caps">cnp</span>s; Garnelo et al., 2018a) are attractive meta-learning models which produce well-calibrated predictions and are trainable via a simple maximum likelihood procedure. Although <span class="small-caps">cnp</span>s have many advantages, they are unable to model dependencies in their predictions. Various works propose solutions to this, but these come at the cost of either requiring approximate inference or being limited to Gaussian predictions. In this work, we instead propose to change how <span class="small-caps">cnp</span>s are deployed at test time, without any modifications to the model or training procedure. Instead of making predictions independently for every target point, we autoregressively define a joint predictive distribution using the chain rule of probability, taking inspiration from the neural autoregressive density estimator <span class="small-caps">(nade)</span> literature. We show that this simple procedure allows factorised Gaussian <span class="small-caps">cnp</span>s to model highly dependent, non-Gaussian predictive distributions. Perhaps surprisingly, in an extensive range of tasks with synthetic and real data, we show that <span class="small-caps">cnp</span>s in autoregressive <span class="small-caps">(ar)</span> mode not only significantly outperform non-<span class="small-caps">ar</span> <span class="small-caps">cnp</span>s, but are also competitive with more sophisticated models that are significantly more computationally expensive and challenging to train.
       </p>
     </details>
   </div>
@@ -745,7 +745,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     </h3>
 
     <p style="margin:0 0 0.3em; font-style:italic;">
-      Neural Information Processing Systems <span class="small-caps" style="font-style:normal;">(</span><span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span><span class="small-caps" style="font-style:normal; margin-left: 0.03em;">)</span> spotlight presentation
+      Neural Information Processing Systems <span class="small-caps" style="font-style:normal;">(</span><span class="small-caps">n</span>eur<span class="small-caps" style="padding-left: 0.03em;">ips</span><span class="small-caps" style="font-style:normal; padding-left: 0.03em;">)</span> spotlight presentation
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
@@ -810,7 +810,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       <p style="margin-top:0.4em;" class="text-justify">
        It has been a longstanding goal in machine learning to develop flexible prediction methods that ‘know what they don’t know’ – when faced with an out-of-distribution input, these models should signal their uncertainty rather than be confidently wrong. This thesis is concerned with two such probabilistic machine learning models: Bayesian neural networks and neural processes. Bayesian neural networks are a classical model that has been the subject of research since the 1990s. They rely on Bayesian inference to represent uncertainty in the weights of a neural network. On the other hand, neural processes are a recently introduced model that relies on meta-learning rather than Bayesian inference to obtain uncertainty estimates.
 
-       This thesis provides contributions to both of these research areas. For Bayesian neural networks, we provide a theoretical and empirical study of the quality of common variational methods in approximating the Bayesian predictive distribution. We show that for single-hidden layer networks with <span class="small-caps" style="margin-right: -0.04em;">r</span>e<span class="small-caps">lu</span> activation functions, there are fundamental limitations concerning the representation of in-between uncertainty: increased uncertainty in between well separated regions of low uncertainty. We show that this theoretical limitation doesn’t apply for deeper networks. However, in practice, in-between uncertainty is a feature of the exact predictive distribution that is still often lost by approximate inference, even with deep networks.
+       This thesis provides contributions to both of these research areas. For Bayesian neural networks, we provide a theoretical and empirical study of the quality of common variational methods in approximating the Bayesian predictive distribution. We show that for single-hidden layer networks with <span class="small-caps">r</span>e<span class="small-caps">lu</span> activation functions, there are fundamental limitations concerning the representation of in-between uncertainty: increased uncertainty in between well separated regions of low uncertainty. We show that this theoretical limitation doesn’t apply for deeper networks. However, in practice, in-between uncertainty is a feature of the exact predictive distribution that is still often lost by approximate inference, even with deep networks.
 
        In the second part of this thesis, we focus on neural processes. In contrast to Bayesian neural networks, neural processes do not rely on approximate inference. Instead, they use neural networks to directly parameterise the map from a dataset to the posterior predictive stochastic process conditioned on that dataset. In this thesis we introduce the convolutional neural process, a new kind of neural process architecture which incorporates translation equivariance into its predictions. We show that when this symmetry is an appropriate assumption, convolutional neural processes outperform their standard multilayer perceptron-based and attentive counterparts on a variety of regression benchmarks. 
       </p>
@@ -842,7 +842,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     </h3>
 
     <p style="margin:0 0 0.3em; font-style:italic;">
-      Neural Information Processing Systems <span class="small-caps" style="font-style:normal;">(</span><span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span><span class="small-caps" style="font-style:normal; margin-left: 0.03em;">)</span>
+      Neural Information Processing Systems <span class="small-caps" style="font-style:normal;">(</span><span class="small-caps">n</span>eur<span class="small-caps" style="padding-left: 0.03em;">ips</span><span class="small-caps" style="font-style:normal; padding-left: 0.03em;">)</span>
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
@@ -858,7 +858,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
       <p style="margin-top:0.4em;" class="text-justify">
-        Recent interest in learning large variational Bayesian Neural Networks <span class="small-caps" style="margin-right: -0.03em">(bnn</span>s<span class="small-caps">)</span>  has been partly hampered by poor predictive performance caused by underfitting, and their performance is known to be very sensitive to the prior over weights. Current practice often fixes the prior parameters to standard values or tunes them using heuristics or cross-validation. In this paper, we treat prior parameters in a distributional way by extending the model and collapsing the variational bound with respect to their posteriors. This leads to novel and tighter Evidence Lower Bounds <span class="small-caps" style="margin-right: -0.03em">(elbo</span>s<span class="small-caps">)</span> for performing variational inference <span class="small-caps">(vi)</span> in <span class="small-caps" style="margin-right: -0.03em">(bnn</span>s<span class="small-caps">)</span>. Our experiments show that the new bounds significantly improve the performance of Gaussian mean-field <span class="small-caps">vi</span> applied to <span class="small-caps" style="margin-right: -0.03em">(bnn</span>s<span class="small-caps">)</span> on a variety of data sets, demonstrating that mean-field <span class="small-caps">vi</span> works well even in deep models. We also find that the tighter <span class="small-caps" style="margin-right: -0.03em">(elbo</span>s<span class="small-caps">)</span> can be good optimization targets for learning the hyperparameters of hierarchical priors.
+        Recent interest in learning large variational Bayesian Neural Networks <span class="small-caps">(bnn</span>s<span class="small-caps">)</span>  has been partly hampered by poor predictive performance caused by underfitting, and their performance is known to be very sensitive to the prior over weights. Current practice often fixes the prior parameters to standard values or tunes them using heuristics or cross-validation. In this paper, we treat prior parameters in a distributional way by extending the model and collapsing the variational bound with respect to their posteriors. This leads to novel and tighter Evidence Lower Bounds <span class="small-caps">(elbo</span>s<span class="small-caps">)</span> for performing variational inference <span class="small-caps">(vi)</span> in <span class="small-caps">(bnn</span>s<span class="small-caps">)</span>. Our experiments show that the new bounds significantly improve the performance of Gaussian mean-field <span class="small-caps">vi</span> applied to <span class="small-caps">(bnn</span>s<span class="small-caps">)</span> on a variety of data sets, demonstrating that mean-field <span class="small-caps">vi</span> works well even in deep models. We also find that the tighter <span class="small-caps">(elbo</span>s<span class="small-caps">)</span> can be good optimization targets for learning the hyperparameters of hierarchical priors.
       </p>
     </details>
   </div>
@@ -882,7 +882,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     </h3>
 
     <p style="margin:0 0 0.3em; font-style:italic;">
-      Neural Information Processing Systems <span class="small-caps" style="font-style:normal;">(</span><span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span><span class="small-caps" style="font-style:normal; margin-left: 0.03em;">)</span>
+      Neural Information Processing Systems <span class="small-caps" style="font-style:normal;">(</span><span class="small-caps">n</span>eur<span class="small-caps" style="padding-left: 0.03em;">ips</span><span class="small-caps" style="font-style:normal; padding-left: 0.03em;">)</span>
     </p>    
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
@@ -922,7 +922,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     </h3>
 
     <p style="margin:0 0 0.3em; font-style:italic;">
-      Advances in Approximate Bayesian Inference <span class="small-caps"><span style="font-style:normal;">(</span>aabi<span style="font-style:normal; margin-left: 0.05em;">)</span></span>
+      Advances in Approximate Bayesian Inference <span class="small-caps"><span style="font-style:normal;">(</span>aabi<span style="font-style:normal; padding-left: 0.05em;">)</span></span>
     </p>    
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
@@ -939,7 +939,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
       <p style="margin-top:0.4em;" class="text-justify">
-        Neural Processes (<span class="small-caps" style="margin-right: -0.03em;">np</span>s; Garnelo et al., 2018a,b) are a rich class of models for meta-learning that map data sets directly to predictive stochastic processes. We provide a rigorous analysis of the standard maximum-likelihood objective used to train conditional <span class="small-caps" style="margin-right: -0.03em;">np</span>s. Moreover, we propose a new member to the Neural Process family called the Gaussian Neural Process <span class="small-caps">(gnp)</span>, which models predictive correlations, incorporates translation equivariance, provides universal approximation guarantees, and demonstrates encouraging performance.
+        Neural Processes (<span class="small-caps">np</span>s; Garnelo et al., 2018a,b) are a rich class of models for meta-learning that map data sets directly to predictive stochastic processes. We provide a rigorous analysis of the standard maximum-likelihood objective used to train conditional <span class="small-caps">np</span>s. Moreover, we propose a new member to the Neural Process family called the Gaussian Neural Process <span class="small-caps">(gnp)</span>, which models predictive correlations, incorporates translation equivariance, provides universal approximation guarantees, and demonstrates encouraging performance.
       </p>
     </details>
   </div>
@@ -970,7 +970,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     </h3>
 
     <p style="margin:0 0 0.3em; font-style:italic;">
-      Neural Information Processing Systems <span class="small-caps" style="font-style:normal;">(</span><span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span><span class="small-caps" style="font-style:normal; margin-left: 0.03em;">)</span>
+      Neural Information Processing Systems <span class="small-caps" style="font-style:normal;">(</span><span class="small-caps">n</span>eur<span class="small-caps" style="padding-left: 0.03em;">ips</span><span class="small-caps" style="font-style:normal; padding-left: 0.03em;">)</span>
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size: 1.0rem">
@@ -979,7 +979,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     </p>
 
     <p class="text-justify">
-    This follow-up paper builds on Conv<span class="small-caps" style="margin-right: -0.03em;">cnp</span>s by enabling predictions that capture dependencies in structured data, improving coherence in tasks like image completion and spatio-temporal forecasting. Conv<span class="small-caps" style="margin-right: -0.03em;">np</span>s also introduce a simpler and more effective training approach for latent variable models compared with previous latent neural process models.
+    This follow-up paper builds on Conv<span class="small-caps">cnp</span>s by enabling predictions that capture dependencies in structured data, improving coherence in tasks like image completion and spatio-temporal forecasting. Conv<span class="small-caps">np</span>s also introduce a simpler and more effective training approach for latent variable models compared with previous latent neural process models.
     </p>
 
     <details style="margin-top:0.2em;">
@@ -987,7 +987,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
       <p style="margin-top:0.4em;" class="text-justify">
-        Stationary stochastic processes <span class="small-caps">(sp</span>s<span class="small-caps">)</span> are a key component of many probabilistic models, such as those for off-the-grid spatio-temporal data. They enable the statistical symmetry of underlying physical phenomena to be leveraged, thereby aiding generalization. Prediction in such models can be viewed as a translation equivariant map from observed data sets to predictive <span class="small-caps" style="margin-right: -0.03em;">sp</span>s, emphasizing the intimate relationship between stationarity and equivariance. Building on this, we propose the Convolutional Neural Process (Conv<span class="small-caps">np</span>), which endows Neural Processes <span class="small-caps" style="margin-right: -0.03em;">(np</span>s<span class="small-caps">)</span> with translation equivariance and extends convolutional conditional <span class="small-caps" style="margin-right: -0.03em;">np</span>s to allow for dependencies in the predictive distribution. The latter enables Conv<span class="small-caps" style="margin-right: -0.03em;">np</span>s to be deployed in settings which require coherent samples, such as Thompson sampling or conditional image completion. Moreover, we propose a new maximum-likelihood objective to replace the standard <span class="small-caps">elbo</span> objective in <span class="small-caps" style="margin-right: -0.03em;">np</span>s, which conceptually simplifies the framework and empirically improves performance. We demonstrate the strong performance and generalization capabilities of Conv<span class="small-caps" style="margin-right: -0.03em;">np</span>s on 1<span class="small-caps">d</span> regression, image completion, and various tasks with real-world spatio-temporal data.
+        Stationary stochastic processes <span class="small-caps">(sp</span>s<span class="small-caps">)</span> are a key component of many probabilistic models, such as those for off-the-grid spatio-temporal data. They enable the statistical symmetry of underlying physical phenomena to be leveraged, thereby aiding generalization. Prediction in such models can be viewed as a translation equivariant map from observed data sets to predictive <span class="small-caps">sp</span>s, emphasizing the intimate relationship between stationarity and equivariance. Building on this, we propose the Convolutional Neural Process (Conv<span class="small-caps">np</span>), which endows Neural Processes <span class="small-caps">(np</span>s<span class="small-caps">)</span> with translation equivariance and extends convolutional conditional <span class="small-caps">np</span>s to allow for dependencies in the predictive distribution. The latter enables Conv<span class="small-caps">np</span>s to be deployed in settings which require coherent samples, such as Thompson sampling or conditional image completion. Moreover, we propose a new maximum-likelihood objective to replace the standard <span class="small-caps">elbo</span> objective in <span class="small-caps">np</span>s, which conceptually simplifies the framework and empirically improves performance. We demonstrate the strong performance and generalization capabilities of Conv<span class="small-caps">np</span>s on 1<span class="small-caps">d</span> regression, image completion, and various tasks with real-world spatio-temporal data.
       </p>
     </details>
   </div>
@@ -1021,7 +1021,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     </p>
 
     <p class="text-justify">
-    This paper introduces the Convolutional Conditional Neural Process (Conv<span class="small-caps">cnp</span>), a neural-network alternative to Gaussian processes, designed for reliable predictions when data is scarce or uncertainty matters. By incorporating translation symmetry, Conv<span class="small-caps" style="margin-right: -0.03em;">cnp</span>s accurately capture patterns in structured data, such as images or time series, and provides meaningful uncertainty estimates even on tasks it hasn’t encountered before.
+    This paper introduces the Convolutional Conditional Neural Process (Conv<span class="small-caps">cnp</span>), a neural-network alternative to Gaussian processes, designed for reliable predictions when data is scarce or uncertainty matters. By incorporating translation symmetry, Conv<span class="small-caps">cnp</span>s accurately capture patterns in structured data, such as images or time series, and provides meaningful uncertainty estimates even on tasks it hasn’t encountered before.
     </p>
 
     <details style="margin-top:0.2em;">
@@ -1029,7 +1029,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
       <p style="margin-top:0.4em;" class="text-justify">
-        We introduce the Convolutional Conditional Neural Process (Conv<span class="small-caps">cnp</span>), a new member of the Neural Process family that models translation equivariance in the data. Translation equivariance is an important inductive bias for many learning problems including time series modeling, spatial data, and images. The model embeds data sets into an infinite-dimensional function space as opposed to a finite-dimensional vector space. To formalize this notion, we extend the theory of neural representations of sets to include functional representations, and demonstrate that any translation-equivariant embedding can be represented using a convolutional deep set. We evaluate Conv<span class="small-caps" style="margin-right: -0.03em;">cnp</span>s in several settings, demonstrating that they achieve state-of-the-art performance compared to existing <span class="small-caps" style="margin-right: -0.03em;">np</span>s. We demonstrate that building in translation equivariance enables zero-shot generalization to challenging, out-of-domain tasks.
+        We introduce the Convolutional Conditional Neural Process (Conv<span class="small-caps">cnp</span>), a new member of the Neural Process family that models translation equivariance in the data. Translation equivariance is an important inductive bias for many learning problems including time series modeling, spatial data, and images. The model embeds data sets into an infinite-dimensional function space as opposed to a finite-dimensional vector space. To formalize this notion, we extend the theory of neural representations of sets to include functional representations, and demonstrate that any translation-equivariant embedding can be represented using a convolutional deep set. We evaluate Conv<span class="small-caps">cnp</span>s in several settings, demonstrating that they achieve state-of-the-art performance compared to existing <span class="small-caps">np</span>s. We demonstrate that building in translation equivariance enables zero-shot generalization to challenging, out-of-domain tasks.
       </p>
     </details>
   </div>
@@ -1054,7 +1054,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     </h3>
 
     <p style="margin:0 0 0.3em; font-style:italic;">
-      Neural Information Processing Systems <span class="small-caps" style="font-style:normal;">(</span><span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span><span class="small-caps" style="font-style:normal; margin-left: 0.03em;">)</span>
+      Neural Information Processing Systems <span class="small-caps" style="font-style:normal;">(</span><span class="small-caps">n</span>eur<span class="small-caps" style="padding-left: 0.03em;">ips</span><span class="small-caps" style="font-style:normal; padding-left: 0.03em;">)</span>
     </p>
 
     <p style="margin-bottom:0; margin-top:-0.8em; font-size:1.0rem">
@@ -1062,7 +1062,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     </p>
 
     <p class="text-justify">
-    This paper explores critical limitations of commonly-used approximation methods in Bayesian neural networks <span class="small-caps">(bnn</span>s<span class="small-caps">)</span>, highlighting cases where these methods fail to represent uncertainty accurately. It reveals that although deeper networks theoretically overcome some limitations, problems persist in practice, emphasizing the need for caution when using approximate inference to obtain reliable uncertainty estimates from <span class="small-caps" style="margin-right: -0.03em;">bnn</span>s.
+    This paper explores critical limitations of commonly-used approximation methods in Bayesian neural networks <span class="small-caps">(bnn</span>s<span class="small-caps">)</span>, highlighting cases where these methods fail to represent uncertainty accurately. It reveals that although deeper networks theoretically overcome some limitations, problems persist in practice, emphasizing the need for caution when using approximate inference to obtain reliable uncertainty estimates from <span class="small-caps">bnn</span>s.
     </p>
 
     <details style="margin-top:0.2em;">
@@ -1070,7 +1070,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
       <p style="margin-top:0.4em;" class="text-justify">
-        While Bayesian neural networks <span class="small-caps">(bnn</span>s<span class="small-caps">)</span> hold the promise of being flexible, well-calibrated statistical models, inference often requires approximations whose consequences are poorly understood. We study the quality of common variational methods in approximating the Bayesian predictive distribution. For single-hidden layer <span class="small-caps" style="margin-right: -0.04em;">r</span>e<span class="small-caps">lu</span> <span class="small-caps" style="margin-right: -0.03em;">bnn</span>s, we prove a fundamental limitation in function-space of two of the most commonly used distributions defined in weight-space: mean-field Gaussian and Monte Carlo dropout. We find there are simple cases where neither method can have substantially increased uncertainty in between well-separated regions of low uncertainty. We provide strong empirical evidence that exact inference does not have this pathology, hence it is due to the approximation and not the model. In contrast, for deep networks, we prove a universality result showing that there exist approximate posteriors in the above classes which provide flexible uncertainty estimates. However, we find empirically that pathologies of a similar form as in the single-hidden layer case can persist when performing variational inference in deeper networks. Our results motivate careful consideration of the implications of approximate inference methods in <span class="small-caps" style="margin-right: -0.03em;">bnn</span>s.
+        While Bayesian neural networks <span class="small-caps">(bnn</span>s<span class="small-caps">)</span> hold the promise of being flexible, well-calibrated statistical models, inference often requires approximations whose consequences are poorly understood. We study the quality of common variational methods in approximating the Bayesian predictive distribution. For single-hidden layer <span class="small-caps">r</span>e<span class="small-caps">lu</span> <span class="small-caps">bnn</span>s, we prove a fundamental limitation in function-space of two of the most commonly used distributions defined in weight-space: mean-field Gaussian and Monte Carlo dropout. We find there are simple cases where neither method can have substantially increased uncertainty in between well-separated regions of low uncertainty. We provide strong empirical evidence that exact inference does not have this pathology, hence it is due to the approximation and not the model. In contrast, for deep networks, we prove a universality result showing that there exist approximate posteriors in the above classes which provide flexible uncertainty estimates. However, we find empirically that pathologies of a similar form as in the single-hidden layer case can persist when performing variational inference in deeper networks. Our results motivate careful consideration of the implications of approximate inference methods in <span class="small-caps">bnn</span>s.
       </p>
     </details>
   </div>
@@ -1097,7 +1097,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     <h3 style="margin:0 0 0.3em 0;">
       <a id="in-between" class="anchor-offset"></a>
       <a href="https://arxiv.org/abs/1906.11537">
-        <span style="display: inline-block; margin-left: -0.47em;">“</span>In-Between” Uncertainty in Bayesian Neural Networks
+        <span style="display: inline-block;">“</span>In-Between” Uncertainty in Bayesian Neural Networks
       </a>
     </h3>
 
@@ -1575,7 +1575,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       </span>
 
       <p style="margin-top: 0.6em;" class="text-justify">
-        Co-first author <a href="https://www.mi.fu-berlin.de/en/math/groups/ai4s/staff/klein/index.html" target="_blank" rel="noopener noreferrer">Leon Klein</a> and I presented our <span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span> 2023 spotlight paper on using deep learning to accelerate molecular dynamics simulation at two online reading groups.
+        Co-first author <a href="https://www.mi.fu-berlin.de/en/math/groups/ai4s/staff/klein/index.html" target="_blank" rel="noopener noreferrer">Leon Klein</a> and I presented our <span class="small-caps">n</span>eur<span class="small-caps" style="padding-left: 0.03em;">ips</span> 2023 spotlight paper on using deep learning to accelerate molecular dynamics simulation at two online reading groups.
       </p>
     </div>
   </div>
@@ -1593,7 +1593,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     </div>
     <div style="font-style: italic; margin-top: 0.4em; text-align: center;">
       Learning on Graphs and Geometry 
-      <span class="small-caps"><span style="font-style:normal;">(</span>l</span>o<span class="small-caps">gg<span style="font-style:normal; margin-left: 0.05em;">)</span></span>
+      <span class="small-caps"><span style="font-style:normal;">(</span>l</span>o<span class="small-caps">gg<span style="font-style:normal; padding-left: 0.05em;">)</span></span>
     </div>
   </div>
 
@@ -1610,7 +1610,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     </div>
     <div style="font-style: italic; margin-top: 0.4em; text-align: center;">
       Molecular Modeling and Drug Discovery 
-      <span style="font-style:normal;">(</span><span class="small-caps">m</span>2<span class="small-caps">d</span>2<span class="small-caps"></span><span style="font-style:normal; margin-left: 0.05em;">)</span>
+      <span style="font-style:normal;">(</span><span class="small-caps">m</span>2<span class="small-caps">d</span>2<span class="small-caps"></span><span style="font-style:normal; padding-left: 0.05em;">)</span>
     </div>
   </div>
 </div>
@@ -1680,7 +1680,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
       </span>
 
       <p style="margin-top: 0.6em;" class="text-justify">
-        I gave a talk on my <a href="https://arxiv.org/abs/1909.00719" target="_blank" rel="noopener noreferrer"><span class="small-caps" style="margin-right:-0.05em;">n</span>eur<span class="small-caps" style="margin-left: 0.03em;">ips</span> 2020 paper</a> on approximate inference in Bayesian neural networks, with an accompanying talk by <a href="https://sebastianfarquhar.com/" target="_blank" rel="noopener noreferrer">Sebastian Farquhar</a> of the University of Oxford. Our talks present different perspectives on the effectiveness of the mean-field approximation in these models. View the <a href="../files/BNNs_talk.pdf" target="_blank">slides</a>.
+        I gave a talk on my <a href="https://arxiv.org/abs/1909.00719" target="_blank" rel="noopener noreferrer"><span class="small-caps">n</span>eur<span class="small-caps" style="padding-left: 0.03em;">ips</span> 2020 paper</a> on approximate inference in Bayesian neural networks, with an accompanying talk by <a href="https://sebastianfarquhar.com/" target="_blank" rel="noopener noreferrer">Sebastian Farquhar</a> of the University of Oxford. Our talks present different perspectives on the effectiveness of the mean-field approximation in these models. View the <a href="../files/BNNs_talk.pdf" target="_blank">slides</a>.
       </p>
     </div>
   </div>

@@ -309,7 +309,13 @@ nav {
    Global animation transition
    ========================================================================== */
 
-b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .archive__item-teaser {
+// `p` and `span` are deliberately absent. $global-transition is `all 0.2s`,
+// and Justif detects author style changes (notably the root font-size steps
+// in _reset.scss) by transitioning its own custom properties — an author
+// `transition: all` on a paragraph occupies that and silently disables the
+// mechanism, so justified text goes stale on every breakpoint cross.
+// Paragraphs and bare spans have nothing to animate here anyway.
+b, i, strong, em, blockquote, q, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .archive__item-teaser {
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
