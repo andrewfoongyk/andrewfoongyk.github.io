@@ -96,25 +96,30 @@ document.addEventListener('toggle', function (e) {
 <link rel="preload" href="/assets/fonts/sentient/Sentient-Italic.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- Reveal the page (see fonts-loading/fonts-loaded in _custom.scss) once
-     the critical fonts above are ready, or after 600ms, whichever is
-     first — so a slow/failed font fetch can never leave the page hidden
-     indefinitely. -->
-<script>
+     the critical fonts above AND Justif's initial justification pass are
+     both ready, or after 1000ms, whichever is first — so a slow/failed
+     font or script fetch can never leave the page hidden indefinitely.
+     type="module" (not a plain classic script) so this runs after the
+     Justif module above finishes — module/deferred scripts execute in
+     document order after parsing, so window.justif is guaranteed to
+     exist by the time this reads it. -->
+<script type="module">
 (function () {
   var html = document.documentElement;
   function reveal() {
     html.classList.remove('fonts-loading');
     html.classList.add('fonts-loaded');
   }
-  if (!('fonts' in document)) { reveal(); return; }
-  var ready = Promise.all([
+  var fontsReady = ('fonts' in document) ? Promise.all([
     document.fonts.load('200 1em "Crimson Pro SC"'),
     document.fonts.load('400 1em "Crimson Pro SC"'),
     document.fonts.load('italic 400 1em "Crimson Pro SC"'),
     document.fonts.load('500 1em "Crimson Pro SC"'),
     document.fonts.load('italic 550 1em "SentientAmp"')
-  ]);
-  var timeout = new Promise(function (resolve) { setTimeout(resolve, 600); });
+  ]) : Promise.resolve();
+  var justifReady = (window.justif && window.justif.booted) || Promise.resolve();
+  var ready = Promise.all([fontsReady, justifReady]);
+  var timeout = new Promise(function (resolve) { setTimeout(resolve, 1000); });
   Promise.race([ready, timeout]).then(reveal, reveal);
 })();
 </script>

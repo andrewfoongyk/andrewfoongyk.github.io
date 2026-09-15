@@ -248,7 +248,7 @@ I've also worked on <a href="#pac-bayes"><span class="small-caps">pac</span>-Bay
 Gaussian processes are a well-established Bayesian method for regression with uncertainty.
 However, they are limited by the need to hand-specify a kernel function and by poor scaling with dataset size.
 <a href="#neural-process-family">Neural processes</a> aim to combine the advantages of Gaussian processes with deep learning by meta-learning a map from datasets to predictive distributions with uncertainty.
-My work in this area has focused on incorporating <a href="convcnp">convolutional structure</a> into neural processes and investigating their theoretical properties.
+My work in this area has focused on incorporating <a href="#convcnp">convolutional structure</a> into neural processes and investigating their theoretical properties.
 Neural processes have found high-impact applications in areas from <a href="https://www.nature.com/articles/s41586-025-08897-0">climate modeling</a> to <a href="https://www.nature.com/articles/s41586-024-08328-6">tabular foundation models</a>.
 {: .text-justify}
 
@@ -259,7 +259,7 @@ Neural processes have found high-impact applications in areas from <a href="http
 <h1>Research Papers</h1>
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
-    <p style="margin:0; font-style: italic;" class="text-justify">
+    <p style="margin:0; font-style: italic;" class="text-justify entry-body">
       For a full list of research papers, see my
       <a href="https://scholar.google.com/citations?user=2UOjgIUAAAAJ&hl=en" target="_blank">
         Google Scholar page</a>. 
@@ -285,7 +285,7 @@ Neural processes have found high-impact applications in areas from <a href="http
        width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
-  <div>
+  <div class="entry-body">
     <h3 style="margin:0 0 0.3em 0;">
       <a id="binarization" class="anchor-offset"></a>
       <a href="https://arxiv.org/pdf/2608.04046">
@@ -329,7 +329,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
        width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
-  <div>
+  <div class="entry-body">
     <h3 style="margin:0 0 0.3em 0;">
       <a id="bayes-consistent" class="anchor-offset"></a>
       <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6143772">
@@ -370,7 +370,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
        width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
-  <div>
+  <div class="entry-body">
     <h3 style="margin:0 0 0.3em 0;">
       <a id="ehr-sae" class="anchor-offset"></a>
       <a href="https://openreview.net/forum?id=evQ2B5kjmh">
@@ -418,7 +418,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
        width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
-  <div>
+  <div class="entry-body">
     <h3 style="margin:0 0 0.3em 0;">
       <a id="toxicity" class="anchor-offset"></a>
       <a href="https://www.sciencedirect.com/science/article/pii/S0167814025053526">
@@ -470,7 +470,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
        width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
-  <div>
+  <div class="entry-body">
     <h3 style="margin:0 0 0.3em 0;">
       <a href="https://www.sciencedirect.com/science/article/pii/S2405632425000733">
         From BERT to GPT-4: A Systematic Review of AI-Driven Toxicity Extraction and Grading in Radiation Oncology
@@ -517,7 +517,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
        width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
-  <div>
+  <div class="entry-body">
     <h3 style="margin:0 0 0.3em 0;">
       <a id="radoncgpt" class="anchor-offset"></a>
       <a href="https://arxiv.org/abs/2509.25540">
@@ -558,7 +558,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
        width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
-  <div>
+  <div class="entry-body">
     <!-- Remove default top margin so it lines up with the image -->
     <h3 style="margin:0 0 0.0em 0;">
       <a id="bioemu" class="anchor-offset"></a>
@@ -606,7 +606,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
        width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
-  <div>
+  <div class="entry-body">
     <h3 style="margin:0 0 0.3em 0; font-variant-numeric: lining-nums;">
       <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10802670/pdf/nihpp-2401.04082v2.pdf">
         Improved Motif-Scaffolding with SE(3) Flow Matching
@@ -652,7 +652,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
        width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
-  <div>
+  <div class="entry-body">
     <h3 style="margin:0 0 0.3em 0; font-variant-numeric: lining-nums;">
       <a id="flow-matching" class="anchor-offset"></a>
       <a href="https://www.mlsb.io/papers_2023/Fast_protein_backbone_generation_with_SE3_flow_matching.pdf">
@@ -695,7 +695,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
        width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
-  <div>
+  <div class="entry-body">
     <h3 style="margin:0 0 0.3em 0;">
       <a href="https://openreview.net/forum?id=OAsXFPBfTBh">
         Autoregressive Conditional Neural Processes
@@ -736,7 +736,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
        width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
-  <div>
+  <div class="entry-body">
     <h3 style="margin:0 0 0.3em 0;">
       <a id="timewarp" class="anchor-offset"></a>
       <a href="https://arxiv.org/abs/2302.01170">
@@ -784,7 +784,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
        width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
-  <div>
+  <div class="entry-body">
     <h3 style="margin:0 0 0.3em 0;">
       <a href="https://www.repository.cam.ac.uk/items/bb696578-0b93-44da-82e9-4896a1ab9266">
         Approximate Inference in Bayesian Neural Networks and Translation Equivariant Neural Processes
@@ -834,7 +834,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
        width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
-  <div>
+  <div class="entry-body">
     <h3 style="margin:0 0 0.3em 0;">
       <a href="https://openreview.net/forum?id=ykN3tbJ0qmX">
         Collapsed Variational Bounds for Bayesian Neural Networks
@@ -873,7 +873,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
        width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
-  <div>
+  <div class="entry-body">
     <h3 style="margin:0 0 0.3em 0;">
       <a id="pac-bayes" class="anchor-offset"></a>
       <a href="https://arxiv.org/abs/2106.03542">
@@ -914,7 +914,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
        width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
-  <div>
+  <div class="entry-body">
     <h3 style="margin:0 0 0.3em 0;">
       <a href="https://arxiv.org/abs/2101.03606">
         The Gaussian Neural Process
@@ -962,7 +962,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
        width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
-  <div>
+  <div class="entry-body">
     <h3 style="margin:0 0 0.3em 0;">
       <a href="https://arxiv.org/abs/2007.01332">
         Meta-Learning Stationary Stochastic Process Prediction with Convolutional Neural Processes
@@ -1003,7 +1003,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
        width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
-  <div>
+  <div class="entry-body">
     <h3 style="margin:0 0 0.3em 0;">
       <a id="convcnp" class="anchor-offset"></a>
       <a href="https://arxiv.org/abs/1910.13556">
@@ -1045,7 +1045,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
        width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
-  <div>
+  <div class="entry-body">
     <h3 style="margin:0 0 0.0em 0;">
       <a id="expressiveness" class="anchor-offset"></a>
       <a href="https://arxiv.org/abs/1909.00719">
@@ -1093,7 +1093,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
        width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
   <!-- Text content -->
-  <div>
+  <div class="entry-body">
     <h3 style="margin:0 0 0.3em 0;">
       <a id="in-between" class="anchor-offset"></a>
       <a href="https://arxiv.org/abs/1906.11537">
@@ -1131,7 +1131,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
 <h1 id="talks">Talks</h1>
 
 <div style="display:flex; align-items:flex-start; gap:1.2em; margin-bottom:0.5em;">
-    <p style="margin:0; font-style: italic;" class="text-justify">
+    <p style="margin:0; font-style: italic;" class="text-justify entry-body">
       A collection of my publicly available presentations and slide decks.
     </p>
 </div>
@@ -1152,7 +1152,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
     <img src="/assets/images/talks/intro-to-dl.png"
          alt="Icon"
          width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top:6px;">
-    <div style="flex:1;">
+    <div class="entry-body">
       <h3 style="margin-top:0; margin-bottom:0.1em;">
         Introduction to Deep Learning
       </h3>
@@ -1215,7 +1215,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
      alt="Icon"
      width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
-    <div style="flex: 1;">
+    <div class="entry-body">
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
         Cancer Recurrence Prediction: a Multimodal Deep Learning Approach
       </h3>
@@ -1237,7 +1237,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
      alt="Icon"
      width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
-    <div style="flex: 1;">
+    <div class="entry-body">
       <a id="practical-applications-ai" class="anchor-offset"></a>
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
         Practical Applications of <span class="small-caps">ai</span> at Mayo Clinic
@@ -1262,7 +1262,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
      alt="Icon"
      width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
-    <div style="flex: 1;">
+    <div class="entry-body">
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
         Survival Analysis for Healthcare Data: From Cox Models to Deep Learning
       </h3>
@@ -1303,7 +1303,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
      alt="Icon"
      width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
-    <div style="flex: 1;">
+    <div class="entry-body">
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
         PSA Control Tower
       </h3>
@@ -1335,7 +1335,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
      alt="Icon"
      width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
-    <div style="flex: 1;">
+    <div class="entry-body">
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
         AI in the Clinic: What Could Go Wrong, and How We Can Catch It
       </h3>
@@ -1359,7 +1359,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
      alt="Icon"
      width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
-    <div style="flex: 1;">
+    <div class="entry-body">
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
         Scalable Emulation of Protein Equilibrium Ensembles with Generative Deep Learning
       </h3>
@@ -1393,7 +1393,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
      alt="Icon"
      width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
-    <div style="flex: 1;">
+    <div class="entry-body">
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
         Reading Clinical Notes with AI: Building an Effective System
       </h3>
@@ -1415,7 +1415,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
      alt="Icon"
      width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
-    <div style="flex: 1;">
+    <div class="entry-body">
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
         The Emergence of AI in Healthcare
       </h3>
@@ -1440,7 +1440,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
      alt="Icon"
      width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
-    <div style="flex: 1;">
+    <div class="entry-body">
       <h3 style="margin-top: 0; margin-bottom: 0.1em;">
         Understanding AI from Scratch
       </h3>
@@ -1564,7 +1564,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
      alt="Icon"
      width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
-    <div style="flex: 1;">
+    <div class="entry-body">
       <a id="timewarp-reading-group" class="anchor-offset"></a>
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
         Timewarp: Transferable Acceleration of Molecular Dynamics by Learning Time-Coarsened Dynamics
@@ -1631,7 +1631,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
      alt="Icon"
      width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
-    <div style="flex: 1;">
+    <div class="entry-body">
       <a id="intro-pac-bayes" class="anchor-offset"></a>
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
         An Introduction to PAC-Bayes
@@ -1669,7 +1669,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
      alt="Icon"
      width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
-    <div style="flex: 1;">
+    <div class="entry-body">
       <a id="bnn-joint-talk" class="anchor-offset"></a>
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
         Understanding Approximate Inference in Bayesian Neural Networks
@@ -1714,7 +1714,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
      alt="Icon"
      width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
-    <div style="flex: 1;">
+    <div class="entry-body">
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
         On the Expressiveness of Approximate Inference in Bayesian Neural Networks
       </h3>
@@ -1751,7 +1751,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
      alt="Icon"
      width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
-    <div style="flex: 1;">
+    <div class="entry-body">
       <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
         Meta-learning Stationary Stochastic Process Prediction with Convolutional Neural Processes
       </h3>
@@ -1786,7 +1786,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
      alt="Icon"
      width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
-  <div>
+  <div class="entry-body">
     <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
       Neural Processes
     </h3>
@@ -1806,7 +1806,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
      alt="Icon"
      width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
-  <div>
+  <div class="entry-body">
     <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
       Recent Advances in Bayesian Deep Learning
     </h3>
@@ -1833,7 +1833,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
      alt="Icon"
      width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
-  <div>
+  <div class="entry-body">
     <h3 style="margin-top: 0em; margin-bottom: 0.1em; text-indent: -0.47em;">
       “In-Between” Uncertainty in Bayesian Neural Networks
     </h3>
@@ -1853,7 +1853,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
      alt="Icon"
      width="50" height="50" style="width: 50px; height: 50px; object-fit: cover; border-radius: 6px; flex-shrink: 0; margin-top: 6px;">
 
-  <div>
+  <div class="entry-body">
     <h3 style="margin-top: 0em; margin-bottom: 0.1em;">
       Implicit Variational Inference
     </h3>
@@ -1882,7 +1882,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
        alt="MLP viz icon"
        width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
-  <div>
+  <div class="entry-body">
     <h3 style="margin-top: 0em;">
       <a href="/viz/mlp/" target="_blank" rel="noopener noreferrer">
         MLP Weight Evolution Visualizer
@@ -1902,7 +1902,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
        alt="Neural Process Family icon"
        width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
-  <div>
+  <div class="entry-body">
     <h3 style="margin-top: 0em; margin-bottom: 1em;">
       <a id="neural-process-family" class="anchor-offset"></a>
       <a href="https://yanndubs.github.io/Neural-Process-Family/text/Intro.html" target="_blank" rel="noopener noreferrer">
@@ -1928,7 +1928,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
        alt="PAC bayes icon"
        width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
-  <div>
+  <div class="entry-body">
     <h3 style="margin-top: 0em; margin-bottom: 1em;">
       <a href="/files/PAC_bayes_notes.pdf" target="_blank" rel="noopener noreferrer">
         A Philosophical Note on the Interpretation of Generalization Bounds in Machine Learning
@@ -1954,7 +1954,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
        alt="Bayesian blog icon"
        width="50" height="50" style="width:50px; height:50px; object-fit:cover; border-radius:6px; flex-shrink:0; margin-top: 6px;">
 
-  <div>
+  <div class="entry-body">
     <h3 style="margin-top: 0em; margin-bottom: 1em;">
       <a href="https://mlg.eng.cam.ac.uk/blog/2021/03/31/what-keeps-a-bayesian-awake-at-night-part-1.html" target="_blank" rel="noopener noreferrer">
         What Keeps a Bayesian Awake at Night?

@@ -256,6 +256,20 @@ strong i      { font-weight: 500; } // bold-italic: medium rather than full-bold
   margin-bottom: 1rem;
 }
 
+// Text column of the thumbnail + content rows in Publications/Talks/Blog.
+// min-width:0 is load-bearing, not cosmetic: Justif lays each line out as a
+// white-space:nowrap segment, so a justified paragraph's min-content width
+// becomes the width of its longest line. A flex item defaults to
+// min-width:auto, which floors it at that min-content width — so the column
+// can no longer shrink, grows a fraction wider, and Justif re-justifies to
+// the wider width, which widens min-content again. That loop never settles.
+// Sizing purely from the flex line (flex-basis 0 + min-width 0) breaks it and
+// keeps line length identical across every entry.
+.entry-body {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
 // Wrapper for embedded YouTube iframes. Negative bottom margin pulls up the
 // next element to cancel the extra whitespace the embed container adds.
 .embed-wrapper {
