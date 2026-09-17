@@ -144,6 +144,20 @@ p {
   margin-bottom: 0.9375em !important;
 }
 
+// The first two About Me paragraphs are set continuously: the break between
+// them is marked by a first-line indent rather than a blank line. Applied as
+// a pair — .para-run-on closes the gap after the first, .para-indent opens
+// the second — so the paragraph that follows them keeps its normal spacing.
+// The !important matches .about-p's own, which would otherwise win.
+.about-p.para-run-on {
+  margin-bottom: 0 !important;
+}
+
+.about-p.para-indent {
+  margin-top: 0;
+  text-indent: 1em;
+}
+
 // Drop cap on the About Me intro's first word ("I"), sized to span two
 // lines of body text (p line-height is 1.25em, so 2 lines = 2.5em).
 .drop-cap {

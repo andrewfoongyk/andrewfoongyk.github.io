@@ -62,7 +62,7 @@ We develop next-generation
 <span class="small-caps">ai</span>
 systems to advance cancer diagnosis and treatment.
 <!-- See my [faculty page](https://www.mayo.edu/research/faculty/foong-andrew-ph-d/bio-20583559) for research areas. -->
-{: .about-p .text-justify}
+{: .about-p .text-justify .para-run-on}
 
 Prior to joining Mayo Clinic, I was a senior researcher
 at
@@ -86,7 +86,7 @@ My research, combining probabilistic modeling and deep learning, was published a
 <span class="small-caps">n</span>eur<span class="small-caps" style="padding-left: 0.03em;">ips</span>, <span class="small-caps">iclr</span>,
 and
 <span class="small-caps">icml</span>.
-{: .about-p .text-justify}
+{: .about-p .text-justify .para-indent}
 
 <i>
 See my selected [papers](#publications), or visit my Google Scholar [profile](https://scholar.google.com/citations?user=2UOjgIUAAAAJ&hl=en) for a full list.
