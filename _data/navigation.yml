@@ -9,6 +9,15 @@ main:
   # - title: "About"
   #   url: "#about"
 
+  - title: "Hiring"
+    url: "#hiring-news"
+
+  - title: "Experience"
+    url: "#experience"
+
+  - title: "Research Interests"
+    url: "#research-interests"
+
   - title: "Papers"
     url: "#publications"
     featured:
@@ -51,6 +60,9 @@ main:
       - title: "Survival Analysis for Healthcare Data"
         url: "#survival-analysis"
 
+  - title: "Understanding AI Lectures"
+    url: "#ai-from-scratch"
+
   - title: "Blog"
     url: "#blog"
     view_all: "Blog Posts"
@@ -66,18 +78,6 @@ main:
         url: "#bayesian-awake"
       - title: "The Interpretation of Generalization Bounds"
         url: "#pac-bayes-note"
-
-  - title: "Understanding AI Lectures"
-    url: "#ai-from-scratch"
-
-  - title: "Research Interests"
-    url: "#research-interests"
-
-  - title: "Experience"
-    url: "#experience"
-
-  - title: "Hiring"
-    url: "#hiring-news"
 
   - title: "CV"
     url: "#cv"
