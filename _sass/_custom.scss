@@ -90,13 +90,14 @@ html {
   scroll-behavior: smooth;
 }
 @media (min-width: 992px) {
-  html { font-size: 130%; }           // ~20px desktop
+  html { font-size: 142%; }           // ~20px desktop
 }
 
 body {
   font-family: $serif, serif;
   font-weight: 400;
-  line-height: 1.32;
+  // line-height: 1.32;
+  line-height: 1.4;
 }
 
 // Shared layout properties for all section headings
