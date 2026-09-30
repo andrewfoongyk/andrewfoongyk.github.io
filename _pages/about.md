@@ -44,7 +44,11 @@ for cancer care and scientific discovery, connecting modern <span class="small-c
 <!-- {: .about-p} -->
 I am currently an 
 <span class="small-caps">ai</span>
-scientist, Assistant Professor of Biomedical Informatics, and Assistant Professor of Biochemistry and Molecular Biology at the 
+scientist,
+Assistant Professor of Biomedical Informatics,
+and
+Assistant Professor of Biochemistry and Molecular Biology
+at the 
 <span class="sans">Mayo Clinic</span>,
 where I lead the
 <a href="https://radonc-aida.github.io">
@@ -626,7 +630,7 @@ Survival analysis is an established framework for analyzing time-to-event data, 
   <span class="small-caps" style="font-size:1.0rem; line-height:1.2;">abstract</span>
 </summary>
       <p style="margin-top:0.4em;" class="text-justify">
-        Protein design often begins with the knowledge of a desired function from a motif which motif-scaffolding aims to construct a functional protein around. Recently, generative models have achieved breakthrough success in designing scaffolds for a range of motifs. However, generated scaffolds tend to lack structural diversity, which can hinder success in wet-lab validation. In this work, we extend FrameFlow, an <span class="small-caps">se(3)</span> flow matching model for protein backbone generation, to perform motif-scaffolding with two complementary approaches. The first is motif amortization, in which FrameFlow is trained with the motif as input using a data augmentation strategy. The second is motif guidance, which performs scaffolding using an estimate of the conditional score from FrameFlow without additional training. On a benchmark of 24 biologically meaningful motifs, we show our method achieves 2.5 times more designable and unique motif-scaffolds compared to state-of-the-art. Code: <a href="https://github.com/microsoft/protein-frame-flow"><span class="email">https://github.com/microsoft/protein-frame-flow</span></a>
+        Protein design often begins with the knowledge of a desired function from a motif which motif-scaffolding aims to construct a functional protein around. Recently, generative models have achieved breakthrough success in designing scaffolds for a range of motifs. However, generated scaffolds tend to lack structural diversity, which can hinder success in wet-lab validation. In this work, we extend FrameFlow, an <span class="small-caps">se(3)</span> flow matching model for protein backbone generation, to perform motif-scaffolding with two complementary approaches. The first is motif amortization, in which FrameFlow is trained with the motif as input using a data augmentation strategy. The second is motif guidance, which performs scaffolding using an estimate of the conditional score from FrameFlow without additional training. On a benchmark of 24 biologically meaningful motifs, we show our method achieves 2.5 times more designable and unique motif-scaffolds compared to state-of-the-art. Code: <a href="https://github.com/microsoft/protein-frame-flow"><span class="email" style="font-size: 0.9em;">https://github.com/microsoft/protein-frame-flow</span></a>
       </p>
     </details>
   </div>
