@@ -214,7 +214,7 @@ All applicants must be based within 100 miles of Mayo Clinic Rochester upon begi
 More information on my research areas can be found on my Mayo Clinic [faculty page](https://www.mayo.edu/research/faculty/foong-andrew-ph-d/bio-20583559).
 </i>
 
-<p style="margin:0;" class="text-justify">
+<p style="margin:0;" class="text-justify research-interest-justified">
 <span class="sans" style="padding-right: 0.75em;">
 <!-- <span style="font-style: italic; font-weight: 400; margin-right: 0.5em;"> -->
   Generative Modeling of Biomolecules
@@ -230,7 +230,7 @@ More recently, I worked on <a href="#bioemu" >BioEmu</a>, a diffusion model that
   AI for Healthcare
 </span>
 In the last few years, <span class="small-caps">ai</span> has moved from a research program in healthcare to an indispensable part of practice. My work in this area covers: (1) using large language models and agentic systems to <a href="#toxicity">mine the electronic health record</a> at scale and <a href="#radoncgpt">summarize information</a> for clinicians; (2) computer vision and generative modeling for medical imaging data such as <span class="small-caps">mr</span>, <span class="small-caps">ct</span> and radiation treatment plans; (3) predicting treatment outcomes using multimodal <span class="small-caps">ai</span> to inform <a href="#binarization">survival analysis</a>; and (4) training and interpreting biological foundation models.
-{: .text-justify}
+{: .text-justify .research-interest-justified}
 
 <span class="sans" style="padding-right: 0.75em;">
   Bayesian Machine Learning
@@ -240,7 +240,7 @@ Bayesian inference approaches this by treating uncertainty estimation as an exte
 When applied to deep learning, Bayesian inference requires intractable integrals that have to be approximated.
 I investigated these approximations <a href="#expressiveness">theoretically</a> and <a href="in-between">empirically</a>, revealing issues with simple variational approximations in Bayesian neural networks.
 I've also worked on <a href="#pac-bayes"><span class="small-caps">pac</span>-Bayes</a>, a frequentist framework for proving generalization bounds closely related to Bayesian approaches.
-{: .text-justify}
+{: .text-justify .research-interest-justified}
 
 <span class="sans" style="padding-right: 0.75em;">
   Neural Processes
@@ -250,7 +250,7 @@ However, they are limited by the need to hand-specify a kernel function and by p
 <a href="#neural-process-family">Neural processes</a> aim to combine the advantages of Gaussian processes with deep learning by meta-learning a map from datasets to predictive distributions with uncertainty.
 My work in this area has focused on incorporating <a href="#convcnp">convolutional structure</a> into neural processes and investigating their theoretical properties.
 Neural processes have found high-impact applications in areas from <a href="https://www.nature.com/articles/s41586-025-08897-0">climate modeling</a> to <a href="https://www.nature.com/articles/s41586-024-08328-6">tabular foundation models</a>.
-{: .text-justify}
+{: .text-justify .research-interest-justified}
 
 <!-- Custom styled HR -->
 <hr class="hr-ghost">

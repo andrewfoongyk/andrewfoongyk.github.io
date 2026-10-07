@@ -103,6 +103,12 @@ body:hover .visually-hidden button {
   --justif-protrusion: true;
 }
 
+// The separate controller installs its first layout after the fonts settle.
+// Keep only these paragraphs out of view until that layout is ready.
+html.research-justif-loading .research-interest-justified {
+  opacity: 0;
+}
+
 .text-nowrap {
   white-space: nowrap;
 }

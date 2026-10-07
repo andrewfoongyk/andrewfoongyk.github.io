@@ -8,7 +8,7 @@
      paragraphs). Self-hosted (vendored from justif@0.9.1) rather than
      CDN-loaded. Must load before first paint so justified text doesn't
      visibly reflow after render. -->
-<script type="module" blocking="render" src="{{ base_path }}/assets/js/justif/dist/auto.js"></script>
+<script type="module" blocking="render" data-justif-selector="p:not(.research-interest-justified), li, dd, blockquote, figcaption" src="{{ base_path }}/assets/js/justif/dist/auto.js"></script>
 
 <!-- NOTE: the inline scripts below must use block comments, never line
      comments. compress_html (_config.yml, active in production but disabled
@@ -61,7 +61,7 @@ document.addEventListener('toggle', function (e) {
 
 <!-- Hide the page until fonts are ready (see _custom.scss), then fade in.
      Must run blocking/synchronous, before anything paints. -->
-<script>document.documentElement.classList.add('fonts-loading');</script>
+<script>document.documentElement.classList.add('fonts-loading', 'research-justif-loading');</script>
 
 <!-- Apple Touch Icon -->
 <link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png">
@@ -111,30 +111,93 @@ document.addEventListener('toggle', function (e) {
 <link rel="preload" href="/assets/fonts/crimson-pro-sc/CrimsonProSC-Medium.otf" as="font" type="font/otf" crossorigin>
 <link rel="preload" href="/assets/fonts/sentient/Sentient-Italic.woff2" as="font" type="font/woff2" crossorigin>
 
-<!-- Reveal the page (see fonts-loading/fonts-loaded in _custom.scss) once
-     the critical fonts above AND Justif's initial justification pass are
-     both ready, or after 1000ms, whichever is first — so a slow/failed
-     font or script fetch can never leave the page hidden indefinitely.
-     type="module" (not a plain classic script) so this runs after the
-     Justif module above finishes — module/deferred scripts execute in
-     document order after parsing, so window.justif is guaranteed to
-     exist by the time this reads it. -->
+<!-- Research Interests uses a separate Justif controller. Its mixed serif and
+     sans-serif runs are measured only after the relevant web fonts are ready;
+     the automatic scan above handles the rest of the page. -->
 <script type="module">
 (function () {
   var html = document.documentElement;
+  var researchController = null;
+  var researchControllerReady = false;
   function reveal() {
     html.classList.remove('fonts-loading');
     html.classList.add('fonts-loaded');
   }
-  var fontsReady = ('fonts' in document) ? Promise.all([
-    document.fonts.load('200 1em "Crimson Pro SC"'),
-    document.fonts.load('400 1em "Crimson Pro SC"'),
-    document.fonts.load('italic 400 1em "Crimson Pro SC"'),
-    document.fonts.load('500 1em "Crimson Pro SC"'),
-    document.fonts.load('italic 550 1em "SentientAmp"')
-  ]) : Promise.resolve();
+  function refreshJustif() {
+    if (!window.justif) { return Promise.resolve(); }
+    return window.justif.booted.then(function () {
+      return new Promise(function (resolve) {
+        requestAnimationFrame(function () {
+          requestAnimationFrame(function () {
+            for (var c of window.justif.controllers) { c.refresh(); }
+            if (researchControllerReady) { researchController.refresh(); }
+            requestAnimationFrame(function () {
+              requestAnimationFrame(resolve);
+            });
+          });
+        });
+      });
+    });
+  }
+  var cssReady = Promise.all(Array.from(document.querySelectorAll('link[rel="stylesheet"]'), function (css) {
+    if (css.sheet || document.readyState === 'complete') { return Promise.resolve(); }
+    return new Promise(function (resolve) {
+      css.addEventListener('load', resolve, { once: true });
+      css.addEventListener('error', resolve, { once: true });
+      window.addEventListener('load', resolve, { once: true });
+    });
+  }));
+  var fontsReady = cssReady.then(function () {
+    if (!('fonts' in document)) { return; }
+    return Promise.allSettled([
+      document.fonts.load('200 1em "Crimson Pro SC"'),
+      document.fonts.load('400 1em "Crimson Pro SC"'),
+      document.fonts.load('italic 400 1em "Crimson Pro SC"'),
+      document.fonts.load('500 1em "Crimson Pro SC"'),
+      document.fonts.load('800 1em "Martel Sans"'),
+      document.fonts.load('italic 550 1em "SentientAmp"'),
+      document.fonts.ready
+    ]);
+  });
   var justifReady = (window.justif && window.justif.booted) || Promise.resolve();
-  var ready = Promise.all([fontsReady, justifReady]);
+  var hyphenatorReady = import('{{ base_path }}/assets/js/justif/dist/hyphenate/en-us.js')
+    .then(function (module) { return module.hyphenateEnUS; }, function () { return null; });
+  var ready = Promise.all([fontsReady, justifReady, hyphenatorReady]).then(function (results) {
+    if (!window.justif) { return; }
+    var paragraphs = document.querySelectorAll('.research-interest-justified');
+    var options = {
+      spacing: { shrink: 0 },
+      tracking: false,
+      expansion: false,
+      protrusion: false,
+      hangingPunctuation: 'none'
+    };
+    if (results[2]) { options.hyphenate = results[2]; }
+    researchController = window.justif.justify(paragraphs, options);
+    return researchController.ready.then(function () {
+      researchControllerReady = true;
+    });
+  }).then(refreshJustif).then(function () {
+    html.classList.remove('research-justif-loading');
+  }, function () {
+    researchControllerReady = false;
+    if (researchController) { researchController.destroy(); }
+    researchController = null;
+    html.classList.remove('research-justif-loading');
+  });
+  if ('fonts' in document && document.fonts.addEventListener) {
+    document.fonts.addEventListener('loadingdone', refreshJustif);
+  }
+  window.addEventListener('load', refreshJustif, { once: true });
+  var researchResizeTimer = null;
+  window.addEventListener('resize', function () {
+    clearTimeout(researchResizeTimer);
+    researchResizeTimer = setTimeout(function () {
+      ready.then(function () {
+        if (researchController) { researchController.rescan(); }
+      });
+    }, 250);
+  });
   var timeout = new Promise(function (resolve) { setTimeout(resolve, 1000); });
   Promise.race([ready, timeout]).then(reveal, reveal);
 })();
